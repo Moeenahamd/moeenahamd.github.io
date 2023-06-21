@@ -1,50 +1,164 @@
-/******************************************************************************
- * Content
- ******************************************************************************/
+/**
+ * Site header
+ */
+.site-header {
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
 
-body {
-  padding-bottom: 70px;
-  color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-  h1, h2, h3, h4, h5, h6 {
-    scroll-margin-top: 66px;
+  @include media-query($on-mobile) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  float: left;
+
+  img {
+    height: 28px;
+  }
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
   }
 }
 
-body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
+/**
+ * Site nav
+ */
+.site-nav {
+  z-index: 10;
+  float: right;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  @include media-query($on-mobile) {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 4px;
+      text-align: center;
+
+      background: #ffffff url($base-url + '/assets/img/menu.png') 6px 4px no-repeat;
+      background-size: 26px 26px;
+    }
+
+    .menu {
+      clear: both;
+      display: none;
+      background-color: #ffffff;
+      min-width: 10em;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      font-size: 16px;
+      display: block;
+      padding: 6px 16px;
+    }
+  }
 }
 
-body.sticky-bottom-footer {
-  // Remove padding below footer.
-  padding-bottom: 0;
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+
+  @include media-query($on-mobile) {
+    padding-top: 10px;
+  }
 }
 
-.container {
-  max-width: $max-content-width;
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
 }
 
-// Profile
-.profile {
-  img {
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width: calc(33% - (#{$spacing-unit} / 2));
+}
+
+.follow-links > .social-link {
+  flex: 0 50%;
+}
+
+.powered-by {
+  font-size: 13px !important;
+  color: $grey-color;
+}
+
+@include media-query($on-mobile) {
+  .footer-col {
+    float: none;
     width: 100%;
   }
 }
 
-// TODO: redefine content layout.
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+}
 
-
-/******************************************************************************
- * Publications
- ******************************************************************************/
-
-// TODO: redefine publications layout.
-
-
-/*****************************************************************************
-* Projects
-*****************************************************************************/
-
-// TODO: redefine projects layout.
+.page-heading {
+  font-size: 20px;
+}
