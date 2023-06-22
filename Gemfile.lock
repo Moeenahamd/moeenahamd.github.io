@@ -72,7 +72,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  bay_jekyll_theme (~> 1.0, >= 1.0.19)
+  bay_jekyll_theme
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
   jekyll-feed (~> 0.12)
