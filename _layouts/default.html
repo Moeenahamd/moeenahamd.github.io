@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    {% include header.html %}
+    {{ content }}
+    <p class="bg-sky-400 p-16">Hi this is test</p>
+  </body>
+</html>
