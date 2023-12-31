@@ -7,3 +7,11 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
+
+.contrast-80, .filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.contrast-80 {
+  --tw-contrast: contrast(0.8);
+}
