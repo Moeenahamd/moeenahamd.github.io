@@ -8,11 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    {% include header.html %}
+    {% include main-header.html %}
     <div class="mx-auto max-w-7xl px-4 sm:px-10 lg:px-20 xl:px-36">
       <div class="2xl:px-4 xl:px-2 mt-2">
         {% for collection in site.collections %}
-          <a class="flex mt-6  overflow-hidden border underline-mone transition ease-linear rounded-lg hover:border-primary-alpha-60 flex-col">
+          <a href="/fyle-for-admins/" class="flex mt-6  overflow-hidden border underline-mone transition ease-linear rounded-lg hover:border-primary-alpha-60 flex-col">
           <div class="flex grow flex-row flex-col gap-4 p-5 sm:flex-row sm:gap-5 sm:p-5" id="fyle-for-approvers">
               <div id="collection-icon-215891" class="flex items-center h-10 w-10 sm:h-[86px] sm:w-[86px] sm:justify-center justify-start" data-test-collection-photo="true">
                 <div class="h-7 w-7 sm:h-10 sm:w-10"><img src="https://intercom.help/fyleapp/assets/svg/icon:book-bookmark/000000" alt="" width="100%" height="100%" loading="lazy">

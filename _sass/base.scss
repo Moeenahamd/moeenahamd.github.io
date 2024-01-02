@@ -15,3 +15,21 @@ body {
 .contrast-80 {
   --tw-contrast: contrast(0.8);
 }
+
+ul {
+  list-style: unset !important;
+  margin: revert !important;
+  padding: revert !important;
+}
+
+.avatar__photo {
+  margin-right: 8px;
+  float: left;
+  line-height: 1.4;
+}
+
+.avatar {
+  font-size: 13px;
+  color: #8f919d;
+  margin-top: 4px;
+}
