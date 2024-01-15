@@ -1,0 +1,159 @@
+---
+title: Strona główna
+description: eMaluch - kartoteka małego pacjenta
+image: images/main-bg.jpg
+---
+
+<section
+  class="hero"
+  style="background-image: url({% include relative-src.html src=page.image %})"
+>
+  <div class="inner-hero container flex">
+    <div class="hero-text-container hero-text">
+      <h1 class="editable">eMaluch<br />kartoteka małego pacjenta</h1>
+      <p class="subtext editable">
+        Zapisuj symptomy, wizyty u lekarza, szczepienia, leki i wiele więcej.
+      </p>
+      <div class="cta button alt">
+        <a href="{{site.install_url}}">Zainstaluj</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img class="editable" src="images/app-main.png" alt="App Screenshot" />
+    </div>
+  </div>
+  <div class="learn-more">
+    <a href="#learn-more"
+      >Dowiedz się więcej <span class="arrow">&#x25BC;</span></a
+    >
+  </div>
+</section>
+
+<div class="content">
+  <section class="info" id="learn-more">
+    <div class="container flex">
+      <div class="text">
+        <h2 class="editable">Wygodny widok dnia</h2>
+        <p class="editable">
+          Ostra infekcja. Dziecko gorączkuje już drugi dzień, a Ty po
+          nieprzespanej nocy nie wiesz czy możesz już podać kolejną dawkę leku?
+          W eMaluchu szybko sprawdzisz, kiedy dziecko otrzymało ostatnią dawkę
+          leku.<br />
+          Twój lekarz również będzie Ci wdzięczny, gdy podczas wizyty pokażesz
+          mu dokładny przebieg objawów.
+        </p>
+      </div>
+      <div class="image">
+        <img class="editable" src="images/app-meds.png" alt="Screenshot" />
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container flex">
+      <div class="text">
+        <h2 class="editable">Notatki i zdjęcia</h2>
+        <p class="editable">
+          Wychodzisz od lekarza z plikiem kartek, karteczek i karteluszek? Za
+          każdym razem, gdy któraś jest potrzebna, akurat tajemniczo ginie?<br />
+          Zapisuj wszystko w eMaluchu i dołączaj zdjęcia w razie potrzeby.
+          Dzięki temu całą dokumentację medyczną masz zawsze przy sobie.
+        </p>
+      </div>
+      <div class="image">
+        <img class="editable" src="images/app-photos.png" alt="Screenshot" />
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container flex">
+      <div class="text">
+        <h2 class="editable">Wyszukiwanie i filtrowanie</h2>
+        <p class="editable">
+          Wpisz w wyszukiwarkę nazwę leku, objawu lub choroby, a eMaluch pokaże
+          Ci wszystkie notatki, w których występuje szukana fraza.<br />
+          Możesz również filtrować wpisy po typie dolegliwości (np. gorączka lub
+          kaszel).
+        </p>
+      </div>
+      <div class="image">
+        <img class="editable" src="images/app-search.png" alt="Screenshot" />
+      </div>
+    </div>
+  </section>
+
+  <!-- <section
+    class="hero"
+    style="
+      background-image: url({% include relative-src.html src=page.bottom_image %});
+    "
+  >
+    <div class="inner-hero text-container">
+      <div class="hero-text-container">
+        <h2 class="editable">Find your buddy today</h2>
+        <p class="subtext editable">
+          It's free, fun and an exciting way to meet new people.
+        </p>
+        <div class="cta button alt"><a href="#">Join Now</a></div>
+      </div>
+    </div>
+  </section> -->
+  <section>
+    <div class="inner-hero text-container">
+      <div class="hero-text-container">
+        <h1 class="editable">Napisz do nas</h1>
+        <p class="subtext editable">
+          Masz pytania lub sugestie? Napisz do nas! <br />
+          Bardzo zależy nam na Twojej opinii. Robimy aplikację z ❤️ i zależy nam
+          na kontacie z użytkownikami.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="pad">
+    <div class="text-container contact-box">
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="_gotcha" style="display: none" />
+
+        <label for="name">Twoje imię</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Podaj swoje imię..."
+        />
+
+        <label for="email">Adres E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Podaj email..."
+          required
+        />
+
+        <label for="message">Wiadomość</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Napisz, co Ci leży na sercu..."
+        ></textarea>
+
+        <div>
+          <input type="submit" value="Wyślij" />
+          <div style="margin-top: 20px" id="success"></div>
+        </div>
+      </form>
+
+      <div class="contact-details">
+        <h3>Email</h3>
+        <p class="editable">
+          <a href="mailto:emaluch+website@codepublishing.eu"
+            >emaluch@codepublishing.eu</a
+          >
+        </p>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,37 @@
+---
+title: Blog
+description: Garść przydantych informacji dla rodziców
+image: /images/blog-main-bg.jpeg
+---
+
+<section class="blog-hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>Cześć! Super, że jesteś ❤️</h1>
+			<h2>Kawusia zrobiona? Świetnie! Zapraszamy na chwilę oddechu z garścią informacji dla rodziców.</h2>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="text-container">
+		<!-- <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p> -->
+		<ul class="blog-posts">
+			{% include list-posts.html posts=paginator.posts %}
+		</ul>
+
+		{% if paginator.total_pages > 1 %}
+			<div class="pagination">
+				{% if paginator.previous_page %}
+					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Nowsze wpisy</a>
+				{% endif %}
+
+				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+				{% if paginator.next_page %}
+					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Starsze wpisy &rarr;</a>
+				{% endif %}
+			</div>
+		{% endif %}
+	</div>
+</section>

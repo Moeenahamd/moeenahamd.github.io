@@ -1,0 +1,28 @@
+<nav>
+  <!-- Hide the hamburger button, since there's no menu. -->
+  <a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+  <a
+    id="navInstallButton"
+    class="nav-install-button"
+    href="{{ site.install_url }}"
+    target="_blank"
+    >Zainstaluj</a
+  >
+  {% for link in site.data.navigation %} {% assign class = "" %} {% if
+  link.highlight %} {% assign class = class | append: " highlight" %} {% endif
+  %} {% if link.link == page.url %} {% assign class = class | append: " active"
+  %} {% endif %}
+  <a
+    href="{% include relative-src.html src=link.link %}"
+    class="{{ class }}"
+    {%
+    if
+    link.new_window
+    %}target="_blank"
+    {%
+    endif
+    %}
+    >{{ link.name }}</a
+  >
+  {% endfor %}
+</nav>
