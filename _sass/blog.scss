@@ -160,6 +160,13 @@
 @media screen and (max-width: 620px){
 	.blog-hero{
 		height: 50vh;
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 375px){
+	.blog-hero{
+		height: 50vh;
+		font-size: 11px;
 	}
 }
 @media screen and (max-width: 767.98px) {
