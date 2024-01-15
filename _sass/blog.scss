@@ -167,12 +167,24 @@
 @media (min-width: 620px) {
 	.blog-hero{
 		height: 25vh;
-		font-size: 10px;
+		font-size: 6px;
+	}
+}
+@media (min-width: 900px) {
+	.blog-hero{
+		height: 25vh;
+		font-size: 8px;
 	}
 }
 @media (min-width: 1199.98px){
 	.blog-hero {
-		font-size: 13px;
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 1599.98px){
+	.blog-hero {
+		font-size: 12px;
 	}
 }
 
