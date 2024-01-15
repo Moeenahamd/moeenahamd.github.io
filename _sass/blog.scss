@@ -160,5 +160,23 @@
 @media screen and (max-width: 620px){
 	.blog-hero{
 		height: 50vh;
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 767.98px) {
+	.blog-hero{
+		font-size: 10px;
+	}
+} 
+ 
+@media screen and (max-width: 1199.98px) {
+	.blog-hero{
+		font-size: 11px;
+	}
+}
+  
+@media screen and (min-width: 1200px) {
+	.blog-hero{
+		font-size: 12px;
 	}
 }
