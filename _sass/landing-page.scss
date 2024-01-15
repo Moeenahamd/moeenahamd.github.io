@@ -3,8 +3,8 @@
 .hero {
   color: #ffffff;
   text-align: center;
-  height: 100vh;
-  min-height: 550px;
+  height: 50vh;
+	font-size: 11px;
   background-color: #333;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,9 +29,6 @@
   }
 
   .inner-hero {
-    display: flex;
-    align-items: center;
-    height: 100%;
     width: 80%;
   }
 
@@ -104,4 +101,35 @@
   .content section:nth-child(even) .flex {
     flex-direction: row-reverse;
   }
+}
+
+
+@media (min-width: 376px) {
+	.hero{
+		height: 50vh;
+		font-size: 14px;
+	}
+}
+@media (min-width: 620px) {
+	.hero{
+		height: 25vh;
+		font-size: 6px;
+	}
+}
+@media (min-width: 900px) {
+	.hero{
+		height: 25vh;
+		font-size: 8px;
+	}
+}
+@media (min-width: 1199.98px){
+	.hero {
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 1599.98px){
+	.hero {
+		font-size: 12px;
+	}
 }
