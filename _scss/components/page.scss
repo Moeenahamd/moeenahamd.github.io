@@ -1,0 +1,85 @@
+.page{
+    padding-top: 3vw;
+    padding-bottom: 7vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.page-home{
+    background-color: #fff;
+    padding-top: 2vw;
+    padding-bottom: 7vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.page-404{
+    min-height: 80vh;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+.container-fluid{
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+@media (max-width:767px){
+    .page-author, .page-archive{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .article-content, .article-body{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .archive-article-infoblock{
+        margin-bottom:1em;
+    }
+}
+
+@media (min-width: 1600px){
+    .page-max-margin-lg{
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
+@media (min-width: 2200px){
+    .page-max-margin-lg{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+@media (min-width: 2500px){
+    .page-max-margin-lg{
+        padding-left: 470px;
+        padding-right: 470px;
+    }
+}
+
+
+.archive-article-title{
+    margin-block-start: 0; margin-block-end: 0.4em;
+}
+.archive-article-subheading{
+    margin-block-start: 0.3em; margin-block-end: 0;
+}
+.video-container {
+    clear: both;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden
+}
+
+.video-container iframe,.video-container object,.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}

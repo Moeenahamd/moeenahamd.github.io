@@ -1,0 +1,9 @@
+anime:
+  name: Anime
+  hoverable: yes
+manga:
+  name: Manga
+  hoverable: yes
+other:
+  name: Other
+  hoverable: yes

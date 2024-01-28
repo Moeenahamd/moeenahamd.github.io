@@ -1,159 +1,275 @@
 ---
-title: Strona główna
-description: eMaluch - kartoteka małego pacjenta
-image: images/main-bg.jpg
+layout: default
+title: Home
 ---
+<section class="col-xs-12" style="padding: 1em 0 0;">
+  <div class="row">
+    <article class="col-xs-12 col-sm-12 col-md-7 featured-article-container">
+      <div class="row">
+        {%- assign found = 0 -%}
+        {%- for post in site.posts -%}
+          {%- if found == 0 -%}
+            {%- if post.featured -%}
+              <div class="col-xs-12 featured-image">
+                <a href="{{ post.url }}">
+                  <div class="img-thumbnail crop-height-thumbnail-featured" style="background-image: url({{post.image}});">
+                    <img src="{{post.image}}" class="scale transparent" alt="Image | Featured article | {{post.title}}">
+                  </div>    
+                </a>
+              </div>
+              <div class="col-xs-12 featured-content text-center">
+                    <h5>
+                      <span class="tag-secondary tag-white"><a href="/category/{{ post.categories[0] }}">FEATURED ARTICLE IN {{ post.categories[0] | upcase }} </a></span>
+                    </h5>
 
-<section
-  class="hero"
-  style="background-image: url({% include relative-src.html src=page.image %})"
->
-  <div class="inner-hero container flex">
-    <div class="hero-text-container hero-text">
-      <h1 class="editable">eMaluch<br />kartoteka małego pacjenta</h1>
-      <p class="subtext editable">
-        Zapisuj symptomy, wizyty u lekarza, szczepienia, leki i wiele więcej.
-      </p>
-      <div class="cta button alt">
-        <a href="{{site.install_url}}">Zainstaluj</a>
+                    <h2><a href="{{ post.url }}" class="featured-title-serif">{{ post.title }}</a></h2>
+
+                    <h5 class="color-light cptlz">By <a href="author/{{ site.data.authors[post.author].name | remove: " " | downcase }}">{{ site.data.authors[post.author].name }}</a></h5>
+              </div>
+
+              {%- assign found = found | plus: 1 -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        </div>
+    </article>
+
+    <div class="col-xs-12 col-sm-12 col-md-5 featured-left-container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 style="margin-block-start: 0; margin-block-end: 0;" class="flashy-text">Latest News</h2>
+          <hr class="hr-light"/>
+        </div>
+
+        {%- for post in site.posts offset:1 limit:4 -%} 
+            {%- assign category = site.data.categories[post.category] -%}
+            {%- assign current_author = site.data.authors[post.author].name -%}
+            <div class="col-xs-12">
+              <article>
+                <h3 style="margin-block-end: 0.2em; line-height: 1.4;"><a href="{{ post.url }}" class="featured-title">{{ post.title }}</a></h3>
+                <h5 style="margin-block-start: 0.2em;">
+                  {%- if post.categories.first -%}
+                      {%- for post_categories in post.categories -%}                      
+                      <span class=""><a href="/category/{{ post_categories }}">{{post_categories | upcase}}</a></span>
+                      {%- if forloop.last == false -%}<span>,</span>{%- endif -%}
+                      &nbsp;
+                      {%- endfor -%}
+                    {%- else -%}
+                      <span class=""><a href="/category/{{ post.categories[0] }}">{{post.categories[0] | upcase }}</a></span>
+                  {%- endif -%}
+                  <span>&middot;</span>              
+                  <span class="color-light">
+                    {{ post.date | date: "%-d %B %Y"}}
+                  </span>
+                </h5>
+              </article>
+              {%- if forloop.last == false -%}
+                <hr class="hr-light"/>
+              {%- endif -%}
+            </div> 
+        {%- endfor -%}
+
+        <div class="col-xs-12">
+          <a href="/category/all">
+            <h4><span>Explore all latest news</span> 
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="feather feather-arrow-right" style=""><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+            </h4> 
+           </a>
+        </div>
       </div>
     </div>
-    <div class="hero-image">
-      <img class="editable" src="images/app-main.png" alt="App Screenshot" />
-    </div>
-  </div>
-  <div class="learn-more">
-    <a href="#learn-more"
-      >Dowiedz się więcej <span class="arrow">&#x25BC;</span></a
-    >
   </div>
 </section>
 
-<div class="content">
-  <section class="info" id="learn-more">
-    <div class="container flex">
-      <div class="text">
-        <h2 class="editable">Wygodny widok dnia</h2>
-        <p class="editable">
-          Ostra infekcja. Dziecko gorączkuje już drugi dzień, a Ty po
-          nieprzespanej nocy nie wiesz czy możesz już podać kolejną dawkę leku?
-          W eMaluchu szybko sprawdzisz, kiedy dziecko otrzymało ostatnią dawkę
-          leku.<br />
-          Twój lekarz również będzie Ci wdzięczny, gdy podczas wizyty pokażesz
-          mu dokładny przebieg objawów.
-        </p>
-      </div>
-      <div class="image">
-        <img class="editable" src="images/app-meds.png" alt="Screenshot" />
-      </div>
-    </div>
-  </section>
-
-  <section class="info">
-    <div class="container flex">
-      <div class="text">
-        <h2 class="editable">Notatki i zdjęcia</h2>
-        <p class="editable">
-          Wychodzisz od lekarza z plikiem kartek, karteczek i karteluszek? Za
-          każdym razem, gdy któraś jest potrzebna, akurat tajemniczo ginie?<br />
-          Zapisuj wszystko w eMaluchu i dołączaj zdjęcia w razie potrzeby.
-          Dzięki temu całą dokumentację medyczną masz zawsze przy sobie.
-        </p>
-      </div>
-      <div class="image">
-        <img class="editable" src="images/app-photos.png" alt="Screenshot" />
-      </div>
-    </div>
-  </section>
-
-  <section class="info">
-    <div class="container flex">
-      <div class="text">
-        <h2 class="editable">Wyszukiwanie i filtrowanie</h2>
-        <p class="editable">
-          Wpisz w wyszukiwarkę nazwę leku, objawu lub choroby, a eMaluch pokaże
-          Ci wszystkie notatki, w których występuje szukana fraza.<br />
-          Możesz również filtrować wpisy po typie dolegliwości (np. gorączka lub
-          kaszel).
-        </p>
-      </div>
-      <div class="image">
-        <img class="editable" src="images/app-search.png" alt="Screenshot" />
-      </div>
-    </div>
-  </section>
-
-  <!-- <section
-    class="hero"
-    style="
-      background-image: url({% include relative-src.html src=page.bottom_image %});
-    "
-  >
-    <div class="inner-hero text-container">
-      <div class="hero-text-container">
-        <h2 class="editable">Find your buddy today</h2>
-        <p class="subtext editable">
-          It's free, fun and an exciting way to meet new people.
-        </p>
-        <div class="cta button alt"><a href="#">Join Now</a></div>
-      </div>
-    </div>
-  </section> -->
-  <section>
-    <div class="inner-hero text-container">
-      <div class="hero-text-container">
-        <h1 class="editable">Napisz do nas</h1>
-        <p class="subtext editable">
-          Masz pytania lub sugestie? Napisz do nas! <br />
-          Bardzo zależy nam na Twojej opinii. Robimy aplikację z ❤️ i zależy nam
-          na kontacie z użytkownikami.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="pad">
-    <div class="text-container contact-box">
-      <form id="contactForm" class="contact-form">
-        <input type="text" name="_gotcha" style="display: none" />
-
-        <label for="name">Twoje imię</label>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Podaj swoje imię..."
-        />
-
-        <label for="email">Adres E-mail</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Podaj email..."
-          required
-        />
-
-        <label for="message">Wiadomość</label>
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Napisz, co Ci leży na sercu..."
-        ></textarea>
-
-        <div>
-          <input type="submit" value="Wyślij" />
-          <div style="margin-top: 20px" id="success"></div>
+<section class="col-xs-12" style="padding: 0;">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 morenews-left-container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8" style="padding-left:0;">
+            <h1 class="flashy-text" style="margin: .4em 0;">THE LATEST IN <span class="color-secondary">MANGA</span></h1>
+          </div>
+          <div class="col-xs-12 col-sm-4 v-center align-end align-start-sm">
+            <a href="/category/all"><h4 class="clear-headings">Explore manga news <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="feather feather-arrow-right" ><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></h4></a>
+          </div>
         </div>
-      </form>
+        <hr class="hr-light">
+        {%- assign manga_count = 1 -%}
+          {%- for post in site.posts -%}
+            {%- assign category = site.data.categories[post.category] -%}
+            {%- assign current_author = site.data.authors[post.author].name -%}
+            {%- if post.categories contains "manga" -%}
+              {%- if manga_count <= 7 -%}
+                  {%- assign manga_count = manga_count | plus: 1 -%}
+                <article class="row">
+                  <div class="col-xs-12 col-sm-8 v-center" style="align-items: flex-start;">
+                    <a href="{{post.url}}">
+                      <h2 style="margin-block-start: 0.4em; margin-block-end: 0.3em; line-height: 1.4;"><a class="featured-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                      <h5 style="margin-block-start: 0.3em; margin-block-end: 0;">   
+                        {%- if post.categories.first -%}
+                          {%- for post_categories in post.categories%}                      
+                          <span class=""><a href="/category/{{ post_categories }}">{{post_categories | upcase}}</a></span>
+                          {%- if forloop.last == false -%}<span>,</span>{%- endif -%}
+                          &nbsp;
+                          {%- endfor -%}
+                        {%- else -%}
+                          <span class=""><a href="/category/{{ post.categories[0] }}">{{post.categories[0] | upcase }}</a></span>
+                        {%- endif -%}
+                                            
+                        <span>&middot;</span>           
+                        <span class="color-light">
+                          {{ post.date | date: "%-d %B %Y"}}
+                        </span>
+                      </h5>
+                    </a>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 v-center">
+                    <a href="{{post.url}}" class="v-center p-image">
+                      <div class="img-thumbnail crop-height-thumbnail" style="background-image: url({{post.image}});">
+                        <img src="{{post.image}}" class="scale transparent" alt="Thumbnail | {{post.title}}">
+                      </div>
+                    <!-- <img src="" class="img w-100" alt="Thumbnail | {{post.title}}"> -->
+                    </a>
+                  </div>
+                </article>
+                <hr class="hr-light hr-list" style="margin-block-start: 0;margin-block-end: 0;"/>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          <div class="row">
+            <div class="col-xs-12">
+               <a href="/category/all" class="v-center">
+                <h2><span>Explore more manga news</span> 
+                  <span ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="feather feather-arrow-right" style=""><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+                </h2> 
+               </a>
+            </div>
+          </div>
+      </div>
+      <div class="col-xs-12 col-md-6 morenews-right-container mt-md">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8" style="padding-left:0;">
+            <h1 class="flashy-text" style="margin: .4em 0;">THE LATEST IN <span class="color-secondary">ANIME</span></h1>
+          </div>
+          <div class="col-xs-12 col-sm-4 v-center align-end align-start-sm">
+            <a href="/category/all"><h4 class="clear-headings">Explore anime news <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="feather feather-arrow-right" ><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></h4></a>
+          </div>
+        </div>
+        <hr class="hr-light">
+        {%- assign anime_count = 1 -%}
+          {%- for post in site.posts -%}
+            {%- assign category = site.data.categories[post.category] -%}
+            {%- assign current_author = site.data.authors[post.author].name -%}
+            {%- if post.categories contains "anime" -%}
+              {%- if anime_count <= 7 -%}
+                {%- assign anime_count = anime_count | plus: 1 -%}
+              <article class="row">
+                <div class="col-xs-12 col-sm-8 v-center list-article" style="align-items: flex-start;">
+                  <a href="{{post.url}}">
+                    <h2 style="margin-block-start: 0.4em; margin-block-end: 0.3em; line-height: 1.4;"><a class="featured-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h5 style="margin-block-start: 0.3em; margin-block-end: 0;">   
+                      {%- if post.categories.first -%}
+                        {%- for post_categories in post.categories%}                      
+                        <span class=""><a href="/category/{{ post_categories }}">{{post_categories | upcase}}</a></span>
+                        {%- if forloop.last == false -%}<span>,</span>{%- endif -%}
+                        &nbsp;
+                        {%- endfor -%}
+                      {%- else -%}
+                        <span class=""><a href="/category/{{ post.categories[0] }}">{{post.categories[0] | upcase }}</a></span>
+                      {%- endif -%}
+                                          
+                      <span>&middot;</span>           
+                      <span class="color-light">
+                        {{ post.date | date: "%-d %B %Y"}}
+                      </span>
+                    </h5>
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 v-center">
+                  <a href="{{post.url}}" class="v-center p-image">
+                    <div class="img-thumbnail crop-height-thumbnail" style="background-image: url({{post.image}});">
+                      <img src="{{post.image}}" class="scale transparent" alt="Thumbnail | {{post.title}}">
+                    </div>
+                  <!-- <img src="" class="img w-100" alt="Thumbnail | {{post.title}}"> -->
+                  </a>
+                </div>
+              </article>
+              <hr class="hr-light hr-list" style="margin-block-start: 0;margin-block-end: 0;"/>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
 
-      <div class="contact-details">
-        <h3>Email</h3>
-        <p class="editable">
-          <a href="mailto:emaluch+website@codepublishing.eu"
-            >emaluch@codepublishing.eu</a
-          >
-        </p>
+          <div class="row">
+            <div class="col-xs-12">
+               <a href="/category/all" class="v-center">
+                <h2><span>Explore more anime news</span> 
+                  <span ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="feather feather-arrow-right" style=""><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+                </h2> 
+               </a>
+            </div>
+          </div>
+      </div>      
+    </div>
+
+    <div class="row" style="margin-top: 1.7rem;">
+      <div class="col-md-8 othernews-left-container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8" style="padding-left:0;">
+            <h1 class="flashy-text" style="margin: .4em 0;">IN OTHER NEWS</h1>
+          </div>
+          <div class="col-xs-12 col-sm-4 v-center align-end align-start-sm">
+            <a href="/category/all"><h4 class="clear-headings">More other news <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="feather feather-arrow-right" ><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></h4></a>
+          </div>
+        </div>
+        <hr class="hr-thick-secondary">
+        <div class="row">
+            {%- assign other_count = 1 -%}
+              {%- for post in site.posts -%}
+                {%- assign category = site.data.categories[post.category] -%}
+                {%- assign current_author = site.data.authors[post.author].name -%}
+                {%- if post.categories contains "other" -%}
+                  {%- if other_count <= 6 -%}
+                    {%- assign other_count = other_count | plus: 1 -%}
+                    <div class="col-xs-12 col-md-4 grid-article" style="padding: 0;">
+                      <article class="row">
+                      <div class="col-xs-12 col-sm-4 col-md-12 v-center">
+                        <a href="{{post.url}}" class="v-center">
+                          <div class="img-thumbnail crop-height-thumbnail" style="background-image: url({{post.image}});">
+                            <img src="{{post.image}}" class="scale transparent" alt="Thumbnail | {{post.title}}">
+                          </div>
+                        <!-- <img src="" class="img w-100" alt="Thumbnail | {{post.title}}"> -->
+                        </a>
+                      </div>
+                      <div class="col-xs-12 col-sm-8 col-md-12 v-center" style="align-items: flex-start;">
+                        <a href="{{post.url}}">
+                          <h2 style="margin-block-start: 0.4em; margin-block-end: 0.3em; line-height: 1.35;"><a class="featured-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                          <h5 style="margin-block-start: 0.3em; margin-block-end: 0;">   
+                            {%- if post.categories.first -%}
+                              {%- for post_categories in post.categories%}                      
+                              <span class=""><a href="/category/{{ post_categories }}">{{post_categories | upcase}}</a></span>
+                              {%- if forloop.last == false -%}<span>,</span>{%- endif -%}
+                              &nbsp;
+                              {%- endfor -%}
+                            {%- else -%}
+                              <span class=""><a href="/category/{{ post.categories[0] }}">{{post.categories[0] | upcase }}</a></span>
+                            {%- endif -%}
+                                                
+                            <span>&middot;</span>           
+                            <span class="color-light">
+                              {{ post.date | date: "%-d %B %Y"}}
+                            </span>
+                          </h5>
+                        </a>
+                      </div>
+                      </article>
+                    </div>
+                  {%- endif -%}
+                {%- endif -%}
+              {%- endfor -%}
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 extra-right-container">
+        {% include widget_category.html %}
+        <br/>
       </div>
     </div>
-  </section>
-</div>
+</section>

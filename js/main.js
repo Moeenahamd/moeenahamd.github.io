@@ -1,43 +1,64 @@
-(function () {
-	var header = document.getElementById("mainHeader");
-	var installButton = document.getElementById("navInstallButton");
+(function() {
 
-	console.log("Found installation button", installButton);
+  /* infinite scroll */
 
-	function changeHeader(isHamburgerOpened = false) {
-		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-		header.classList.toggle("header-background", scrollTop >= 50 || isHamburgerOpened);
-		installButton.classList.toggle("header-background", scrollTop >= 50);
-	}
+  (function() {
+    // variables
+    var containerId     = '#infinite-container';
+    var itemClass       = '.infinite-item';
+    var paginationClass = '#pagination';
+    var nextClass       = '.next';
+    var offsetPx        = 500;
+    var throttleMs      = 150;
+    var maxPages        = -1; // -1 to disable
 
-	var didScroll = false;
+    // skip if no pagination or last page
+    var next = $(paginationClass).find(nextClass);
+    if (!next || !next.is('a')) { return; }
 
-	$(window).scroll(function () {
-		didScroll = true;
-	});
+    var timeout, disabled;
+    var _window      = $(window);
+    var container    = $(containerId);
+    var pagination   = $(paginationClass);
+    var fetchedPages = 0;
 
-	setInterval(function () {
-		if (didScroll) {
-			didScroll = false;
-			changeHeader();
-		}
-	}, 100);
+    var inView = function() {
+      var windowBottom = _window.scrollTop() + _window.height();
+      return (container.offset().top + container.outerHeight()) <= (windowBottom + offsetPx);
+    };
 
-	changeHeader();
+    var appendArticles = function() {
+      if (maxPages !== -1 && (fetchedPages + 1) >= maxPages) {
+        disabled = true;
+        return;
+      }
+      disabled = true;
+      $.ajax({
+        url: $(paginationClass).find(nextClass).attr('href'),
+        method: 'get'
+      }).done(function(resp) {
+        fetchedPages++;
+        var doc = $(resp);
+        var remoteItems = doc.find(containerId).find(itemClass);
+        var remotePagination = doc.find(paginationClass);
+        container.append(remoteItems);
+        pagination.html(remotePagination.html());
+        if (pagination.find(nextClass).is('a')) {
+          disabled = false;
+        }
+      });
+    };
 
-	document.getElementById("open-nav").addEventListener("click", function (event) {
-		event.preventDefault();
-		const isOpened = document.body.classList.toggle("nav-open");
-		changeHeader(forceBackground = isOpened);
-	});
+    $(window).on('scroll', function() {
+      // skip if throttled or ajax active
+      if (timeout || disabled) { return; }
+      timeout = setTimeout(function() {
+        timeout = null;
+        if (inView()) { appendArticles(); }
+      }, throttleMs);
+    });
 
-	$("a[href*=\\#]").on("click", function (event) {
-		if (this.pathname === window.location.pathname) {
-			event.preventDefault();
+    pagination.hide();
+  })();
 
-			$("html, body").animate({
-				scrollTop: $(this.hash).offset().top
-			}, 500);
-		}
-	});
 })();

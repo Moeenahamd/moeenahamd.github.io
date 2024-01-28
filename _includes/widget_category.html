@@ -1,0 +1,8 @@
+<h2 class="flashy-text">EXPLORE BY CATEGORY</h2>
+{%- for nav in site.data.category -%}
+<h2 class="flashy-text" style="margin-block-end: 0;"><a data-nav="{{nav[1].name}}"
+        href="/category/{{nav[1].name}}">{{nav[1].name}}</a></h2>
+{% if forloop.last == false %}
+<hr class="hr-light">
+{% endif %}
+{%- endfor -%}

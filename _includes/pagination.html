@@ -1,0 +1,15 @@
+  <h2>
+  {%- if paginator.previous_page -%}
+    <a href="{{paginator.previous_page_path}}" class="previous color-secondary">&laquo; Previous &nbsp;</a>
+  {%- else -%}
+    <span class="previous paginate-inactive">&laquo; Previous &nbsp;</span>
+  {%- endif -%}
+  
+  <span class="page_number">{{paginator.page}} of {{paginator.total_pages}}</span>
+
+  {%- if paginator.next_page -%}
+    <a href="{{paginator.next_page_path}}" class="next color-secondary">&nbsp; Next &raquo;</a>
+  {%- else -%}
+    <span class="next next-inactive">&nbsp; Next &raquo;</span>
+  {%- endif -%}
+  </h2>

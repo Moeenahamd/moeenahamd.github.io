@@ -1,28 +1,51 @@
-<nav>
-  <!-- Hide the hamburger button, since there's no menu. -->
-  <a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-  <a
-    id="navInstallButton"
-    class="nav-install-button"
-    href="{{ site.install_url }}"
-    target="_blank"
-    >Zainstaluj</a
-  >
-  {% for link in site.data.navigation %} {% assign class = "" %} {% if
-  link.highlight %} {% assign class = class | append: " highlight" %} {% endif
-  %} {% if link.link == page.url %} {% assign class = class | append: " active"
-  %} {% endif %}
-  <a
-    href="{% include relative-src.html src=link.link %}"
-    class="{{ class }}"
-    {%
-    if
-    link.new_window
-    %}target="_blank"
-    {%
-    endif
-    %}
-    >{{ link.name }}</a
-  >
-  {% endfor %}
-</nav>
+<div class="col-xs-12">
+    <div class="row">
+        <!-- Logo + Burger -->
+        <div class="col-xs-12 col-md-2 v-center" style="align-items: unset; padding:0;">
+            <div class="row">
+                <div class="col-xs-6 col-md-12 align-start"  style="padding-left:0;">
+                    <div class="box">
+                        <a href="/">
+                            <img src="/images/company_logo.png" class="img logo" alt="Otaku 101" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 v-center align-end nav-burger-col">
+                    <div class="box nav-burger">
+                        <a href="javascript:void(0)" class="burger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation menu  -->
+        <div class="col-xs-12 col-sm-11 col-md-10 v-center nav-style-md nav-container is-hidden-md" style="align-items: unset;">
+            <nav class="row nav-menu">
+                {%- for nav in site.data.navigation -%}
+                <li class="text-left nv">
+                    <div class="box">
+                        <a href="{{nav[1].url}}" class="nav-li" {%- if page.title == nav[1].name -%} id="active"
+                            {%- endif -%} >{{nav[1].name | upcase}} </a>
+                    </div>
+                </li>
+                {%- endfor -%}
+
+                {%- for nav in site.data.category -%}
+                <li class="text-left nv">
+                    <div class="box">
+                        <a data-nav="{{nav[1].name}}" href="/category/{{nav[1].name}}"
+                        {%- if nav[1].hoverable == true -%} class="nav-li hoverable hover-{{nav[1].name}}" {%- else -%} class="nav-li hover-{{nav[1].name}}" {%- endif -%}
+                        {% capture new_var %}{{nav[1].name}} News{% endcapture %}
+                        {%- if page.title == new_var | downcase -%} id="active" {%- endif -%}>{{nav[1].name | upcase}} 
+                        <svg class="dropdown-icon ics1 is-hidden-md" width="8" height="6" viewBox="0 0 8 6"><path d="M4 6L0.535898 0L7.4641 0L4 6Z" fill="currentColor"></path></svg>
+                        </a>
+                    </div>
+                </li>
+                {%- endfor -%}
+          
+            </nav>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{%- assign author_posts = site.posts | where: "author", page.first_name -%}
+<div class="row page page-author page-max-margin-lg">
+    <div class="col-xs-12 col-md-3 text-center">
+        <img src="{{page.photo}}" alt="Photo of {{ page.first_name }} {{ page.last_name }}">
+        <h3 class="cptlz">{{ page.first_name }} {{ page.last_name }}</h3>
+        {{ page.position }} <br /> 
+        <div class="author-bio">
+          <small>{{ page.content }} </small>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-1"></div>
+    <div class="col-xs-12 col-md-8">
+      <div class="col-xs-12">
+        <h1 class="flashy-text">{{ page.first_name | capitalize }}'s most recent stories</h1>
+        <hr class="hr-light">
+      </div>
+      {%- for post in author_posts limit:30 -%}
+      {%- assign category = site.data.categories[post.category] -%}
+      {%- assign current_author = site.data.authors[post.author].name -%}
+      <article class="row archive-article">
+        <div class="col-xs-12 col-sm-8 v-center archive-article-infoblock" style="align-items: flex-start;">
+          <a href="{{post.url}}">          
+            <h2 class="archive-article-title"><a class="featured-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h5 class="archive-article-subheading"> 
+              {%- if post.categories.first -%}
+                        {%- for post_categories in post.categories -%}                      
+                        <span class="tag tag-small"><a href="/category/{{ post_categories }}">{{post_categories | upcase}}</a></span>
+                        {%- if forloop.last == false -%}<span>,</span>{%- endif -%}
+                        &nbsp;
+                        {%- endfor -%}
+                      {%- else -%}
+                        <span class=""><a href="/category/{{ post.categories[0] }}">{{post.categories[0] | upcase }}</a></span>
+                    {%- endif -%}
+              <span>&middot;</span>    
+              <span class="color-light">
+                {{post.date | date: "%-d %B %Y"}}
+              </span>
+            </h5>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 v-center">
+          <a href="{{post.url}}" class="v-center">
+            <div class="img-thumbnail crop-height-thumbnail" style="background-image: url({{post.image}});">
+              <img src="{{post.image}}" class="scale transparent" alt="Thumbnail | {{post.title}}">
+            </div>
+          </a>
+        </div>
+      </article>
+      <hr class="hr-light"/>
+      {%- endfor -%}
+    </div>
+</div>
+
+

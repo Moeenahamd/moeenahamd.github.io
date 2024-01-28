@@ -1,0 +1,38 @@
+<!-- Generate base categories -->
+
+<!-- Loop categories -->
+{%- for category in site.data.category -%}
+    <div class="row header-hover page-max-margin-lg fadein bg-primary is-hidden hover-{{category[0]}}">
+        <!-- Loop articles base on category -->
+        {%- assign count = 1 -%}
+        {%- for post in site.posts -%}
+        {%- if post.categories contains category[0] -%}
+            {%- if count <= 3 -%}
+                {%- assign count = count | plus: 1 -%}
+                <div class="col-xs-12 col-sm-3">
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <a href="{{post.url}}">
+                                    <div class="img-thumbnail crop-height-thumbnail" style="background-image: url({{post.image}});">
+                                        <img src="{{post.image}}" class="scale transparent" alt="Thumbnail | {{post.title}}"/>
+                                    </div>
+                                    <h3>{{ post.title | truncatewords: 10  }}</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%- endif -%}
+            {%- endif -%}
+        {%- endfor -%}
+        <div class="col-xs-12 col-sm-3">
+            <a href="/category/{{ category[0] }}">
+                <div class="box h-100 v-center image-container">
+                    <img src="/images/category/manga.jpg" class="img" alt="Image | Category: {{ category[0] | upcase}}">
+                    <h2 class="text">EXPLORE {{ category[0] | upcase}} NEWS »</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+{%- endfor -%}

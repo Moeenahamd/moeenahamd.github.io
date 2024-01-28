@@ -1,116 +1,40 @@
-# ----
-# Site / SEO
+# site
+site_name: Otaku101
+site_domain: "otaku101.com" 
+site_title: Otaku101 | Anime & Manga news
+site_description: Otaku101 provides daily anime, manga, games & culture news from Japan.
+site_description_footer: Otaku101 provides daily anime, manga, games & culture news from Japan. 
+site_email: hello@otaku101.com
 
-title: eMaluch
-url: "https://emaluch.app"
-baseurl:
-# google_analytics_key:
-# google_maps_javascript_api_key:
-install_url: "https://emaluch.app.link/uUyrjTJrlCb"
+# site urls
+url: "https://otaku101.com"
+baseurl: "" 
+permalink: :title-:year:month:day/
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-lang: pl_PL
-logo: /siteicon.png
-description: Kartoteka małego pacjenta
-author:
-  name: Code Publishing sp. z o.o.
-  email: contact@codepublishing.eu
-  # twitter: # twitter username without the @ symbol
-# social:
-#   name: Frisco Template
-#   links:
-#     - https://github.com/CloudCannon/frisco-jekyll-template
+# pagination
+pagination:
+  enabled: true
+  per_page: 9
+  offset: 0
+  limit: 0
+  permalink: '/page-:num/'
+  title: ':title <span>&middot;</span> Page :num of :max'
+  sort_field: 'date'
+  sort_reverse: true
 
-# -----
-# Build
-
-timezone: Etc/UTC+2
-
-permalink: pretty
-
+# jekyll
+strict_front_matter: true
+incremental: true
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-autoprefixer
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-archives
-
+  - jekyll-include-cache
+  - jekyll-paginate-v2
+  - jekyll-sitemap
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - .jekyll-cache
   - README.md
-  - LICENCE
-
-collections:
-  staff_members:
-    _hide_content: true
-    _icon: account_circle
-
-paginate: 10
-paginate_path: "/blog/:num/"
-
-jekyll-archives:
-  enabled: ["categories"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 440
-          height: 440
-          uploads_dir: "/images/staff_members"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      type: "posts"
-    values:
-      layout: "post"
-      _options:
-        image:
-          width: 2000
-          height: 1322
-          resize_style: cover
-          uploads_dir: "/images/post_uploads"
-        content:
-          width: 1500
-          height: 2000
-          uploads_dir: "/images/post_uploads"
-  - scope:
-      path: "contact-success.html"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      image:
-        width: 2000
-        height: 1322
-        resize_style: cover
-      bottom_image:
-        width: 2000
-        height: 1322
-        resize_style: cover
-
-# -----------
-# CloudCannon
-
-social_icons:
-  # - Facebook
-  # - Google Plus
-  # - Instagram
-  # - LinkedIn
-  # - Pinterest
-  # - Tumblr
-  # - Twitter
-  # - YouTube
-  # - Email
-  # - RSS
-
-_comments:
-  description: eMaluch - kartoteka małego pacjenta
+  - TODO.md
+sass:
+  sass_dir: _scss
+  style: compressed

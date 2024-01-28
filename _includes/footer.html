@@ -1,0 +1,35 @@
+
+<div class="col-xs-12 col-md-1">
+    
+</div>
+<div class="col-xs-12 col-md-4">
+    <b class="color-primary">ABOUT</b>
+    <div style="line-height: 2;" class="foot-desc">{{ site.site_description_footer }}</div>
+</div>
+<div class="col-xs-12 col-md-3">
+    <b class="color-primary">Visit Us</b>
+        {%- for nav in site.data.navigation -%}
+        <li><a href="{{nav[1].url}}">{{nav[1].name | capitalize}}</a></li>
+        {%- endfor -%}
+        <li><a href="/terms/">Terms of Service</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+</div>
+<div class="col-xs-12 col-md-3">
+    <b class="color-primary">Explore</b>
+        <li><a href="/category/all">Latest News</a></li>
+        {%- for nav in site.data.category -%}
+        <li><a href="{{nav[1].url}}">{{nav[1].name | capitalize}} News</a></li>
+        {%- endfor -%}
+</div>
+<div class="col-xs-12 col-md-1">
+    
+</div>
+<div class="col-xs-12 text-center" style="padding-top:3rem;padding-bottom:1rem;">
+    <div class="box">
+        <a href="/">
+            <img src="/images/company_logo_white.png" class="img logo" style="width: 100px" alt="Otaku101 Logo" />
+        </a>
+        <br/><br/><br/>
+        <div>{{site.site_name}} &copy; {{site.time | date: '%Y'}}. All Rights Reserved.</div>
+    </div>
+</div>
