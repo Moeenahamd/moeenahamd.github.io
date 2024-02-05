@@ -1,40 +1,52 @@
-# site
-site_name: Otaku101
-site_domain: "otaku101.com" 
-site_title: Otaku101 | Anime & Manga news
-site_description: Otaku101 provides daily anime, manga, games & culture news from Japan.
-site_description_footer: Otaku101 provides daily anime, manga, games & culture news from Japan. 
-site_email: hello@otaku101.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# site urls
-url: "https://otaku101.com"
-baseurl: "" 
-permalink: :title-:year:month:day/
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Viktor's ramblings
+description: >- # this means to ignore newlines until "baseurl:"
+  Viktor on entrepreneurship, Dev(Sec)Ops, remote work, and other geeky stuff.
+baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "blog.viktorpetersson.com"
+url: "http://blog.viktorpetersson.com" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://vpetersson.github.io/blog.viktorpetersson.com"
 
-# pagination
-pagination:
-  enabled: true
-  per_page: 9
-  offset: 0
-  limit: 0
-  permalink: '/page-:num/'
-  title: ':title <span>&middot;</span> Page :num of :max'
-  sort_field: 'date'
-  sort_reverse: true
+twitter_username: vpetersson
+github_username:  vpetersson
 
-# jekyll
-strict_front_matter: true
-incremental: true
+google_analytics: UA-12090766-1
+
+disqus.shortname: vpeterss
+page.comments: true
+
+# Build settings
+markdown: kramdown
+theme: minima
 plugins:
-  - jekyll-autoprefixer
   - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
-  - .jekyll-cache
-  - README.md
-  - TODO.md
-sass:
-  sass_dir: _scss
-  style: compressed
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - bin/
+  - Dockerfile

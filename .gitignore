@@ -1,6 +1,4 @@
-_site/
-.jekyll-cache/
-.jekyll-metadata
-.sass-cache/
 .DS_Store
-.vscode/settings.json
+.jekyll-metadata
+.sass-cache
+_site
