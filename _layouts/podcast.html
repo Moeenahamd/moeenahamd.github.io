@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="bg-gray-900 xl:px-56 lg:px-48 px-2 py-10">
+    {% for podcast in site.podcasts limit:3 %}
+    <div class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
+      <div class=" lg:w-4/12 xl:w-2/5  pl-0 lg:pl-4 xl:pl-4 ">
+          <img src="{{podcast.image}}" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
+      </div>
+      <div class=" w-3/5 lg:w-8/12  pl-4 ">
+          <p class="font-bold text-white  text-lg tracking-tighter pt-4 md:pt-4  sm:pt-4 lg:pt-0  xl:pt-0">{{podcast.title}}</p>
+          <p class="text-white text-xs mt-4 tracking-tight ">{{podcast.description}}</p>
+          <button class="bg-indigo-600 hover:bg-blue-700 text-white   mt-6 tracking-tight ml-0 font-semibold text-xs py-2 px-3 rounded-full">
+              READ MORE
+          </button>
+          <div class="text-xs mt-4 text-white">
+            20 DEC • 2020
+            <span class="pl-4">1 hr 5 min</span>
+            <span class="pl-4">VIDEO</span>
+          </div>
+      </div>
+    </div>
+    {% endfor %}
+    <hr class="mx-4">
+  </div>
