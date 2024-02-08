@@ -10,7 +10,7 @@ layout: default
         Blog posts
     </p>
     <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-x-4 px-12 xl:px-4 lg:px-4 mt-8 xl:mt-0 lg:mt-0">
-      {% for post in paginator.posts %}
+      {% for post in site.posts limit:6 %}
         <div class=" bg-gray-900 p-4 rounded-lg mt-8">
           <p class="text-xs text-white font-bold ">
             {{ post.title | escape }}
