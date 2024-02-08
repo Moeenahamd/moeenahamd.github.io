@@ -29,6 +29,10 @@ google_analytics: UA-12090766-1
 disqus.shortname: vpeterss
 page.comments: true
 
+collections:
+  podcasts:
+    output: true
+
 # Build settings
 markdown: kramdown
 theme: minima
