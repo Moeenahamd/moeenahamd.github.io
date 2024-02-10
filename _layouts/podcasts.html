@@ -2,8 +2,18 @@
 layout: default
 ---
 
+<div class=" max-h-full   main">
+  <div class="text-center py-12">
+    <p class="lg:text-8xl font-[Anton] xl:text-9xl md:text-7xl text-6xl sm:text-6xl font-bold text-white tracking-wider ">PODCAST</p>
+  </div>
+</div>
+
 <div class="bg-gray-900 xl:px-56 lg:px-48 px-2 py-10">
-    {% for podcast in site.podcasts limit:3 %}
+  <p class="text-2xl text-white font-bold pl-0 lg:pl-4 xl:pl-4 ">
+      Latest Podcast
+  </p>
+
+  {% for podcast in site.podcasts limit:3 %}
     <div class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
       <div class=" lg:w-4/12 xl:w-2/5  pl-0 lg:pl-4 xl:pl-4 ">
           <img src="{{podcast.image}}" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
@@ -22,5 +32,25 @@ layout: default
       </div>
     </div>
     {% endfor %}
-    <hr class="mx-4">
+  
+  <button class="bg-[#5D5FEF33] hover:bg-blue-700 text-white ml-12 lg:ml-4 xl:ml-4 md:ml-4 sm:ml-4 ml-4  mt-6 tracking-tight ml-0 font-semibold text-xs py-2 px-3 rounded-full">
+    VIEW ALL PODCASTS
+  </button>
+
+
+</div>
+<div class="lg:flex py-10 h-full text-white bg-[#000212] lg:flex-row  items-center  justify-items-center px-10 sm:px-12  xl:px-20 lg:px-22 md:px-20    xl:flex xl:flex-row ">
+
+
+  <div class=" lg:w-1/2 xl:w-1/2 w-full pr-56   ">
+      <p class="w-full    pt-0 text-3xl tracking-wide leading-9 font-[Anton]">The story behind the Podcast</p>
+      <p class="w-full    pt-4 text-sm text-[#D6D6D6] tracking-tight ">Lorem ipsum dolor sit amet consectetur. Orci blandit risus faucibus ut mollis pellentesque in mollis facilisis. Urna dui vitae mauris non ut scelerisque vel quis. In euismod sed ac pharetra sit mauris sit convallis. Amet aliquam justo viverra.</p>
+       <p class="w-full  font-bold  pt-0 text-sm tracking-wider leading-9 ">Play on</p>
+    
   </div>
+  <div class="lg:w-1/2 xl:w-1/2 w-4/12 sm:w-4/12 md:w-4/12 h-full   ">
+      <p class="  rounded-md px-28 py-32 mx-0 xl:mx-44   lg:mx-44 bg-[#DED8D8]
+      border border-current"> </p>
+  </div>
+
+</div>
