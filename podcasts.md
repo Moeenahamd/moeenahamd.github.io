@@ -1,4 +1,4 @@
 ---
 layout: podcasts
-title: PODCAST
+title: podcast
 ---
