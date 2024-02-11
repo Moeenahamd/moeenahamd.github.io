@@ -38,11 +38,9 @@ layout: default
   <div class="w-full lg:w-[60%]  py-4 lg:px-8 lg:py-8 ">
     <div class=" w-full  lg:w-[70%] ">
 
-      <img src="/assets/user-gray.png" alt="" class="w-full h-80 rounded-md mb-4">
-      <div
-        class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal  lg:px-0  lg:text-canter text-xl lg:text-[32px]">
-        Launching 'Nerding Out with Viktor' - A New Tech Podcast
-        (and the Innovative Podcast RSS Generator)
+      <img src="{{page.image}}" alt="" class="w-full h-80 rounded-md mb-4">
+      <div class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal  lg:px-0  lg:text-canter text-xl lg:text-[32px]">
+        {{page.title}}
       </div>
       <div class=" mt-4 flex space-x-3">
         <h1 class="font-[Anton] text-lg font-normal  text-white mb-2">PLAY ON</h1>
@@ -76,27 +74,7 @@ layout: default
     </div>
 
     <div class="font-dm-sans w-[100%] opacity-[80%] text-white  text-sm lg:text-lg py-2">
-      Hello folks, Viktor here! I’m thrilled to bring two exciting updates to you all today.
-      First, let’s talk about my new project, <span class="underline">“Nerding Out with Viktor,”
-      </span> a video podcast whereI dive into riveting tech discussions with experts from various fields. The first
-      episode
-      features a deep dive into Cloud Native security with Andrew Martin from ControlPlane. We
-      cover a range of topics, including ethical hacking and cybersecurity strategies. It’s a real
-      treat for anyone keen on tech and security. You can catch the podcast on platforms like<span
-        class="underline">Apple
-        Podcasts, Spotify,</span> and <span class="underline">YouTube</span>. Make sure to subscribe and join in on the
-      conversation!<br><br>
-      Also, I’m excited to introduce the <span class="underline">Podcast RSS Generator,</span> a tool I developed for
-      podcasters
-      (or rather, for myself). It’s designed to generate RSS feeds for audio/video podcasts, especially
-      useful for those using S3, Google Cloud Storage, or Cloudflare R2 for hosting. This tool stands
-      out in its field, being possibly the first of its kind and is even featured in the GitHub Actions
-      Marketplace. It’s adaptable to various storage solutions, making it a versatile choice for podcast
-      creators. Check it out in the <span class="underline">GitHub Actions Marketplace.</span>
-      <br><br>
-      Stay tuned for more exciting episodes and updates on these projects! Your support and feedback are
-      always appreciated. Let’s keep nerding out together!
-
+      {{page.content}}
     </div>
   </div>
 </div>
