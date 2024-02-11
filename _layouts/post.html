@@ -36,18 +36,16 @@ layout: default
 </div>
 <div class=" w-[100%] bg-[#1A1B2A]">
   <div class="px-4 lg:px-60 xl:px-96 w-[100%] py-6 text-white">
-    <div
-      class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal  lg:px-0  lg:text-canter text-xl lg:text-[32px]">
-      Launching 'Nerding Out with Viktor' - A New Tech Podcast
-      (and the Innovative Podcast RSS Generator)
+    <div class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal  lg:px-0  lg:text-canter text-xl lg:text-[32px]">
+     {{page.title}}
     </div>
     <div
       class="flex py-3 max-lg:w-[80%] font-dm-sans opacity-75 text-[#FFFFFF] leading-4 text-3 font-bold w-64 justify-between">
       <p>
-        20 DEC • 2020
+        {{ page.date | date_to_string}}
       </p>
       <p>
-        1 hr 5 min
+        {{ page.date | date: "%H hr %M min" }}
       </p>
       <p>
         VIDEO
