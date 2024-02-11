@@ -2,25 +2,101 @@
 layout: default
 ---
 
-<div class="bg-gray-900 xl:px-56 lg:px-48 px-2 py-10">
-    {% for podcast in site.podcasts limit:3 %}
-    <div class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
-      <div class=" lg:w-4/12 xl:w-2/5  pl-0 lg:pl-4 xl:pl-4 ">
-          <img src="{{podcast.image}}" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
-      </div>
-      <div class=" w-3/5 lg:w-8/12  pl-4 ">
-          <p class="font-bold text-white  text-lg tracking-tighter pt-4 md:pt-4  sm:pt-4 lg:pt-0  xl:pt-0">{{podcast.title}}</p>
-          <p class="text-white text-xs mt-4 tracking-tight ">{{podcast.description}}</p>
-          <button class="bg-indigo-600 hover:bg-blue-700 text-white   mt-6 tracking-tight ml-0 font-semibold text-xs py-2 px-3 rounded-full">
-              READ MORE
-          </button>
-          <div class="text-xs mt-4 text-white">
-            20 DEC • 2020
-            <span class="pl-4">1 hr 5 min</span>
-            <span class="pl-4">VIDEO</span>
-          </div>
+<div
+  class=" bg-[url('assets/background.png')] bg-no-repeat bg-cover h-[50%] text-white  flex items-center justify-center font-[Anton] font-normal text-8xl  lg:text-[188.26px]">
+  <p>
+    P0DCAST
+  </p>
+</div>
+
+<div class="bg-gray-900 w-[100%] flex flex-wrap md:flex-wrap p-4 md:p-2 lg:p-8">
+  <div class="  lg:w-[30%] p-4 md:p-2 lg:p-12">
+    <img src="assets/Boy2.png" alt="" class="h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 xl:h-48 xl:w-48 rounded-full mb-4">
+    <p class="text-left font-dm-sans font-normal text-sm leading-5 text-white">
+      Join Viktor, a proud nerd and seasoned entrepreneur, whose academic journey at Santa Clara University
+      in Silicon Valley sparked a career marked by innovation and foresight. From his college days, Viktor
+      embarked on an entrepreneurial path, beginning with YippieMove,a groundbreaking email migration service,
+      and continuing with a series of bootstrapped ventures.</p>
+    <div class=" mt-4">
+      <h1 class="font-[Anton] text-lg font-normal  text-white mb-2">Links</h1>
+
+      <div class="flex space-x-2">
+        <i class="border border-current  p-2 rounded-md fab fa-youtube text-white"></i>
+        <i class="border border-current p-2 rounded-md fa-brands fa-spotify text-white"></i>
+        <i class="border border-current p-2 rounded-md fa fa-podcast text-white"></i>
       </div>
     </div>
-    <hr class="mx-4 border-[#d3d3d36b]">
-    {% endfor %}
+    <div class=" mt-4">
+      <h1 class="font-[Anton] text-lg font-normal  text-white mb-2">Follow me</h1>
+      <div class="flex space-x-2">
+        <i class="border border-current p-2 rounded-md fa-brands   fa-x-twitter text-white"></i>
+        <i class="border border-current p-2 rounded-md fa-brands fa-github text-white"></i>
+        <i class="border border-current p-2 rounded-md fa-brands fa-linkedin-in text-white"></i>
+      </div>
+    </div>
   </div>
+  <div class="w-full lg:w-[60%]  py-4 lg:px-8 lg:py-8 ">
+    <div class=" w-full  lg:w-[70%] ">
+
+      <img src="assets/img1.png" alt="" class="w-full h-80 rounded-md mb-4">
+      <div
+        class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal  lg:px-0  lg:text-canter text-xl lg:text-[32px]">
+        Launching 'Nerding Out with Viktor' - A New Tech Podcast
+        (and the Innovative Podcast RSS Generator)
+      </div>
+      <div class=" mt-4 flex space-x-3">
+        <h1 class="font-[Anton] text-lg font-normal  text-white mb-2">PLAY ON</h1>
+        <div class="flex space-x-2">
+          <i class="bg-[#5D5FEF] p-2 rounded-md fab fa-youtube text-white"></i>
+          <i class="bg-[#5D5FEF] p-2 rounded-md fa-brands fa-spotify text-white"></i>
+          <i class="bg-[#5D5FEF] p-2 rounded-md fa fa-podcast text-white"></i>
+        </div>
+      </div>
+      <div
+        class="flex py-3 max-lg:w-[80%] font-dm-sans opacity-75 text-[#FFFFFF] leading-4 text-3 font-bold w-64 justify-between">
+        <p>
+          20 DEC • 2020
+        </p>
+        <p>
+          1 hr 5 min
+        </p>
+        <p>
+          VIDEO
+        </p>
+      </div>
+      <div class="font-semibold text-xl py-4 text-white">
+        Share:
+      </div>
+      <div class="flex py-2">
+        <i class="fa-brands pr-4 w-7 h-4 fa-linkedin-in text-white"></i>
+        <i class="fa-brands pr-4 w-7 h-4 fa-facebook-f text-white"></i>
+        <i class="fa-brands pr-4 w-7 h-4 fa-x-twitter text-white"></i>
+
+      </div>
+    </div>
+
+    <div class="font-dm-sans w-[100%] opacity-[80%] text-white  text-sm lg:text-lg py-2">
+      Hello folks, Viktor here! I’m thrilled to bring two exciting updates to you all today.
+      First, let’s talk about my new project, <span class="underline">“Nerding Out with Viktor,”
+      </span> a video podcast whereI dive into riveting tech discussions with experts from various fields. The first
+      episode
+      features a deep dive into Cloud Native security with Andrew Martin from ControlPlane. We
+      cover a range of topics, including ethical hacking and cybersecurity strategies. It’s a real
+      treat for anyone keen on tech and security. You can catch the podcast on platforms like<span
+        class="underline">Apple
+        Podcasts, Spotify,</span> and <span class="underline">YouTube</span>. Make sure to subscribe and join in on the
+      conversation!<br><br>
+      Also, I’m excited to introduce the <span class="underline">Podcast RSS Generator,</span> a tool I developed for
+      podcasters
+      (or rather, for myself). It’s designed to generate RSS feeds for audio/video podcasts, especially
+      useful for those using S3, Google Cloud Storage, or Cloudflare R2 for hosting. This tool stands
+      out in its field, being possibly the first of its kind and is even featured in the GitHub Actions
+      Marketplace. It’s adaptable to various storage solutions, making it a versatile choice for podcast
+      creators. Check it out in the <span class="underline">GitHub Actions Marketplace.</span>
+      <br><br>
+      Stay tuned for more exciting episodes and updates on these projects! Your support and feedback are
+      always appreciated. Let’s keep nerding out together!
+
+    </div>
+  </div>
+</div>

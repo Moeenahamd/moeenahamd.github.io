@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<!-- <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -11,8 +11,10 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ page.author }}</span></span>
+      {% endif %}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -20,8 +22,122 @@ layout: default
   </div>
 
   {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
+  {% include disqus_comments.html %}
   {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+</article> -->
+
+<div
+  class=" bg-[url('assets/background.png')] bg-no-repeat bg-cover h-[50%] text-white  flex items-center justify-center font-[Anton] font-normal text-8xl  lg:text-[188.26px]">
+  <p>
+    BLOG
+  </p>
+</div>
+<div class=" w-[100%] bg-[#1A1B2A]">
+  <div class="px-4 lg:px-60 xl:px-96 w-[100%] py-6 text-white">
+    <div
+      class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal  lg:px-0  lg:text-canter text-xl lg:text-[32px]">
+      Launching 'Nerding Out with Viktor' - A New Tech Podcast
+      (and the Innovative Podcast RSS Generator)
+    </div>
+    <div
+      class="flex py-3 max-lg:w-[80%] font-dm-sans opacity-75 text-[#FFFFFF] leading-4 text-3 font-bold w-64 justify-between">
+      <p>
+        20 DEC • 2020
+      </p>
+      <p>
+        1 hr 5 min
+      </p>
+      <p>
+        VIDEO
+      </p>
+    </div>
+    <div class="font-semibold text-xl py-4">
+      Share:
+    </div>
+    <div class="flex">
+      <i class="fa-brands pr-4 w-7 h-4 fa-linkedin-in text-white"></i>
+      <i class="fa-brands pr-4 w-7 h-4 fa-facebook-f text-white"></i>
+      <i class="fa-brands pr-4 w-7 h-4 fa-x-twitter text-white"></i>
+
+    </div>
+    <div class="font-dm-sans w-[100%] opacity-[80%] text-white  text-sm lg:text-lg py-2">
+      Hello folks, Viktor here! I’m thrilled to bring two exciting updates to you all today.
+      First, let’s talk about my new project, <span class="underline">“Nerding Out with Viktor,”
+      </span> a video podcast whereI dive into riveting tech discussions with experts from various fields. The first
+      episode
+      features a deep dive into Cloud Native security with Andrew Martin from ControlPlane. We
+      cover a range of topics, including ethical hacking and cybersecurity strategies. It’s a real
+      treat for anyone keen on tech and security. You can catch the podcast on platforms like<span
+        class="underline">Apple
+        Podcasts, Spotify,</span> and <span class="underline">YouTube</span>. Make sure to subscribe and join in on the
+      conversation!<br><br>
+      Also, I’m excited to introduce the <span class="underline">Podcast RSS Generator,</span> a tool I developed for
+      podcasters
+      (or rather, for myself). It’s designed to generate RSS feeds for audio/video podcasts, especially
+      useful for those using S3, Google Cloud Storage, or Cloudflare R2 for hosting. This tool stands
+      out in its field, being possibly the first of its kind and is even featured in the GitHub Actions
+      Marketplace. It’s adaptable to various storage solutions, making it a versatile choice for podcast
+      creators. Check it out in the <span class="underline">GitHub Actions Marketplace.</span>
+      <br><br>
+      Stay tuned for more exciting episodes and updates on these projects! Your support and feedback are
+      always appreciated. Let’s keep nerding out together!
+
+
+    </div>
+    <div class="inline-block lg:flex justify-between   py-8">
+      <p class="inline-block mt-3 border border-gray border-rounded pb-2 w-[70px] px-4 rounded-2xl h-[30px] text-white">
+        TAGS
+      </p>
+      <p
+        class=" inline-block mt-3 border border-gray border-rounded pb-2 w-[140px] px-4 rounded-2xl h-[30px] text-white">
+        LONGER TAGS
+      </p>
+      <p class="inline-block mt-3 border border-gray border-rounded pb-2 w-[70px] px-4 rounded-2xl h-[30px] text-white">
+        TAGS
+      </p>
+      <p
+        class="inline-block mt-3 border border-gray border-rounded pb-2 w-[140px] px-4 rounded-2xl h-[30px] text-white">
+        LONGER TAGS
+      </p>
+      <p class="inline-block mt-3 border border-gray border-rounded pb-2 w-[70px] px-4 rounded-2xl h-[30px] text-white">
+        TAGS
+      </p>
+
+    </div>
+  </div>
+  <div class=" h-[40%] bg-black xl:px-56 lg:px-48 px-2 py-10 ">
+    <p class="text-2xl text-white font-bold px-12 lg:px-4 xl:px-4 ">
+      Related
+    </p>
+    <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-x-4 px-12 xl:px-4 lg:px-4 mt-8 xl:mt-0 lg:mt-0">
+      <div class=" bg-gray-900 p-4 rounded-lg mt-8">
+        <p class="text-xs text-white font-bold ">
+          Launching 'Nerding Out with Viktor' - A New Tech Podcast (and the Innovative Podcast RSS
+          Generator)
+        </p>
+        <p class="text-gray-400 text-xs pt-3 ">Jan 2. 2024</p>
+
+      </div>
+      <div class=" bg-gray-900 p-4 rounded-lg mt-8">
+        <p class="text-xs text-white font-bold ">
+          Launching 'Nerding Out with Viktor' - A New Tech Podcast (and the Innovative Podcast RSS
+          Generator)
+        </p>
+        <p class="text-gray-400  text-xs pt-3 ">Jan 2. 2024</p>
+
+      </div>
+      <div class=" bg-gray-900 p-4 rounded-lg mt-8">
+        <p class="text-xs text-white font-bold ">
+          Launching 'Nerding Out with Viktor' - A New Tech Podcast (and the Innovative Podcast RSS
+          Generator)
+        </p>
+        <p class="text-gray-400 text-xs pt-3 ">Jan 2. 2024</p>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
