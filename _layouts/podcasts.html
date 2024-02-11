@@ -15,7 +15,7 @@ layout: default
   </p>
 
   {% for podcast in site.podcasts limit:3 %}
-    <div class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
+    <a href="{{ post.url | relative_url }}" class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
       <div class=" lg:w-4/12 xl:w-2/5  pl-0 lg:pl-4 xl:pl-4 ">
           <img src="{{podcast.image}}" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
       </div>
@@ -31,7 +31,7 @@ layout: default
             <span class="pl-4">VIDEO</span>
           </div>
       </div>
-    </div>
+    </a>
     {% endfor %}
   
   <button class="bg-[#5D5FEF33] hover:bg-blue-700 text-white ml-12 lg:ml-4 xl:ml-4 md:ml-4 sm:ml-4 ml-4  mt-6 tracking-tight ml-0 font-semibold text-xs py-2 px-3 rounded-full">
