@@ -17,7 +17,7 @@ layout: default
   {% for podcast in site.podcasts limit:3 %}
     <a href="{{ podcast.url | relative_url }}" class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
       <div class=" lg:w-4/12 xl:w-2/5  pl-0 lg:pl-4 xl:pl-4 ">
-          <img src="{{podcast.image}}" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
+          <img src="{{podcast.image}}" class="aspect-[1241/568]" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
       </div>
       <div class=" w-3/5 lg:w-8/12  pl-4 ">
           <p class="font-bold text-white  text-lg tracking-tighter pt-4 md:pt-4  sm:pt-4 lg:pt-0  xl:pt-0">{{podcast.title}}</p>
