@@ -10,7 +10,7 @@ layout: default
         Latest Podcast
     </p>
     {% for podcast in site.podcasts limit:3 %}
-    <div class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
+    <a href="{{ podcast.url | relative_url }}" class="lg:flex lg:flex-row lg:max-h-screen py-6 xl:max-h-screen  max-h-full xl:flex xl:flex-row">
       <div class=" lg:w-4/12 xl:w-2/5  pl-0 lg:pl-4 xl:pl-4 ">
           <img src="{{podcast.image}}" class="aspect-[1241/568]" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
       </div>
@@ -26,7 +26,7 @@ layout: default
             <span class="pl-4">VIDEO</span>
           </div>
       </div>
-    </div>
+    </a>
     <hr class="mx-4 border-[#d3d3d366]">
     {% endfor %}
   </div>
@@ -37,7 +37,7 @@ layout: default
     </p>
     <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-x-4 px-12 xl:px-4 lg:px-4 mt-8 xl:mt-0 lg:mt-0">
       {% for post in site.posts limit:6 %}
-        <div class=" bg-gray-900 p-4 rounded-lg mt-8">
+        <a href="{{ post.url | relative_url }}" class=" bg-gray-900 p-4 rounded-lg mt-8">
           <p class="text-xs text-white font-bold ">
             {{ post.title | escape }}
           </p>
@@ -45,7 +45,7 @@ layout: default
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
           </p>
-        </div>
+        </a>
       {% endfor %}
     </div>
   </div>
