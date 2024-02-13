@@ -22,7 +22,7 @@ url: "http://blog.viktorpetersson.com" # the base hostname & protocol for your s
 # url: "https://vpetersson.github.io/blog.viktorpetersson.com"
 paginate: 9
 twitter_username: vpetersson
-github_username:  vpetersson
+github_username: vpetersson
 
 google_analytics: UA-12090766-1
 

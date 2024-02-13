@@ -3,168 +3,222 @@ layout: default
 ---
 
 <div class="home">
-    <div class=" max-h-full  py-12 bg-[url('/assets/background.png')] bg-no-repeat bg-cover h-[50%]">
-      <div class="text-center ">
-          <p class="lg:text-8xl font-[Anton] xl:text-9xl md:text-7xl text-6xl sm:text-6xl font-bold text-white  tracking-wider ">ABOUT</p>
+  <div
+    class="max-h-full py-12 bg-[url('/assets/background.png')] bg-no-repeat bg-cover h-[50%]"
+  >
+    <div class="text-center">
+      <p
+        class="lg:text-8xl font-[Anton] xl:text-9xl md:text-7xl text-6xl sm:text-6xl font-bold text-white tracking-wider"
+      >
+        ABOUT
+      </p>
+    </div>
+  </div>
+  <div
+    class="lg:flex lg:flex-row flex flex-col lg:items-center px-8 py-8 lg:py-0 lg:px-24 space-y-4 lg:space-x-32 w-[100%] lg:h-[120%] bg-[#000212]"
+  >
+    <div>
+      <img
+        src="{{site.data.main.image}}"
+        class="aspect-[960/1172]"
+        class="border-none rounded-md border-rounded lg:rounded-xl"
+      />
+    </div>
+    <div
+      class="w-[100%] lg:w-[55%] text-white lg:flex lg:items-center font-dm-sans text-sm leading-2 text-xs lg:text-base lg:leading-[25px] font-normal lg:justify-center"
+    >
+      {{site.data.main.about_summary}}
+    </div>
+  </div>
+  <div
+    class="py-32 bg-[#000212] flex flex-col lg:items-center space-y-12 lg:justify-center"
+  >
+    <div
+      class="font-[anton] text-white font-base px-8 lg:px-0 lg:font-normal lg:text-center text-4xl lg:text-[40px]"
+    >
+      Press, mentions and interviews
+    </div>
+
+    <div
+      class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-col w-[100%] lg:flex-row lg:py-8"
+    >
+      <div
+        class="font-[Anton] px-4 md:px-0 md:pr-0 md:pl-4 w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500"
+      >
+        2023
+      </div>
+      <div
+        class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base"
+      >
+        <div
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
+        >
+          <div
+            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            TALK
+          </div>
+          <p class="text-white">Ubuntu Summit, Riga, Latvia</p>
+          <div class="flex max-lg:hidden space-x-2">
+            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
+            <img src="/assets/video.jpeg" width="24px" height="24px" />
+          </div>
+        </div>
+        <div
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
+        >
+          <p
+            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            TALK
+          </p>
+          <p class="text-white">#QSRNext, Virtual Conference</p>
+          <div class="flex max-lg:hidden space-x-2">
+            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
+            <img src="/assets/video.jpeg" width="24px" height="24px" />
+          </div>
+        </div>
+        <div
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[35px] space-x-2"
+        >
+          <p
+            class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            PODCAST
+          </p>
+
+          <p class="text-white">The Shobeir Show - Episode 27</p>
+
+          <div class="max-lg:hidden flex space-x-2">
+            <img src="/assets/youtube.jpeg" width="22.8px" height="16px" />
+            <img src="/assets/spotify.jpeg" width="20.01px" height="20.01px" />
+            <img src="/assets/signal.jpeg" width="20.56px" height="22.58px" />
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] flex lg:items-center max-lg:pl-4 max-lg:space-x-[37px] space-x-1"
+        >
+          <p
+            class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            PODCAST
+          </p>
+          <p class="text-white">
+            Default Global - Powering 10K Screens Worldwide: The Screenly
+            Journey with Viktor Petersson
+          </p>
+          <div class="flex max-lg:hidden space-x-2">
+            <img src="/assets/youtube.jpeg" width="22.8px" height="16px" />
+            <img src="/assets/spotify.jpeg" width="20.01px" height="20.01px" />
+            <img src="/assets/signal.jpeg" width="20.56px" height="22.58px" />
+          </div>
+        </div>
+        <div
+          class="w-[100%] flex lg:items-center max-lg:pl-4 max-lg:space-x-[55px] space-x-2"
+        >
+          <p
+            class="border border-[#5DEF7D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            PRESS
+          </p>
+
+          <p class="text-white">
+            TechCrunch -
+            <span class="underline">
+              Screenly makes it easier to build interactive apps for its digital
+              signage platform
+            </span>
+          </p>
+        </div>
       </div>
     </div>
-    <div class=" lg:flex lg:flex-row flex flex-col lg:items-center px-8 py-8 lg:py-0 lg:px-24 space-y-4 lg:space-x-32 w-[100%] lg:h-[120%] bg-[#000212]">
-        <div>
-            <img src="{{site.data.main.image}}" class="aspect-[960/1172]" class="  border-none rounded-md border-rounded lg:rounded-xl">
-        </div>
-        <div class=" w-[100%] lg:w-[55%] text-white lg:flex lg:items-center font-dm-sans text-sm leading-2 text-xs lg:text-base lg:leading-[25px] font-normal lg:justify-center ">
-            {{site.data.main.about_summary}}
-        </div>
-    </div>
-    <div class=" py-32 bg-[#000212] flex flex-col lg:items-center space-y-12 lg:justify-center">
+    <hr class="border border-1 w-[100%] opacity-[10%] border-#FFFFFF" />
+    <div
+      class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-col w-[100%] lg:flex-row lg:py-8"
+    >
+      <div
+        class="font-[Anton] px-4 md:px-0 md:pr-0 md:pl-4 w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500"
+      >
+        2022
+      </div>
+      <div
+        class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base"
+      >
         <div
-            class="font-[anton] text-white font-base px-8 lg:px-0 lg:font-normal lg:text-center text-4xl lg:text-[40px]">
-            Press, mentions and interviews
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
+        >
+          <p
+            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            TALK
+          </p>
+
+          <p class="text-white">Ubuntu Summit, Prague, Czech Republic</p>
+          <div class="flex max-lg:hidden space-x-2">
+            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
+            <img src="/assets/video.jpeg" width="24px" height="24px" />
+          </div>
         </div>
-
-        <div class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-col w-[100%] lg:flex-row  lg:py-8">
-            <div
-                class="font-[Anton] px-4 md:px-0 md:pr-0 md:pl-4  w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500">
-                2023
-            </div>
-            <div class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base">
-                <div class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16  space-x-2 ">
-                    <div class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        TALK
-                    </div>
-                    <p class="text-white">
-                        Ubuntu Summit, Riga, Latvia
-                    </p>
-                    <div class="flex max-lg:hidden space-x-2">
-                        <img src="/assets/walpaperslide.jpeg" width="20px" height="20px">
-                        <img src="/assets/video.jpeg" width="24px" height="24px">
-                    </div>
-                </div>
-                <div class="flex  lg:items-center max-lg:pl-4 max-lg:space-x-16  space-x-2 ">
-                    <p class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        TALK
-                    </p>
-                    <p class="text-white">
-                        #QSRNext, Virtual Conference
-                    </p>
-                    <div class="flex max-lg:hidden space-x-2">
-                        <img src="/assets/walpaperslide.jpeg" width="20px" height="20px">
-                        <img src="/assets/video.jpeg" width="24px" height="24px">
-                    </div>
-                </div>
-                <div class="flex  lg:items-center max-lg:pl-4 max-lg:space-x-[35px] space-x-2 ">
-                    <p class=" border border-[#5D5FEF]  border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        PODCAST
-                    </p>
-
-
-                    <p class="text-white">
-                        The Shobeir Show - Episode 27
-                    </p>
-
-                    <div class="max-lg:hidden flex space-x-2">
-                        <img src="/assets/youtube.jpeg" width="22.8px" height="16px">
-                        <img src="/assets/spotify.jpeg" width="20.01px" height="20.01px">
-                        <img src="/assets/signal.jpeg" width="20.56px" height="22.58px">
-                    </div>
-                </div>
-
-                <div class="w-[100%] flex lg:items-center max-lg:pl-4 max-lg:space-x-[37px] space-x-1 ">
-                    <p class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        PODCAST
-                    </p>
-                    <p class="text-white">
-                        Default Global - Powering 10K Screens Worldwide: The Screenly Journey with Viktor Petersson
-                    </p>
-                    <div class="flex max-lg:hidden space-x-2">
-                        <img src="/assets/youtube.jpeg" width="22.8px" height="16px">
-                        <img src="/assets/spotify.jpeg" width="20.01px" height="20.01px">
-                        <img src="/assets/signal.jpeg" width="20.56px" height="22.58px">
-                    </div>
-                </div>
-                <div class=" w-[100%] flex lg:items-center max-lg:pl-4 max-lg:space-x-[55px] space-x-2 ">
-                    <p class="border border-[#5DEF7D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        PRESS
-                    </p>
-
-                    <p class="text-white">
-                        TechCrunch -
-                        <span class="underline">
-                            Screenly makes it easier to build interactive apps for its digital signage platform
-                        </span>
-                    </p>
-
-                </div>
-            </div>
+        <div
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[57px] space-x-2"
+        >
+          <p
+            class="border border-[#5DEF7D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            PRESS
+          </p>
+          <p class="text-white">
+            TechCrunch -
+            <span class="underline">
+              The Register - Strong support for Snap and Ubuntu Core as
+              Canonical meet IRL
+            </span>
+          </p>
         </div>
-        <hr class="border border-1 w-[100%] opacity-[10%] border-#FFFFFF">
-        <div class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-col w-[100%] lg:flex-row  lg:py-8">
-            <div
-                class=" font-[Anton] px-4 md:px-0 md:pr-0 md:pl-4  w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500">
-                2022
-            </div>
-            <div class="space-y-4 max-lg:py-4  w-[73%] text-[Roboto] text-xs xl:text-base">
-                <div class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16  space-x-2  ">
-                    <p class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        TALK
-                    </p>
-
-                    <p class="text-white">
-                        Ubuntu Summit, Prague, Czech Republic
-                    </p>
-                    <div class="flex max-lg:hidden space-x-2">
-                        <img src="/assets/walpaperslide.jpeg" width="20px" height="20px">
-                        <img src="/assets/video.jpeg" width="24px" height="24px">
-                    </div>
-
-                </div>
-                <div class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[57px]  space-x-2 ">
-                    <p class="border border-[#5DEF7D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        PRESS
-                    </p>
-                    <p class="text-white">
-                        TechCrunch -
-                        <span class="underline">
-                            The Register - Strong support for Snap and Ubuntu Core as Canonical meet IRL
-                        </span>
-                    </p>
-                </div>
-
-            </div>
-        </div>
-        <hr class="border border-1 w-[100%] opacity-[10%] border-[#FFFFFF]">
-        <div class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-wrap w-[100%] lg:flex-row  lg:py-8">
-            <div
-                class="font-[Anton] px-4 md:px-0 md:pr-40 md:pl-4  w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500 ">
-                2021
-            </div>
-            <div class="space-y-4 max-lg:py-4  w-[73%] text-[Roboto] text-xs xl:text-base">
-                <div class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16  space-x-2  ">
-                    <p class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        TALK
-                    </p>
-                    <p class="text-white">
-                        Cloud Native London, London, UK
-                    </p>
-                    <div class="flex max-lg:hidden space-x-2">
-                        <img src="/assets/walpaperslide.jpeg" width="20px" height="20px">
-                        <img src="/assets/video.jpeg" width="24px" height="24px">
-                    </div>
-                </div>
-                <div class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[37px]  space-x-2 ">
-                    <p class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white">
-                        PODCAST
-                    </p>
-                    <p class="text-white">
-                        Balena’s IoT Happy Hour
-                    </p>
-                    <div class="flex max-lg:hidden space-x-2">
-                        <img src="/assets/youtube.jpeg" width="22.8px" height="16px">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="border border-1 w-[100%] opacity-[10%] border-#FFFFFF">
-
+      </div>
     </div>
+    <hr class="border border-1 w-[100%] opacity-[10%] border-[#FFFFFF]" />
+    <div
+      class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-wrap w-[100%] lg:flex-row lg:py-8"
+    >
+      <div
+        class="font-[Anton] px-4 md:px-0 md:pr-40 md:pl-4 w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500"
+      >
+        2021
+      </div>
+      <div
+        class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base"
+      >
+        <div
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
+        >
+          <p
+            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            TALK
+          </p>
+          <p class="text-white">Cloud Native London, London, UK</p>
+          <div class="flex max-lg:hidden space-x-2">
+            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
+            <img src="/assets/video.jpeg" width="24px" height="24px" />
+          </div>
+        </div>
+        <div
+          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[37px] space-x-2"
+        >
+          <p
+            class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
+          >
+            PODCAST
+          </p>
+          <p class="text-white">Balena’s IoT Happy Hour</p>
+          <div class="flex max-lg:hidden space-x-2">
+            <img src="/assets/youtube.jpeg" width="22.8px" height="16px" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="border border-1 w-[100%] opacity-[10%] border-#FFFFFF" />
+  </div>
 </div>
