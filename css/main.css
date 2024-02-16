@@ -1,6 +1,8 @@
 .main {
     background-image: url("background.png");
     object-fit:cover;
+    background:rgba(26, 27, 42, 1);
+    ;
 }
 body{
     font-family: "Anton";
