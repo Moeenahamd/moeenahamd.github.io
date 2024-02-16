@@ -3,6 +3,13 @@
     background:rgba(26, 27, 42, 1);
     ;
 }
+.header-text{
+    font-size:  186.26px;
+    line-height: 223.52px;
+    font-weight: 400;
+    width: 609px;
+    height:224px;
+}
 body{
     font-family: "Anton";
     letter-spacing: 1.1px;
