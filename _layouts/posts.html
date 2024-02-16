@@ -15,31 +15,38 @@ layout: default
     </div>
   </div>
 
-  <div class="bg-black xl:px-56 lg:px-48 px-2 py-10">
-    <p class="text-2xl text-white font-bold px-12 lg:px-4 xl:px-4">
-      Blog posts
-    </p>
-    <div
-      class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-x-4 px-12 xl:px-4 lg:px-4 mt-8 xl:mt-0 lg:mt-0"
-    >
-      {% for post in site.posts limit:6 %}
-      <a
-        href="{{ post.url | relative_url }}"
-        class="bg-gray-900 p-4 rounded-lg mt-8"
-      >
-        <p class="text-xs text-white font-bold">{{ post.title | escape }}</p>
-        <p class="text-gray-400 text-xs pt-3">
-          {% assign date_format = site.minima.date_format | default: "%b %-d,
-          %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-        </p>
-      </a>
-      {% endfor %}
+  <div class="bg-black blog-section">
+    <div class="w-[1110px] m-auto">
+      <p class="text-2xl text-white font-bold">Blog posts</p>
+      <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-8 mt-8">
+        {% if page.all %} {% for post in site.posts %}
+        <a
+          href="{{ post.url | relative_url }}"
+          class="blog-card rounded-lg text-white"
+        >
+          <p class="blog-content">{{ post.title | escape }}</p>
+          <p class="text-gray-400 blog-time pt-3">
+            {% assign date_format = site.minima.date_format | default: "%b %-d,
+            %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+          </p>
+        </a>
+        {% endfor %} {% else %}<a
+          href="{{ post.url | relative_url }}"
+          class="blog-card rounded-lg text-white"
+        >
+          <p class="blog-content">{{ post.title | escape }}</p>
+          <p class="text-gray-400 blog-time pt-3">
+            {% assign date_format = site.minima.date_format | default: "%b %-d,
+            %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+          </p>
+        </a>
+        {% endfor %} {% endif %}
+      </div>
+      <button class="all-posts-button text-white rounded-full mt-8">
+        VIEW ALL POSTS
+      </button>
     </div>
-    <button
-      class="bg-[#5D5FEF33] hover:bg-blue-700 text-white ml-12 lg:ml-4 xl:ml-4 mt-6 tracking-tight ml-0 font-semibold text-xs py-2 px-3 rounded-full"
-    >
-      VIEW ALL POSTS
-    </button>
   </div>
 </div>
