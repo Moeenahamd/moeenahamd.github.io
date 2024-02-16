@@ -1,0 +1,109 @@
+.main {
+    background-image: url("background.png");
+    object-fit:cover;
+}
+body{
+    font-family: "Anton";
+    letter-spacing: 1.1px;
+}
+.nav-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header-content{
+    font-size:18px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.header-button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #5D5FEF;
+    padding: 12px 24px;
+    width: 236px;
+    height: 48px;
+    letter-spacing: 1.1px;
+}
+.main-heading{
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight:400;
+
+}
+.normal-content{
+    font-size:18px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    line-height: 27px;
+    
+}
+.main-button{
+    background: #5D5FEF;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    width:119px;
+    height:48px;
+    letter-spacing:1.2px;
+
+}
+
+.podcast-item-button{
+    background: #5D5FEF;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    width:129px;
+    height:48px;
+    letter-spacing:1.2px;
+}
+
+.podcast-item-time{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: "DM Sans";
+    letter-spacing:0.7px;
+}
+
+.all-posts-button{
+    background: rgba(93, 95, 239, 0.2);
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    width:191px;
+    height:48px;
+    letter-spacing:1.2px;
+}
+
+.blog-section{
+    padding:100px 0px;
+}
+
+.blog-card{
+    width: 350px;
+    height: 177px;
+    padding:24px;
+    background: rgba(26, 27, 42, 1);
+}
+.blog-content{
+    font-size:20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing:0.4px;
+    
+}
+.blog-time{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: "DM Sans";
+    letter-spacing:0.7px;
+}
