@@ -1,6 +1,5 @@
 .main {
-    background-image: url("background.png");
-    object-fit:cover;
+    border-bottom: #d3d3d366;
     background:rgba(26, 27, 42, 1);
     ;
 }
