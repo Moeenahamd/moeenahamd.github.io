@@ -12,12 +12,13 @@
   </div>
   <div class="pt-10 lg:grid lg:grid-cols-2">
     <div class="flex flex-col lg:flex-row">
-      <a href="#" class="font-[Anton] pr-6 py-3 lg:py-8">ABOUT</a>
-      <a href="#" class="font-[Anton] pr-6 py-3 lg:py-8"
-        >NURDING OUT WITH VIKTOR</a
-      >
-      <a href="#" class="font-[Anton] pr-6 py-3 lg:py-8">PROJECTS</a>
-      <a href="#" class="font-[Anton] pr-6 py-3 lg:py-8">BLOG</a>
+      {% for nav in site.data.main.nav %}
+          <a
+            href="{{nav.link}}"
+            class="pr-6 py-3 lg:py-8"
+            >{{nav.name}}</a
+          >
+      {% endfor %}
     </div>
     <div class="flex py-7 justify-self-end space-x-3">
       <a href="{{site.data.main.social.twitter}}" class="border border-current p-2 rounded-md">
