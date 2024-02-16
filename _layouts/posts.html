@@ -31,7 +31,7 @@ layout: default
             <span class="post-meta">{{ post.date | date: date_format }}</span>
           </p>
         </a>
-        {% endfor %} {% else %} {% for post in site.posts %}
+        {% endfor %} {% else %} {% for post in site.posts linit:6 %}
         <a
           href="{{ post.url | relative_url }}"
           class="blog-card rounded-lg text-white"
