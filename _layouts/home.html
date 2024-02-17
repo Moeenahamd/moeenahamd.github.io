@@ -45,7 +45,7 @@ layout: default
         {% for post in site.posts limit:6 %}
         <a
           href="{{ post.url | relative_url }}"
-          class="blog-card rounded-lg text-white"
+          class="blog-card w-[340] xl:w-[350px] rounded-lg text-white"
         >
           <p class="blog-content">{{ post.title | escape }}</p>
           <p class="text-gray-400 blog-time pt-3">
