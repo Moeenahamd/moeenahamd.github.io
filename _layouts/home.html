@@ -10,7 +10,7 @@ layout: default
 
       {% for podcast in site.podcasts limit:3 %}
       <div>
-        <a
+        <div
           href="{{ podcast.url | relative_url }}"
           class="w-[342px] lg:w-full xl:w-full xl:flex xl:flex-row my-8"
         >
@@ -48,14 +48,14 @@ layout: default
               ><span class="pl-4">VIDEO</span>
             </div>
           </div>
-        </a>
+        </div>
       </div>
       <hr class="border-[#d3d3d366]" />
       {% endfor %}
       <div>
-        <a href="/podcast" class="all-posts-button text-white rounded-full">
+        <div href="/podcast" class="all-posts-button text-white rounded-full">
           VIEW ALL PODCASTS
-        </a>
+        </div>
       </div>
     </div>
   </div>
