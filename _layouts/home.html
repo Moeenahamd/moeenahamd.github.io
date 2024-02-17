@@ -9,8 +9,30 @@ layout: default
       <p class="text-2xl text-white font-bold">Latest Podcast</p>
 
       {% for podcast in site.podcasts limit:3 %}
-      <a href="{{ podcast.url | relative_url }}" class=" w-[342px] lg:w-full xl:w-full xl:flex xl:flex-row my-8 m-auto">
+      <div class=" w-[342px] lg:w-full xl:w-full xl:flex xl:flex-row my-8 m-auto">
         <!-- ... Previous HTML code ... -->
+        <div class=" xl:w-[445px] xl:h-[284px]  w-[342px] h-[288px]  lg:w-[445px] lg:h-[284px]">
+          <img src="img1.png" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
+        </div>
+        <div class=" w-[340px] h-[340px] lg:w-8/12 xl:w-8/12 xl:pl-4 pl-0 lg:pl-4 ">
+          <p
+            class="  lg:text-[32px] xl:text-[32px] text-[24px] text-white pt-4 md:pt-4 xl:w-full lg:w-full w-[340px] sm:pt-4 lg:pt-0  xl:pt-0 nerding  ">
+            Nerding out about Prometheus and observability with Julius Volz, PromLabs/Prometheus</p>
+          <p class="  w-[339px] xl:w-full lg:w-full  text-white  normal-content mt-4">This episode of Nerding Out With Viktor
+            features an in-depth interview with Julius Volz, the co-founder of Prometheus and founder of
+            PromLab.</p>
+
+          <button
+            class="podcast-item-button text-white mt-[27px] w-[129px] rounded-full">
+            READ MORE
+          </button>
+          <div class="podcast-item-time mt-4 text-white hidden lg:block xl:block">20 DEC • 2020<span class="pl-4">1 hr 5 min</span><span
+              class="pl-4">VIDEO</span></div>
+        </div>
+
+        <!-- ... Remaining HTML code ... -->
+      </div>
+      <!-- <a href="{{ podcast.url | relative_url }}" class=" w-[342px] lg:w-full xl:w-full xl:flex xl:flex-row my-8 m-auto">
         <div class=" xl:w-[445px] xl:h-[284px]  w-[342px] h-[288px]  lg:w-[445px] lg:h-[284px]">
           <img src="{{podcast.image}}" style="height: 100%; width: 100%;" alt="Paris" class=" rounded-lg">
         </div>
@@ -27,9 +49,7 @@ layout: default
           <div class="podcast-item-time mt-4 text-white hidden lg:block xl:block">20 DEC • 2020<span class="pl-4">1 hr 5 min</span><span
               class="pl-4">VIDEO</span></div>
         </div>
-
-        <!-- ... Remaining HTML code ... -->
-      </a>
+      </a> -->
       <hr class="border-[#d3d3d366]" />
       {% endfor %}
       <a href="/podcast" class="all-posts-button text-white rounded-full">
