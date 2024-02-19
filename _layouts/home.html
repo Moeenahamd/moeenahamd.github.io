@@ -65,22 +65,26 @@ layout: default
       <p class="podcast-heading text-white ">Blog posts</p>
       <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-8 mt-8">
         {% for post in site.posts limit:6 %}
-        <a
-          href="{{ post.url | relative_url }}"
-          class="blog-card w-[340] xl:w-[350px] rounded-lg text-white"
-        >
-          <p class="blog-content">{{ post.title | escape }}</p>
-          <p class="text-gray-400 blog-time pt-3">
-            {% assign date_format = site.minima.date_format | default: "%b %-d,
-            %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-          </p>
-        </a>
+        <div>
+          <a
+            href="{{ post.url | relative_url }}"
+            class="blog-card w-[340] xl:w-[350px] rounded-lg text-white"
+          >
+            <p class="blog-content">{{ post.title | escape }}</p>
+            <p class="text-gray-400 blog-time pt-3">
+              {% assign date_format = site.minima.date_format | default: "%b %-d,
+              %Y" %}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+            </p>
+          </a>
+        </div>
         {% endfor %}
       </div>
-      <a href="/blog" class="all-posts-button text-white rounded-full mt-8">
-        VIEW ALL POSTS
-      </a>
+      <div class="my-8">
+        <a href="/blog" class="all-posts-button text-white rounded-full">
+          VIEW ALL POSTS
+        </a>
+      </div>
     </div>
   </div>
 </div>
