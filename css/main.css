@@ -3,12 +3,9 @@
   background: rgba(26, 27, 42, 1);
 }
 .header-text {
-  font-size: 186.26px;
-  line-height: 223.52px;
+  font-size: 91.1px;
+  line-height: 109.32px;
   font-weight: 400;
-  width: 609px;
-  height: 224px;
-  margin: auto;
 }
 body {
   font-family: "Anton";
@@ -128,6 +125,12 @@ body {
 }
 
 @media only screen and (min-width: 1280px) {
+  
+  .header-text {
+    font-size: 186.26px;
+    line-height: 223.52px;
+    font-weight: 400;
+  }
   .header-content {
     font-size: 18px;
     font-family: "DM Sans";
