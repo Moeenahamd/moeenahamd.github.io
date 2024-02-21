@@ -171,7 +171,7 @@ layout: default
             </div>
           </div>
           <p
-            class="text-left h-[189px] max-lg:hidden w-[309px] font-dm-sans font-normal text-sm leading-5 text-white"
+            class="text-left h-[189px] max-lg:hidden w-[309px] normal-content font-normal text-sm leading-5 text-white"
           >
             {{site.data.main.podcast_summary}}
           </p>
@@ -239,7 +239,7 @@ layout: default
             </div>
           </div>
           <p
-            class="w-[242px] px-6 text-[14px] font-dm-sans font-normal leading-5 text-white"
+            class="w-[242px] px-6 text-[14px] normal-content font-normal leading-5 text-white"
           >
             {{site.data.main.podcast_summary}}
           </p>
@@ -252,7 +252,8 @@ layout: default
           </h1>
 
           <div class="flex space-x-2">
-            <div
+            
+            <a href="{{site.data.main.social.youtube}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -304,8 +305,8 @@ layout: default
                   </g>
                 </g>
               </svg>
-            </div>
-            <div
+            </a>
+            <a href="{{site.data.main.social.spotify}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -353,8 +354,8 @@ layout: default
                   </g>
                 </g>
               </svg>
-            </div>
-            <div
+            </a>
+            <a href="{{site.data.main.social.apple}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -376,8 +377,8 @@ layout: default
                   ></path>
                 </g>
               </svg>
-            </div>
-            <div
+            </a>
+            <a href="{{site.data.main.social.youtube}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -396,7 +397,7 @@ layout: default
                   fill="white"
                 />
               </svg>
-            </div>
+            </a>
           </div>
         </div>
         <div class="mt-4 max-lg:hidden">
@@ -406,7 +407,7 @@ layout: default
             Follow me
           </h1>
           <div class="flex space-x-2">
-            <div
+            <a href="{{site.data.main.social.twitter}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -423,8 +424,8 @@ layout: default
                   fill="white"
                 />
               </svg>
-            </div>
-            <div
+            </a>
+            <a href="{{site.data.main.social.github}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -439,8 +440,8 @@ layout: default
                   fill="white"
                 />
               </svg>
-            </div>
-            <div
+            </a>
+            <a href="{{site.data.main.social.linkedIn}}"
               class="h-[40px] w-[40px] border border-white border-opacity-[25%] flex justify-center items-center rounded-md"
             >
               <svg
@@ -457,7 +458,7 @@ layout: default
                   fill="white"
                 />
               </svg>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -696,7 +697,7 @@ layout: default
         </div>
 
         <div
-          class="font-dm-sans w-full font-normal h-[442px] max-lg:w-[342px] max-lg:h-[754px] opacity-[80%] text-white text-[16px] leading-[26px] max-lg:text-[14px] py-2"
+          class="normal-content w-full font-normal h-[442px] max-lg:w-[342px] max-lg:h-[754px] opacity-[80%] text-white text-[16px] leading-[26px] max-lg:text-[14px] py-2"
         >
           {{page.content}}
         </div>
