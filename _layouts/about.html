@@ -7,51 +7,32 @@ layout: default
     class="bg-[url('/assets/background.png')] bg-no-repeat bg-cover h-[269px] sm:h-[374px] flex items-center justify-center"
   >
     <div>
-      <p
-        class="header-text text-white"
-      >
-        ABOUT
-      </p>
+      <p class="header-text text-white">ABOUT</p>
     </div>
   </div>
-  <div
-    class="max-sm:w-[390px] max-sm:h-[838px] mx-auto max-sm:bg-[#1A1B2A] justify-evenly w-full h-[760px] max-sm:px-6 flex-row flex max-sm:flex-col lg:items-center lg:px-24 lg:space-x-32 bg-[#000212]"
-  >
-    <div class="max-sm:w-[152px] max-sm:h-[159px] lg:w-[480px] lg:h-[586px]">
+  <div class="w-full max-sm:bg-[#1A1B2A]">
+    <div
+      class="max-sm:w-[390px] max-sm:h-[838px] mx-auto max-sm:bg-[#1A1B2A] justify-evenly w-full h-[760px] max-sm:px-6 flex-row flex max-sm:flex-col lg:items-center lg:px-24 lg:space-x-32 bg-[#000212]"
+    >
       <img
         src="{{site.data.main.image}}"
-        class="rounded-md border-rounded lg:rounded-xl"
+        class="rounded-md border-rounded lg:rounded-xl max-lg:w-[152px] max-lg:h-[159px] lg:w-[480px] lg:h-[586px]"
       />
-    </div>
-    <div
-      class="max-sm:w-[342px] max-sm:h-[546px] w-[584px] h-[513px] text-white lg:flex lg:items-center font-dm-sans max-sm:text-sm max-sm:leading-[21px] text-[18px] leading-[27px] font-normal lg:justify-center"
-    >
-      {{site.data.main.about_summary}}
-    </div>
-  </div>
-  <!-- <div
-    class="lg:flex lg:flex-row flex flex-col lg:items-center px-8 py-8 lg:py-0 lg:px-24 space-y-4 lg:space-x-32 w-[100%] lg:h-[120%] bg-[#000212]"
-  >
-    <div>
-      <img
-        src="{{site.data.main.image}}"
-        class="aspect-[960/1172]"
-        class="border-none rounded-md border-rounded lg:rounded-xl"
-      />
-    </div>
-    <div
-      class="w-[100%] lg:w-[55%] text-white lg:flex lg:items-center font-dm-sans text-sm leading-2 text-xs lg:text-base lg:leading-[25px] font-normal lg:justify-center"
-    >
-      {{site.data.main.about_summary}}
-    </div>
-  </div> -->
 
-  <div class="max-sm:w-full max-sm:bg-[#000212]">
+      <div
+        class="max-lg:w-[342px] max-lg:h-[546px] w-[584px] h-[513px] text-white lg:flex lg:items-center font-dm-sans max-lg:text-[14px] max-lg:leading-[21px] text-[18px] leading-[27px] font-normal lg:justify-center"
+      >
+        {{site.data.main.about_summary}}
+      </div>
+    </div>
+  </div>
+
+  <div class="max-lg:w-full max-lg:bg-[#000212]">
     <div
       class="w-full h-[882px] max-sm:py-8 space-y-8 m-auto lg:px-24 max-sm:w-[390px] max-sm:h-[1400px] bg-[#000212] flex flex-col py-12 tracking-[-0.58px]"
     >
       <div
-        class="font-[anton] text-white max-sm:py-0 py-8 max-sm:w-[341px] max-sm:px-8 max-sm:text-start font-normal max-sm:text-[32px] text-center leading-[38px] text-[40px]"
+        class="font-[anton] text-white max-sm:py-0 py-8 max-sm:w-[341px] mx-auto max-lg:text-start tracking-[-0.58px] font-normal max-sm:text-[32px] text-center max-sm:leading-[38.4px] leading-[38px] text-[40px]"
       >
         Press, mentions and interviews
       </div>
@@ -72,21 +53,28 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="text-white max-sm:w-[252px] max-sm:h-[42px] w-[185px] h-[24px] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
+              class="text-white max-sm:w-[252px] max-sm:h-[42px] w-[185px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
             >
               Ubuntu Summit, Riga, Latvia
-              <span class="underline lg:hidden"> (deck, video) </span>
+              <span class="lg:hidden underline">
+                (<a
+                  href="https://speakerdeck.com/vpetersson/from-pets-to-cattle"
+                  >deck</a
+                >,
+                <a href="https://www.youtube.com/watch?v=oeIkJD3cTtw"> video </a
+                >)
+              </span>
             </p>
             <div class="flex max-lg:hidden space-x-2">
               <svg
                 width="24"
-                height="25"
+                height="24"
                 viewBox="0 0 24 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +85,8 @@ layout: default
                 />
               </svg>
               <svg
-                width="29px"
-                height="29px"
+                width="24px"
+                height="24px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -132,21 +120,31 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="text-white max-sm:w-[252px] max-sm:h-[42px] w-[200px] h-[24px] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
+              class="text-white max-sm:w-[252px] max-sm:h-[42px] w-[200px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
             >
               #QSRNext, Virtual Conference
-              <span class="underline lg:hidden"> (deck, video) </span>
+              <span class="lg:hidden">
+                (<a
+                  href="https://speakerdeck.com/vpetersson/beyond-just-a-menu-display"
+                  >deck,</a
+                >
+                <a
+                  class="ml-[-5px]"
+                  href="https://www.youtube.com/watch?v=bkzFDTh_DdI"
+                  >video)
+                </a>
+              </span>
             </p>
             <div class="flex max-lg:hidden space-x-2">
               <svg
                 width="24"
-                height="25"
+                height="24"
                 viewBox="0 0 24 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,8 +155,8 @@ layout: default
                 />
               </svg>
               <svg
-                width="29px"
-                height="29px"
+                width="24px"
+                height="24px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -192,16 +190,21 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-indigo-600 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
+                class="border border-indigo-600 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
               >
                 PODCAST
               </div>
             </div>
             <p
-              class="text-white max-sm:w-[252px] max-sm:h-[42px] w-[205px] h-[24px] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
+              class="text-white max-sm:w-[252px] max-sm:h-[42px] w-[205px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
             >
               The Shobeir Show -
-              <span class="max-lg:underline"> Episode 27</span>
+              <a
+                href="https://open.spotify.com/episode/2EMPYfIfS7RfBXdmGRMb3P?si=6286b660053e482d&nd=1"
+                class="max-lg:underline"
+              >
+                Episode 27</a
+              >
             </p>
 
             <div class="max-lg:hidden flex space-x-2">
@@ -326,16 +329,19 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-indigo-600 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
+                class="border border-indigo-600 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
               >
                 PODCAST
               </div>
             </div>
             <p
-              class="text-white max-sm:w-[252px] max-sm:h-[63px] w-[610px] h-[24px] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
+              class="text-white max-sm:w-[252px] max-sm:h-[63px] w-[620px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
             >
-              Default Global - Powering 10K Screens Worldwide: The Screenly
-              Journey with Viktor Petersson
+              Default Global -
+              <a href="https://gogloby.io/podcast/"
+                >Powering 10K Screens Worldwide: The Screenly Journey with
+                Viktor Petersson
+              </a>
             </p>
             <div class="flex max-lg:hidden space-x-2">
               <svg
@@ -458,20 +464,23 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-green-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
+                class="border border-green-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
               >
                 PRESS
               </div>
             </div>
 
             <p
-              class="text-white max-sm:w-[241px] max-sm:h-[63px] w-[650px] h-[24px] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
+              class="text-white max-sm:w-[241px] max-sm:h-[63px] w-[650px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
             >
               TechCrunch -
-              <span class="lg:underline">
+              <a
+                href="https://techcrunch.com/2023/08/30/screenly-makes-it-easier-to-build-interactive-apps-for-its-digital-signage-platform/"
+                class="lg:underline"
+              >
                 Screenly makes it easier to build interactive apps for its
                 digital signage platform
-              </span>
+              </a>
             </p>
           </div>
         </div>
@@ -493,26 +502,35 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="lg:hidden border border-green-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
+              >
+                PRESS
+              </div>
+              <div
+                class="max-lg:hidden border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px]font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              The Register - Strong support for Snap and Ubuntu Core as
-              Canonical meet IRL
+              The Register -
+              <a
+                href="https://www.theregister.com/2022/11/09/canonical_conference/"
+              >
+                Strong support for Snap and Ubuntu Core as Canonical meet IRL
+              </a>
             </p>
             <p
-              class="max-lg:hidden text-white w-[270px] h-[24px] font-normal text-[16px] leading-[24px]"
+              class="max-lg:hidden text-white w-[270px] h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
             >
               Ubuntu Summit, Prague, Czech Republic
             </p>
             <div class="flex max-lg:hidden space-x-2">
               <svg
                 width="24"
-                height="25"
+                height="24"
                 viewBox="0 0 24 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -524,8 +542,8 @@ layout: default
               </svg>
 
               <svg
-                width="29px"
-                height="29px"
+                width="24px"
+                height="24px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -559,23 +577,41 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-green-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
+                class="max-lg:hidden border border-green-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
               >
                 PRESS
               </div>
+              <div
+                class="lg:hidden border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+              >
+                TALK
+              </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px]font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              Ubuntu Summit, Prague, Czech Republic (video, blog post)
+              Ubuntu Summit, Prague, Czech Republic
+              <span>
+                (<a href="https://www.youtube.com/watch?v=fVkDqJzXKa0">video</a
+                >,
+                <a
+                  href="https://www.screenly.io/blog/2022/11/29/five-years-of-ubuntu-core/"
+                >
+                  blog post
+                </a>
+
+                )
+              </span>
             </p>
             <p
-              class="max-lg:hidden text-white w-[530px] h-[24px] font-normal text-[16px] leading-[24px]"
+              class="max-lg:hidden text-white w-[530px] h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
             >
               The Register -
-              <span class="underline">
+              <a
+                href="https://www.theregister.com/2022/11/09/canonical_conference/"
+              >
                 Strong support for Snap and Ubuntu Core as Canonical meet IRL
-              </span>
+              </a>
             </p>
           </div>
         </div>
@@ -602,25 +638,31 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px] font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              Cloud Native London, London, UK (deck, video)
+              Cloud Native London, London, UK (<a
+                href="https://speakerdeck.com/vpetersson/the-devsecops-iceberg-at-cloud-native-london"
+                >deck</a
+              >,
+              <a href="https://www.youtube.com/watch?v=BNnP4AmMdQE&t=130s">
+                video </a
+              >)
             </p>
             <p
-              class="max-lg:hidden text-white w-[225px] h-[24px] font-normal text-[16px] leading-[24px]"
+              class="max-lg:hidden text-white w-[225px] h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
             >
               Cloud Native London, London, UK
             </p>
             <div class="flex max-lg:hidden space-x-2">
               <svg
                 width="24"
-                height="25"
+                height="24"
                 viewBox="0 0 24 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -631,8 +673,8 @@ layout: default
                 />
               </svg>
               <svg
-                width="29px"
-                height="29px"
+                width="24px"
+                height="24px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -666,18 +708,21 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-indigo-600 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
+                class="border border-indigo-600 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
               >
                 PODCAST
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[240px] h-[21px] font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[240px] h-[21px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              Balena’s IoT Happy Hour (YouTube)
+              Balena’s IoT Happy Hour
+              <a href="https://www.youtube.com/watch?v=SgCRvEP2KyA"
+                >(YouTube)</a
+              >
             </p>
             <p
-              class="max-lg:hidden text-white w-[170px] h-[24px] font-normal text-[16px] leading-[24px]"
+              class="max-lg:hidden text-white w-[170px] h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
             >
               Balena’s IoT Happy Hour
             </p>
@@ -706,15 +751,19 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px] font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              Docker London, London, UK (deck)
+              Docker London, London, UK
+              <a
+                href="https://speakerdeck.com/vpetersson/whats-mtls-at-docker-london"
+                >(deck)</a
+              >
             </p>
           </div>
           <div
@@ -722,15 +771,23 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px] font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              Open Source Summit Europe, Lyon, France (deck, video)
+              Open Source Summit Europe, Lyon, France (<a
+                href="https://speakerdeck.com/vpetersson/the-s-in-iot-stands-for-security"
+                >deck</a
+              >,
+              <a
+                href="https://www.youtube.com/watch?v=7yN999B11Ms&list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp&index=44"
+              >
+                video </a
+              >)
             </p>
           </div>
           <div
@@ -738,15 +795,19 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px] font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              Kubernetes London, London, UK (deck)
+              Kubernetes London, London, UK
+              <a
+                href="https://speakerdeck.com/vpetersson/living-on-the-edge-at-kubernetes-london"
+                >(deck)</a
+              >
             </p>
           </div>
           <div
@@ -754,13 +815,13 @@ layout: default
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-2xl h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
                 TALK
               </div>
             </div>
             <p
-              class="lg:hidden text-white w-[252px] h-[42px] font-normal text-[14px] leading-[21px]"
+              class="lg:hidden text-white w-[252px] h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
               InfoSecurity Europe, London, UK
             </p>
@@ -770,202 +831,11 @@ layout: default
       <hr class="w-full lg:hidden opacity-[10%] border-#FFFFFF" />
       <div class="lg:hidden py-8 w-full flex justify-center mt-4">
         <button
-          class="w-[191px] h-[48px] bg-opacity-20 text-white rounded-full bg-indigo-600 text-[16px] leading-[24px] font-[Anton] tracking-wide"
+          class="w-[191px] h-[48px] bg-opacity-20 text-white rounded-[800px] bg-indigo-600 text-[16px] leading-[24px] font-[Anton] tracking-wide"
         >
           VIEW ALL PODCASTS
         </button>
       </div>
     </div>
   </div>
-  <!-- <div
-    class="py-32 bg-[#000212] flex flex-col lg:items-center space-y-12 lg:justify-center"
-  >
-    <div
-      class="font-[anton] text-white font-base px-8 lg:px-0 lg:font-normal lg:text-center text-4xl lg:text-[40px]"
-    >
-      Press, mentions and interviews
-    </div>
-
-    <div
-      class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-col w-[100%] lg:flex-row lg:py-8"
-    >
-      <div
-        class="font-[Anton] px-4 md:px-0 md:pr-0 md:pl-4 w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500"
-      >
-        2023
-      </div>
-      <div
-        class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base"
-      >
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
-        >
-          <div
-            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            TALK
-          </div>
-          <p class="text-white">Ubuntu Summit, Riga, Latvia</p>
-          <div class="flex max-lg:hidden space-x-2">
-            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
-            <img src="/assets/video.jpeg" width="24px" height="24px" />
-          </div>
-        </div>
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
-        >
-          <p
-            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            TALK
-          </p>
-          <p class="text-white">#QSRNext, Virtual Conference</p>
-          <div class="flex max-lg:hidden space-x-2">
-            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
-            <img src="/assets/video.jpeg" width="24px" height="24px" />
-          </div>
-        </div>
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[35px] space-x-2"
-        >
-          <p
-            class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            PODCAST
-          </p>
-
-          <p class="text-white">The Shobeir Show - Episode 27</p>
-
-          <div class="max-lg:hidden flex space-x-2">
-            <img src="/assets/youtube.jpeg" width="22.8px" height="16px" />
-            <img src="/assets/spotify.jpeg" width="20.01px" height="20.01px" />
-            <img src="/assets/signal.jpeg" width="20.56px" height="22.58px" />
-          </div>
-        </div>
-
-        <div
-          class="w-[100%] flex lg:items-center max-lg:pl-4 max-lg:space-x-[37px] space-x-1"
-        >
-          <p
-            class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            PODCAST
-          </p>
-          <p class="text-white">
-            Default Global - Powering 10K Screens Worldwide: The Screenly
-            Journey with Viktor Petersson
-          </p>
-          <div class="flex max-lg:hidden space-x-2">
-            <img src="/assets/youtube.jpeg" width="22.8px" height="16px" />
-            <img src="/assets/spotify.jpeg" width="20.01px" height="20.01px" />
-            <img src="/assets/signal.jpeg" width="20.56px" height="22.58px" />
-          </div>
-        </div>
-        <div
-          class="w-[100%] flex lg:items-center max-lg:pl-4 max-lg:space-x-[55px] space-x-2"
-        >
-          <p
-            class="border border-[#5DEF7D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            PRESS
-          </p>
-
-          <p class="text-white">
-            TechCrunch -
-            <span class="underline">
-              Screenly makes it easier to build interactive apps for its digital
-              signage platform
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <hr class="border border-1 w-[100%] opacity-[10%] border-#FFFFFF" />
-    <div
-      class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-col w-[100%] lg:flex-row lg:py-8"
-    >
-      <div
-        class="font-[Anton] px-4 md:px-0 md:pr-0 md:pl-4 w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500"
-      >
-        2022
-      </div>
-      <div
-        class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base"
-      >
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
-        >
-          <p
-            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            TALK
-          </p>
-
-          <p class="text-white">Ubuntu Summit, Prague, Czech Republic</p>
-          <div class="flex max-lg:hidden space-x-2">
-            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
-            <img src="/assets/video.jpeg" width="24px" height="24px" />
-          </div>
-        </div>
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[57px] space-x-2"
-        >
-          <p
-            class="border border-[#5DEF7D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            PRESS
-          </p>
-          <p class="text-white">
-            TechCrunch -
-            <span class="underline">
-              The Register - Strong support for Snap and Ubuntu Core as
-              Canonical meet IRL
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <hr class="border border-1 w-[100%] opacity-[10%] border-[#FFFFFF]" />
-    <div
-      class="lg:pl-24 max-lg:px-3 lg:pr-16 flex flex-wrap w-[100%] lg:flex-row lg:py-8"
-    >
-      <div
-        class="font-[Anton] px-4 md:px-0 md:pr-40 md:pl-4 w-[100%] lg:w-[27%] font-normal Leading-[40px] text-[32px] text-blue-500"
-      >
-        2021
-      </div>
-      <div
-        class="space-y-4 max-lg:py-4 w-[73%] text-[Roboto] text-xs xl:text-base"
-      >
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-16 space-x-2"
-        >
-          <p
-            class="border border-[#EFBD5D] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            TALK
-          </p>
-          <p class="text-white">Cloud Native London, London, UK</p>
-          <div class="flex max-lg:hidden space-x-2">
-            <img src="/assets/walpaperslide.jpeg" width="20px" height="20px" />
-            <img src="/assets/video.jpeg" width="24px" height="24px" />
-          </div>
-        </div>
-        <div
-          class="flex lg:items-center max-lg:pl-4 max-lg:space-x-[37px] space-x-2"
-        >
-          <p
-            class="border border-[#5D5FEF] border-rounded py-1 px-4 rounded-2xl h-[30px] text-white"
-          >
-            PODCAST
-          </p>
-          <p class="text-white">Balena’s IoT Happy Hour</p>
-          <div class="flex max-lg:hidden space-x-2">
-            <img src="/assets/youtube.jpeg" width="22.8px" height="16px" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr class="border border-1 w-[100%] opacity-[10%] border-#FFFFFF" />
-  </div> -->
 </div>
