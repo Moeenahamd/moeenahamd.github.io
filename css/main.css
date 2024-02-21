@@ -124,6 +124,12 @@ body {
   line-height: 36.13px;
 }
 
+.about-summary{
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "DM Sans";
+}
+
 @media only screen and (min-width: 1280px) {
   
   .header-text {
@@ -232,5 +238,9 @@ body {
   }
   .mt-27 {
     margin-top: 27px;
+  }
+  .about-summary{
+    font-size: 18px;
+    line-height: 27px;
   }
 }
