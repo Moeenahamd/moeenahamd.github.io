@@ -78,6 +78,8 @@ body {
   line-height: 16px;
   font-family: "DM Sans";
   letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 1);
+
 }
 
 .all-posts-button {
@@ -113,6 +115,7 @@ body {
   line-height: 16px;
   font-family: "DM Sans";
   letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .mt-27 {
@@ -128,6 +131,12 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-family: "DM Sans";
+}
+
+.podcast-story-heading{
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 1280px) {
