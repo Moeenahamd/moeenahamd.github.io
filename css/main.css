@@ -252,4 +252,10 @@ body {
     font-size: 18px;
     line-height: 27px;
   }
+
+  .podcast-story-heading{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+  }
 }
