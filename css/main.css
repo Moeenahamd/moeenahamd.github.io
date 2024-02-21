@@ -258,4 +258,7 @@ body {
     line-height: 72px;
     font-weight: 400;
   }
+  .mt-20 {
+    margin-top: 20px;
+  }
 }
