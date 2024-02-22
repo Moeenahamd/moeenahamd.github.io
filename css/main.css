@@ -157,6 +157,12 @@ body {
   font-weight: 400;
 }
 
+.share{
+  font-size: 16px;
+  font-family: "Hanken Grotesk";
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 1280px) {
   
   .header-text {
@@ -295,5 +301,10 @@ body {
   }
   .mt-20 {
     margin-top: 20px;
+  }
+
+  .share{
+    font-size: 20px;
+    line-height: 26px;
   }
 }
