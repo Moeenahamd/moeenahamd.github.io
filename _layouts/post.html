@@ -15,61 +15,9 @@ layout: default
     </div>
   </div>
 
-  <div class="w-[100%] bg-[#1A1B2A]">
-    <!-- <div class="px-4 lg:px-60 xl:px-96 w-[100%] py-6 text-white">
-      <div
-        class="font-[anton] px-[-30px] text-white leading-8 lg:leading-[56px] font-normal lg:px-0 lg:text-canter text-xl lg:text-[32px]"
-      >
-        {{page.title}}
-      </div>
-      <div
-        class="flex py-3 max-lg:w-[80%] font-dm-sans opacity-75 text-[#FFFFFF] leading-4 text-3 font-bold w-64 justify-between"
-      >
-        <p>{{ page.date | date_to_string}}</p>
-        <p>{{ page.date | date: "%H hr %M min" }}</p>
-        <p>VIDEO</p>
-      </div>
-      <div class="font-semibold text-xl py-4">Share:</div>
-      <div class="flex">
-        <i class="fa-brands pr-4 w-7 h-4 fa-linkedin-in text-white"></i>
-        <i class="fa-brands pr-4 w-7 h-4 fa-facebook-f text-white"></i>
-        <i class="fa-brands pr-4 w-7 h-4 fa-x-twitter text-white"></i>
-      </div>
-      <div
-        class="font-dm-sans w-[100%] opacity-[80%] text-white text-sm lg:text-lg py-2"
-      >
-        {{content}}
-      </div>
-      <div class="inline-block lg:flex justify-between py-8">
-        <p
-          class="inline-block mt-3 border border-gray border-rounded pb-2 w-[70px] px-4 rounded-2xl h-[30px] text-white"
-        >
-          TAGS
-        </p>
-        <p
-          class="inline-block mt-3 border border-gray border-rounded pb-2 w-[140px] px-4 rounded-2xl h-[30px] text-white"
-        >
-          LONGER TAGS
-        </p>
-        <p
-          class="inline-block mt-3 border border-gray border-rounded pb-2 w-[70px] px-4 rounded-2xl h-[30px] text-white"
-        >
-          TAGS
-        </p>
-        <p
-          class="inline-block mt-3 border border-gray border-rounded pb-2 w-[140px] px-4 rounded-2xl h-[30px] text-white"
-        >
-          LONGER TAGS
-        </p>
-        <p
-          class="inline-block mt-3 border border-gray border-rounded pb-2 w-[70px] px-4 rounded-2xl h-[30px] text-white"
-        >
-          TAGS
-        </p>
-      </div>
-    </div> -->
-    <div class=" w-full bg-[#1A1B2A]">
-      <div class="px-4 w-[340px] lg:w-[665px] text-white">
+  <div>
+    <div class=" w-full bg-[#1A1B2A] py-[60px] lg:py-[80px]">
+      <div class="px-4 w-[340px] lg:w-[665px] m-auto text-white">
           <div class="font-[anton] px-[-30px] text-white max-sm:leading-[36.16px] leading-[56px] font-normal  lg:px-0  lg:text-canter text-[40px] max-sm:text-[24px] tracking-[-0.76px]">
         {{page.title}}
           </div>
@@ -120,22 +68,25 @@ layout: default
             </div>
       </div>
       </div>
-    <div class="h-[40%] bg-black xl:px-56 lg:px-48 px-2 py-10">
-      <p class="text-2xl text-white font-bold px-12 lg:px-4 xl:px-4">Related</p>
-      <div
-        class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-x-4 px-12 xl:px-4 lg:px-4 mt-8 xl:mt-0 lg:mt-0"
-      >
-        {% for post in site.posts limit:3 %}
-        <div class="bg-gray-900 p-4 rounded-lg mt-8">
-          <p class="text-xs text-white font-bold">{{ post.title | escape }}</p>
-          <p class="text-gray-400 text-xs pt-3">
-            {% assign date_format = site.minima.date_format | default: "%b %-d,
-            %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-          </p>
+      <div class="bg-black blog-section">
+        <div class="w-[342px] xl:w-[1140px] m-auto">
+          <p class="podcast-heading text-white ">Related</p>
+          <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-8 mt-8">
+            {% for post in site.posts %}
+              <a
+                href="{{ post.url | relative_url }}"
+                class="blog-card w-[340] xl:w-[350px] rounded-lg text-white"
+              >
+                <p class="blog-content">{{ post.title | escape }}</p>
+                <p class="text-gray-400 blog-time pt-3">
+                  {% assign date_format = site.minima.date_format | default: "%b %-d,
+                  %Y" %}
+                  <span class="post-meta">{{ post.date | date: date_format }}</span>
+                </p>
+              </a>
+            {% endfor %}
+          </div>
         </div>
-        {% endfor %}
       </div>
-    </div>
   </div>
 </div>
