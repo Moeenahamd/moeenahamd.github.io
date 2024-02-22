@@ -115,6 +115,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.4px;
+  font-family: "DM Sans";
 }
 
 .blog-time {
@@ -132,7 +133,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   color:rgba(255, 255, 255, 1);
-
+  font-family: "Roboto";
 }
 
 .mt-27 {
