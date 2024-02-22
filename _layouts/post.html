@@ -21,14 +21,14 @@ layout: default
           <div class="font-[anton] px-[-30px] text-white max-sm:leading-[36.16px] leading-[56px] font-normal  lg:px-0  lg:text-canter text-[40px] max-sm:text-[24px] tracking-[-0.76px]">
         {{page.title}}
           </div>
-          <div class="flex py-3 max-sm:w-[234px] max-sm:h-[16px] font-dm-sans opacity-75 text-[#FFFFFF] leading-4 text-3 font-bold w-64 justify-between">
-              <p class="leading-[16px] text-[12px] font-bold">
+          <div class="flex py-3 max-sm:w-[234px] max-sm:h-[16px] font-dm-sans opacity-75 text-[#FFFFFF] leading-4 text-3 w-64 justify-between">
+              <p class="leading-[16px] text-[12px] ">
                 {{ page.date | date_to_string}}
               </p>
-              <p class="leading-[16px] text-[12px] font-bold">
+              <p class="leading-[16px] text-[12px] ">
                 {{ page.date | date: "%H hr %M min" }}
               </p>
-              <p class="leading-[16px] text-[12px] font-bold">
+              <p class="leading-[16px] text-[12px] ">
                   VIDEO
               </p>
           </div>
@@ -37,9 +37,9 @@ layout: default
               Share:
           </div>
           <div class="flex max-sm:pl-3 max-sm:pt-2" >
-              <i class="fa-brands pr-4 w-7 h-4 fa-linkedin-in text-white" ></i>
-              <i class="fa-brands pr-4 w-7 h-4 fa-facebook-f text-white" ></i>
-              <i class="fa-brands pr-4 w-7 h-4 fa-x-twitter text-white" ></i>
+              <a href="{{site.data.main.social.linkedIn}}"><i class="fa-brands pr-4 w-7 h-4 fa-linkedin-in text-white" ></i></a>
+              <a href="{{site.data.main.social.facebook}}"><i class="fa-brands pr-4 w-7 h-4 fa-facebook-f text-white" ></i></a>
+              <a href="{{site.data.main.social.twitter}}"><i class="fa-brands pr-4 w-7 h-4 fa-x-twitter text-white" ></i></a>
               
           </div>
       </div>
@@ -52,16 +52,16 @@ layout: default
               <p class="inline-block mt-3 border border-gray border-rounded pb-2 w-17 px-4 rounded-2xl h-[30px] text-white">
                   TAGS
               </p>
-              <p class=" inline-block mt-3 border border-gray border-rounded pb-2 w-36 px-4 rounded-2xl h-[30px] text-white">
+              <p class=" inline-block mt-3 border border-gray border-rounded w-36 px-4 rounded-2xl h-[30px] text-white">
                   LONGER TAGS
               </p>
-              <p class="inline-block mt-3 border border-gray border-rounded pb-2  w-17 px-4 rounded-2xl h-[30px] text-white">
+              <p class="inline-block mt-3 border border-gray border-rounded w-17 px-4 rounded-2xl h-[30px] text-white">
                   TAGS
               </p>
-              <p class="inline-block mt-3 border border-gray border-rounded pb-2 w-36 px-4 rounded-2xl h-[30px] text-white">
+              <p class="inline-block mt-3 border border-gray border-rounded w-36 px-4 rounded-2xl h-[30px] text-white">
                   LONGER TAGS
               </p>
-              <p class="inline-block mt-3 border border-gray border-rounded pb-2  w-17 px-4 rounded-2xl h-[30px] text-white">
+              <p class="inline-block mt-3 border border-gray border-rounded w-17 px-4 rounded-2xl h-[30px] text-white">
                   TAGS
               </p>
                  
