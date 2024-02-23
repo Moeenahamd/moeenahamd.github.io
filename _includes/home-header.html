@@ -2,7 +2,7 @@
     <nav class="overflow-x-hidden pb-[31px] pt-[34px]">
       <div class="mx-auto max-w-9xl">
         <div
-          class="relative flex items-center grid grid-cols-12 gap-x-4 md:gap-x-1 justify-between"
+          class="relative flex items-center grid grid-cols-12 gap-x-4 md:gap-x-1 justify-between  max-sm: w-[342] m-auto"
         >
           <div
             class="absolute inset-y-0 right-0 items-center sm:flex xs:flex flex md:hidden lg:hidden xl:hidden lg:mr-0 xl:mr-0 sm:mr-5"
@@ -13,38 +13,21 @@
               onclick="toggle()"
               class="relative inline-flex items-center justify-center rounded-lg p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             >
+            
               <span class="absolute -inset-0.5"></span>
               <span class="sr-only">Open main menu</span>
               <!-- Icon when menu is closed. Menu open: "hidden", Menu closed: "block" -->
-              <svg
-                class="block h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 16H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 8H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 24H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                
               <!-- Icon when menu is open. Menu open: "block", Menu closed: "hidden" -->
-              <svg
-                class="hidden h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.1685 8.14526L8.16846 24.1453" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.16846 8.14526L24.1685 24.1453" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
             </button>
           </div>
           <div
