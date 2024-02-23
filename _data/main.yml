@@ -11,8 +11,6 @@ podcast_summary: Join Viktor, a proud nerd and seasoned entrepreneur, whose acad
 nav:
   - name: ABOUT
     link: /about
-  - name: NERDING OUT WITH VIKTOR
-    link:
   - name: BLOG
     link: /blog
   - name: PODCAST
