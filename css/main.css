@@ -1,6 +1,13 @@
 .main {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(26, 27, 42, 1);
+  object-fit:cover;
+			
+       
+        background: url("background1.png") no-repeat center;
+        background-size: cover; /* Ensure the background image covers the entire container */
+       background-position: center; /* Center the background image */
+       position: relative; 
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(26, 27, 42, 1); */
 }
 
 .main::before {
