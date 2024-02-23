@@ -245,11 +245,13 @@
         <div class="space-y-1 px-2 ml-8 pb-3 pt-2">
           <!-- ... Mobile menu items ... -->
           {% for nav in site.data.main.nav %}
-          <a
+          <div>
+            <a
             href="{{nav.link}}"
             class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 md:px-1 py-2 text-sm"
-            >{{nav.name}}</a
-          >
+            >{{nav.name}}</a>
+          </div>
+          
           {% endfor %}
         </div>
         
