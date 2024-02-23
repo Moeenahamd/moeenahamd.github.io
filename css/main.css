@@ -20,6 +20,9 @@
   background-color: rgba(0, 2, 18,0.1); /* Change the color and adjust the opacity as needed */
   z-index: 1; /* Ensure the pseudo-element is behind the content */
 }
+nav{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 .header-text {
   font-size: 91.1px;
   line-height: 93.32px;
