@@ -17,6 +17,12 @@ body {
   line-height: 24px;
 }
 
+.search{
+  font-size: 18px;
+  font-family: "DM Sans";
+  line-height: 44px;
+}
+
 .header-content {
   font-size: 14px;
   font-family: "DM Sans";
