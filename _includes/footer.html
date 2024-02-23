@@ -13,15 +13,14 @@
   <div class="pt-10 lg:grid lg:grid-cols-2">
     <div class="flex flex-col lg:flex-row">
       {% for nav in site.data.main.nav %}
-          <a
-            href="{{nav.link}}"
-            class="pr-6 py-3 lg:py-8 nav-item"
-            >{{nav.name}}</a
-          >
+      <a href="{{nav.link}}" class="pr-6 py-3 lg:py-8 nav-item">{{nav.name}}</a>
       {% endfor %}
     </div>
     <div class="flex py-7 justify-self-end space-x-3">
-      <a href="{{site.data.main.social.twitter}}" class="border border-current p-2 rounded-md">
+      <a
+        href="{{site.data.main.social.twitter}}"
+        class="border border-current w-[40px] h-[40px] flex items-center justify-center rounded-md"
+      >
         <svg
           width="16"
           height="16"
@@ -37,7 +36,10 @@
           />
         </svg>
       </a>
-      <a href="{{site.data.main.social.github}}" class="border border-current p-2 rounded-md">
+      <a
+        href="{{site.data.main.social.github}}"
+        class="border border-current w-[40px] h-[40px] flex items-center justify-center rounded-md"
+      >
         <svg
           width="16"
           height="16"
@@ -51,7 +53,10 @@
           />
         </svg>
       </a>
-      <a href="{{site.data.main.social.linkedIn}}" class="border border-current p-2 rounded-md">
+      <a
+        href="{{site.data.main.social.linkedIn}}"
+        class="border border-current w-[40px] h-[40px] flex items-center justify-center rounded-md"
+      >
         <svg
           width="16"
           height="16"
