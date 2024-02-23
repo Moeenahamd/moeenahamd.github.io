@@ -1,13 +1,9 @@
 .main {
-  object-fit:cover;
-			
-       
-        background: url("/assets/background.png") no-repeat center;
-        background-size: cover; /* Ensure the background image covers the entire container */
-       background-position: center; /* Center the background image */
-       position: relative; 
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(26, 27, 42, 1); */
+  object-fit:cover;  
+  background: url("/assets/background.png") no-repeat center;
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  position: relative;
 }
 
 .main::before {
@@ -18,8 +14,8 @@
   width: 100%; /* Cover the entire container */
   height: 100%; /* Cover the entire container */
   background-color: rgba(0, 2, 18,0.1); /* Change the color and adjust the opacity as needed */
-  z-index: 1; /* Ensure the pseudo-element is behind the content */
 }
+
 nav{
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
