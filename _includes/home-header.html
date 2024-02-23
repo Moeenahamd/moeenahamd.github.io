@@ -2,7 +2,7 @@
     <nav class="overflow-x-hidden pb-[31px] pt-[34px]">
       <div class="mx-auto max-w-9xl">
         <div
-          class="relative flex items-center grid grid-cols-12 gap-x-4 md:gap-x-1 justify-between  max-sm: w-[342px] m-auto"
+          class="relative flex items-center grid grid-cols-12 gap-x-4 md:gap-x-1 justify-between  max-w-sm: w-[342px] m-auto"
         >
           <div
             class="absolute inset-y-0 right-0 items-center sm:flex xs:flex flex md:hidden lg:hidden xl:hidden lg:mr-0 xl:mr-0 sm:mr-5"
@@ -11,7 +11,7 @@
             <button
               type="button"
               onclick="toggle()"
-              class="relative inline-flex items-center justify-center rounded-lg border-0 p-2  hover:text-white "
+              class="relative inline-flex items-center justify-center rounded-lg border-0 hover:text-white "
             >
             
               <span class="absolute -inset-0.5"></span>
@@ -226,14 +226,14 @@
         </div>
   
         <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="hidden" id="mobile-menu">
+        <div class="hidden w-[342px] m-auto" id="mobile-menu">
           <div class="space-y-1">
             <!-- ... Mobile menu items ... -->
             {% for nav in site.data.main.nav %}
             <div class="mt-[24px]">
               <a
                 href="{{nav.link}}"
-                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 md:px-1 py-2 text-sm"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white text-sm"
                 >{{nav.name}}</a
               >
             </div>
