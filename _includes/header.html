@@ -1,8 +1,8 @@
 <div class="main">
-  <nav class="overflow-x-hidden pt-[34px] pb-[31px]">
+  <nav class="overflow-x-hidden pb-[31px] pt-[34px]">
     <div class="mx-auto max-w-9xl">
       <div
-        class="relative flex items-center grid grid-cols-12 gap-x-4 md:gap-x-1 justify-between w-[342] m-auto"
+        class="relative flex items-center grid grid-cols-12 gap-x-4 md:gap-x-1 justify-between w-[342px] sm:w-full m-auto"
       >
         <div
           class="absolute inset-y-0 right-0 items-center sm:flex xs:flex flex md:hidden lg:hidden xl:hidden lg:mr-0 xl:mr-0 sm:mr-5"
@@ -11,20 +11,22 @@
           <button
             type="button"
             onclick="toggle()"
-            class="relative inline-flex items-center justify-center rounded-lg p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            class="relative inline-flex items-center justify-center rounded-lg border-0 hover:text-white "
           >
+          
             <span class="absolute -inset-0.5"></span>
             <span class="sr-only">Open main menu</span>
+            <!-- Icon when menu is closed. Menu open: "hidden", Menu closed: "block" -->
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 16H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M4 8H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M4 24H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>                
             <!-- Icon when menu is open. Menu open: "block", Menu closed: "hidden" -->
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M24.1685 8.14526L8.16846 24.1453" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M8.16846 8.14526L24.1685 24.1453" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              </svg> -->
               
           </button>
         </div>
@@ -32,7 +34,7 @@
           class="flex lg:flex-1 md:flex-1 items-center justify-start xl:justify-center lg:justify-center sm:items-stretch sm:justify-start xl:col-span-7 col-span-8 md:col-span-8 sm:col-span-12"
         >
           <div
-            class="flex flex-shrink-0 items-center sm:w-1/4 md:w-1/5 w-2/4 lg:w-1/5 xl:w-1/5 md:ml-8 ml-8 lg:ml-8"
+            class="flex flex-shrink-0 items-center sm:w-1/4 md:w-1/5 w-2/4 lg:w-1/5 xl:w-1/5 md:ml-8  lg:ml-8"
           >
             <a href="/">
               <svg
@@ -224,14 +226,14 @@
       </div>
 
       <!-- Mobile menu, show/hide based on menu state. -->
-      <div class="hidden" id="mobile-menu">
-        <div class="space-y-1 px-2 ml-8 pb-3 pt-2">
+      <div class="hidden w-[342px] m-auto h-full" id="mobile-menu">
+        <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1);" class="pb-[24px">
           <!-- ... Mobile menu items ... -->
           {% for nav in site.data.main.nav %}
-          <div>
+          <div class="mt-[24px]">
             <a
               href="{{nav.link}}"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 md:px-1 py-2 text-sm"
+              class="text-white nav-item"
               >{{nav.name}}</a
             >
           </div>
@@ -240,10 +242,10 @@
         </div>
 
         <div
-          class="col-span-4 xl:col-span-5 md:col-span-7 lg:col-span-5 xl:ml-4 lg:ml-3 md:ml-2 ml-0 flex"
+          class="col-span-4 xl:col-span-5 md:col-span-7 lg:col-span-5 flex mt-[24px]"
         >
           <div
-            class="border border-gray-500 flex w-[40px] h-[40px] flex items-center justify-center xl:mx-3 mx-2 md:mx-1 rounded-lg"
+            class="border border-gray-500 flex w-[40px] h-[40px] flex items-center justify-center mr-[13px] rounded-lg"
           >
             <svg
               width="21px"
@@ -261,7 +263,7 @@
             </svg>
           </div>
           <div
-            class="border border-gray-500 flex w-[40px] h-[40px] flex items-center justify-center rounded-lg"
+            class="border border-gray-500 flex w-[40px] h-[40px] flex items-center mr-[13px] justify-center rounded-lg"
           >
             <svg
               width="21px"
@@ -307,7 +309,7 @@
             </svg>
           </div>
           <div
-            class="border border-gray-500 flex w-[40px] h-[40px] flex items-center justify-center xl:mx-3 mx-2 md:mx-1 rounded-lg"
+            class="border border-gray-500 flex w-[40px] h-[40px] flex items-center justify-center mr-[13px] rounded-lg"
           >
             <svg
               width="22px"
