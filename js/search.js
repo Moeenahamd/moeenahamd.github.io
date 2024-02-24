@@ -14,6 +14,17 @@ function toggle() {
     x.classList.add("block");
   }
 }
+
+function toggleSearch() {
+  var x = document.getElementById("search-menu");
+  if (x.classList.contains("block")) {
+    x.classList.remove("block");
+    x.classList.add("hidden");
+  } else {
+    x.classList.remove("hidden");
+    x.classList.add("block");
+  }
+}
 !(function () {
   "use strict";
   function e(e) {
