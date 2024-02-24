@@ -344,11 +344,46 @@
 </div>
 
 
-<div class="hidden w-[342px] m-auto h-full" id="mobile-menu">
-  <div
-    style="border-bottom: 1px solid rgba(255, 255, 255, 0.1)"
-    class="pb-[24px]"
+<div class="hidden w-[342px] m-auto h-full" id="mobile-menu" style="
+    position: absolute;
+    top: 0px;
+    background: black;">
+  <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1)" class="pb-[24px]">\
+    
+    <div
+    class="absolute inset-y-0 right-0 items-center sm:flex xs:flex flex md:hidden lg:hidden xl:hidden lg:mr-0 xl:mr-0 sm:mr-5"
   >
+    <button
+      type="button"
+      onclick="toggle()"
+      class="relative inline-flex items-center justify-center rounded-lg border-0 hover:text-white"
+    >
+      <svg
+        id="cross-icon"
+        style="display: none"
+        width="33"
+        height="33"
+        viewBox="0 0 33 33"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.1685 8.14526L8.16846 24.1453"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M8.16846 8.14526L24.1685 24.1453"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
     <!-- ... Mobile menu items ... -->
     {% for nav in site.data.main.nav %}
     <div class="mt-[24px]">
