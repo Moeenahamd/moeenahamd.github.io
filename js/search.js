@@ -11,13 +11,13 @@ function toggle() {
   if (x.classList.contains("block")) {
     x.classList.remove("block");
     x.classList.add("hidden");
-    crossIcon.style.display = 'none';
-    hamIcon.style.display = 'block';
+    hamIcon.style.display = 'none';
+    crossIcon.style.display = 'block';
   } else {
     x.classList.remove("hidden");
     x.classList.add("block");
-    hamIcon.style.display = 'none';
-    crossIcon.style.display = 'block';
+    crossIcon.style.display = 'none';
+    hamIcon.style.display = 'block';
   }
 }
 !(function () {
