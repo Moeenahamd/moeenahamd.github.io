@@ -44,7 +44,6 @@
             <span class="sr-only">Open main menu</span>
             <!-- Icon when menu is closed. Menu open: "hidden", Menu closed: "block" -->
             <svg
-              id="hamburger-icon"
               width="32"
               height="32"
               viewBox="0 0 32 32"
@@ -67,31 +66,6 @@
               />
               <path
                 d="M4 24H28"
-                stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-            <!-- Icon when menu is open. Menu open: "block", Menu closed: "hidden" -->
-            <svg
-              id="cross-icon"
-              style="display: none"
-              width="33"
-              height="33"
-              viewBox="0 0 33 33"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M24.1685 8.14526L8.16846 24.1453"
-                stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8.16846 8.14526L24.1685 24.1453"
                 stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
@@ -353,7 +327,6 @@
           class="flex items-center justify-center rounded-lg border-0 hover:text-white"
         >
           <svg
-            id="cross-icon"
             width="33"
             height="33"
             viewBox="0 0 33 33"
@@ -378,6 +351,10 @@
         </button>
       </div>
       <!-- ... Mobile menu items ... -->
+      
+      <div class="mt-[24px]">
+        <a href="/" class="text-white nav-item">HOME</a>
+      </div>
       {% for nav in site.data.main.nav %}
       <div class="mt-[24px]">
         <a href="{{nav.link}}" class="text-white nav-item">{{nav.name}}</a>

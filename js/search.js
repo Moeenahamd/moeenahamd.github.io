@@ -6,18 +6,12 @@
 
 function toggle() {
   var x = document.getElementById("mobile-menu");
-  var hamIcon = document.getElementById("hamburger-icon");
-  var crossIcon = document.getElementById("cross-icon");
   if (x.classList.contains("block")) {
     x.classList.remove("block");
     x.classList.add("hidden");
-    hamIcon.style.display = 'none';
-    crossIcon.style.display = 'block';
   } else {
     x.classList.remove("hidden");
     x.classList.add("block");
-    crossIcon.style.display = 'none';
-    hamIcon.style.display = 'block';
   }
 }
 !(function () {
