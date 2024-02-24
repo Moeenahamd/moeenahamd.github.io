@@ -319,9 +319,9 @@
 
 <div class="hidden w-full h-full" id="mobile-menu" style="position: absolute;top: 0px;background: black;">
   <div class="w-[342px] m-auto">
-    <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1)" class="pb-[24px]">
+    <div class="pb-[24px]">
     
-      <div class="h-[68px] flex items-center justify-end">
+      <div class="h-[68px] flex items-center justify-end" style="border-bottom: 1px solid rgba(255, 255, 255, 0.1)">
         <button
           type="button"
           onclick="toggle()"
@@ -465,36 +465,19 @@
 
 <div class="hidden w-full h-full" id="search-menu" style="position: absolute;top: 0px;background: white;">
   <div class="w-[342px] m-auto">
-    <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1)" class="pb-[24px]">
+    <div class="pb-[24px]">
     
-      <div class="h-[68px] flex items-center justify-end">
+      <div class="h-[68px] flex items-center justify-end" style="border-bottom: 1px solid rgba(0, 0, 0, 0.1)">
         <button
           type="button"
           onclick="toggleSearch()"
           class="flex items-center justify-center rounded-lg border-0 hover:text-white"
         >
-          <svg
-            width="33"
-            height="33"
-            viewBox="0 0 33 33"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M24.1685 8.14526L8.16846 24.1453"
-              stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M8.16846 8.14526L24.1685 24.1453"
-              stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24.1685 8.14551L8.16846 24.1455" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8.16846 8.14551L24.1685 24.1455" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
+          
         </button>
       </div>
       <!-- ... Mobile menu items ... -->

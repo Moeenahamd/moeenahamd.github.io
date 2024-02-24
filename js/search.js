@@ -25,6 +25,7 @@ function toggleSearch() {
     x.classList.add("block");
   }
 }
+
 !(function () {
   "use strict";
   function e(e) {
