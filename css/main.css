@@ -54,6 +54,7 @@ body {
   width: 236px;
   height: 48px;
   letter-spacing: 1.1px;
+  z-index: 1;
 }
 .main-heading {
   font-size: 32px;
