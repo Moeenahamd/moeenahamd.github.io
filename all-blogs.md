@@ -1,5 +1,5 @@
 ---
 layout: posts
-title: blog
+title: POST
 all: true
 ---

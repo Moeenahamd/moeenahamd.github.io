@@ -1,5 +1,5 @@
 ---
 layout: podcasts
-title: podcast
+title: PODCAST
 all: true
 ---
