@@ -77,8 +77,9 @@ layout: default
             - {{element.text}}
             </p>
             <div class="flex max-lg:hidden space-x-2">
+              {% if element.deck %}
               <a
-                href="https://speakerdeck.com/vpetersson/the-devsecops-iceberg-at-cloud-native-london"
+                href="{{element.deck}}"
               >
                 <svg
                   width="24"
@@ -93,7 +94,9 @@ layout: default
                   />
                 </svg>
               </a>
-              <a href="https://www.youtube.com/watch?v=BNnP4AmMdQE&t=130s">
+              {% endif %}
+              {% if element.video %}
+              <a href="{{element.video}}">
                 <svg
                   width="24px"
                   height="24px"
@@ -124,6 +127,10 @@ layout: default
                   </g>
                 </svg>
               </a>
+              {% endif %}
+              {% if element.link %}
+                <a href="{{element.link.url}}" class="lg:underline">{{element.link.text}}</a>
+              {% endif %}
             </div>
             <!-- <p
               class="text-white max-sm:max-sm:h-[42px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
