@@ -48,37 +48,42 @@ layout: default
         </div>
         
         {% for item in item.elements %}
+        
         <div
-          class="space-y-3 max-sm:space-y-0 max-sm:w-[341px] w-[864.37px] text-[Roboto] text-xs xl:text-base"
+          class="space-y-3 max-sm:space-y-0 max-sm:space-y-0 max-sm:w-[341px] w-[864.37px] text-[Roboto] text-xs xl:text-base"
         >
           <div
-            class="flex lg:items-center max-lg:pl-4 lg:space-x-2 max-sm:h-[42px] max-sm:w-[341px]"
+            class="flex lg:items-center space-x-2 max-lg:pl-4 max-sm:w-[341px]"
           >
             <div class="max-sm:px-1 max-sm:w-[89px]">
               <div
-                class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+                class="lg:hidden border border-green-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
               >
-              {{element.type}}
+                PRESS
+              </div>
+              <div
+                class="max-lg:hidden border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+              >
+                TALK
               </div>
             </div>
             <p
-              class="text-white max-sm:max-sm:h-[42px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
+              class="lg:hidden text-white h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-            - {{element.text}}
-            <span class="lg:hidden underline">
-              {% if element.deck %}
-              <a href="{{element.deck }}">deck</a>
-              {% elsif element.video %}
-              <a href="https://www.youtube.com/watch?v=oeIkJD3cTtw"> video </a>
-              {% elsif element.link %}
-              <a href="{{element.link.url}}" class="lg:underline">{{element.link.text}}</a>
-              {% endif %}
-            </span>
+              The Register -
+              <a
+                href="https://www.theregister.com/2022/11/09/canonical_conference/"
+              >
+                Strong support for Snap and Ubuntu Core as Canonical meet IRL
+              </a>
+            </p>
+            <p
+              class="max-lg:hidden text-white w-[270px] h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
+            >
+              Ubuntu Summit, Prague, Czech Republic
             </p>
             <div class="flex max-lg:hidden space-x-2">
-              <a
-                href="https://speakerdeck.com/vpetersson/beyond-just-a-menu-display"
-              >
+              <a>
                 <svg
                   width="24"
                   height="24"
@@ -92,7 +97,7 @@ layout: default
                   />
                 </svg>
               </a>
-              <a href="https://www.youtube.com/watch?v=bkzFDTh_DdI">
+              <a>
                 <svg
                   width="24px"
                   height="24px"
@@ -125,7 +130,48 @@ layout: default
               </a>
             </div>
           </div>
-          
+          <div
+            class="flex lg:items-center space-x-2 max-lg:pl-4 max-sm:h-[63px] max-sm:w-[341px]"
+          >
+            <div class="max-sm:px-1 max-sm:w-[89px]">
+              <div
+                class="max-lg:hidden border border-green-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
+              >
+                PRESS
+              </div>
+              <div
+                class="lg:hidden border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
+              >
+                TALK
+              </div>
+            </div>
+            <p
+              class="lg:hidden text-white h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
+            >
+              Ubuntu Summit, Prague, Czech Republic
+              <span>
+                (<a href="https://www.youtube.com/watch?v=fVkDqJzXKa0">video</a
+                >,
+                <a
+                  href="https://www.screenly.io/blog/2022/11/29/five-years-of-ubuntu-core/"
+                >
+                  blog post
+                </a>
+
+                )
+              </span>
+            </p>
+            <p
+              class="max-lg:hidden text-white w-[530px] h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
+            >
+              The Register -
+              <a
+                href="https://www.theregister.com/2022/11/09/canonical_conference/"
+              >
+                Strong support for Snap and Ubuntu Core as Canonical meet IRL
+              </a>
+            </p>
+          </div>
         </div>
         {% endfor %}
       </div>
