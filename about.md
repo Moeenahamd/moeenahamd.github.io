@@ -39,6 +39,16 @@ timeline:
       text: "Ubuntu Summit, Prague, Czech Republic"
       video: https://www.youtube.com/watch?v=fVkDqJzXKa0
       blog: https://www.screenly.io/blog/2022/11/29/five-years-of-ubuntu-core/
+ - heading: 2020 
+   elements:
+    - type: Talk
+      text: "Cloud Native London, London, UK"
+      deck: https://speakerdeck.com/vpetersson/the-devsecops-iceberg-at-cloud-native-london
+      video: https://youtu.be/BNnP4AmMdQE?t=130
+    - type: Podcast
+      text: " Balena's IoT Happy Hour"
+      youtube: https://www.youtube.com/watch?v=SgCRvEP2KyA
+ 
  - heading: Other 
  - heading: Guest posts 
 ---
