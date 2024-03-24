@@ -101,7 +101,95 @@ timeline:
     - type: Talk
       text: "IoT London (2016), London, UK"
       deck: https://speakerdeck.com/vpetersson/screenly-at-iot-london
- 
+ - heading: 2015 
+   elements:
+    - type: Press
+      text: "Syncsort "
+      link:
+        url: https://blog.syncsort.com/2015/01/big-data/interview-viktor-petersson-vp-business-development-iaas-provider-cloudsigma/
+        text: "Interview with Viktor Petersson, VP of Business Development for IAAS provider CloudSigma"
+    - type: Talk
+      text: " IoT Day @ BBVA Innovation Center (2015), Madrid, Spain"
+      deck: https://speakerdeck.com/vpetersson/iot-use-case-screenly
+    - type: Talk
+      text: "  Open Cloud Day (2015), Bern, Switzerland"
+      deck: https://speakerdeck.com/vpetersson/server-evolution-from-mainframes-to-containers-and-paas), [video](https://www.youtube.com/watch?v=pHdc3f98Kxs&index=11&list=PLofS3lNZckseu0v_CP4XjgDUQxRKfF6gA
+    - type: Talk
+      text: "ApacheCon North America (2015), Austin, TX "
+      deck: https://speakerdeck.com/vpetersson/an-introduction-to-cgroups-and-cgroupspy
+    - type: Talk
+      text: " CloudExpo Europe (2015), London UK "
+      video: https://speakerdeck.com/vpetersson/an-introduction-to-cgroups-and-cgroupspy
+    - type: Panel
+      text: "CloudExpo Europe (2015), London, UK"
+ - heading: 2014 
+   elements:
+    - type: Press
+      text: "Sixteen:Nine"
+      link:
+        url: https://www.sixteen-nine.net/2014/03/24/screenly-qa-optimization-crucial-raspberry-pi-digital-signage/
+        text: "Screenly Q&A: Optimization Crucial For Raspberry Pi Digital Signage"
+    - type: Press
+      text: " Ubuntu Insights"
+      link:
+        url: https://blog.ubuntu.com/2014/10/15/cloudsigma-joins-ubuntu-certified-public-cloud
+        text: "CloudSigma joins Ubuntu Certified Public Cloud"
+    - type: Talk
+      text: "Zadara Summit (2014), Las Vegas, NV"
+      deck: https://speakerdeck.com/vpetersson/cloudsigma-zadara-summit
+ - heading: 2013 
+   elements:
+    - type: Press
+      text: "Sixteen:Nine"
+      link:
+        url: https://www.sixteen-nine.net/2013/05/03/screenly-serves-raspberry-pi-alternative-android-players/
+        text: "Screenly Serves Up Raspberry Pi As Alternative To Android Players"
+    - type: Talk
+      text: " Pi And More 3 (2013), Trier, Germany"
+      deck: https://speakerdeck.com/vpetersson/screenly-at-pi-and-more-3
+    - type: Talk
+      text: " gSocial 2 (2013), Sunnyvale, CA "
+      deck: https://speakerdeck.com/vpetersson/email-migration-best-practices    
+ - heading: 2012 
+   elements:
+    - type: Press
+      text: " Data Center Knowledge"
+      link:
+        url: https://www.informationweek.com/cloud/cloud-storage/cloudsigma-one-tool-for-many-cloud-workloads/d/d-id/1114055
+        text: "Currency Miners Cause Spot Shortages of Dedicated Servers"
+    - type: Press
+      text: "Information Week"
+      link:
+        url: https://www.informationweek.com/cloud/cloud-storage/cloudsigma-one-tool-for-many-cloud-workloads/d/d-id/1114055
+        text: "CloudSigma: One Tool For Many Cloud Workloads"
+    - type: Press
+      text: "TechCrunch"
+      link:
+        url: https://techcrunch.com/2012/02/07/yippiemove-wants-to-become-the-twilio-of-email-migration/
+        text: "YippieMove Wants To Become The Twilio Of Email Migration"
+    - type: Talk
+      text: " NoSQL Road Show (2012), Basel, Switzerland"
+      deck: https://speakerdeck.com/vpetersson/mongodbs-replica-sets-painless-scaling-and-high-availability-ha
+ - heading: 2009
+   elements:
+    - type: Press
+      text: "NyTeknik"
+      link:
+        url: https://www.nyteknik.se/digitalisering/flyttgubbe-pa-natet-for-over-din-e-post-6408650
+        text: "Flyttgubbe på nätet för över din e-post"
+        text: "Swedish"
+ - heading: 2008 
+   elements:
+    - type: Press
+      text: "CNET"
+      link:
+        url: https://www.cnet.com/news/yippie-move-migrates-all-your-e-mail-for-ten-bucks/
+        text: "Yippie Move migrates all your e-mail for ten bucks"
+    - type: Press
+      text: "GigaOM "
+      link:
+        url: https://gigaom.com/2008/08/14/yippiemove-email-portability/
+        text: "YippieMove Offers Email Portability"
  - heading: Other 
  - heading: Guest posts 
 ---
