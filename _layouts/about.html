@@ -8,7 +8,7 @@ layout: default
     class="bg-[url('/assets/background.png')] bg-no-repeat bg-cover h-[269px] sm:h-[374px] flex items-center justify-center"
   >
     <div>
-      <p class="header-text text-white">ABOUT</p>
+      <p class="header-text text-white">{{page.title | upcase}}</p>
     </div>
   </div>
   <div class="w-full bg-[#1A1B2A] lg:bg-[#000212]">
@@ -89,6 +89,11 @@ layout: default
                 {% endif %}
               )
               {% endif %}
+              
+              {% if element.link %}
+                <a href="{{element.link.url}}" class="lg:underline text-white max-sm:w-[241px] max-sm:h-[63px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]">{{element.link.text}}</a>
+              {% endif %}
+
             </p>
             <p
               class="max-lg:hidden text-white h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
