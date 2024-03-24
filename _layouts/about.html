@@ -58,20 +58,20 @@ layout: default
               <div
                 class="border border-yellow-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[53px] max-sm:h-[22px] w-[66px] h-[29px] text-white"
               >
-                {{element.type}}
+                {{element.type | capitalize}}
               </div>
               {% elsif element.type == 'Podcast' %}
               <div
                 class="border border-indigo-600 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[78px] max-sm:h-[22px] w-[95px] h-[29px] text-white"
               >
-                {{element.type}}
+                {{element.type | capitalize}}
               </div>
               
               {% else %}
               <div
                 class=" border border-green-400 border-rounded rounded-[32px] h-7 font-normal font-[Roboto] max-sm:text-[12px] max-sm:leading-[18px] leading-[21px] text-[14px] max-sm:py-[2px] max-sm:px-[12px] py-[4px] px-[16px] gap-[4px] max-sm:w-[61px] max-sm:h-[22px] w-[75px] h-[29px] text-white"
               >
-                {{element.type}}
+                {{element.type | capitalize}}
               </div>
               {% endif %}
             </div>
