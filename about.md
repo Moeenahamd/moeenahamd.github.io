@@ -3,7 +3,28 @@ layout: about
 title: ABOUT
 
 timeline:
-    - heading: 2023 
+ - heading: 2023 
+   elements:
+    - type: Talk
+      text: "Ubuntu Summit, Riga, Latvia"
+      deck: https://speakerdeck.com/vpetersson/from-pets-to-cattle
+      video: https://www.youtube.com/watch?v=oeIkJD3cTtw
+ - heading: 2022 
+ - heading: 2020 
+ - heading: 2019 
+ - heading: 2018 
+ - heading: 2016 
+ - heading: 2015 
+ - heading: 2014 
+ - heading: 2013 
+ - heading: 2012 
+ - heading: 2009
+ - heading: 2008 
+ - heading: Other 
+ - heading: Guest posts 
+---
+
+
       elements:
         - type: Talk
           text: "Ubuntu Summit, Riga, Latvia"
@@ -32,18 +53,3 @@ timeline:
           link:
             url: https://techcrunch.com/2023/08/30/screenly-makes-it-easier-to-build-interactive-apps-for-its-digital-signage-platform/
             text: "Screenly makes it easier to build interactive apps for its digital signage platform"
-    - heading: 2022 
-    - heading: 2020 
-    - heading: 2019 
-    - heading: 2018 
-    - heading: 2016 
-    - heading: 2015 
-    - heading: 2014 
-    - heading: 2013 
-    - heading: 2012 
-    - heading: 2009
-    - heading: 2008 
-    - heading: Other 
-    - heading: Guest posts 
----
-
