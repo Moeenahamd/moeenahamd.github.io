@@ -78,18 +78,22 @@ layout: default
             <p
               class="lg:hidden text-white h-[42px] font-[Roboto] font-normal text-[14px] leading-[21px]"
             >
-              {{element.text}} (<a
-                href="https://speakerdeck.com/vpetersson/the-devsecops-iceberg-at-cloud-native-london"
-                >deck</a
-              >,
-              <a href="https://www.youtube.com/watch?v=BNnP4AmMdQE&t=130s">
-                video </a
-              >)
+              {{element.text}} 
+              {% if element.deck or  element.video %}
+              (
+                {% if element.deck %}
+                <a href="{{element.deck}}">deck</a>
+                {% endif %}
+                {% if element.video %}
+                <a href="{{element.video}}">video </a>
+                {% endif %}
+              )
+              {% endif %}
             </p>
             <p
               class="max-lg:hidden text-white h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
             >
-            - {{element.text}}
+             {{element.text}}
             </p>
             <div class="flex max-lg:hidden space-x-2">
               {% if element.deck %}
