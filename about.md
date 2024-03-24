@@ -49,6 +49,7 @@ timeline:
       text: " Balena's IoT Happy Hour"
       youtube: https://www.youtube.com/watch?v=SgCRvEP2KyA
  - heading: 2019 
+   elements:
     - type: Talk
       text: "Docker London, London, UK"
       deck: https://speakerdeck.com/vpetersson/whats-mtls-at-docker-london
@@ -62,6 +63,7 @@ timeline:
     - type: Talk
       text: "InfoSecurity Europe, London, UK"
  - heading: 2018 
+   elements:
     - type: Press
       text: "DailyDOOH"
       link:
@@ -78,6 +80,7 @@ timeline:
       text: " Ansible London, London, UK "
       deck: https://speakerdeck.com/vpetersson/provisioner-at-ansible-london
  - heading: 2016 
+   elements:
     - type: Press
       text: "Sixteen:Nine"
       link:
@@ -99,6 +102,7 @@ timeline:
       text: "IoT London (2016), London, UK"
       deck: https://speakerdeck.com/vpetersson/screenly-at-iot-london
  - heading: 2015 
+   elements:
     - type: Press
       text: "Syncsort "
       link:
@@ -119,6 +123,7 @@ timeline:
     - type: Panel
       text: "CloudExpo Europe (2015), London, UK"
  - heading: 2014 
+   elements:
     - type: Press
       text: "Sixteen:Nine"
       link:
@@ -133,6 +138,7 @@ timeline:
       text: "Zadara Summit (2014), Las Vegas, NV"
       deck: https://speakerdeck.com/vpetersson/cloudsigma-zadara-summit
  - heading: 2013 
+   elements:
     - type: Press
       text: "Sixteen:Nine"
       link:
@@ -145,6 +151,7 @@ timeline:
       text: " gSocial 2 (2013), Sunnyvale, CA "
       deck: https://speakerdeck.com/vpetersson/email-migration-best-practices    
  - heading: 2012 
+   elements:
     - type: Press
       text: " Data Center Knowledge"
       link:
@@ -164,6 +171,7 @@ timeline:
       text: " NoSQL Road Show (2012), Basel, Switzerland"
       deck: https://speakerdeck.com/vpetersson/mongodbs-replica-sets-painless-scaling-and-high-availability-ha
  - heading: 2009
+   elements:
     - type: Press
       text: "NyTeknik"
       link:
@@ -171,6 +179,7 @@ timeline:
         text: "Flyttgubbe på nätet för över din e-post"
         text: "Swedish"
  - heading: 2008 
+   elements:
     - type: Press
       text: "CNET"
       link:
