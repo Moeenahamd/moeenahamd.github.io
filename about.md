@@ -62,6 +62,23 @@ timeline:
       deck: https://speakerdeck.com/vpetersson/living-on-the-edge-at-kubernetes-london
     - type: Talk
       text: "InfoSecurity Europe, London, UK"
+ - heading: 2018 
+   elements:
+    - type: Press
+      text: "DailyDOOH"
+      link:
+        url: https://www.youtube.com/watch?v=LtFCOHrgvs4
+        text: "Screenly + NEC interview"
+    - type: Talk
+      text: Open Source Summit North America, Vancouver, Canada
+      deck: https://events.linux foundation.org/wp-content/uploads/2017/11/The-S-in-IoT-Stands-for-Security-Viktor-Petersson-Screenly-Andrew-Martin-Control-Plane.pdf
+    - type: Talk
+      text: "Container Camp, Melbourne, Australia"
+      deck: https://docs.google.com/presentation/d/1E1ZzkMmytOoW-aLkWlJzFT1MYLWE2RyAv0qOjQkxDt8/edit?usp=sharing
+      video: https://www.youtube.com/watch?v=PmWYTjr_Xso
+    - type: Talk
+      text: " Ansible London, London, UK "
+      deck: https://speakerdeck.com/vpetersson/provisioner-at-ansible-london
  
  - heading: Other 
  - heading: Guest posts 
