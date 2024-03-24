@@ -79,6 +79,28 @@ timeline:
     - type: Talk
       text: " Ansible London, London, UK "
       deck: https://speakerdeck.com/vpetersson/provisioner-at-ansible-london
+ - heading: 2016 
+   elements:
+    - type: Press
+      text: "Sixteen:Nine"
+      link:
+        url: http://sixteennine.podbean.com/e/viktor-petersson-screenly/
+        text: "Podcast Interview"
+    - type: Press
+      text: Ubuntu Insights
+      link:
+        url: https://blog.ubuntu.com/2016/05/18/digital-signage-solution-screenly-chooses-canonicals-ubuntu-core
+        text: "Digital signage solution, Screenly, chooses Canonical’s Ubuntu Core"
+    - type: Press
+      text: "Sixteen:Nine"
+      link:
+        url: https://www.sixteen-nine.net/2016/05/18/screenlys-raspberry-pi-powered-platform-shifting-to-new-iot-version-of-ubuntu-linux/
+        text: "Screenly’s Raspberry Pi-Powered Platform Shifting To New IoT Version Of Ubuntu Linux"
+    - type: Panel
+      text: "CloudExpo Europe (2016), London, UK"
+    - type: Talk
+      text: "IoT London (2016), London, UK"
+      deck: https://speakerdeck.com/vpetersson/screenly-at-iot-london
  
  - heading: Other 
  - heading: Guest posts 
