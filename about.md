@@ -48,6 +48,20 @@ timeline:
     - type: Podcast
       text: " Balena's IoT Happy Hour"
       youtube: https://www.youtube.com/watch?v=SgCRvEP2KyA
+ - heading: 2019 
+   elements:
+    - type: Talk
+      text: "Docker London, London, UK"
+      deck: https://speakerdeck.com/vpetersson/whats-mtls-at-docker-london
+    - type: Talk
+      text: "Open Source Summit Europe, Lyon, France"
+      deck: https://speakerdeck.com/vpetersson/the-s-in-iot-stands-for-security
+      video: https://www.youtube.com/watch?v=7yN999B11Ms&list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp&index=43&t=0s
+    - type: Talk
+      text: "Kubernetes London, London, UK"
+      deck: https://speakerdeck.com/vpetersson/living-on-the-edge-at-kubernetes-london
+    - type: Talk
+      text: "InfoSecurity Europe, London, UK"
  
  - heading: Other 
  - heading: Guest posts 
