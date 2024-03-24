@@ -63,14 +63,15 @@ layout: default
             <p
               class="text-white max-sm:max-sm:h-[42px] h-[24px] font-[Roboto] font-normal max-sm:text-[14px] text-[16px] max-sm:leading-[21px] leading-[24px]"
             >
-              Ubuntu Summit, Riga, Latvia
+              - {{element.text}}
               <span class="lg:hidden underline">
-                (<a
-                  href="https://speakerdeck.com/vpetersson/from-pets-to-cattle"
-                  >deck</a
-                >,
-                <a href="https://www.youtube.com/watch?v=oeIkJD3cTtw"> video </a
-                >)
+                {% if element.deck %}
+                <a href="{{element.deck }}">deck</a>
+                {% elsif element.video %}
+                <a href="https://www.youtube.com/watch?v=oeIkJD3cTtw"> video </a>
+                {% elsif element.link %}
+                <a href="{{element.link.url}}" class="lg:underline">{{element.link.text}}</a>
+                {% endif %}
               </span>
             </p>
             <div class="flex max-lg:hidden space-x-2">
