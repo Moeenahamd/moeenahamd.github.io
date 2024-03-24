@@ -46,6 +46,8 @@ layout: default
         >
           {{item.heading}}
         </div>
+        
+        {% for item in item.elements %}
         <div
           class="space-y-3 max-sm:space-y-0 max-sm:w-[341px] w-[864.37px] text-[Roboto] text-xs xl:text-base"
         >
@@ -125,6 +127,7 @@ layout: default
           </div>
           
         </div>
+        {% endfor %}
       </div>
       {% endfor %}
       <hr class="w-full opacity-[10%] border-#FFFFFF" />
