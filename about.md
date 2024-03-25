@@ -191,8 +191,52 @@ timeline:
         url: https://gigaom.com/2008/08/14/yippiemove-email-portability/
         text: "YippieMove Offers Email Portability"
  - heading: Other 
+   elements:
+    - text: FreeBSD’s 
+      link:
+        text: Highly Available Storage (HAST)
+        link: https://www.freebsd.org/doc/en/books/handbook/disks-hast.html
  - heading: Guest posts 
+   elements:
+    - text: BitTorrent 
+      link:
+        text: "Sync Dev: Securely Deploying Sync"
+        link: https://www.resilio.com/blog/sync-dev-securely-deploying-sync
+    - text: BitTorrent 
+      link:
+        text: "Sync Dev: Using Sync For Backups In The Cloud (With Docker)"
+        link: https://www.resilio.com/blog/sync-dev-using-sync-for-backups-in-the-cloud-with-docker
+    - text: Weave 
+      link:
+        text: How Weave Net Enables a Global Docker Cluster with OnApp
+        link: https://www.weave.works/blog/weave-global-docker-cluster/
+    - text: Rave Publications 
+      link:
+        text: Why Are We Not Talking About Digital Signage Security?
+        link: https://www.ravepubs.com/not-talking-digital-signage-security/
+    - text: Weave 
+      link:
+        text: Living on the Edge - How Screenly Monitors Edge IoT Devices with Prometheus
+        link: https://www.weave.works/blog/living-on-the-edge-how-screenly-monitors-edge-iot-devices-with-prometheus
+    - text: Docker 
+      link:
+        text: Compiling Qt with Docker multi-stage and multi-platform
+        link: https://www.docker.com/blog/compiling-qt-with-docker-multi-stage-and-multi-platform/
+    - text: Docker 
+      link:
+        text: Compiling Qt with Docker Using Caching
+        link: https://www.docker.com/blog/compiling-qt-with-docker-using-caching/
 ---
+
+- BitTorrent - [Sync Dev: Securely Deploying Sync](https://www.resilio.com/blog/sync-dev-securely-deploying-sync)
+- BitTorrent - [Sync Dev: Using Sync For Backups In The Cloud (With Docker)](https://www.resilio.com/blog/sync-dev-using-sync-for-backups-in-the-cloud-with-docker)
+- Weave - [How Weave Net Enables a Global Docker Cluster with OnApp](https://www.weave.works/blog/weave-global-docker-cluster/)
+- Rave Publications - [Why Are We Not Talking About Digital Signage Security?](https://www.ravepubs.com/not-talking-digital-signage-security/)
+- Weave - [Living on the Edge - How Screenly Monitors Edge IoT Devices with Prometheus](https://www.weave.works/blog/living-on-the-edge-how-screenly-monitors-edge-iot-devices-with-prometheus)
+- Docker - [Compiling Qt with Docker multi-stage and multi-platform](https://www.docker.com/blog/compiling-qt-with-docker-multi-stage-and-multi-platform/)
+- Docker - [Compiling Qt with Docker Using Caching](https://www.docker.com/blog/compiling-qt-with-docker-using-caching/)
+
+
 
 
 ## 2023
