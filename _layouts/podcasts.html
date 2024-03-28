@@ -52,7 +52,7 @@ layout: default
             <div
               class="podcast-item-time mt-27 text-white hidden lg:block xl:block"
             >
-              {{ podcast.date | date: date_format }}
+              {{ podcast.date | date: "%H hr %M min" }}
             </div>
           </div>
         </a>
