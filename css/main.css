@@ -17,9 +17,9 @@
 }
 
 ol, ul {
-  list-style: none !important;
-  margin: unset !important;
-  padding: unset !important;
+  list-style: revert !important;
+  margin: revert !important;
+  padding: revert !important;
 }
 
 nav {
