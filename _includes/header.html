@@ -148,14 +148,17 @@
                   </defs>
                 </g>
               </svg>
-
-              <input
+              <div id="search-container">
+                <input
+                id="search-input"
                 type="search"
                 class="relative m-0 -mr-0.5 block min-w-0 lg:w-1/2 md:w-1/4 flex flex-auto w-auto bg-transparent bg-clip-padding px-3 py-[0.25rem] search text-neutral-700 outline-none ease-in-out focus:z-[3] focus:text-neutral-700 focus:outline-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Search"
                 aria-label="Search"
                 aria-describedby="button-addon1"
               />
+                <ul id="results-container"></ul>
+            </div>
 
               <!--Search button-->
             </div>
