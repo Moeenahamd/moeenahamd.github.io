@@ -198,6 +198,7 @@ function toggleSearch() {
     function o(e) {
       throw new Error("SimpleJekyllSearch --- " + e);
     }
+    
     var a = {
         searchInput: null,
         resultsContainer: null,
