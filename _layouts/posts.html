@@ -20,6 +20,19 @@ layout: default
     <div class="w-[342px] xl:w-[1110px] m-auto">
       <p class="podcast-heading text-white ">Blog Posts</p>
       <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 gap-8 mt-8">
+        {% for post in site.posts %}
+          <a
+            href="{{ post.url | relative_url }}"
+            class="blog-card w-[340] xl:w-[350px] rounded-lg text-white"
+          >
+            <p class="blog-content">{{ post.title | escape }}</p>
+            <p class="text-gray-400 blog-time pt-3">
+              {% assign date_format = site.minima.date_format | default: "%b %-d,
+              %Y" %}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+            </p>
+          </a>
+        {% endfor %}
         {% for post in paginator.posts %}
           <a
             href="{{ post.url | relative_url }}"
