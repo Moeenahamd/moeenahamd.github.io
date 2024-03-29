@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.viktorpetersson.com" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "https://vpetersson.github.io/blog.viktorpetersson.com"
 paginate: 15
+paginate_path: "/blog/page:num/"
 twitter_username: vpetersson
 github_username: vpetersson
 
