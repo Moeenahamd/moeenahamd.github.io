@@ -158,7 +158,35 @@
                 aria-describedby="button-addon1"
               />
                 <ul id="results-container"></ul>
-            </div>
+              </div>
+              <script>
+                window.simpleJekyllSearch = new SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('results-container'),
+                json: '{{ site.baseurl }}/search.json',
+                searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+                noResultsText: 'No results found',
+                limit: 10,
+                fuzzy: true
+                })
+            </script>
+            <style>
+                #search-container {
+                    display: inline-block;
+                }
+                #results-container {
+                    list-style: none;
+                    margin: 0;
+                    position: absolute;
+                    top: 50px;
+                    right: 50px;
+                    background: #fff;
+                    border: 1px solid #dedede;
+                }
+                #results-container li {
+                    padding: 0 10px;
+                }
+            </style>
 
               <!--Search button-->
             </div>
