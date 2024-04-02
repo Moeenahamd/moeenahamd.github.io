@@ -22,14 +22,7 @@ body .nectar-fancy-ul[data-list-icon="none"] ul li {
   height: 100%;
   line-height: 22px;
 }
-.nectar-fancy-ul
-  ul
-  li
-  i.icon-default-style[class^="icon-"].icon-salient-thin-line {
-  font-size: 27px;
-  height: 27px;
-  line-height: 27px;
-}
+
 .container-wrap .nectar-fancy-ul[data-spacing="5px"] ul li {
   margin-bottom: 5px;
 }

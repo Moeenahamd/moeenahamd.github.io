@@ -7880,7 +7880,6 @@ body .wpb_row .column-image-bg-wrap {
 .icon-salient-right-line,
 .icon-salient-search,
 .icon-salient-spotify,
-.icon-salient-thin-line,
 .icon-salient-threads,
 .icon-salient-tiktok,
 .icon-salient-trustpilot,
@@ -8042,9 +8041,6 @@ i.fa.fa-houzz {
 .icon-button-arrow:before {
   content: "\e909";
 }
-.icon-salient-thin-line:before {
-  content: "\e602";
-}
 .icon-salient-spotify:before {
   content: "\f1bc";
 }
@@ -8171,3 +8167,4 @@ body .steadysets-icon-book2:before {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.48);
 }
+
