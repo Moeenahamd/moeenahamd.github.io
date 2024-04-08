@@ -1,5 +1,5 @@
 ---
-layout: reading log
+layout: reading-log
 permalink: /reading-log/
 title: Reading Log
 
