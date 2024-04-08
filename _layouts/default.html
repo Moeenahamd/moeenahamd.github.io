@@ -1,292 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js">
-  {% include head.html %}
-  <body
-    class="home page-template-default page page-id-94496 wp-custom-logo material wpb-js-composer js-comp-ver-6.13.1 vc_responsive"
-    data-footer-reveal="false"
-    data-footer-reveal-shadow="none"
-    data-header-format="centered-menu"
-    data-body-border="off"
-    data-boxed-style=""
-    data-header-breakpoint="1000"
-    data-dropdown-style="minimal"
-    data-cae="easeOutQuart"
-    data-cad="1400"
-    data-megamenu-width="contained"
-    data-aie="none"
-    data-ls="fancybox"
-    data-apte="standard"
-    data-hhun="1"
-    data-fancy-form-rcs="1"
-    data-form-style="default"
-    data-form-submit="default"
-    data-is="minimal"
-    data-button-style="rounded_shadow"
-    data-user-account-button="false"
-    data-flex-cols="true"
-    data-col-gap="50px"
-    data-header-inherit-rc="false"
-    data-header-search="false"
-    data-animated-anchors="true"
-    data-ajax-transitions="false"
-    data-full-width-header="true"
-    data-slide-out-widget-area="true"
-    data-slide-out-widget-area-style="slide-out-from-right"
-    data-user-set-ocm="off"
-    data-loading-animation="none"
-    data-bg-header="true"
-    data-responsive="1"
-    data-ext-responsive="true"
-    data-ext-padding="60"
-    data-header-resize="0"
-    data-header-color="custom"
-    data-transparent-header="false"
-    data-cart="false"
-    data-remove-m-parallax=""
-    data-remove-m-video-bgs=""
-    data-m-animate="1"
-    data-force-header-trans-color="light"
-    data-smooth-scrolling="0"
-    data-permanent-transparent="false"
-  >
-    <script type="text/javascript">
-      (function (window, document) {
-        if (
-          navigator.userAgent.match(
-            /(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/
-          )
-        ) {
-          document.body.className += " using-mobile-browser mobile ";
-        }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|DM Sans|Roboto|Hanken+Grotesk"
+      rel="stylesheet"
+    />
+    <link href="/css/main.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Viktor Petersson</title>
+  </head>
 
-        if (!("ontouchstart" in window)) {
-          var body = document.querySelector("body");
-          var winW = window.innerWidth;
-          var bodyW = body.clientWidth;
-
-          if (winW > bodyW + 4) {
-            body.setAttribute(
-              "style",
-              "--scroll-bar-w: " + (winW - bodyW - 4) + "px"
-            );
-          } else {
-            body.setAttribute("style", "--scroll-bar-w: 0px");
-          }
-        }
-      })(window, document);
-    </script>
-    <a href="#ajax-content-wrap" class="nectar-skip-to-content"
-      >Skip to main content</a
-    >
-    <div class="ocm-effect-wrap">
-      <div class="ocm-effect-wrap-inner">
-        <div id="header-space" data-header-mobile-fixed="1"></div>
-        {% include nav.html %}
-        <div id="ajax-content-wrap">
-            <div class="container-wrap">
-                {{content}}
-                {% include before-footer.html %}
-            </div>
-          <!-- {% include footer.html %} -->
-        </div>
-        <!--/ajax-content-wrap-->
-      </div>
+  <body>
+    <div class="body">
+      {{content}} 
+      {% include footer.html %}
     </div>
-    <!--/ocm-effect-wrap-->
-    <span class="ssp-id" style="display: none">94496</span>
-    <script type="text/html" id="wpb-modifications"></script>
-    <link
-      data-pagespeed-no-defer
-      data-nowprocket
-      data-wpacu-skip
-      data-no-optimize
-      data-noptimize
-      rel="stylesheet"
-      id="main-styles-non-critical-css"
-      href="./css/salient-css-build-style-non-critical.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="font-awesome-css"
-      href="./css/salient-css-font-awesome.min.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      data-pagespeed-no-defer
-      data-nowprocket
-      data-wpacu-skip
-      data-no-optimize
-      data-noptimize
-      rel="stylesheet"
-      id="fancyBox-css"
-      href="./css/salient-css-build-plugins-jquery.fancybox.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      data-pagespeed-no-defer
-      data-nowprocket
-      data-wpacu-skip
-      data-no-optimize
-      data-noptimize
-      rel="stylesheet"
-      id="nectar-ocm-core-css"
-      href="./css/salient-css-build-off-canvas-core.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      data-pagespeed-no-defer
-      data-nowprocket
-      data-wpacu-skip
-      data-no-optimize
-      data-noptimize
-      rel="stylesheet"
-      id="nectar-ocm-slide-out-right-material-css"
-      href="./css/salient-css-build-off-canvas-slide-out-right-material.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      data-pagespeed-no-defer
-      data-nowprocket
-      data-wpacu-skip
-      data-no-optimize
-      data-noptimize
-      rel="stylesheet"
-      id="nectar-ocm-slide-out-right-hover-css"
-      href="./css/salient-css-build-off-canvas-slide-out-right-hover.css"
-      type="text/css"
-      media="all"
-    />
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-jquery.easing.min.js"
-      id="jquery-easing-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-jquery.mousewheel.min.js"
-      id="jquery-mousewheel-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-priority.js"
-      id="nectar_priority-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-transit.min.js"
-      id="nectar-transit-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-waypoints.js"
-      id="nectar-waypoints-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-portfolio-js-third-party-imagesLoaded.min.js"
-      id="imagesLoaded-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-hoverintent.min.js"
-      id="hoverintent-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-jquery.fancybox.js"
-      id="fancyBox-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-anime.min.js"
-      id="anime-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-elements-nectar-animated-gradient.js"
-      id="nectar-animated-gradient-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-flickity.js"
-      id="flickity-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-stickkit.js"
-      id="stickykit-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-superfish.js"
-      id="superfish-js"
-    ></script>
-    <script type="text/javascript" id="nectar-frontend-js-extra">
-      /* <![CDATA[ */
-      var nectarLove = {
-        ajaxurl: "./wp-admin\/admin-ajax.php",
-        postID: "94496",
-        rooturl: "https:\/\/bitcoinmining.mysites.io",
-        disqusComments: "false",
-        loveNonce: "66d5ab5814",
-        mapApiKey: "",
-      };
-      var nectarOptions = {
-        delay_js: "false",
-        quick_search: "false",
-        react_compat: "disabled",
-        header_entrance: "true",
-        simplify_ocm_mobile: "0",
-        mobile_header_format: "default",
-        ocm_btn_position: "default",
-        left_header_dropdown_func: "default",
-        ajax_add_to_cart: "0",
-        ocm_remove_ext_menu_items: "remove_images",
-        woo_product_filter_toggle: "0",
-        woo_sidebar_toggles: "true",
-        woo_sticky_sidebar: "0",
-        woo_minimal_product_hover: "default",
-        woo_minimal_product_effect: "default",
-        woo_related_upsell_carousel: "false",
-        woo_product_variable_select: "default",
-      };
-      var nectar_front_i18n = {
-        menu: "Menu",
-        next: "Next",
-        previous: "Previous",
-      };
-      /* ]]> */
-    </script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-init.js"
-      id="nectar-frontend-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-core-js-third-party-touchswipe.min.js"
-      id="touchswipe-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./js/salient-js-build-third-party-select2.min.js"
-      id="select2-js"
-    ></script>
-    <script type="text/javascript" id="wpb_composer_front_js-js-extra">
-      /* <![CDATA[ */
-      var vcData = { currentTheme: { slug: "salient" } };
-      /* ]]> */
-    </script>
-    <script
-      type="text/javascript"
-      src="./js/js_composer_salient-assets-js-dist-js_composer_front.min.js"
-      id="wpb_composer_front_js-js"
-    ></script>
+    <script src="/js/search.js"></script>
   </body>
 </html>
