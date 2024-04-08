@@ -2,6 +2,8 @@
 layout: default
 title: Nerding Out with Viktor
 permalink: /nerding-out-with-viktor/
+pagination: 
+  enabled: true
 ---
 
 # Nerding Out with Viktor
