@@ -3,12 +3,21 @@ layout: default
 permalink: /remote-work/
 title: Remote Work
 ---
-
-<div id="archives">
-  {% for post in site.categories.remote-work %}
-  <li>
-    <span>{{ post.date | date_to_string }}</span> &nbsp;
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
+{% include header.html %}
+<div class="home">
+  <div
+    class="bg-[url('/assets/background.png')] bg-no-repeat bg-cover h-[269px] sm:h-[374px] flex items-center justify-center"
+  >
+    <div>
+      <p class="header-text text-white">REMOTE WORK</p>
+    </div>
+  </div>
+  <div id="archives">
+    {% for post in site.categories.remote-work %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &nbsp;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </div>
 </div>
