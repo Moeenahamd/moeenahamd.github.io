@@ -49,6 +49,6 @@ logs:
 
 ---
 
-This is mostly a note-to-self kind of page, but perhaps it is useful for someone else too `¯\_(ツ)_/¯`.
+This is mostly a note-to-self kind of page, but perhaps it is useful for someone else too.
 
 Here's a partial list (i.e. what I could find in my Amazon history)
