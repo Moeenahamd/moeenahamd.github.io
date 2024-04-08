@@ -15,11 +15,11 @@ layout: default
           class="w-full lg:w-[1225px] m-auto max-sm:py-8 space-y-8 m-auto flex flex-col py-12 tracking-[-0.58px]"
         >
           <div
-            class="text-white max-sm:py-0 py-8 max-sm:w-[341px] mx-auto max-lg:text-start tracking-[-0.58px] font-normal max-sm:text-[32px] text-center max-sm:leading-[38.4px] leading-[38px] text-[40px]"
+            class="text-white max-sm:py-0 py-8 max-sm:w-[341px] mx-auto max-lg:text-start tracking-[-0.58px] font-normal max-sm:text-[24px] text-center max-sm:leading-[38.4px] leading-[38px] text-[32px]"
           >
-            Press, mentions and interviews
+            {{content}}
           </div>
-          {% for item in page.timeline %}
+          {% for item in page.logs %}
           <div
             class="flex max-sm:w-[341px] flex-col w-[1225.37px] lg:flex-row"
           >
@@ -38,7 +38,7 @@ layout: default
                 <p
                   class="lg:hidden text-white font-[Roboto] font-normal text-[14px] leading-[21px]"
                 >
-                  {{element}} 
+                 - {{element}} 
                 </p>
                 <p
                   class="max-lg:hidden text-white h-[24px] font-[Roboto] font-normal text-[16px] leading-[24px]"
@@ -52,5 +52,5 @@ layout: default
           <hr class="w-full opacity-[10%] border-#FFFFFF" />
           {% endfor %}
         </div>
-      </div>
+    </div>
 </div>
