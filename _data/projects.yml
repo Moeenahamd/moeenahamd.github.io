@@ -1,0 +1,21 @@
+
+
+- title: "StatsDen"
+  url: 'https://statsden.com/'
+  image: '/images/statsden.png'
+  text: 'Tool for gathering technical information on websites'
+
+- title: "FaviconDesigner"
+  url: 'https://favicondesigner.com/'
+  text: 'An easy-to-use online tool for creating custom icons for website tabs.'
+  image: '/images/favicondesigner.png'
+
+- title: "Plogoz"
+  url: 'https://www.plogoz.com/'
+  image: /images/plogoz242x200_AqQqOlY.png
+  text: 'Online tool for creating logos for website headers.'
+  
+- title: "Cronless"
+  url: 'https://cronless.com/'
+  image: /images/cronless.png
+  text: 'Web-based cron jobs and server monitoring service'
