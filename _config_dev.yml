@@ -5,9 +5,9 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
-url: 		'https://moeenahamd.github.io/'
+url: 		'http://127.0.0.1:4000/'
 baseurl: 	''
-urlimg: 	'/images/'
+urlimg: 	'http://127.0.0.1:4000/images/'
 
 # See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
 gist:

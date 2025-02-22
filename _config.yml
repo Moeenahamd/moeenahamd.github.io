@@ -277,10 +277,5 @@ collections:
     output: true
   oldprojects:
     output: true
-
-jekyll-archives:
-  enabled: [categories]
-  layouts:
-    category: category
-  permalinks:
-    category: /category/:name/
+  category:
+    output: true
