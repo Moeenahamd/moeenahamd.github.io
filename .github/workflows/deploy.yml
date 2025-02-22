@@ -1,9 +1,9 @@
-name: Deploy _site to GitHub Pages
+name: Deploy Jekyll _site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Change this if your source branch is different
+      - main  # Change to your default branch if needed
 
 jobs:
   deploy:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Deploy _site to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy _site folder to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          branch: gh-pages  # Deploy to this branch
+          folder: _site      # Deploy this folder
