@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>http://localhost:4000/</id>
+	<id>https://moeenahamd.github.io/</id>
 	<title>Amged Rustom</title>
-	<updated>2025-02-22T07:04:48+05:00</updated>
+	<updated>2025-02-22T07:26:33+05:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -21,16 +21,16 @@
 		</author>
 	
 
-	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+	<link href="https://moeenahamd.github.io/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://moeenahamd.github.io/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
 
 	
 		<entry>
-			<id>http://localhost:4000/2014/12/cron-job-log-page-improvements/</id>
+			<id>https://moeenahamd.github.io/2014/12/cron-job-log-page-improvements/</id>
 			<title>Cron Job Log Page Improvements</title>
-			<link href="http://localhost:4000/2014/12/cron-job-log-page-improvements/" rel="alternate" type="text/html" title="Cron Job Log Page Improvements" />
+			<link href="https://moeenahamd.github.io/2014/12/cron-job-log-page-improvements/" rel="alternate" type="text/html" title="Cron Job Log Page Improvements" />
 			<updated>2014-12-29T00:00:00+05:00</updated>
 
 			
@@ -46,7 +46,7 @@
 				</author>
 			
 			<summary>This recent Cronless update brings the following improvements to the log pages of cron jobs: Both free and premium members can now view all the logs without any restrictions. The export feature (available to premium members) now exports up to 100,000 records</summary>
-			<content type="html" xml:base="http://localhost:4000/2014/12/cron-job-log-page-improvements/">&lt;p&gt;This recent &lt;a href=&quot;https://cronless.com/&quot;&gt;Cronless&lt;/a&gt; update brings the following improvements to the log pages of cron jobs:&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/12/cron-job-log-page-improvements/">&lt;p&gt;This recent &lt;a href=&quot;https://cronless.com/&quot;&gt;Cronless&lt;/a&gt; update brings the following improvements to the log pages of cron jobs:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Both free and premium members can now view all the logs without any restrictions.&lt;/li&gt;
@@ -66,9 +66,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2014/05/cronless-bug-fixes-tweaks/</id>
+			<id>https://moeenahamd.github.io/2014/05/cronless-bug-fixes-tweaks/</id>
 			<title>Cronless Bug Fixes &amp; Tweaks</title>
-			<link href="http://localhost:4000/2014/05/cronless-bug-fixes-tweaks/" rel="alternate" type="text/html" title="Cronless Bug Fixes &amp; Tweaks" />
+			<link href="https://moeenahamd.github.io/2014/05/cronless-bug-fixes-tweaks/" rel="alternate" type="text/html" title="Cronless Bug Fixes &amp; Tweaks" />
 			<updated>2014-05-05T00:00:00+05:00</updated>
 
 			
@@ -84,7 +84,7 @@
 				</author>
 			
 			<summary>Todays updates include a few bug fixes and UI changes. Bug Fixes: The cron jobs user-agent field (available to Power and Pro members) now works as expected with all major web servers.</summary>
-			<content type="html" xml:base="http://localhost:4000/2014/05/cronless-bug-fixes-tweaks/">&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/05/cronless-bug-fixes-tweaks/">&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;The cron jobs user-agent field (available to Power and Pro members) now works as expected with all major web servers.&lt;/li&gt;
   &lt;li&gt;The Zendesk integration pages were updated to use their new API.&lt;/li&gt;
@@ -107,9 +107,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2014/04/increased-cron-job-error-tolerance-count/</id>
+			<id>https://moeenahamd.github.io/2014/04/increased-cron-job-error-tolerance-count/</id>
 			<title>Increased Cron Job Error Tolerance Count</title>
-			<link href="http://localhost:4000/2014/04/increased-cron-job-error-tolerance-count/" rel="alternate" type="text/html" title="Increased Cron Job Error Tolerance Count" />
+			<link href="https://moeenahamd.github.io/2014/04/increased-cron-job-error-tolerance-count/" rel="alternate" type="text/html" title="Increased Cron Job Error Tolerance Count" />
 			<updated>2014-04-17T00:00:00+05:00</updated>
 
 			
@@ -125,7 +125,7 @@
 				</author>
 			
 			<summary>The error tolerance of cron jobs in Cronless, the web-based cron job and port monitoring service, is now increased for all membership types. Error tolerance is the number of consecutive failures a cron job returns.</summary>
-			<content type="html" xml:base="http://localhost:4000/2014/04/increased-cron-job-error-tolerance-count/">&lt;ul&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/04/increased-cron-job-error-tolerance-count/">&lt;ul&gt;
   &lt;li&gt;The error tolerance of cron jobs in Cronless, the web-based cron job and port monitoring service, is now increased for all membership types.&lt;/li&gt;
   &lt;li&gt;Error tolerance is the number of consecutive failures a cron job returns before it is automatically disabled. The changes are:
     &lt;ul&gt;
@@ -148,9 +148,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2014/02/paging-mysql-command-line-client/</id>
+			<id>https://moeenahamd.github.io/2014/02/paging-mysql-command-line-client/</id>
 			<title>Paging in MySQL Command-Line Client</title>
-			<link href="http://localhost:4000/2014/02/paging-mysql-command-line-client/" rel="alternate" type="text/html" title="Paging in MySQL Command-Line Client" />
+			<link href="https://moeenahamd.github.io/2014/02/paging-mysql-command-line-client/" rel="alternate" type="text/html" title="Paging in MySQL Command-Line Client" />
 			<updated>2014-02-04T00:00:00+05:00</updated>
 
 			
@@ -166,7 +166,7 @@
 				</author>
 			
 			<summary>The error tolerance of cron jobs in Cronless, the web-based cron job and port monitoring service, is now increased for all membership types. Error tolerance is the number of consecutive failures a cron job returns.</summary>
-			<content type="html" xml:base="http://localhost:4000/2014/02/paging-mysql-command-line-client/">
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/02/paging-mysql-command-line-client/">
 </content>
 
 			
@@ -180,9 +180,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2014/02/paging-in-mysql-command-line-client/</id>
+			<id>https://moeenahamd.github.io/2014/02/paging-in-mysql-command-line-client/</id>
 			<title>Paging in MySQL Command-Line Client</title>
-			<link href="http://localhost:4000/2014/02/paging-in-mysql-command-line-client/" rel="alternate" type="text/html" title="Paging in MySQL Command-Line Client" />
+			<link href="https://moeenahamd.github.io/2014/02/paging-in-mysql-command-line-client/" rel="alternate" type="text/html" title="Paging in MySQL Command-Line Client" />
 			<updated>2014-02-04T00:00:00+05:00</updated>
 
 			
@@ -198,7 +198,7 @@
 				</author>
 			
 			<summary>By default MySQL command-line client wraps lines in a SELECT query result and has no paging. You can solve both these problems by using the less command available in Unix/Linux systems. Entering the following command </summary>
-			<content type="html" xml:base="http://localhost:4000/2014/02/paging-in-mysql-command-line-client/">&lt;p&gt;By default, the MySQL command-line client wraps lines in a SELECT query result and has no paging. You can solve both these problems by using the less command available in Unix/Linux systems.&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/02/paging-in-mysql-command-line-client/">&lt;p&gt;By default, the MySQL command-line client wraps lines in a SELECT query result and has no paging. You can solve both these problems by using the less command available in Unix/Linux systems.&lt;/p&gt;
 
 &lt;p&gt;Entering the following command in the MySQL command-line client will do the trick:&lt;/p&gt;
 
@@ -226,9 +226,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2014/01/checking-gzip-compressed-tar-files/</id>
+			<id>https://moeenahamd.github.io/2014/01/checking-gzip-compressed-tar-files/</id>
 			<title>Checking gzip Compressed tar Files</title>
-			<link href="http://localhost:4000/2014/01/checking-gzip-compressed-tar-files/" rel="alternate" type="text/html" title="Checking gzip Compressed tar Files" />
+			<link href="https://moeenahamd.github.io/2014/01/checking-gzip-compressed-tar-files/" rel="alternate" type="text/html" title="Checking gzip Compressed tar Files" />
 			<updated>2014-01-22T00:00:00+05:00</updated>
 
 			
@@ -244,7 +244,7 @@
 				</author>
 			
 			<summary>I wrote this very simple bash script to check the gzip compressed tar files generated by cPanel&apos;s backup. It attempts to extract each file individually to /dev/null and emails a list of the ones that.</summary>
-			<content type="html" xml:base="http://localhost:4000/2014/01/checking-gzip-compressed-tar-files/">&lt;p&gt;I wrote this very simple bash script to check the gzip compressed tar files generated by cPanel’s backup. It attempts to extract each file individually to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/null&lt;/code&gt; and emails a list of the ones that were not extracted successfully.&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/01/checking-gzip-compressed-tar-files/">&lt;p&gt;I wrote this very simple bash script to check the gzip compressed tar files generated by cPanel’s backup. It attempts to extract each file individually to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/null&lt;/code&gt; and emails a list of the ones that were not extracted successfully.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/bash
 
@@ -292,9 +292,9 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2014/01/snipsmanager-Is-now-free-and-open-source/</id>
+			<id>https://moeenahamd.github.io/2014/01/snipsmanager-Is-now-free-and-open-source/</id>
 			<title>SnipsManager Is Now Free And Open Source</title>
-			<link href="http://localhost:4000/2014/01/snipsmanager-Is-now-free-and-open-source/" rel="alternate" type="text/html" title="SnipsManager Is Now Free And Open Source" />
+			<link href="https://moeenahamd.github.io/2014/01/snipsmanager-Is-now-free-and-open-source/" rel="alternate" type="text/html" title="SnipsManager Is Now Free And Open Source" />
 			<updated>2014-01-13T00:00:00+05:00</updated>
 
 			
@@ -310,7 +310,7 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 				</author>
 			
 			<summary>SnipsManager, the PHP script for sharing source code and plain text, is now free and open source. It is now published under the Revised BSD License and is available on GitHub.</summary>
-			<content type="html" xml:base="http://localhost:4000/2014/01/snipsmanager-Is-now-free-and-open-source/">&lt;p&gt;&lt;img src=&quot;/images/snipsmanager.png&quot; alt=&quot;SnipsManager Logo&quot; /&gt;&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2014/01/snipsmanager-Is-now-free-and-open-source/">&lt;p&gt;&lt;img src=&quot;/images/snipsmanager.png&quot; alt=&quot;SnipsManager Logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;SnipsManager, the PHP script for sharing source code and plain text, is now free and open source. It is now published under the Revised BSD License and is available on GitHub.&lt;/p&gt;
 
@@ -336,9 +336,9 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/</id>
+			<id>https://moeenahamd.github.io/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/</id>
 			<title>How to Get the Title of a Webpage in Windows Forms</title>
-			<link href="http://localhost:4000/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/" rel="alternate" type="text/html" title="How to Get the Title of a Webpage in Windows Forms" />
+			<link href="https://moeenahamd.github.io/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/" rel="alternate" type="text/html" title="How to Get the Title of a Webpage in Windows Forms" />
 			<updated>2013-11-18T00:00:00+05:00</updated>
 
 			
@@ -354,7 +354,7 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 				</author>
 			
 			<summary>I&apos;ve been working on a Windows Forms application that needs to, among other things, get the title of a webpage. I thought I might share it here in case someone else needs it.</summary>
-			<content type="html" xml:base="http://localhost:4000/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/">&lt;p&gt;I’ve been working on a Windows Forms application that needs to, among other things, get the title of a webpage. I thought I might share it here in case someone else needs it.&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/">&lt;p&gt;I’ve been working on a Windows Forms application that needs to, among other things, get the title of a webpage. I thought I might share it here in case someone else needs it.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;static string GetPageTitle(string link)
 {
@@ -394,9 +394,9 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2013/06/importing-and-exporting-mysql-databases/</id>
+			<id>https://moeenahamd.github.io/2013/06/importing-and-exporting-mysql-databases/</id>
 			<title>Importing and Exporting MySQL Databases</title>
-			<link href="http://localhost:4000/2013/06/importing-and-exporting-mysql-databases/" rel="alternate" type="text/html" title="Importing and Exporting MySQL Databases" />
+			<link href="https://moeenahamd.github.io/2013/06/importing-and-exporting-mysql-databases/" rel="alternate" type="text/html" title="Importing and Exporting MySQL Databases" />
 			<updated>2013-06-19T00:00:00+05:00</updated>
 
 			
@@ -412,7 +412,7 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 				</author>
 			
 			<summary>Importing and exporting MySQL databases in a Unix/Linux environment can be done easily with a single command. You can even choose to export the database&apos;s structure or data only. Exporting is done using the mysqldump </summary>
-			<content type="html" xml:base="http://localhost:4000/2013/06/importing-and-exporting-mysql-databases/">&lt;p&gt;Importing and exporting MySQL databases in a Unix/Linux environment can be done easily with a single command. You can even choose to export the database’s structure or data only.&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2013/06/importing-and-exporting-mysql-databases/">&lt;p&gt;Importing and exporting MySQL databases in a Unix/Linux environment can be done easily with a single command. You can even choose to export the database’s structure or data only.&lt;/p&gt;
 
 &lt;p&gt;Exporting is done using the &lt;strong&gt;mysqldump&lt;/strong&gt; program and importing is done using the MySQL command line client &lt;strong&gt;mysql&lt;/strong&gt;.&lt;/p&gt;
 
@@ -446,9 +446,9 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/2013/06/navigating-mysql-databases-and-tables/</id>
+			<id>https://moeenahamd.github.io/2013/06/navigating-mysql-databases-and-tables/</id>
 			<title>Navigating MySQL Databases and Tables</title>
-			<link href="http://localhost:4000/2013/06/navigating-mysql-databases-and-tables/" rel="alternate" type="text/html" title="Navigating MySQL Databases and Tables" />
+			<link href="https://moeenahamd.github.io/2013/06/navigating-mysql-databases-and-tables/" rel="alternate" type="text/html" title="Navigating MySQL Databases and Tables" />
 			<updated>2013-06-18T00:00:00+05:00</updated>
 
 			
@@ -464,7 +464,7 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 				</author>
 			
 			<summary>Here is a list of MySQL&apos;s command line client commands to navigate through the databases and their tables. First run the client program by entering the following at the command line: The -u option is</summary>
-			<content type="html" xml:base="http://localhost:4000/2013/06/navigating-mysql-databases-and-tables/">&lt;p&gt;Here is a list of MySQL’s command line client commands to navigate through the databases and their tables.&lt;/p&gt;
+			<content type="html" xml:base="https://moeenahamd.github.io/2013/06/navigating-mysql-databases-and-tables/">&lt;p&gt;Here is a list of MySQL’s command line client commands to navigate through the databases and their tables.&lt;/p&gt;
 
 &lt;p&gt;First run the client program by entering the following at the command line:&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mysql -u root -p
