@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://moeenahamd.github.io/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://moeenahamd.github.io/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Amged Rustom</title>
 		<description>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</description>
-		<link>http://localhost:4000/</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://moeenahamd.github.io/</link>
+		<atom:link href="https://moeenahamd.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Cron Job Log Page Improvements</title>
-				<link>http://localhost:4000/2014/12/cron-job-log-page-improvements/</link>
+				<link>https://moeenahamd.github.io/2014/12/cron-job-log-page-improvements/</link>
 				<pubDate>Mon, 29 Dec 2014 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;This recent &lt;a href=&quot;https://cronless.com/&quot;&gt;Cronless&lt;/a&gt; update brings the following improvements to the log pages of cron jobs:&lt;/p&gt;
 
@@ -22,12 +22,12 @@
 
 &lt;p&gt;Please note that to keep the website and the back-end server responsive and manageable we only keep log records that are less than a year old. So all the log records, whether listed on the page or exported, will be limited to that period of time.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/12/cron-job-log-page-improvements/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/12/cron-job-log-page-improvements/</guid>
 			</item>
 		
 			<item>
 				<title>Cronless Bug Fixes &amp; Tweaks</title>
-				<link>http://localhost:4000/2014/05/cronless-bug-fixes-tweaks/</link>
+				<link>https://moeenahamd.github.io/2014/05/cronless-bug-fixes-tweaks/</link>
 				<pubDate>Mon, 05 May 2014 00:00:00 +0500</pubDate>
 				<description>&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -42,12 +42,12 @@
 &lt;/ul&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/05/cronless-bug-fixes-tweaks/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/05/cronless-bug-fixes-tweaks/</guid>
 			</item>
 		
 			<item>
 				<title>Increased Cron Job Error Tolerance Count</title>
-				<link>http://localhost:4000/2014/04/increased-cron-job-error-tolerance-count/</link>
+				<link>https://moeenahamd.github.io/2014/04/increased-cron-job-error-tolerance-count/</link>
 				<pubDate>Thu, 17 Apr 2014 00:00:00 +0500</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;The error tolerance of cron jobs in Cronless, the web-based cron job and port monitoring service, is now increased for all membership types.&lt;/li&gt;
@@ -62,21 +62,21 @@
 &lt;p&gt;Please visit &lt;a href=&quot;https://cronless.com/&quot;&gt;Cronless&lt;/a&gt; to know more about the service.&lt;/p&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/04/increased-cron-job-error-tolerance-count/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/04/increased-cron-job-error-tolerance-count/</guid>
 			</item>
 		
 			<item>
 				<title>Paging in MySQL Command-Line Client</title>
-				<link>http://localhost:4000/2014/02/paging-mysql-command-line-client/</link>
+				<link>https://moeenahamd.github.io/2014/02/paging-mysql-command-line-client/</link>
 				<pubDate>Tue, 04 Feb 2014 00:00:00 +0500</pubDate>
 				<description>
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/02/paging-mysql-command-line-client/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/02/paging-mysql-command-line-client/</guid>
 			</item>
 		
 			<item>
 				<title>Paging in MySQL Command-Line Client</title>
-				<link>http://localhost:4000/2014/02/paging-in-mysql-command-line-client/</link>
+				<link>https://moeenahamd.github.io/2014/02/paging-in-mysql-command-line-client/</link>
 				<pubDate>Tue, 04 Feb 2014 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;By default, the MySQL command-line client wraps lines in a SELECT query result and has no paging. You can solve both these problems by using the less command available in Unix/Linux systems.&lt;/p&gt;
 
@@ -94,12 +94,12 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;If you found this post useful, I’d be very grateful if you’d help it spread by sharing it. Thank you!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/02/paging-in-mysql-command-line-client/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/02/paging-in-mysql-command-line-client/</guid>
 			</item>
 		
 			<item>
 				<title>Checking gzip Compressed tar Files</title>
-				<link>http://localhost:4000/2014/01/checking-gzip-compressed-tar-files/</link>
+				<link>https://moeenahamd.github.io/2014/01/checking-gzip-compressed-tar-files/</link>
 				<pubDate>Wed, 22 Jan 2014 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;I wrote this very simple bash script to check the gzip compressed tar files generated by cPanel’s backup. It attempts to extract each file individually to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/null&lt;/code&gt; and emails a list of the ones that were not extracted successfully.&lt;/p&gt;
 
@@ -139,12 +139,12 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 
 &lt;p&gt;If you found this post useful, I’d be very grateful if you’d help it spread by sharing it. Thank you!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/01/checking-gzip-compressed-tar-files/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/01/checking-gzip-compressed-tar-files/</guid>
 			</item>
 		
 			<item>
 				<title>SnipsManager Is Now Free And Open Source</title>
-				<link>http://localhost:4000/2014/01/snipsmanager-Is-now-free-and-open-source/</link>
+				<link>https://moeenahamd.github.io/2014/01/snipsmanager-Is-now-free-and-open-source/</link>
 				<pubDate>Mon, 13 Jan 2014 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;&lt;img src=&quot;/images/snipsmanager.png&quot; alt=&quot;SnipsManager Logo&quot; /&gt;&lt;/p&gt;
 
@@ -162,12 +162,12 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 
 &lt;p&gt;If you found this post useful, I’d be very grateful if you’d help it spread by sharing it. Thank you!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2014/01/snipsmanager-Is-now-free-and-open-source/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2014/01/snipsmanager-Is-now-free-and-open-source/</guid>
 			</item>
 		
 			<item>
 				<title>How to Get the Title of a Webpage in Windows Forms</title>
-				<link>http://localhost:4000/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/</link>
+				<link>https://moeenahamd.github.io/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/</link>
 				<pubDate>Mon, 18 Nov 2013 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;I’ve been working on a Windows Forms application that needs to, among other things, get the title of a webpage. I thought I might share it here in case someone else needs it.&lt;/p&gt;
 
@@ -199,12 +199,12 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 
 &lt;p&gt;If you found this post useful, I’d be very grateful if you’d help it spread by sharing it. Thank you!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2013/11/how-to-get-the-title-of-a-webpage-in-windows-forms/</guid>
 			</item>
 		
 			<item>
 				<title>Importing and Exporting MySQL Databases</title>
-				<link>http://localhost:4000/2013/06/importing-and-exporting-mysql-databases/</link>
+				<link>https://moeenahamd.github.io/2013/06/importing-and-exporting-mysql-databases/</link>
 				<pubDate>Wed, 19 Jun 2013 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;Importing and exporting MySQL databases in a Unix/Linux environment can be done easily with a single command. You can even choose to export the database’s structure or data only.&lt;/p&gt;
 
@@ -228,12 +228,12 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;If you found this post useful, I’d be very grateful if you’d help it spread by sharing it. Thank you!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2013/06/importing-and-exporting-mysql-databases/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2013/06/importing-and-exporting-mysql-databases/</guid>
 			</item>
 		
 			<item>
 				<title>Navigating MySQL Databases and Tables</title>
-				<link>http://localhost:4000/2013/06/navigating-mysql-databases-and-tables/</link>
+				<link>https://moeenahamd.github.io/2013/06/navigating-mysql-databases-and-tables/</link>
 				<pubDate>Tue, 18 Jun 2013 00:00:00 +0500</pubDate>
 				<description>&lt;p&gt;Here is a list of MySQL’s command line client commands to navigate through the databases and their tables.&lt;/p&gt;
 
@@ -270,7 +270,7 @@ path=&quot;/backups/whm/$date/accounts/*.gz&quot;
 &lt;p&gt;If you found this post useful, I’d be very grateful if you’d help it spread by sharing it. Thank you!&lt;/p&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/2013/06/navigating-mysql-databases-and-tables/</guid>
+				<guid isPermaLink="true">https://moeenahamd.github.io/2013/06/navigating-mysql-databases-and-tables/</guid>
 			</item>
 		
 	</channel>

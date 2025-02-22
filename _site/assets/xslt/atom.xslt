@@ -11,11 +11,11 @@
 	<title>Atom Feed (Styled)</title>
 	<link rel="stylesheet" href="/assets/css/styles_feeling_responsive.css">
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://moeenahamd.github.io/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+	<script src="https://moeenahamd.github.io/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -38,13 +38,13 @@
 	
 	
 	
-	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
+	<link rel="canonical" href="https://moeenahamd.github.io/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
-	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
+	<meta property="og:url" content="https://moeenahamd.github.io/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Amged Rustom">
@@ -62,40 +62,40 @@
 	
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+	<link type="text/plain" rel="author" href="https://moeenahamd.github.io/humans.txt">
 
 	
 
 	<!-- 
 
-	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img//images/avatar.png">
+	<link rel="icon" sizes="32x32" href="https://moeenahamd.github.io/assets/img//images/avatar.png">
 
-	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png">
+	<link rel="icon" sizes="192x192" href="https://moeenahamd.github.io/assets/img/touch-icon-192x192.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-180x180-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-152x152-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-144x144-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-120x120-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
+	<link rel="apple-touch-icon-precomposed" href="https://moeenahamd.github.io/assets/img/apple-touch-icon-precomposed.png">	
 
-	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png">
+	<meta name="msapplication-TileImage" content="https://moeenahamd.github.io/assets/img/msapplication_tileimage.png">
 
 	<meta name="msapplication-TileColor" content="#fabb00">
 	 -->
 
 		
-	<link rel="icon"  sizes="32x32" href="http://localhost:4000/images/avatar.png/images/avatar.png">
+	<link rel="icon"  sizes="32x32" href="https://moeenahamd.github.io/images/avatar.png/images/avatar.png">
 	
 
 	
@@ -112,7 +112,7 @@
   <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
     <ul class="title-area">
       <li class="name">
-      <h1 class="hide-for-large-up"><a href="http://localhost:4000" class="icon-tree"> Amged Rustom</a></h1>
+      <h1 class="hide-for-large-up"><a href="https://moeenahamd.github.io" class="icon-tree"> Amged Rustom</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></li>
@@ -129,7 +129,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Home</a></li>
+              <li><a  href="https://moeenahamd.github.io/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -144,7 +144,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/about/">About</a></li>
+              <li><a  href="https://moeenahamd.github.io/about/">About</a></li>
               <li class="divider"></li>
 
             
@@ -159,7 +159,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/blog/">Blog</a></li>
+              <li><a  href="https://moeenahamd.github.io/blog/">Blog</a></li>
               <li class="divider"></li>
 
             
@@ -233,8 +233,8 @@
 <div id="masthead">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/" title="Amged Rustom – A Flexible Theme for Jekyll">
-				<img src="http://localhost:4000/assets/img/logo.png"
+			<a id="logo" href="https://moeenahamd.github.io/" title="Amged Rustom – A Flexible Theme for Jekyll">
+				<img src="https://moeenahamd.github.io/assets/img/logo.png"
 					alt="Amged Rustom – A Flexible Theme for Jekyll">
 			</a>
 		</div><!-- /.small-12.columns -->
@@ -331,7 +331,7 @@
 		
 
 
-<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+<script src="https://moeenahamd.github.io/assets/js/javascript.min.js"></script>
 
 
 

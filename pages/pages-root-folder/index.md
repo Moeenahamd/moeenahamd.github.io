@@ -28,4 +28,4 @@ permalink: /
 homepage: true
 ---
 
-Hey, welcome to my humble page. My name is Amged Rustom and I'm a senior backend developer working with Python and Go. Have a look through my projects and blog posts. [projects](http://localhost:4000/projects/) and [blog posts.](http://localhost:4000/blog/)
+Hey, welcome to my humble page. My name is Amged Rustom and I'm a senior backend developer working with Python and Go. Have a look through my projects and blog posts. [projects](/projects/) and [blog posts.](/blog/)
