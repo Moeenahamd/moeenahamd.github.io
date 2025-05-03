@@ -17,7 +17,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://moeenahamd.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,8 +25,9 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'moeenahamd.github.io',
+  organizationName: 'moeenahamd',
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -100,12 +101,12 @@ const config: Config = {
          src: 'img/Logo.svg',
        },
        items: [
-         {
-           type: 'docSidebar',
-           sidebarId: 'tutorialSidebar',
-           position: 'left',
-           label: 'Tutorial',
-         },
+        //  {
+        //    type: 'docSidebar',
+        //    sidebarId: 'tutorialSidebar',
+        //    position: 'left',
+        //    label: 'Tutorial',
+        //  },
         //  {to: '/Products', label: 'Products', position: 'left'},
          
         //  {to: '/Company', label: 'Company', position: 'left'},
