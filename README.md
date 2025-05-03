@@ -1,66 +1,41 @@
-## You like and use this theme? Then support me. Just [paypal.me/PhlowMedia](https://www.paypal.me/PhlowMedia) :)
+# Website
 
-# Newsletter: Stay in Touch for Future Updates
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-If you are a webdesigner interested in Jekyll, the static website generator, this little newsletter is for you. I share tutorials, clever code snippets and information about my own Jekyll Themes called [*Feeling Responsive*][7] and [*Simplicity*][8]. Please don't expect weekly emails :)
+### Installation
 
-[![Subscribe to Jekyll Newsletter](https://phlow.github.io/static/tinyletter_subscribe_button.png)](https://tinyletter.com/feeling-responsive)
+```
+$ yarn
+```
 
+### Local Development
 
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
+```
+$ yarn start
+```
 
-## A Responsive Jekyll Theme: *Feeling Responsive*
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+### Build
 
-To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
+```
+$ yarn build
+```
 
-And what license is *Feeling Responsive* released under? [This one][2].
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+### Deployment
 
+Using SSH:
 
-## Why use this theme?
+```
+$ USE_SSH=true yarn deploy
+```
 
-Feeling Responsive is heavily customizable.
+Not using SSH:
 
-1. Language-Support :)
-2. Optimized for speed and it's responsive.
-3. Built on Foundation Framework.
-4. Six different Headers.
-5. Customizable navigation, footer,...
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
 
-**[More ›][3]**
-
-
-
-## Changelog
-
-*Feeling Responsive* is in active development. Thank you to everyone who contributed, especially [Róbert Papp][5], [Alexandra von Criegern](https://github.com/plutonik-a) and [Juan Jose Amor Iglesias](https://github.com/jjamor).
-
-**[Read Changelog ›][6]**
-
-
-
-## Video Tutorial
-
-Click the image to [watch the YouTube-Video-Tutorial][4].
-
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
-
-
-
-
-
-
-
-
- [1]: http://phlow.github.io/feeling-responsive/documentation/
- [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
- [3]: http://phlow.github.io/feeling-responsive/info/
- [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
- [5]: https://github.com/TWiStErRob
- [6]: https://phlow.github.io/feeling-responsive/changelog/
- [7]: http://phlow.github.io/feeling-responsive/
- [8]: http://phlow.github.io/simplicity/
- [9]: #
- [10]: #
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

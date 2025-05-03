@@ -1,0 +1,176 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/*
+Hide color mode toggle in small viewports
+ */
+
+/* Make navbar items center aligned */
+.navbar__inner {
+
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar{
+  
+  padding-top: 2% !important;         /* Add top padding */
+  padding-bottom: 2% !important; 
+  padding-right: 2.5% !important;         /* Add top padding */
+  padding-left: 4.5% !important; 
+}
+
+
+.navbar__brand {
+  flex: 1;
+}
+
+.navbar__items {
+  justify-content: center;
+  flex: 2;
+}
+.navbar a,
+.navbar__item {
+  font-weight: normal !important;
+ 
+}
+
+
+.navbar__items--right {
+  justify-content: flex-end;
+  flex: 1;
+}
+
+
+
+/* Custom style for Sign In button */
+.navbar__item[href="/signin"] {
+  padding: 6px 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+[data-theme='dark'] .navbar__item[href="/signin"] {
+  border: 1px solid white; /* Change this to your dark mode color */
+}
+
+.navbar__item[href="/signin"]:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+/* Change the navbar background color */
+
+/* Change the navbar background color */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: soft shadow */
+}
+@media (max-width: 996px) {
+  .navbar__inner {
+    display: block;
+    width: 100% ;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container {
+      max-width: var(--ifm-container-width-xl);
+      margin: 2%;
+  }
+  .navbar{
+  
+    padding-top: 4% !important;         /* Add top padding */
+    padding-bottom: 4% !important; 
+    padding-right: 2.5% !important;         /* Add top padding */
+    padding-left: 4.5% !important; 
+  }
+
+  .navbar__toggle {
+    order: 2;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar__brand {
+    order: 0;
+  }
+
+
+
+  
+}
+
+/* Make sidebar take full screen */
+
+
+
+
+/* Completely hide the dropdown arrow in the navbar */
+.navbar__item.dropdown > .navbar__link::after {
+  content: none !important;
+}
+.toggle_vylO{
+  display: none !important;
+}
+
+.center-mermaid {
+  text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .container {
+      max-width: var(--ifm-container-width-xl);
+      margin: 1%;
+  }
+}
+.menu__list {
+  padding-left: 18%;
+}
+.status{
+  margin-top: 3%;
+}
+.col{
+  padding: 0px;
+}
+* {
+  box-sizing: content-box;
+}
+.footer{
+  background: #05080d;
+}
+.navbar{
+  background: #05080d;
+  position: static;
+}

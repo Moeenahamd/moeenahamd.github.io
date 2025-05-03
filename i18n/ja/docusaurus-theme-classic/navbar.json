@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "私のサイトのロゴ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Sign In": {
+    "message": "サインイン",
+    "description": "Navbar item with label Sign In"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  }
+}

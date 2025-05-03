@@ -1,0 +1,82 @@
+{
+  "link.item.label.Accept payments": {
+    "message": "決済を受け付ける",
+    "description": "The label of footer link with label=Accept payments linking to /docs/intro"
+  },
+  "link.item.label.Omise AI": {
+    "message": "Omise AI",
+    "description": "The label of footer link with label=Omise AI linking to /docs/intro"
+  },
+  "link.item.label.Manage transactions": {
+    "message": "取引を管理する",
+    "description": "The label of footer link with label=Manage transactions linking to /docs/intro"
+  },
+  "link.item.label.Payment Links+": {
+    "message": "ペイメントリンク+",
+    "description": "The label of footer link with label=Payment Links+ linking to /docs/intro"
+  },
+  "link.item.label.PayFac": {
+    "message": "PayFac",
+    "description": "The label of footer link with label=PayFac linking to /docs/intro"
+  },
+  "link.item.label.Acquiring": {
+    "message": "加盟店契約",
+    "description": "The label of footer link with label=Acquiring linking to /docs/intro"
+  },
+  "link.item.label.Payment Orchestration": {
+    "message": "決済オーケストレーション",
+    "description": "The label of footer link with label=Payment Orchestration linking to /docs/intro"
+  },
+  "link.item.label.Consultant service for Fintech": {
+    "message": "フィンテック向けコンサルタントサービス",
+    "description": "The label of footer link with label=Consultant service for Fintech linking to /docs/intro"
+  },
+  "link.item.label.About us": {
+    "message": "会社情報",
+    "description": "The label of footer link with label=About us linking to /docs/intro"
+  },
+  "link.item.label.Newsroom": {
+    "message": "ニュースルーム",
+    "description": "The label of footer link with label=Newsroom linking to /docs/intro"
+  },
+  "link.item.label.Careers": {
+    "message": "採用情報",
+    "description": "The label of footer link with label=Careers linking to /docs/intro"
+  },
+  "link.item.label.Customer stories": {
+    "message": "お客様の声",
+    "description": "The label of footer link with label=Customer stories linking to /docs/intro"
+  },
+  "link.item.label.Blog": {
+    "message": "ブログ",
+    "description": "The label of footer link with label=Blog linking to /docs/intro"
+  },
+  "link.item.label.Pricing": {
+    "message": "料金",
+    "description": "The label of footer link with label=Pricing linking to /docs/intro"
+  },
+  "link.item.label.Documentation": {
+    "message": "ドキュメント",
+    "description": "The label of footer link with label=Documentation linking to /docs/intro"
+  },
+  "link.item.label.Get started": {
+    "message": "始める",
+    "description": "The label of footer link with label=Get started linking to /docs/intro"
+  },
+  "link.item.label.FAQ": {
+    "message": "よくある質問",
+    "description": "The label of footer link with label=FAQ linking to /docs/intro"
+  },
+  "link.item.label.Restricted businesses": {
+    "message": "制限対象事業",
+    "description": "The label of footer link with label=Restricted businesses linking to /docs/intro"
+  },
+  "link.item.label.Contact us": {
+    "message": "お問い合わせ",
+    "description": "The label of footer link with label=Contact us linking to /docs/intro"
+  },
+  "copyright": {
+    "message": "プライバシーと利用規約 © 2025 Omise Co., Ltd.",
+    "description": "The footer copyright"
+  }
+}
