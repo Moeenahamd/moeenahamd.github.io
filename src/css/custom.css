@@ -98,6 +98,7 @@ Hide color mode toggle in small viewports
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: soft shadow */
 }
+
 @media (max-width: 996px) {
   .navbar__inner {
     display: block;
@@ -245,7 +246,12 @@ Hide color mode toggle in small viewports
   .sidebar_njMd {
     padding-top: 0px !important;
   }
+
+  .docSidebarContainer_YfHR {
+    margin-top: 0 !important;
+  }
 }
+
 .docMainContainer_TBSr{
   background-color: #03070a;
   .container { 
@@ -288,21 +294,8 @@ a{
   background-color: #57d9a340 !important;
   color: #80ffbf;
 }
-.navbar__link:hover, .navbar__link--active {
-  
-  color: #80ffbf;
-  background-color: #57d9a340 !important;
-}
 
-.breadcrumbs__item--active .breadcrumbs__link {
-  color:  #80ffbf; 
-  
-  background-color: #57d9a340 !important;
 
-}
-.dropdown__link--active, .dropdown__link--active:hover {
-  --ifm-dropdown-link-color: #80ffbf;
-}
 .col.col--3 {
   display: none;
 }
