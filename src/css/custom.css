@@ -250,6 +250,9 @@ Hide color mode toggle in small viewports
   .docSidebarContainer_YfHR {
     margin-top: 0 !important;
   }
+  .docSidebarContainer_YfHR {
+     clip-path:none !important; 
+  }
 }
 
 .docMainContainer_TBSr{
