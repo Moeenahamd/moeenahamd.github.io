@@ -64,7 +64,7 @@ const config: Config = {
           lastVersion: 'current', // 👈 Add this line
           versions: {              // 👈 And this whole block
             current: {
-              label: 'Cancary',        // Label you see in the version dropdown
+              label: 'Current',        // Label you see in the version dropdown
             },
           },
         },

@@ -105,10 +105,10 @@ Hide color mode toggle in small viewports
     justify-content: space-between;
     align-items: center;
   }
-  .container {
+  /* .container {
       max-width: var(--ifm-container-width-xl);
       margin: 2%;
-  }
+  } */
   .navbar{
   
     padding-top: 4% !important;         /* Add top padding */
@@ -137,24 +137,28 @@ Hide color mode toggle in small viewports
 
 
 
-/* Completely hide the dropdown arrow in the navbar */
-.navbar__item.dropdown > .navbar__link::after {
-  content: none !important;
-}
-.toggle_vylO{
-  display: none !important;
+.menu__link--sublist-caret:after {
+  content: '';
+  margin-left: auto;
+  min-width: 1.25rem;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="%23ffffff" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>');
+  filter: var(--ifm-menu-link-sublist-icon-filter);
+  height: 1.25rem;
+  transform: rotate(180deg);
+  width: 1.25rem;
+  transition: transform var(--ifm-transition-fast) linear;
 }
 
 .center-mermaid {
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .container {
       max-width: var(--ifm-container-width-xl);
       margin: 1%;
   }
-}
+} */
 .menu__list {
   padding-left: 18%;
 }
@@ -236,8 +240,21 @@ Hide color mode toggle in small viewports
 .sidebar_njMd {
     background-color: #03070a;
 }
+
+@media (min-width: 997px) {
+  .sidebar_njMd {
+    padding-top: 0px !important;
+  }
+}
 .docMainContainer_TBSr{
-   background-color: #03070a;
+  background-color: #03070a;
+  .container { 
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    .row{
+      padding: 0px !important;
+    }
+  }
 }
 .menu__link {
     color: white}
