@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "Logo meiner Website",
+    "description": "Der Alt-Text des Navbar-Logos"
+  },
+  "item.label.Sign In": {
+    "message": "Anmelden",
+    "description": "Navbar-Element mit dem Label Anmelden"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar-Element mit dem Label Tutorial"
+  }
+}

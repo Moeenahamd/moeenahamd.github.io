@@ -175,6 +175,11 @@ const config: Config = {
           position: 'right',
         },
         {
+          to: 'https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=21e18e7e-b866-42ec-9e7c-517bd26728c0&response_mode=fragment&response_type=code&scope=openid&nonce=45e8c317-9207-4058-86cf-5786565a8e4e&ui_locales=en&code_challenge=Isb7eafaeQVGAcI0RKb-Xvlufr8uyzvkMIUEhx0yCCo&code_challenge_method=S256&_gl=1*1madhym*_gcl_au*OTQ3NDQ3NzkxLjE3NDU5MDI4NTk.',
+           label: 'Contact Us',
+           position: 'right',
+         },
+        {
          to: 'https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=21e18e7e-b866-42ec-9e7c-517bd26728c0&response_mode=fragment&response_type=code&scope=openid&nonce=45e8c317-9207-4058-86cf-5786565a8e4e&ui_locales=en&code_challenge=Isb7eafaeQVGAcI0RKb-Xvlufr8uyzvkMIUEhx0yCCo&code_challenge_method=S256&_gl=1*1madhym*_gcl_au*OTQ3NDQ3NzkxLjE3NDU5MDI4NTk.',
           label: 'Sign In',
           position: 'right',

@@ -112,11 +112,12 @@ curl https://api.omise.co/charges/$FULL_UNCAPTURED_CHARGE_ID/capture \
 
 ```mermaid
 flowchart TD
-  A[Merchant initiates  card authorization] --> B{Is authorization successful?}
-  B -- No --> C[Stop]
-  B -- Yes --> D[Deliver some goods]
-  D --> E[Charge card partially]
-  E --> F[System unblocks and releases the remainder of the authorized amount]
+  A[販売者がカード認証を開始] --> B{認証は成功しましたか？}
+  B -- いいえ --> C[停止]
+  B -- はい --> D[商品を一部配送]
+  D --> E[カードを部分的に請求]
+  E --> F[システムがロック解除し、認証された残りの金額を解放]
+
 ```
 </div>
 

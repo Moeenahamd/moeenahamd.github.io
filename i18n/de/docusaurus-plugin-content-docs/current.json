@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Canary",
+    "description": "Das Label für die aktuelle Version"
+  },
+  "sidebar.tutorialSidebar.category.GUIDE": {
+    "message": "Leitfaden",
+    "description": "Das Label für die Kategorie GUIDE in der Sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial – Grundlagen",
+    "description": "Das Label für die Kategorie Tutorial - Basics in der Sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "Lerne die wichtigsten Konzepte von Docusaurus in 5 Minuten.",
+    "description": "Die Beschreibung der generierten Indexseite für die Kategorie Tutorial - Basics in der Sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial – Fortgeschritten",
+    "description": "Das Label für die Kategorie Tutorial - Extras in der Sidebar tutorialSidebar"
+  }
+}

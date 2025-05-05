@@ -50,7 +50,7 @@ Hide color mode toggle in small viewports
   padding-top: 30px;
     padding-bottom: 30px;
     display: block;
-  padding-right: 2.5% !important;         /* Add top padding */
+  padding-right: 4.5% !important;         /* Add top padding */
   padding-left: 4.5% !important; 
   height:auto;
 }
@@ -113,7 +113,7 @@ Hide color mode toggle in small viewports
   
     padding-top: 4% !important;         /* Add top padding */
     padding-bottom: 4% !important; 
-    padding-right: 2.5% !important;         /* Add top padding */
+    padding-right: 4.5% !important;         /* Add top padding */
     padding-left: 4.5% !important; 
   }
 
@@ -283,3 +283,23 @@ a{
   background-color: #57d9a340 !important;
 
 }
+.dropdown__link--active, .dropdown__link--active:hover {
+  --ifm-dropdown-link-color: #80ffbf;
+}
+.col.col--3 {
+  display: none;
+}
+
+
+
+  main.docMainContainer_TBSr .container .row .docItemCol_VOVn {
+    max-width: 95% !important;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+}
+
+.docSidebarContainer_YfHR {border: 0px !important;
+background-color: #03070a}
