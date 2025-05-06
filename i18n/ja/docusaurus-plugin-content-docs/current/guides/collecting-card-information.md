@@ -75,17 +75,17 @@ Omise.jsを使えば、簡単にカード情報を収集できます。Omise.js�
 
 まず、Omise.jsをウェブページに挿入します。`</body>`タグの直前に追加してください：
 
-```html
+```javascript
 <script src="https://cdn.omise.co/omise.js"></script>
 ```
 例えば、Omise JSライブラリはjQueryを必要としませんが、DOMにアクセスする便利な方法として使用します。ページにjQueryライブラリを追加するには:
 
-```html
+```javascript
 <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
 ```
 次に、Omise.jsがOmise APIに対して認証できるように、公開鍵を追加します：
 
-```html
+```javascript
 <script>
   Omise.setPublicKey("pkey_test_4xpip92iqmehclz4a4d");
 </script>
@@ -123,7 +123,7 @@ Omise.jsを使えば、簡単にカード情報を収集できます。Omise.js�
 
 次に、送信ボタンが押されたときにトークンの作成をトリガーする必要があります。その後、トークンフィールドに値を入力し、他のフィールドをクリアして、それらがサーバーに送信されないようにします。
 
-```html
+```javascript
 $("#checkout").submit(function () {
 
   var form = $(this);

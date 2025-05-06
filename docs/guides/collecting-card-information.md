@@ -94,7 +94,7 @@ For example, the Omise JS library doesn't need jQuery, but we'll use it as a con
 
 Then add your public key to let Omise.js authenticate against Omise API:
 
-```html
+```javascript
 <script>
   Omise.setPublicKey("pkey_test_4xpip92iqmehclz4a4d");
 </script>
@@ -135,7 +135,7 @@ Next, you need a form that will collect the card details.
 
 Next, we need to trigger the creation of the token when the submit button is pressed. Then, fill in the token field and clear the other fields so they are not submitted to your server.
 
-```html
+```javascript
 
 $("#checkout").submit(function () {
 

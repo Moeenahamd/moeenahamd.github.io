@@ -75,21 +75,21 @@ Mehr Informationen zur Tokens-API finden Sie in der [Token-Referenz](/tokens-api
 
 Zuerst müssen Sie Omise.js in Ihre Webseite einfügen. Fügen Sie es vor dem schließenden `</body>`-Tag ein:
 
-```html
+```javascript
 <script src="https://cdn.omise.co/omise.js"></script>
 
 ```
 Zum Beispiel benötigt die Omise-JS-Bibliothek kein jQuery, aber wir verwenden es hier als bequemen Weg, um auf das DOM zuzugreifen. Fügen Sie die jQuery-Bibliothek mit folgendem Code in die Seite ein:
 
 
-```html
+```javascript
 <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
 ```
 
 Fügen Sie anschließend Ihren Public Key hinzu, damit Omise.js sich gegenüber der Omise-API authentifizieren kann:
 
 
-```html
+```javascript
 <script>
   Omise.setPublicKey("pkey_test_4xpip92iqmehclz4a4d");
 </script>
@@ -129,7 +129,7 @@ Als Nächstes benötigen Sie ein Formular, das die Kartendaten erfasst.
 
 Als Nächstes müssen wir die Erstellung des Tokens auslösen, wenn die Schaltfläche zum Absenden gedrückt wird. Danach füllen wir das Token-Feld aus und leeren die anderen Felder, damit sie nicht an Ihren Server gesendet werden.
 
-```html
+```javascript
 
 $("#checkout").submit(function () {
 
