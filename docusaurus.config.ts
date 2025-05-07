@@ -12,7 +12,7 @@ const config: Config = {
 
   themes: ['@docusaurus/theme-mermaid'],
 
-  title: 'My Site',
+  title: 'OMISE',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -97,7 +97,7 @@ const config: Config = {
      navbar: {
         
          logo: {
-         alt: 'My Site Logo',
+         alt: 'OMISE Logo',
          src: 'img/Logo.svg',
        },
        items: [
