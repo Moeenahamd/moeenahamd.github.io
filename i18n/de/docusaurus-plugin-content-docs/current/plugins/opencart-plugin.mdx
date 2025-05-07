@@ -1,0 +1,109 @@
+---
+---
+# OpenCart
+
+<details>
+  <summary><em>Themen, die auf dieser Seite behandelt werden</em></summary>
+
+- [Unterstützte Versionen](#unterstützte-versionen)
+- [Unterstützte Zahlungsmethoden](#unterstützte-zahlungsmethoden)
+- [Installation](#installation)
+- [Konfiguration](#konfiguration)
+  - [3DS aktivieren](#3ds-aktivieren)
+- [Anpassung](#anpassung)
+- [Support](#support)
+
+</details>
+
+Zahlungen über Omise in Ihrem **OpenCart**-basierten Online-Shop akzeptieren. Es sind keine Programmierkenntnisse erforderlich.
+
+## Unterstützte Versionen
+
+Unterstützt **OpenCart 2.0.3.1**.
+
+> Finden Sie Ihre OpenCart-Version nicht? [Kontaktieren Sie den Support](mailto:support@omise.co?subject=Feature%20Request:%20OpenCart).
+
+## Unterstützte Zahlungsmethoden
+
+- Kredit- und Debitkarten  
+- Internet Banking  
+- OCBC Digital
+
+> Benötigen Sie eine Zahlungsmethode, die derzeit nicht unterstützt wird? [Kontaktieren Sie den Support](mailto:support@omise.co?subject=Payment%20Method%20Support:%20OpenCart).
+
+## Installation
+
+1. Laden Sie die [neueste Version](https://github.com/omise/omise-opencart/releases/tag/v2.5) herunter und entpacken Sie sie.
+2. Mischen Sie den Inhalt des extrahierten `src`-Ordners mit denen des Stammordners Ihrer OpenCart-Website.
+
+ ![manual_folder](/img/manual_folder.png)
+3. Melden Sie sich im OpenCart-Admin-Panel an. Gehen Sie zu **Erweiterungen > Zahlungen**.
+
+ ![setup_find](/img/setup_find.png)
+
+4. Suchen Sie nach **Omise Payment Gateway** und **Omise Payment Gateway - Internet Banking** und klicken Sie auf die **grünen Pluszeichen** bei beiden Erweiterungen, um sie zu installieren.
+
+ ![manual_activate](/img/manual_activate.png)
+
+> Hinweis: Stellen Sie sicher, dass Sie über Berechtigungen zum Schreiben in den OpenCart-Ordner auf Ihrem Server verfügen.
+
+## Konfiguration
+
+Verbinden Sie Ihr Omise-Konto und aktivieren Sie Ihre bevorzugten Zahlungsmethoden.  
+Dies ermöglicht es Ihren Kunden, über Omise Zahlungen in Ihrem Shop zu tätigen.
+
+In der OpenCart-Admin-Oberfläche:
+
+1. Gehen Sie zu **Erweiterungen** > **Zahlungen**.
+
+ ![setup_find](/img/setup_find.png)
+
+2. Suchen Sie nach **Omise Payment Gateway** (unterstützt Kredit- und Debitkartenzahlungen) und klicken Sie auf das **blaue Stiftsymbol**, um die Erweiterung zu konfigurieren.
+
+ ![setup_edit](/img/setup_edit.png)
+
+3. Das System zeigt die Omise Payment Gateway-Dashboard-Seite an. Gehen Sie zur **Einstellungs**-Seite.
+
+ ![setup_enable](/img/setup_enable.png)
+
+4. Konfigurieren Sie Ihr Plugin, indem Sie Ihre öffentlichen und geheimen Schlüssel eingeben.
+
+ ![setup_keys](/img/setup_keys.png)
+
+> **Hinweis:** Diese Schritte gelten für Zahlungen mit Kredit- und Debitkarten.  
+> Wiederholen Sie dies, um andere Zahlungsmethoden zu aktivieren und zu konfigurieren (z. B. Internet Banking).
+
+Die folgende Tabelle zeigt die Einstellungen für die Erweiterung und deren Beschreibungen:
+
+| **Einstellung**           | **Beschreibung**                                                                 |
+|--------------------------|----------------------------------------------------------------------------------|
+| Modulstatus              | Aktiviert oder deaktiviert die Erweiterung.                                      |
+| Titel der Zahlungsmethode | Titel des Omise-Zahlungsgateways, der an der Kasse angezeigt wird.              |
+| Testmodus aktivieren     | Wenn ausgewählt, werden alle Transaktionen im TEST-Modus durchgeführt, und TEST-Schlüssel werden verwendet. |
+| Live-Modus aktivieren    | Wenn ausgewählt, werden alle Transaktionen im LIVE-Modus durchgeführt, und LIVE-Schlüssel werden verwendet. |
+| Öffentlicher Schlüssel für Test | Ihr TEST-öffentlicher Schlüssel ist in Ihrem Omise-Dashboard zu finden.     |
+| Geheimer Schlüssel für Test | Ihr TEST-geheimer Schlüssel ist in Ihrem Omise-Dashboard zu finden.         |
+| Öffentlicher Schlüssel   | Ihr LIVE-öffentlicher Schlüssel ist in Ihrem Omise-Dashboard zu finden.        |
+| Geheimer Schlüssel       | Ihr LIVE-geheimer Schlüssel ist in Ihrem Omise-Dashboard zu finden.           |
+| 3D-Secure aktivieren     | Aktiviert oder deaktiviert die 3D-Secure-Zahlung.                              |
+| Zahlungsaktion           | Ob die Omise-Gebühr nach der Autorisierung erfasst wird.                        |
+
+> Hinweis: Wenn die Einstellung `Zahlungsaktion` auf `Automatische Erfassung` gesetzt ist, wird die Omise-Gebühr nach der Autorisierung automatisch erfasst.  
+> Wenn die Einstellung für `Zahlungsaktion` auf `Manuelle Erfassung` gesetzt ist, wird die Omise-Gebühr nur autorisiert.
+
+## 3DS aktivieren
+
+Wenn Sie 3DS (auch als 3D Secure bekannt) Zahlungen bearbeiten möchten, aktivieren Sie 3DS im Plugin in der [Konfiguration](/opencart-plugin#konfiguration), bevor Sie [den Support kontaktieren](#), um 3DS in Ihrem Konto zu aktivieren.
+
+> Wenn Sie 3DS für Ihr Konto aktiviert haben, es jedoch nicht im Plugin aktiviert haben, erhalten Sie möglicherweise eine Zahlungsfehlermeldung mit der Nachricht:  
+> _„3D Secure wurde angefordert, aber die Rückgabe-URI ist nicht festgelegt.“_
+
+## Anpassung
+
+Dieses Plugin ist Open Source.  
+Besuchen Sie das Repository auf [GitHub](https://github.com/omise/omise-opencart), um den Quellcode zu sehen und Informationen darüber zu erhalten, wie Sie Änderungen beisteuern können.  
+Pull-Requests sind willkommen!
+
+## Support
+
+Wenn Sie Probleme mit diesem Plugin haben, [kontaktieren Sie bitte den Support](mailto:support@omise.co?subject=Support%20Request:%20OpenCart).
