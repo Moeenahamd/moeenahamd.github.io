@@ -27,12 +27,12 @@ Alipay+ ユーザーから店舗での支払いを **Alipay+ ユーザ提示型�
 
 | 対応ウォレット     | タイ       | シンガポール | マレーシア |
 |-------------------|-----------|-------------|-----------|
-| Alipay CN         | ✅        | ✅          |           |
-| Alipay HK         | ✅        | ✅          | ✅        |
-| KakaoPay          | ✅        | ✅          | ✅        |
-| GCash             |           | ✅          | ✅        |
-| Touch 'n Go       | ✅        | ✅          |           |
-| TrueMoney         |           | ✅          | ✅        |
+| アリペイ CN         | ✅        | ✅          |           |
+| アリペイ HK         | ✅        | ✅          | ✅        |
+| カオペイ          | ✅        | ✅          | ✅        |
+| ジーキャッシュ            |           | ✅          | ✅        |
+| タッチ・アンド・ゴー     | ✅        | ✅          |           |
+| トゥルー・マネー         |           | ✅          | ✅        |
 
 **ユーザ提示型モード決済（BスキャンC）** を有効にするには、この機能をリクエストするために [support@omise.co](mailto:support@omise.co) にメールを送信してください。新しい利用規約に同意する必要があります。
 
@@ -209,19 +209,20 @@ curl https://api.omise.co/charges/$CHARGE_ID/expire \
 
 ```mermaid
 sequenceDiagram
-    participant customer
-    participant merchant
-    participant api.omise.co
-    participant payment provider
+    participant customer as 顧客
+    participant merchant as 店舗
+    participant api.omise.co as api.omise.co
+    participant payment provider as 支払いプロバイダー
 
-    customer->>merchant: Present payment code for scanning
-    merchant->>api.omise.co: Create charge using payment code
-    api.omise.co-->>merchant: Return charge   
-    api.omise.co--x merchant: Send "charge.create" webhook
-    customer->>payment provider: Provide charge authorization
-    payment provider-->>customer: Return payment result
-    payment provider-->>api.omise.co: Return payment result
-    api.omise.co--x merchant: Send "charge.complete" webhook
+    customer->>merchant: 支払いコードを提示してスキャンを依頼
+    merchant->>api.omise.co: 支払いコードを使用してチャージを作成
+    api.omise.co-->>merchant: チャージを返す
+    api.omise.co--x merchant: "charge.create" ウェブフックを送信
+    customer->>payment provider: チャージ承認を提供
+    payment provider-->>customer: 支払い結果を返す
+    payment provider-->>api.omise.co: 支払い結果を返す
+    api.omise.co--x merchant: "charge.complete" ウェブフックを送信
+
 ```
 ### チャージ完了イベントの受信
 

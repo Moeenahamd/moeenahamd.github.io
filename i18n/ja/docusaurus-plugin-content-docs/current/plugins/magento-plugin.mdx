@@ -18,19 +18,19 @@
 
 </details>
 
-Omiseを通じて**Magentoベース**のオンラインストアで支払いを受け付けます。プログラミングは不要です。
+Omiseを通じて**マジェントベース**のオンラインストアで支払いを受け付けます。プログラミングは不要です。
 
 ## サポートされているバージョン
 
-**Magento 2.1.18 – 2.4.5**をサポートします。
+**マジェント 2.1.18 – 2.4.5**をサポートします。
 
 <pre>
-[omise-magento](https://github.com/omise/omise-magento/)ライブラリの少なくとも最小推奨バージョンを使用してください。
+[omise-マジェント](https://github.com/omise/omise-マジェント/)ライブラリの少なくとも最小推奨バージョンを使用してください。
 詳細については、[ライブラリの更新が必要](#library-update)をご覧ください。
 
 </pre>
 
-> ご利用のMagentoバージョンが見つかりませんか？ [サポートにお問い合わせください](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento)。
+> ご利用のマジェントバージョンが見つかりませんか？ [サポートにお問い合わせください](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento)。
 
 ## サポートされている支払い方法
 
@@ -76,24 +76,25 @@ Omiseを通じて**Magentoベース**のオンラインストアで支払いを�
 
 [Composer](/getcomposer.org/)を使用してインストールします。
 
-Magentoのインストールと同じディレクトリで、以下のコマンドを実行してください：
+
+マジェントのインストールと同じディレクトリで、以下のコマンドを実行してください：
 
 ```
-composer require omise/omise-magento
+composer require omise/omise-マジェント
 ```
-既存のMagentoインストールにモジュールをインストールする場合、composerを実行した後に以下のコマンドを実行する必要があるかもしれません：
+既存のマジェントインストールにモジュールをインストールする場合、composerを実行した後に以下のコマンドを実行する必要があるかもしれません：
 
 ```
-php bin/magento module:enable Omise_Payment --clear-static-content
-php bin/magento setup:upgrade
-php bin/magento setup:di:compile
+php bin/マジェント module:enable Omise_Payment --clear-static-content
+php bin/マジェント setup:upgrade
+php bin/マジェント setup:di:compile
 ```
 ## 設定
 
 Omiseアカウントを接続し、お好みの支払い方法を有効にします。  
 これにより、お客様がOmiseを通じてあなたのストアで支払いを行えるようになります。
 
-Magentoの管理インターフェースで:
+マジェントの管理インターフェースで:
 
 1. `Stores` > `Configuration` > `Sales` > `Payment Methods` に移動します。
 2. 設定オプションが **Omise** セクションに表示されます。
@@ -111,14 +112,15 @@ Magentoの管理インターフェースで:
 
 ## 新しいセキュアフォームへのアップグレード
 
-Magentoで新しいセキュアフォームにアップグレードするには、以下の手順に従ってください：
 
-**composer**を使用してMagentoをアップグレードします。
+マジェントで新しいセキュアフォームにアップグレードするには、以下の手順に従ってください：
 
-既存のMagentoインストールと同じディレクトリで、次のコマンドを実行します。
+**composer**を使用してマジェントをアップグレードします。
+
+既存のマジェントインストールと同じディレクトリで、次のコマンドを実行します。
 
 ```
-composer update omise/omise-magento
+composer update omise/omise-マジェント
 ```
 次に、Omiseを有効にするために以下のコマンドを実行します：
 
@@ -130,7 +132,7 @@ php bin/magento setup:di:compile
 ## 支払い用のセキュアフォームを有効にする
 
 ```
-Here’s the translation to Japanese:
+
 
 重要: 以前のカード決済フォームで行ったカスタマイズは、新しいセキュアフォームを使用する際には保持されません。セキュアフォーム用にカスタマイズをやり直す必要があります。
 

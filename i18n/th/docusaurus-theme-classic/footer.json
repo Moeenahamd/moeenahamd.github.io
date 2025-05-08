@@ -1,0 +1,82 @@
+{
+  "link.item.label.Accept payments": {
+    "message": "รับการชำระเงิน",
+    "description": "ป้ายลิงก์ที่มีข้อความ = รับการชำระเงิน ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Omise AI": {
+    "message": "Omise AI",
+    "description": "ป้ายลิงก์ที่มีข้อความ = Omise AI ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Manage transactions": {
+    "message": "จัดการธุรกรรม",
+    "description": "ป้ายลิงก์ที่มีข้อความ = จัดการธุรกรรม ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Payment Links+": {
+    "message": "ลิงก์การชำระเงิน+",
+    "description": "ป้ายลิงก์ที่มีข้อความ = ลิงก์การชำระเงิน+ ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.PayFac": {
+    "message": "PayFac",
+    "description": "ป้ายลิงก์ที่มีข้อความ = PayFac ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Acquiring": {
+    "message": "ข้อตกลงผู้ค้า",
+    "description": "ป้ายลิงก์ที่มีข้อความ = ข้อตกลงผู้ค้า ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Payment Orchestration": {
+    "message": "การจัดการการชำระเงิน",
+    "description": "ป้ายลิงก์ที่มีข้อความ = การจัดการการชำระเงิน ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Consultant service for Fintech": {
+    "message": "บริการที่ปรึกษาสำหรับฟินเทค",
+    "description": "ป้ายลิงก์ที่มีข้อความ = บริการที่ปรึกษาสำหรับฟินเทค ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.About us": {
+    "message": "เกี่ยวกับเรา",
+    "description": "ป้ายลิงก์ที่มีข้อความ = เกี่ยวกับเรา ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Newsroom": {
+    "message": "ห้องข่าว",
+    "description": "ป้ายลิงก์ที่มีข้อความ = ห้องข่าว ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Careers": {
+    "message": "อาชีพ",
+    "description": "ป้ายลิงก์ที่มีข้อความ = อาชีพ ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Customer stories": {
+    "message": "เรื่องราวจากลูกค้า",
+    "description": "ป้ายลิงก์ที่มีข้อความ = เรื่องราวจากลูกค้า ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Blog": {
+    "message": "บล็อก",
+    "description": "ป้ายลิงก์ที่มีข้อความ = บล็อก ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Pricing": {
+    "message": "ราคา",
+    "description": "ป้ายลิงก์ที่มีข้อความ = ราคา ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Documentation": {
+    "message": "เอกสาร",
+    "description": "ป้ายลิงก์ที่มีข้อความ = เอกสาร ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Get started": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "ป้ายลิงก์ที่มีข้อความ = เริ่มต้นใช้งาน ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.FAQ": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "ป้ายลิงก์ที่มีข้อความ = คำถามที่พบบ่อย ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Restricted businesses": {
+    "message": "ธุรกิจที่ถูกจำกัด",
+    "description": "ป้ายลิงก์ที่มีข้อความ = ธุรกิจที่ถูกจำกัด ซึ่งนำไปที่ /docs/intro"
+  },
+  "link.item.label.Contact us": {
+    "message": "ติดต่อเรา",
+    "description": "ป้ายลิงก์ที่มีข้อความ = ติดต่อเรา ซึ่งนำไปที่ /docs/intro"
+  },
+  "copyright": {
+    "message": "นโยบายความเป็นส่วนตัวและข้อกำหนดการใช้งาน © 2025 Omise Co., Ltd.",
+    "description": "ข้อความลิขสิทธิ์ที่แสดงในส่วนท้าย"
+  }
+}

@@ -313,26 +313,25 @@ curl https://api.omise.co/charges/$CHARGE_ID/expire \
 
 ```mermaid
 sequenceDiagram
-    participant customer
-    participant omise.js
-    participant merchant
-    participant api.omise.co
-    participant offline provider
+    participant customer as 顧客
+    participant omise.js as omise.js
+    participant merchant as 店舗
+    participant api.omise.co as api.omise.co
+    participant offline provider as オフラインプロバイダー
 
-    customer->>omise.js: Send payment details for purchase
-    omise.js->>api.omise.co: Request source using payment details
-    api.omise.co-->>omise.js: Return source
-    omise.js-->>merchant: Merchant gets returned source
-    merchant->>api.omise.co: Request charge using source and purchase details
-   
-    api.omise.co--x merchant: Send "charge.create" webhook
-    api.omise.co-->>merchant: Return charge
-    merchant->>offline provider: Provide payment or charge authorization at offline provider
-    offline provider-->>merchant: Return result of payment or charge authorization
-    offline provider-->>api.omise.co: Return result of payment or charge authorization
-   
-    api.omise.co--x merchant: Send "charge.complete" webhook
-    merchant-->>customer: Send charge result (e.g., via email)
+    customer->>omise.js: 購入のための支払い詳細を送信
+    omise.js->>api.omise.co: 支払い詳細を使ってソースをリクエスト
+    api.omise.co-->>omise.js: ソースを返す
+    omise.js-->>merchant: 店舗が返されたソースを受け取る
+    merchant->>api.omise.co: ソースと購入詳細を使ってチャージをリクエスト
+    api.omise.co--x merchant: "charge.create" ウェブフックを送信
+    api.omise.co-->>merchant: チャージを返す
+    merchant->>offline provider: オフラインプロバイダーで支払いまたはチャージの承認を提供
+    offline provider-->>merchant: 支払いまたはチャージ承認の結果を返す
+    offline provider-->>api.omise.co: 支払いまたはチャージ承認の結果を返す
+    api.omise.co--x merchant: "charge.complete" ウェブフックを送信
+    merchant-->>customer: チャージ結果を送信（例：メールで）
+
 ```
 ## チャージの承認
 

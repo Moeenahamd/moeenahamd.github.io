@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "คานารี ",
+    "description": "ป้ายชื่อสำหรับเวอร์ชันปัจจุบัน"
+  },
+  "sidebar.tutorialSidebar.category.GUIDE": {
+    "message": "คู่มือ",
+    "description": "ป้ายชื่อสำหรับหมวดหมู่ GUIDE ใน sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "บทเรียน – พื้นฐาน",
+    "description": "ป้ายชื่อสำหรับหมวดหมู่ Tutorial - Basics ใน sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "เรียนรู้แนวคิดพื้นฐานของ Docusaurus ใน 5 นาที",
+    "description": "คำอธิบายของหน้าดัชนีที่สร้างขึ้นสำหรับหมวดหมู่ Tutorial - Basics ใน sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "บทเรียน – ขั้นสูง",
+    "description": "ป้ายชื่อสำหรับหมวดหมู่ Tutorial - Extras ใน sidebar tutorialSidebar"
+  }
+}

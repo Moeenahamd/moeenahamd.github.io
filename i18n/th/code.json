@@ -1,0 +1,321 @@
+{
+  
+    "theme.ErrorPageContent.title": {
+      "message": "เกิดข้อผิดพลาด",
+      "description": "ชื่อเรื่องของหน้าสำรองเมื่อหน้าเว็บขัดข้อง"
+    },
+    "theme.BackToTopButton.buttonAriaLabel": {
+      "message": "กลับไปด้านบน",
+      "description": "ป้ายกำกับ ARIA สำหรับปุ่ม 'กลับไปด้านบน'"
+    },
+    "theme.blog.archive.title": {
+      "message": "คลังเก็บ",
+      "description": "ชื่อเรื่องของหน้าและส่วนฮีโร่ของหน้าคลังบทความ"
+    },
+    "theme.blog.archive.description": {
+      "message": "คลังเก็บ",
+      "description": "คำอธิบายของหน้าและส่วนฮีโร่ของหน้าคลังบทความ"
+    },
+    "theme.blog.paginator.navAriaLabel": {
+      "message": "การนำทางบทความบล็อก",
+      "description": "ป้ายกำกับ ARIA สำหรับการแบ่งหน้าบล็อก"
+    },
+    "theme.blog.paginator.newerEntries": {
+      "message": "บทความใหม่กว่า",
+      "description": "ป้ายกำกับเพื่อนำไปยังหน้าบทความใหม่กว่า (หน้าก่อนหน้า)"
+    },
+    "theme.blog.paginator.olderEntries": {
+      "message": "บทความเก่ากว่า",
+      "description": "ป้ายกำกับเพื่อนำไปยังหน้าบทความเก่ากว่า (หน้าถัดไป)"
+    },
+    "theme.blog.post.paginator.navAriaLabel": {
+      "message": "การนำทางโพสต์บล็อก",
+      "description": "ป้ายกำกับ ARIA สำหรับการแบ่งหน้าโพสต์บล็อก"
+    },
+    "theme.blog.post.paginator.newerPost": {
+      "message": "โพสต์ล่าสุด",
+      "description": "ป้ายกำกับปุ่มเพื่อนำไปยังโพสต์ก่อนหน้า"
+    },
+    "theme.blog.post.paginator.olderPost": {
+      "message": "โพสต์เก่า",
+      "description": "ป้ายกำกับปุ่มเพื่อนำไปยังโพสต์ถัดไป"
+    },
+    "theme.tags.tagsPageLink": {
+      "message": "ดูแท็กทั้งหมด",
+      "description": "ป้ายกำกับของลิงก์ไปยังหน้ารายการแท็ก"
+    },
+    "theme.colorToggle.ariaLabel": {
+      "message": "เปลี่ยนโหมดแสง/มืด (ปัจจุบันเป็น {mode})",
+      "description": "ป้ายกำกับ ARIA สำหรับปุ่มสลับโหมดสีในแถบนำทาง"
+    },
+    "theme.colorToggle.ariaLabel.mode.dark": {
+      "message": "โหมดมืด",
+      "description": "ชื่อของโหมดมืด"
+    },
+    "theme.colorToggle.ariaLabel.mode.light": {
+      "message": "โหมดสว่าง",
+      "description": "ชื่อของโหมดสว่าง"
+    },
+    "theme.docs.breadcrumbs.navAriaLabel": {
+      "message": "การนำทางแบบ Breadcrumb",
+      "description": "ป้ายกำกับ ARIA สำหรับ Breadcrumb"
+    },
+    "theme.docs.DocCard.categoryDescription.plurals": {
+      "message": "{count} รายการ",
+      "description": "คำอธิบายเริ่มต้นของการ์ดหมวดหมู่ในดัชนีที่สร้างขึ้นซึ่งระบุจำนวนรายการในหมวดหมู่นั้น"
+    },
+    "theme.docs.paginator.navAriaLabel": {
+      "message": "การนำทางหน้าคู่มือ",
+      "description": "ป้ายกำกับ ARIA สำหรับการแบ่งหน้าคู่มือ"
+    },
+    "theme.docs.paginator.previous": {
+      "message": "ย้อนกลับ",
+      "description": "ป้ายกำกับเพื่อนำไปยังคู่มือก่อนหน้า"
+    },
+    "theme.docs.paginator.next": {
+      "message": "ถัดไป",
+      "description": "ป้ายกำกับเพื่อนำไปยังคู่มือถัดไป"
+    },
+    "theme.docs.tagDocListPageTitle.nDocsTagged": {
+      "message": "{count} บทความ",
+      "description": "ป้ายกำกับที่แสดงจำนวนเอกสารที่ติดแท็ก ใช้รูปแบบพหูพจน์ตามจำนวน"
+    },
+    "theme.docs.tagDocListPageTitle": {
+      "message": "เอกสารที่มีแท็ก \"{tagName}\": {nDocsTagged}",
+      "description": "ชื่อเรื่องของหน้าสำหรับแท็กของเอกสาร"
+    },
+    "theme.docs.versionBadge.label": {
+      "message": "เวอร์ชัน: {versionLabel}",
+      "description": "ป้ายกำกับสำหรับแถบเวอร์ชัน"
+    },
+    "theme.docs.versions.unreleasedVersionLabel": {
+      "message": "นี่คือคู่มือสำหรับเวอร์ชันที่ยังไม่เผยแพร่ {versionLabel} ของ {siteTitle}",
+      "description": "ข้อความที่แจ้งผู้ใช้ว่ากำลังดูเอกสารสำหรับเวอร์ชันที่ยังไม่เผยแพร่"
+    },
+    "theme.docs.versions.unmaintainedVersionLabel": {
+      "message": "นี่คือคู่มือสำหรับเวอร์ชัน {versionLabel} ของ {siteTitle} ซึ่งไม่ได้รับการดูแลแล้ว",
+      "description": "ข้อความที่แจ้งผู้ใช้ว่ากำลังดูเอกสารของเวอร์ชันที่เลิกดูแลแล้ว"
+    },
+    "theme.docs.versions.latestVersionSuggestionLabel": {
+      "message": "กรุณาดูเอกสารล่าสุดที่ {latestVersionLink} ({versionLabel})",
+      "description": "ข้อความที่แนะนำให้ผู้ใช้ดูเวอร์ชันล่าสุด"
+    }
+  ,  
+  
+    "theme.docs.versions.latestVersionLinkLabel": {
+      "message": "เวอร์ชันล่าสุด",
+      "description": "ป้ายกำกับสำหรับลิงก์ไปยังเวอร์ชันล่าสุด"
+    },
+    "theme.common.editThisPage": {
+      "message": "แก้ไขหน้านี้",
+      "description": "ป้ายกำกับของลิงก์สำหรับแก้ไขหน้าปัจจุบัน"
+    },
+    "theme.common.headingLinkTitle": {
+      "message": "ลิงก์ตรงไปยัง {heading}",
+      "description": "ชื่อเรื่องของลิงก์ไปยังส่วนหัวข้อ"
+    },
+    "theme.lastUpdated.atDate": {
+      "message": "เมื่อวันที่ {date}",
+      "description": "ข้อความที่ใช้แสดงวันที่ที่หน้าเพิ่งได้รับการอัปเดตล่าสุด"
+    },
+    "theme.lastUpdated.byUser": {
+      "message": "โดย {user}",
+      "description": "ข้อความที่ใช้แสดงว่าใครเป็นผู้แก้ไขหน้านี้ล่าสุด"
+    },
+    "theme.lastUpdated.lastUpdatedAtBy": {
+      "message": "อัปเดตล่าสุดเมื่อ {atDate} โดย {byUser}",
+      "description": "ประโยคที่ใช้แสดงวันที่และผู้ที่แก้ไขล่าสุด"
+    },
+    "theme.navbar.mobileVersionsDropdown.label": {
+      "message": "เวอร์ชันอื่นๆ",
+      "description": "ป้ายกำกับของดรอปดาวน์เวอร์ชันในเมนูมือถือ"
+    },
+    "theme.NotFound.title": {
+      "message": "ไม่พบหน้า",
+      "description": "ชื่อเรื่องของหน้าข้อผิดพลาด 404"
+    },
+    "theme.tags.tagsListLabel": {
+      "message": "แท็ก:",
+      "description": "ป้ายกำกับข้างรายการแท็ก"
+    },
+    "theme.admonition.caution": {
+      "message": "ระวัง",
+      "description": "ป้ายกำกับเริ่มต้นสำหรับคำเตือนแบบ Caution (:::caution)"
+    },
+    "theme.admonition.danger": {
+      "message": "อันตราย",
+      "description": "ป้ายกำกับเริ่มต้นสำหรับคำเตือนแบบ Danger (:::danger)"
+    },
+    "theme.admonition.info": {
+      "message": "ข้อมูล",
+      "description": "ป้ายกำกับเริ่มต้นสำหรับข้อมูลแบบ Info (:::info)"
+    },
+    "theme.admonition.note": {
+      "message": "บันทึก",
+      "description": "ป้ายกำกับเริ่มต้นสำหรับบันทึกแบบ Note (:::note)"
+    },
+    "theme.admonition.tip": {
+      "message": "เคล็ดลับ",
+      "description": "ป้ายกำกับเริ่มต้นสำหรับคำแนะนำแบบ Tip (:::tip)"
+    },
+    "theme.admonition.warning": {
+      "message": "คำเตือน",
+      "description": "ป้ายกำกับเริ่มต้นสำหรับคำเตือนแบบ Warning (:::warning)"
+    },
+    "theme.AnnouncementBar.closeButtonAriaLabel": {
+      "message": "ปิด",
+      "description": "ป้ายกำกับ ARIA สำหรับปุ่มปิดแถบประกาศ"
+    },
+    "theme.blog.sidebar.navAriaLabel": {
+      "message": "การนำทางบทความล่าสุดในบล็อก",
+      "description": "ป้ายกำกับ ARIA สำหรับบทความล่าสุดในแถบด้านข้างของบล็อก"
+    },
+    "theme.CodeBlock.copied": {
+      "message": "คัดลอกแล้ว",
+      "description": "ป้ายกำกับของปุ่ม 'คัดลอกแล้ว' ในบล็อกโค้ด"
+    },
+    "theme.CodeBlock.copyButtonAriaLabel": {
+      "message": "คัดลอกโค้ดไปยังคลิปบอร์ด",
+      "description": "ป้ายกำกับ ARIA สำหรับปุ่มคัดลอกโค้ดในบล็อกโค้ด"
+    },
+    "theme.CodeBlock.copy": {
+      "message": "คัดลอก",
+      "description": "ป้ายกำกับของปุ่ม 'คัดลอก' ในบล็อกโค้ด"
+    },
+    "theme.CodeBlock.wordWrapToggle": {
+      "message": "ตัดบรรทัด",
+      "description": "ชื่อปุ่มสำหรับสลับการตัดบรรทัดในบล็อกโค้ด"
+    },
+    "theme.DocSidebarItem.expandCategoryAriaLabel": {
+      "message": "เปิดสารบัญของ '{label}'",
+      "description": "ป้ายกำกับ ARIA สำหรับขยายหมวดหมู่ในแถบด้านข้าง"
+    },
+    "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+      "message": "ย่อสารบัญของ '{label}'",
+      "description": "ป้ายกำกับ ARIA สำหรับย่อหมวดหมู่ในแถบด้านข้าง"
+    },
+    "theme.NavBar.navAriaLabel": {
+      "message": "การนำทาง",
+      "description": "ป้ายกำกับ ARIA สำหรับเมนูนำทางหลัก"
+    },
+    "theme.navbar.mobileLanguageDropdown.label": {
+      "message": "ภาษาอื่นๆ",
+      "description": "ป้ายกำกับของเมนูดรอปดาวน์สำหรับเปลี่ยนภาษาในมือถือ"
+    }
+  
+, 
+  "theme.NotFound.p1": {
+    "message": "ไม่พบหน้าที่คุณกำลังค้นหา",
+    "description": "ย่อหน้าแรกของหน้าข้อผิดพลาด 404"
+  },
+  "theme.NotFound.p2": {
+    "message": "โปรดแจ้งให้เจ้าของเว็บไซต์ที่ลิงก์มายังหน้านี้ทราบว่าลิงก์ใช้งานไม่ได้",
+    "description": "ย่อหน้าที่สองของหน้าข้อผิดพลาด 404"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "หัวข้อของหน้านี้",
+    "description": "ป้ายกำกับของปุ่มในส่วนสารบัญที่สามารถยุบ/ขยายได้"
+  },
+  "theme.blog.post.readMore": {
+    "message": "ดูเพิ่มเติม",
+    "description": "ป้ายกำกับที่ใช้ในบทความบล็อกเพื่อเชื่อมไปยังเนื้อหาเต็ม"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "อ่านเพิ่มเติมเกี่ยวกับ {title}",
+    "description": "ป้าย ARIA สำหรับลิงก์ไปยังบทความบล็กฉบับเต็มจากข้อความย่อ"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "ประมาณ {readingTime} นาที",
+    "description": "ป้ายแสดงเวลาที่ใช้ในการอ่าน ใช้รูปแบบพหูพจน์ตามกฎไวยากรณ์ของภาษา"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "หน้าแรก",
+    "description": "ป้าย ARIA สำหรับหน้าแรกใน breadcrumb"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "ซ่อนแถบด้านข้าง",
+    "description": "ข้อความ title ของปุ่มสำหรับซ่อนแถบด้านข้างของเอกสาร"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "ซ่อนแถบด้านข้าง",
+    "description": "ป้าย ARIA สำหรับปุ่มซ่อนแถบด้านข้างของเอกสาร"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "แถบด้านข้างของเอกสาร",
+    "description": "ป้าย ARIA สำหรับแถบด้านข้างของเอกสาร"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ปิดแถบด้านข้าง",
+    "description": "ป้าย ARIA สำหรับปุ่มปิดแถบด้านข้างในอุปกรณ์มือถือ"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← กลับไปยังเมนูหลัก",
+    "description": "ป้ายสำหรับปุ่มย้อนกลับไปยังเมนูหลักในเมนูแถบด้านข้างของมือถือ"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "เปิดแถบด้านข้าง",
+    "description": "ป้าย ARIA สำหรับปุ่มแฮมเบอร์เกอร์ในเมนูนำทางมือถือ"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "เปิดแถบด้านข้าง",
+    "description": "ป้าย ARIA และ title ของปุ่มสำหรับขยายแถบด้านข้าง"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "เปิดแถบด้านข้าง",
+    "description": "ป้าย ARIA และ title ของปุ่มสำหรับขยายแถบด้านข้าง"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} โพสต์",
+    "description": "ป้ายแสดงจำนวนโพสต์ ใช้รูปแบบพหูพจน์ตามกฎไวยากรณ์ของภาษา"
+  },
+  "theme.blog.tagTitle": {
+    "message": "มี {nPosts} โพสต์ในแท็ก “{tagName}”",
+    "description": "ชื่อหน้าสำหรับแท็กของบล็อก"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "ชื่อหน้าสำหรับผู้เขียนบล็อก"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "รายชื่อผู้เขียน",
+    "description": "ชื่อหน้าของรายการผู้เขียน"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "ดูผู้เขียนทั้งหมด",
+    "description": "ป้ายลิงก์ไปยังหน้ารายชื่อผู้เขียน"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "ผู้เขียนนี้ยังไม่มีโพสต์",
+    "description": "ข้อความสำหรับผู้เขียนที่ยังไม่มีบทความ"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "หน้าไม่อยู่ในรายการ",
+    "description": "ชื่อสำหรับแบนเนอร์ของเนื้อหาที่ไม่อยู่ในรายการ"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "หน้านี้ไม่ได้อยู่ในรายการ จะไม่แสดงในผลการค้นหา และสามารถเข้าถึงได้เฉพาะผู้ที่มีลิงก์เท่านั้น",
+    "description": "ข้อความสำหรับแบนเนอร์ของเนื้อหาที่ไม่อยู่ในรายการ"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "หน้าแบบร่าง",
+    "description": "ชื่อสำหรับแบนเนอร์ของหน้าแบบร่าง"
+  }
+,
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "หน้านี้เป็นแบบร่าง จะแสดงเฉพาะในสภาพแวดล้อมสำหรับการพัฒนา และจะไม่รวมอยู่ในการสร้างสำหรับการใช้งานจริง",
+    "description": "ข้อความสำหรับแบนเนอร์ของหน้าแบบร่าง"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "ลองอีกครั้ง",
+    "description": "ป้ายของปุ่มเพื่อพยายามแสดงผลอีกครั้งเมื่อส่วนจับข้อผิดพลาดของ React พบข้อผิดพลาด"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "ข้ามไปยังเนื้อหาหลัก",
+    "description": "ป้าย 'ข้ามไปยังเนื้อหาหลัก' สำหรับการช่วยในการเข้าถึงเพื่อไปยังเนื้อหาอย่างรวดเร็วด้วย Tab/Enter"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "แท็ก",
+    "description": "ชื่อหน้าสำหรับรายการแท็ก"
+  }
+
+}

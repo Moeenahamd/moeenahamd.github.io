@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "บล็อก",
+    "description": "ชื่อสำหรับบล็อกที่ใช้ใน SEO"
+  },
+  "description": {
+    "message": "บล็อก",
+    "description": "คำอธิบายสำหรับบล็อกที่ใช้ใน SEO"
+  },
+  "sidebar.title": {
+    "message": "โพสต์ล่าสุด",
+    "description": "ป้ายกำกับสำหรับแถบด้านซ้าย"
+  }
+}
