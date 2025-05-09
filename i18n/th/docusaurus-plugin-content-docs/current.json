@@ -1,11 +1,11 @@
 {
   "version.label": {
     "message": "คานารี ",
-    "description": "ป้ายชื่อสำหรับเวอร์ชันปัจจุบัน"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.GUIDE": {
     "message": "คู่มือ",
-    "description": "ป้ายชื่อสำหรับหมวดหมู่ GUIDE ใน sidebar tutorialSidebar"
+    "description": "The label for category GUIDE in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tutorial - Basics": {
     "message": "บทเรียน – พื้นฐาน",
@@ -18,5 +18,17 @@
   "sidebar.tutorialSidebar.category.Tutorial - Extras": {
     "message": "บทเรียน – ขั้นสูง",
     "description": "ป้ายชื่อสำหรับหมวดหมู่ Tutorial - Extras ใน sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PAYMENT METHODS": {
+    "message": "วิธีการชำระเงิน",
+    "description": "The label for category PAYMENT METHODS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AliPay + Offline": {
+    "message": "AliPay + ออฟไลน์",
+    "description": "The label for category AliPay + Offline in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PLUGINS": {
+    "message": "ปลั๊กอิน",
+    "description": "The label for category PLUGINS in sidebar tutorialSidebar"
   }
 }

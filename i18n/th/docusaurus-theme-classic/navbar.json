@@ -1,7 +1,7 @@
 {
   "logo.alt": {
     "message": "โลโก้เว็บไซต์ของฉัน",
-    "description": "ข้อความ Alt สำหรับโลโก้ในแถบการนำทาง"
+    "description": "The alt text of navbar logo"
   },
   "item.label.Sign In": {
     "message": "ลงชื่อเข้าใช้",
