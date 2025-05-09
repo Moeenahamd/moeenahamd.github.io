@@ -45,7 +45,7 @@ const config: Config = {
       ja: {
         label: 'Japanese',
       },
-      de: {
+      th: {
         label: 'Thai',
       },
     },
@@ -61,10 +61,10 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          lastVersion: 'current', // 👈 Add this line
+          lastVersion: 'v2.0.0', // 👈 Add this line
           versions: {              // 👈 And this whole block
             current: {
-              label: 'Current',        // Label you see in the version dropdown
+              label: 'v2.0.0',        // Label you see in the version dropdown
             },
           },
         },

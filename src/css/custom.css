@@ -316,3 +316,16 @@ a{
 
 .docSidebarContainer_YfHR {border: 0px !important;
 background-color: #03070a}
+
+code{
+  color: black !important;
+  background-color: white;
+}
+blockquote {color:white;}
+#mermaid-svg-5726450 .messageText {
+  fill: lightgrey !important;
+  stroke: none;
+}
+pre{
+  color:black
+}
