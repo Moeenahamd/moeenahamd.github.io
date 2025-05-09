@@ -43,10 +43,10 @@ const config: Config = {
         label: 'English',
       },
       ja: {
-        label: 'Japanese',
+        label: '日本語',
       },
       th: {
-        label: 'Thai',
+        label: 'แบบไทย',
       },
     },
   },
