@@ -61,12 +61,14 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          lastVersion: 'current', // 👈 Add this line
-          versions: {              // 👈 And this whole block
-            current: {
-              label: 'v2.0.0',        // Label you see in the version dropdown
+          
+          lastVersion: 'current',
+            versions: {
+              current: {
+                label: 'v2.0.0'
+              },
             },
-          },
+          
         },
         
         blog: {
@@ -352,6 +354,10 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    plugins: [
+      // other plugins
+      '@docusaurus/plugin-content-docs',
+    ],
   } satisfies Preset.ThemeConfig,
   
 };
