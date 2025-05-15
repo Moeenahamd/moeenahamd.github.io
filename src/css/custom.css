@@ -286,6 +286,12 @@ Hide color mode toggle in small viewports
 }
 a{
   text-decoration: none;
+  color:white !important;
+
+}
+a:hover{
+  text-decoration: none;
+  color:#2e8555  !important;
 
 }
 .menu__link:hover {
@@ -328,4 +334,22 @@ blockquote {color:white;}
 }
 pre{
   color:black
+}
+.alert {background-color: black;
+  color:white !important;
+}
+.details_b_Ee {
+  border: 1px solid #2e8555 !important;
+}
+.collapsibleContent_i85q {
+   border-top: 1px solid #2e8555 !important;
+}
+.dropdown__menu {
+    background-color: black !important;}
+    em{
+      color:white !important;
+    }
+
+.details_lb9f > summary::before {
+  border-color: transparent transparent transparent #2e8555 !important;
 }
