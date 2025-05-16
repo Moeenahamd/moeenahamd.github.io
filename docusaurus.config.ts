@@ -102,18 +102,12 @@ const config: Config = {
          alt: 'OMISE Logo',
          src: 'img/Logo.svg',
        },
-       items: [
-        //  {
-        //    type: 'docSidebar',
-        //    sidebarId: 'tutorialSidebar',
-        //    position: 'left',
-        //    label: 'Tutorial',
-        //  },
-        //  {to: '/Products', label: 'Products', position: 'left'},
+       items: [ 
+        {to: '/swagger', label: 'API Playground', position: 'left'},
          
-        //  {to: '/Company', label: 'Company', position: 'left'},
+        {to: 'https://www.omise.co/en/contact-us', label: 'Contact Us', position: 'left'},
          
-        //  {to: '/Resources', label: 'Resources', position: 'left'},
+        {to: 'https://dashboard.omise.co/v2', label: 'Sign In', position: 'left'},
         // {
         //   label: 'Products',
         //   position: 'left',

@@ -1,4 +1,15 @@
 openapi: 3.0.3
+info:
+  title: Omise API
+  version: 1.0.0
+  description: OpenAPI definition for managing customer cards in the Omise API.
+
+servers:
+  - url: https://api.omise.co
+
+tags:
+  - name: Card API
+    description: Operations related to customer cards (list, retrieve, update, delete)
 
 paths:
   /customers/{customer_id}/cards:
