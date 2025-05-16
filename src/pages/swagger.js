@@ -10,7 +10,7 @@ export default function SwaggerPage() {
       description="Interact with the Card API using Swagger UI"
     >
       <div style={{ padding: '2rem', height: '100vh' }}>
-        <SwaggerUI url="/openapi.yml" />
+        {/* <SwaggerUI url="/openapi.yml" /> */}
       </div>
     </Layout>
   );
