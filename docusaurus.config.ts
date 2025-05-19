@@ -103,7 +103,7 @@ const config: Config = {
          src: 'img/Logo.svg',
        },
        items: [ 
-        {to: '/swagger', label: 'API Playground', position: 'left'},
+        //{to: '/swagger', label: 'API Playground', position: 'left'},
          
         {to: 'https://www.omise.co/en/contact-us', label: 'Contact Us', position: 'left'},
          
