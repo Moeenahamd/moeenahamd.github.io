@@ -70,6 +70,8 @@ flowchart TD
   B -- Yes --> D[Deliver Goods]
  
   D --> E[Capture complete authorized amount]
+  
+  linkStyle 0,1,2,3 stroke:white,stroke-width:1px;
 ```
 
 </div>
@@ -110,12 +112,14 @@ The illustrative flow is as follows:
 
 <div class="center-mermaid">
 ```mermaid
-flowchart TD
+graph TD
   A[Merchant initiates  card authorization] --> B{Is authorization successful?}
   B -- No --> C[Stop]
   B -- Yes --> D[Deliver some goods]
   D --> E[Charge card partially]
   E --> F[System unblocks and releases the remainder of the authorized amount]
+
+  linkStyle 0,1,2,3,4 stroke:white,stroke-width:1px;
 ```
 </div>
 
