@@ -7325,7 +7325,7 @@ mobx-react@^9.1.1:
   dependencies:
     mobx-react-lite "^4.1.0"
 
-mobx@^6.0.4, mobx@^6.9.0:
+mobx@^6.0.4, mobx@^6.13.7, mobx@^6.9.0:
   version "6.13.7"
   resolved "https://registry.npmjs.org/mobx/-/mobx-6.13.7.tgz"
   integrity sha512-aChaVU/DO5aRPmk1GX8L+whocagUUpBQqoPtJk+cm7UOXUk87J4PeWCh6nNmTTIfEhiR9DI/+FnA8dln/hTK7g==
@@ -9718,7 +9718,7 @@ style-to-object@1.0.8:
   dependencies:
     inline-style-parser "0.2.4"
 
-"styled-components@^4.1.1 || ^5.1.1 || ^6.0.5":
+"styled-components@^4.1.1 || ^5.1.1 || ^6.0.5", styled-components@^6.1.18:
   version "6.1.18"
   resolved "https://registry.npmjs.org/styled-components/-/styled-components-6.1.18.tgz"
   integrity sha512-Mvf3gJFzZCkhjY2Y/Fx9z1m3dxbza0uI9H1CbNZm/jSHCojzJhQ0R7bByrlFJINnMzz/gPulpoFFGymNwrsMcw==
