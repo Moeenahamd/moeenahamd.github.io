@@ -55,28 +55,15 @@ Hide color mode toggle in small viewports
   height:auto;
 }
 
-
 .navbar__brand {
   flex: 1;
 }
 
-.navbar__items {
-  justify-content: center;
-  flex: 2;
-}
 .navbar a,
 .navbar__item {
   font-weight: normal !important;
  
 }
-
-
-.navbar__items--right {
-  justify-content: flex-end;
-  flex: 1;
-}
-
-
 
 /* Custom style for Sign In button */
 .navbar__item[href="/signin"] {
@@ -118,12 +105,16 @@ Hide color mode toggle in small viewports
     padding-left: 4.5% !important; 
   }
 
-  .navbar__toggle {
+  /* .navbar__toggle {
     order: 2;
     margin-left: auto !important;
     margin-right: 0 !important;
+  } */
+  .navbarSearchContainer_Bca1 {
+    position: absolute;
+    right: var(--ifm-navbar-padding-horizontal);
+    top: 13px;
   }
-
   .navbar__brand {
     order: 0;
   }
@@ -250,21 +241,31 @@ Hide color mode toggle in small viewports
   .docSidebarContainer_YfHR {
     margin-top: 0 !important;
   }
+
   .docSidebarContainer_YfHR {
      clip-path:none !important; 
+  }
+
+  .docMainContainer_TBSr{
+    background-color: #03070a;
+    .container { 
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+      .row{
+        padding: 0px !important;
+      }
+    }
   }
 }
 
 .docMainContainer_TBSr{
-  background-color: #03070a;
-  .container { 
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    .row{
-      padding: 0px !important;
+    background-color: #03070a;
+    .container { 
+      padding-top: 0 !important;
+      margin-top: 0 !important;
     }
   }
-}
+
 .menu__link {
     color: white}
 .table-of-contents__link {
