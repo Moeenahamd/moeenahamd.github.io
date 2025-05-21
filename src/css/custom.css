@@ -160,9 +160,9 @@ Hide color mode toggle in small viewports
       margin: 1%;
   }
 } */
-.menu__list {
+/* .menu__list {
   padding-left: 18%;
-}
+} */
 .status{
   margin-top: 3%;
 }
@@ -353,3 +353,7 @@ pre{
 .details_lb9f > summary::before {
   border-color: transparent transparent transparent #2e8555 !important;
 }
+.navbar-sidebar {
+     background-color:black !important;}
+
+     
