@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "カナリア",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.GUIDE": {
+    "message": "ガイド",
+    "description": "The label for category GUIDE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "チュートリアル - 基本",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "Docusaurus の重要なコンセプトを5分で学びます。",
+    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "チュートリアル - 応用",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PAYMENT METHODS": {
+    "message": "支払い方法",
+    "description": "The label for category PAYMENT METHODS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AliPay + Offline": {
+    "message": "AliPay + オフライン",
+    "description": "The label for category AliPay + Offline in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PLUGINS": {
+    "message": "プラグイン",
+    "description": "The label for category PLUGINS in sidebar tutorialSidebar"
+  }
+}
