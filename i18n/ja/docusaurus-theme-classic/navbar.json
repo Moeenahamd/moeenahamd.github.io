@@ -12,9 +12,11 @@
     "description": "Navbar item with label Tutorial"
   },
   "item.label.Contact Us": {
-    "message": "お問い合わせ"
+    "message": "お問い合わせ",
+    "description": "Navbar item with label Contact Us"
   },
   "item.label.API Playground": {
-    "message": "APIプレイグラウンド"
+    "message": "APIプレイグラウンド",
+    "description": "Navbar item with label API Playground"
   }
 }

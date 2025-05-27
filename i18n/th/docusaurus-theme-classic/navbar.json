@@ -5,16 +5,18 @@
   },
   "item.label.Sign In": {
     "message": "ลงชื่อเข้าใช้",
-    "description": "องค์ประกอบในแถบการนำทางที่มีป้ายข้อความลงชื่อเข้าใช้"
+    "description": "Navbar item with label Sign In"
   },
   "item.label.Tutorial": {
     "message": "บทแนะนำ",
     "description": "องค์ประกอบในแถบการนำทางที่มีป้ายข้อความบทแนะนำ"
   },
   "item.label.Contact Us": {
-    "message": "ติดต่อเรา"
+    "message": "ติดต่อเรา",
+    "description": "Navbar item with label Contact Us"
   },
   "item.label.API Playground": {
-    "message": "สนามเด็กเล่น API"
+    "message": "สนามเด็กเล่น API",
+    "description": "Navbar item with label API Playground"
   }
 }

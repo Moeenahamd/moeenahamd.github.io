@@ -1,23 +1,11 @@
 {
   "version.label": {
-    "message": "คานารี ",
-    "description": "The label for version current"
+    "message": "เวอร์ชัน API 2019-03-20",
+    "description": "The label for version API version 2019-03-20"
   },
   "sidebar.tutorialSidebar.category.GUIDE": {
     "message": "คู่มือ",
     "description": "The label for category GUIDE in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
-    "message": "บทเรียน – พื้นฐาน",
-    "description": "ป้ายชื่อสำหรับหมวดหมู่ Tutorial - Basics ใน sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "เรียนรู้แนวคิดพื้นฐานของ Docusaurus ใน 5 นาที",
-    "description": "คำอธิบายของหน้าดัชนีที่สร้างขึ้นสำหรับหมวดหมู่ Tutorial - Basics ใน sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
-    "message": "บทเรียน – ขั้นสูง",
-    "description": "ป้ายชื่อสำหรับหมวดหมู่ Tutorial - Extras ใน sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.PAYMENT METHODS": {
     "message": "วิธีการชำระเงิน",
