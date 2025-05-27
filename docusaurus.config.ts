@@ -62,8 +62,8 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           
-          lastVersion: 'current',
-          //onlyIncludeVersions: ['API version 2025-05-20'],
+          lastVersion: 'API version 2025-05-27',
+          onlyIncludeVersions: ['API version 2019-03-20','API version 2025-05-27'],
             versions: {
               current: {
                 label: 'current'
