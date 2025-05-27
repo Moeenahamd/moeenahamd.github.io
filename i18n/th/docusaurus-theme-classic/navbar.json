@@ -10,5 +10,11 @@
   "item.label.Tutorial": {
     "message": "บทแนะนำ",
     "description": "องค์ประกอบในแถบการนำทางที่มีป้ายข้อความบทแนะนำ"
+  },
+  "item.label.Contact Us": {
+    "message": "ติดต่อเรา"
+  },
+  "item.label.API Playground": {
+    "message": "สนามเด็กเล่น API"
   }
 }

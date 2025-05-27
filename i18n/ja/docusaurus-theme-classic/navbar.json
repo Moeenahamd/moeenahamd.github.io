@@ -10,5 +10,11 @@
   "item.label.Tutorial": {
     "message": "チュートリアル",
     "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Contact Us": {
+    "message": "お問い合わせ"
+  },
+  "item.label.API Playground": {
+    "message": "APIプレイグラウンド"
   }
 }
