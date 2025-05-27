@@ -151,7 +151,7 @@ Create a charge specifying the parameters `source`, `amount`, and `currency`.
 
 The following example demonstrates how to create a new charge using `curl`. Replace `$OMISE_SECRET_KEY` with the test secret key on [your dashboard](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=aa61f3e1-7f68-4dea-8b3b-ec284cf5b541&response_mode=fragment&response_type=code&scope=openid&nonce=2891768c-7129-4f6a-bee9-f850c2c7e62b&ui_locales=en&code_challenge=VZNxDWaKKiuqN1FTu5eeqlTkJzve7NbkRcsp3QR3u9c&code_challenge_method=S256). Replace `$SOURCE_ID` with the `id` of the source.
 
-```bash
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=150000" \
@@ -160,7 +160,7 @@ curl https://api.omise.co/charges \
 
 ```
 
-```bash
+```js
 {
   "object": "charge",
   "id": "chrg_test_611bij7kcn967m8wk55",
@@ -292,7 +292,7 @@ curl https://api.omise.co/charges \
 
 Alternatively, you can create and charge a source in a single API request.
 
-```bash
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=150000" \
@@ -304,7 +304,7 @@ curl https://api.omise.co/charges \
 
 Merchant-Presented Mode (C scan B) charges that have not yet been authorized (`status=pending`) can be set to expire immediately, canceling the charge.
 
-```bash
+```js
 curl https://api.omise.co/charges/$CHARGE_ID/expire \
   -X POST \
   -u $OMISE_SECRET_KEY:

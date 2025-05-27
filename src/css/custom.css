@@ -358,3 +358,87 @@ pre{
      background-color:black !important;}
 
      
+
+
+
+.actor {
+  stroke: #ccccff;
+  fill: #ececff !important;
+}
+text.actor {
+  fill: white !important;
+  stroke: none;
+  font-family: Helvetica;
+}
+
+.actor-line {
+  stroke: white !important;
+}
+
+.messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: white !important;
+}
+marker#arrowhead path {
+  fill: white !important; /* your desired color */
+}
+.messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: white !important;
+}
+
+#arrowhead {
+  fill: white !important;
+}
+
+.messageText {
+  fill: white !important;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px;
+}
+
+.labelBox {
+  stroke: white !important;
+  fill: white !important;
+}
+
+.labelText {
+  fill: white !important;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+}
+
+.loopText {
+  fill: white !important;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+}
+
+.loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #ccccff;
+}
+
+.note {
+  stroke: #decc93;
+  fill: #fff5ad;
+}
+
+.noteText {
+  fill: white !important;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px;
+}
+
+#mermaid-svg-8193468{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-svg-8193468 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-svg-8193468 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-svg-8193468 .error-icon{fill:#552222;}#mermaid-svg-8193468 .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-8193468 .edge-thickness-normal{stroke-width:3px;}#mermaid-svg-8193468 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-8193468 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-8193468 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-svg-8193468 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-8193468 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-8193468 .marker{fill:white !important;stroke: white !important;}#mermaid-svg-8193468 .marker.cross{stroke:#333333;}#mermaid-svg-8193468 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-8193468 p{margin:0;}#mermaid-svg-8193468 .actor{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-svg-8193468 text.actor>tspan{fill:black;stroke:none;}#mermaid-svg-8193468 .actor-line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-svg-8193468 .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333;}#mermaid-svg-8193468 .messageLine1{stroke-width:1.5;stroke-dasharray:2,2;stroke:#333;}#mermaid-svg-8193468 #arrowhead path{fill:#333;stroke:#333;}#mermaid-svg-8193468 .sequenceNumber{fill:white;}#mermaid-svg-8193468 #sequencenumber{fill:#333;}#mermaid-svg-8193468 #crosshead path{fill:#333;stroke:#333;}#mermaid-svg-8193468 .messageText{fill:#333;stroke:none;}#mermaid-svg-8193468 .labelBox{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-svg-8193468 .labelText,#mermaid-svg-8193468 .labelText>tspan{fill:black;stroke:none;}#mermaid-svg-8193468 .loopText,#mermaid-svg-8193468 .loopText>tspan{fill:black;stroke:none;}#mermaid-svg-8193468 .loopLine{stroke-width:2px;stroke-dasharray:2,2;stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-svg-8193468 .note{stroke:#aaaa33;fill:#fff5ad;}#mermaid-svg-8193468 .noteText,#mermaid-svg-8193468 .noteText>tspan{fill:black;stroke:none;}#mermaid-svg-8193468 .activation0{fill:#f4f4f4;stroke:#666;}#mermaid-svg-8193468 .activation1{fill:#f4f4f4;stroke:#666;}#mermaid-svg-8193468 .activation2{fill:#f4f4f4;stroke:#666;}#mermaid-svg-8193468 .actorPopupMenu{position:absolute;}#mermaid-svg-8193468 .actorPopupMenuPanel{position:absolute;fill:#ECECFF;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);filter:drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}#mermaid-svg-8193468 .actor-man line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-svg-8193468 .actor-man circle,#mermaid-svg-8193468 line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;stroke-width:2px;}#mermaid-svg-8193468 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}
+
+.mermaid marker path {
+  fill: white !important;
+}
