@@ -70,6 +70,8 @@ flowchart TD
   B -- Ja --> D[Waren liefern]
  
   D --> E[Vollständig autorisierten Betrag erfassen]
+  
+  linkStyle 0,1,2,3 stroke:white,stroke-width:1px;
 ```
 
 </div>
@@ -81,7 +83,7 @@ flowchart TD
 ### สร้างการระงับอนุมัติด้วยโทเค็นบนบัตร
 
 
-```
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=7000" \
@@ -94,7 +96,7 @@ curl https://api.omise.co/charges \
 ตัวอย่างต่อไปนี้แสดงการจับทั้งหมดจำนวน 70 THB
 
 
-```
+```js
 curl https://api.omise.co/charges/$FULL_UNCAPTURED_CHARGE_ID/capture \
   -u $OMISE_SECRET_KEY: \
   -d "capture_amount=7000"
@@ -109,3 +111,51 @@ curl https://api.omise.co/charges/$FULL_UNCAPTURED_CHARGE_ID/capture \
 *การทำธุรกรรมที่เรียกเก็บ 40 THB จากบัญชีลูกค้าเป็นการจับบางส่วน*
 
 กระบวนการที่แสดงมีดังนี้:
+
+
+<div class="center-mermaid">
+```mermaid
+flowchart TD
+  A[Händler startet Kartenautorisierung] --> B{Ist die Autorisierung erfolgreich?}
+  B -- Nein --> C[Stop]
+  B -- Ja --> D[Lieferung von Waren]
+  D --> E[Teilweise Kartenbelastung]
+  E --> F[System gibt den Restbetrag des autorisierten Betrags frei]
+
+  linkStyle 0,1,2,3,4 stroke:white,stroke-width:1px;
+```
+</div>
+
+### การเปิดใช้งานการจับบางส่วน
+
+การจับบางส่วนจะถูกเปิดใช้งานโดยค่าเริ่มต้น
+
+### ตัวอย่างการใช้งาน
+
+### การอนุมัติ
+
+ตัวอย่างต่อไปนี้จะทำการอนุมัติการชำระเงินจำนวน 70 THB โดยใช้โทเค็นบัตร:
+
+
+```js
+curl https://api.omise.co/charges \
+  -u $OMISE_SECRET_KEY: \
+  -d "amount=7000" \
+  -d "currency=thb" \
+  -d "capture=false" \
+  -d "card=$ANOTHER_TOKEN_ID" \
+  -d "authorization_type=pre_auth"
+ ```
+ ### การจับ
+
+ตัวอย่างต่อไปนี้แสดงการจับบางส่วนจำนวน 40 THB
+
+
+```js
+curl https://api.omise.co/charges/$PARTIAL_UNCAPTURED_CHARGE_ID/capture \
+  -u $OMISE_SECRET_KEY: \
+  -d "capture_amount=4000"
+```
+## การจับบางส่วนหลายครั้ง
+
+ปัจจุบัน Omise ไม่รองรับการจับบางส่วนหลายครั้ง

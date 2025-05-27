@@ -148,7 +148,7 @@ curl https://api.omise.co/sources \
 
 以下の例は、`curl` を使用して新しいチャージを作成する方法を示しています。 `$OMISE_SECRET_KEY` を [ダッシュボード](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=aa61f3e1-7f68-4dea-8b3b-ec284cf5b541&response_mode=fragment&response_type=code&scope=openid&nonce=2891768c-7129-4f6a-bee9-f850c2c7e62b&ui_locales=en&code_challenge=VZNxDWaKKiuqN1FTu5eeqlTkJzve7NbkRcsp3QR3u9c&code_challenge_method=S256) のテストシークレットキーに置き換えてください。 `$SOURCE_ID` をソースの `id` に置き換えてください。
 
-```bash
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=150000" \
@@ -157,7 +157,7 @@ curl https://api.omise.co/charges \
 
 ```
 
-```bash
+```js
 {
   "object": "charge",
   "id": "chrg_test_611bij7kcn967m8wk55",
@@ -288,7 +288,7 @@ curl https://api.omise.co/charges \
 
 別の方法として、1回のAPIリクエストでソースを作成し、チャージすることができます。
 
-```bash
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=150000" \
@@ -299,7 +299,7 @@ curl https://api.omise.co/charges \
 
 まだ承認されていない（`status=pending`）マーチャント提示型モード（CスキャンB）のチャージは、即座に期限切れに設定でき、チャージがキャンセルされます。
 
-```bash
+```js
 curl https://api.omise.co/charges/$CHARGE_ID/expire \
   -X POST \
   -u $OMISE_SECRET_KEY:

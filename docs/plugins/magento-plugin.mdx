@@ -128,3 +128,68 @@ php bin/magento module:enable Omise_Payment --clear-static-content
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
+
+## Enabling the secure form for payments
+
+```
+Important: Any customizations that you made to the earlier card
+ payment form are NOT retained when using the new secure form. You
+  must redo the customizations for the secure form.
+```
+
+1. Select **Payment Settings** in the Settings screen.
+2. Click **Configure** for Omise.
+3. Expand **Enable Credit Card Payment** settings.
+4. Set Secure Form to **Yes**.
+5. (Optional) Select the theme (light or dark) for the secure form.  
+   By default, the theme is set to Dark.
+
+<div style={{ border: '1px solid #86a5f1', padding: '16px', backgroundColor: '#c4d2f5', color: '#215CEC', textAlign: 'center' }}>
+
+  <p>To customize the form, click the link as highlighted.</p>
+
+  <img 
+    src="/img/form-custom-start-magento.png" 
+    alt="Enable Credit Card Payment Settings" 
+    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} 
+  />
+
+  <p>Then, customize the form as desired.</p>
+  <img 
+    src="/img/form-customization-magento.png" 
+    alt="Enable Credit Card Payment Settings" 
+    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} 
+  />
+
+    <p>Click Preview to preview the form.</p>
+  <img 
+    src="/img/form-preview-magento.png" 
+    alt="Enable Credit Card Payment Settings" 
+    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} 
+  />
+ <p>Click <strong>Save data</strong> to save the customized form.</p>
+
+</div>
+
+6. Click **Save Config.**  
+
+```
+Clear your browser's cache before using the new form.
+```
+
+Once set to **Yes**, the secure form is shown to customers who pay using card payments.
+
+The secure form will soon be the default.  
+We encourage all merchants to use it and provide feedback.
+
+## Customization
+
+This plugin is open source.  
+To see the source code and details on how to contribute changes, visit its repository on [GitHub](https://github.com/omise/omise-magento).  
+Pull requests are welcome.
+
+
+
+## Support
+
+If you're having issues with this plugin, please [contact support](mailto:support@omise.co?subject=Support%20Request:%20Magento%20Plugin).

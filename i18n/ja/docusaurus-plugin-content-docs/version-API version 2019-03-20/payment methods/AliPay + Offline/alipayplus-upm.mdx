@@ -70,7 +70,7 @@ Alipay+ ユーザーから店舗での支払いを **Alipay+ ユーザ提示型�
 
 次の例は、`curl` を使用してチャージを作成する方法を示しています。`$OMISE_SECRET_KEY` を [ダッシュボード](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=105360ec-75e1-4633-84ce-37f575a481a9&response_mode=fragment&response_type=code&scope=openid&nonce=bad19825-6662-494c-b3fa-c4f8cb8fb998&ui_locales=en&code_challenge=CzHJ3LuoY9_1i1l3AnT_kyyJV_UIkVKcWnjldQ4S49s&code_challenge_method=S256) で取得したテスト秘密キーに置き換えます。
 
-```bash
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=150000" \
@@ -79,7 +79,7 @@ curl https://api.omise.co/charges \
   -d "source[barcode]=2897991359827699709"
 ```
 
-```bash
+```js
 {
   "object": "charge",
   "id": "chrg_test_611binawoqhcagslthw",
@@ -196,7 +196,7 @@ curl https://api.omise.co/charges \
 
 ユーザ提示型モード決済（BスキャンC）で、まだ承認されていない（`status=pending`）チャージは、即座に期限切れに設定でき、チャージがキャンセルされます：
 
-```bash
+```js
 curl https://api.omise.co/charges/$CHARGE_ID/expire \
   -X POST \
   -u $OMISE_SECRET_KEY:

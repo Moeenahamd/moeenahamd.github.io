@@ -80,7 +80,7 @@ flowchart TD
 
 ### トークンを使用してカード上に認証ホールドを作成
 
-```
+```js
 curl https://api.omise.co/charges \
   -u $OMISE_SECRET_KEY: \
   -d "amount=7000" \
@@ -92,7 +92,7 @@ curl https://api.omise.co/charges \
 ## キャプチャ
 次の例は、THB 70 の完全キャプチャを示しています。
 
-```
+```js
 curl https://api.omise.co/charges/$FULL_UNCAPTURED_CHARGE_ID/capture \
   -u $OMISE_SECRET_KEY: \
   -d "capture_amount=7000"
@@ -107,3 +107,49 @@ curl https://api.omise.co/charges/$FULL_UNCAPTURED_CHARGE_ID/capture \
 *顧客のカードにTHB 40を請求した取引が、単一部分的キャプチャです。*
 
 次のようなフローになります：
+
+<div class="center-mermaid">
+
+```mermaid
+flowchart TD
+  A[販売者がカード認証を開始] --> B{認証は成功しましたか？}
+  B -- いいえ --> C[停止]
+  B -- はい --> D[商品を一部配送]
+  D --> E[カードを部分的に請求]
+  E --> F[システムがロック解除し、認証された残りの金額を解放]
+
+  linkStyle 0,1,2,3,4 stroke:white,stroke-width:1px;
+```
+</div>
+
+### 単一部分的キャプチャを有効にする方法
+単一部分的キャプチャはデフォルトで有効になっています。
+
+### 使用例
+
+### オーソリ
+次の例では、カードトークンを使用してTHB 70のチャージをオーソライズします：
+
+```js
+curl https://api.omise.co/charges \
+  -u $OMISE_SECRET_KEY: \
+  -d "amount=7000" \
+  -d "currency=thb" \
+  -d "capture=false" \
+  -d "card=$ANOTHER_TOKEN_ID" \
+  -d "authorization_type=pre_auth"
+ ```
+
+### キャプチャ
+
+次の例は、THB 40の単一部分的キャプチャを示しています。
+
+```js
+curl https://api.omise.co/charges/$PARTIAL_UNCAPTURED_CHARGE_ID/capture \
+  -u $OMISE_SECRET_KEY: \
+  -d "capture_amount=4000"
+```
+
+## 複数部分的キャプチャ
+
+現在、Omiseは複数部分的キャプチャをサポートしていません。

@@ -129,3 +129,65 @@ php bin/magento module:enable Omise_Payment --clear-static-content
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
+## 支払い用のセキュアフォームを有効にする
+
+```
+
+
+重要: 以前のカード決済フォームで行ったカスタマイズは、新しいセキュアフォームを使用する際には保持されません。セキュアフォーム用にカスタマイズをやり直す必要があります。
+
+```
+1. 設定画面で**支払い設定**を選択します。
+2. Omiseの**設定**をクリックします。
+3. **クレジットカード支払いの有効化**設定を展開します。
+4. セキュアフォームを**はい**に設定します。
+5. （オプション）セキュアフォームのテーマ（ライトまたはダーク）を選択します。  
+   デフォルトではテーマはダークに設定されています。
+
+<div style={{ border: '1px solid #86a5f1', padding: '16px', backgroundColor: '#c4d2f5', color: '#215CEC', textAlign: 'center' }}>
+
+  <p>フォームをカスタマイズするには、強調表示されたリンクをクリックします。</p>
+
+  <img 
+    src="/img/form-custom-start-magento.png" 
+    alt="クレジットカード支払い設定" 
+    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} 
+  />
+
+  <p>その後、フォームを希望通りにカスタマイズします。</p>
+  <img 
+    src="/img/form-customization-magento.png" 
+    alt="クレジットカード支払い設定" 
+    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} 
+  />
+
+    <p>プレビューをクリックしてフォームをプレビューします。</p>
+  <img 
+    src="/img/form-preview-magento.png" 
+    alt="クレジットカード支払い設定" 
+    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} 
+  />
+ <p><strong>データを保存</strong>をクリックしてカスタマイズされたフォームを保存します。</p>
+
+</div>
+
+6. **設定を保存**をクリックします。 
+
+```
+新しいフォームを使用する前に、ブラウザのキャッシュをクリアしてください。
+
+```
+**はい**に設定すると、カード決済を利用する顧客にセキュアフォームが表示されます。
+
+セキュアフォームは近日中にデフォルト設定となります。  
+すべての店舗での使用を推奨しており、フィードバックもお待ちしています。
+
+## カスタマイズ
+
+このプラグインはオープンソースです。  
+ソースコードと変更を反映させる方法については、[GitHub](https://github.com/omise/omise-magento)でリポジトリをご確認ください。  
+プルリクエストを歓迎します。
+
+## サポート
+
+このプラグインに関して問題が発生した場合は、[サポートに連絡する](mailto:support@omise.co?subject=Support%20Request:%20Magento%20Plugin)ください。

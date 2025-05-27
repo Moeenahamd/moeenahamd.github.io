@@ -78,3 +78,40 @@ In your OpenCart admin interface:
 > **Note:** These steps are for credit and debit card payments.  
 > Repeat to enable and configure other payment methods (e.g., Internet Banking).
 
+The table below shows the settings for the extension and their descriptions:
+
+| **Setting**              | **Description**                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|
+| Module Status            | Enables or turns off the extension.                                            |
+| Payment method title     | Title of Omise payment gateway shown at checkout.                              |
+| Enable test mode         | If selected, all transactions will be performed in TEST mode, and TEST keys will be used. |
+| Enable live mode         | If selected, all transactions will be performed in LIVE mode, and LIVE keys will be used. |
+| Public Key for test      | Your TEST public key can be found in your Omise dashboard.                     |
+| Secret Key for test      | Your TEST secret key can be found in your Omise dashboard.                     |
+| Public Key               | Your LIVE public key can be found in your Omise dashboard.                     |
+| Secret Key               | Your LIVE secret key can be found in your Omise dashboard.                     |
+| Enable 3D-Secure         | Enables or disables 3D-Secure payment.                                         |
+| Payment Action           | Whether the Omise charge will be captured after authorization.                 |
+
+> Note: If the  `Payment Action ` setting is set to  `Auto Capture `, the Omise charge will be automatically captured after authorization.  
+> If the setting for `Payment Action` is set to `Manual Capture `, the Omise charge will be authorized only.
+
+## Enabling 3DS
+
+If you would like to process 3DS (also known as 3-D Secure) charges, please enable 3DS on the plugin in [configuration](/opencart-plugin#configuration) before [contacting support](#) to enable 3DS on your account.
+
+> If you enabled 3DS for your account but haven't enabled it in the plugin, you might get a payment failure with the message:  
+> _"3d secure is requested, but return URI is not set."_
+
+## Customization
+
+This plugin is open source.  
+Visit its repository on [GitHub](https://github.com/omise/omise-opencart) to see the source code and details on how to contribute changes.  
+Pull requests are welcome!
+
+
+## Support
+
+If you're having issues with this plugin, please [contact support](mailto:support@omise.co?subject=Support%20Request:%20OpenCart).
+
+

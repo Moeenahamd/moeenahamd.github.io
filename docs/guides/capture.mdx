@@ -109,3 +109,51 @@ Suppose a customer buys goods worth THB 70. Their card will then be authorized f
 *The transaction that charged the THB 40 to the customer’s card is the single partial capture.*
 
 The illustrative flow is as follows:
+
+<div class="center-mermaid">
+```mermaid
+graph TD
+  A[Merchant initiates  card authorization] --> B{Is authorization successful?}
+  B -- No --> C[Stop]
+  B -- Yes --> D[Deliver some goods]
+  D --> E[Charge card partially]
+  E --> F[System unblocks and releases the remainder of the authorized amount]
+
+  linkStyle 0,1,2,3,4 stroke:white,stroke-width:1px;
+```
+</div>
+
+### How to enable Single Partial Capture?
+
+ Single partial capture is enabled by default.
+
+### Usage example
+
+### Authorization
+
+The following example authorizes a charge of THB 70 using a card token:
+
+```js
+curl https://api.omise.co/charges \
+  -u $OMISE_SECRET_KEY: \
+  -d "amount=7000" \
+  -d "currency=thb" \
+  -d "capture=false" \
+  -d "card=$ANOTHER_TOKEN_ID" \
+  -d "authorization_type=pre_auth"
+ ```
+### Capture
+
+The following example demonstrates a single partial capture of THB 40.
+
+```js
+curl https://api.omise.co/charges/$PARTIAL_UNCAPTURED_CHARGE_ID/capture \
+  -u $OMISE_SECRET_KEY: \
+  -d "capture_amount=4000"
+```
+
+## Multiple Partial Capture
+
+At present, Omise does not support Multiple Partial Capture. 
+
+
