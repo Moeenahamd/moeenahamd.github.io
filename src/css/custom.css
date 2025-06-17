@@ -16,6 +16,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
@@ -27,6 +28,7 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -53,9 +55,10 @@ Hide color mode toggle in small viewports
   height: auto;
 } */
 
-.container{
-     max-width: 100% !important;
+.container {
+  max-width: 100% !important;
 }
+
 .navbar__brand {
   flex: 1;
 }
@@ -72,18 +75,22 @@ Hide color mode toggle in small viewports
   border-radius: 8px;
   transition: background-color 0.2s ease;
 }
+
 [data-theme="dark"] .navbar__item[href="/signin"] {
-  border: 1px solid white; /* Change this to your dark mode color */
+  border: 1px solid white;
+  /* Change this to your dark mode color */
 }
 
 .navbar__item[href="/signin"]:hover {
   background-color: var(--ifm-color-primary-dark);
 }
+
 /* Change the navbar background color */
 
 /* Change the navbar background color */
 .navbar {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: soft shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional: soft shadow */
 }
 
 @media (max-width: 996px) {
@@ -95,13 +102,15 @@ Hide color mode toggle in small viewports
   }
 
   .container {
-     max-width: 100% !important;
-  } 
+    max-width: 100% !important;
+  }
 
   .navbar {
-    padding-top: 4% !important; /* Add top padding */
+    padding-top: 4% !important;
+    /* Add top padding */
     padding-bottom: 4% !important;
-    padding-right: 4.5% !important; /* Add top padding */
+    padding-right: 4.5% !important;
+    /* Add top padding */
     padding-left: 4.5% !important;
   }
 
@@ -115,6 +124,7 @@ Hide color mode toggle in small viewports
     right: var(--ifm-navbar-padding-horizontal);
     top: 13px;
   }
+
   .navbar__brand {
     order: 0;
   }
@@ -140,12 +150,14 @@ Hide color mode toggle in small viewports
 
 @media (min-width: 1440px) {
   .container {
-      max-width: 100% !important;
+    max-width: 100% !important;
   }
-} 
+}
+
 .status {
   margin-top: 3%;
 }
+
 .col {
   padding: 0px;
 }
@@ -153,10 +165,12 @@ Hide color mode toggle in small viewports
 .footer {
   background: #05080d;
 }
+
 .navbar {
   background: #05080d;
   position: static;
 }
+
 .card-block {
   width: 300px !important;
   margin-top: 16px !important;
@@ -167,7 +181,8 @@ Hide color mode toggle in small viewports
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
 }
-.card-form > .row {
+
+.card-form>.row {
   padding: 12px;
   width: 90%;
 
@@ -175,28 +190,34 @@ Hide color mode toggle in small viewports
   text-align: center;
   margin: 0 auto;
 }
-.card-form > .row > input {
+
+.card-form>.row>input {
   display: inline-block;
   width: auto;
   border: 0;
   margin: 0 12px;
   color: #6d7d8d;
   font-size: 0.875rem;
-  background: none; /* removes any background */
-  background-color: transparent; /* makes sure it's fully transparent */
+  background: none;
+  /* removes any background */
+  background-color: transparent;
+  /* makes sure it's fully transparent */
 }
-.card-form > .card-form-submit-row {
+
+.card-form>.card-form-submit-row {
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
   border-bottom: 0;
 }
+
 #create_token {
   display: inline-block;
   padding: 10px 20px;
   font-size: 1rem;
   color: #fff;
-  background-color: #4caf50; /* green background */
+  background-color: #4caf50;
+  /* green background */
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -206,7 +227,8 @@ Hide color mode toggle in small viewports
 }
 
 #create_token:hover {
-  background-color: #45a049; /* darker green on hover */
+  background-color: #45a049;
+  /* darker green on hover */
 }
 
 #create_token:disabled {
@@ -216,6 +238,7 @@ Hide color mode toggle in small viewports
 .navbar__link {
   color: white;
 }
+
 .sidebar_njMd {
   background-color: #03070a;
 }
@@ -242,21 +265,27 @@ Hide color mode toggle in small viewports
 .menu__link {
   color: white;
 }
+
 .table-of-contents__link {
   color: white;
 }
+
 html {
   color: white;
 }
+
 .breadcrumbs__link {
   color: white;
 }
+
 .pagination-nav__sublabel {
   color: white;
 }
+
 .table-of-contents__left-border {
   border-left: 0px;
 }
+
 .tableOfContents_bqdL {
   display: none;
 }
@@ -264,14 +293,17 @@ html {
 .tocCollapsibleButton_TO0P {
   display: none !important;
 }
+
 a {
   text-decoration: none;
   color: white !important;
 }
+
 a:hover {
   text-decoration: none;
   color: #2e8555 !important;
 }
+
 .menu__link:hover {
   color: #80ffbf;
   background-color: #57d9a340 !important;
@@ -286,9 +318,10 @@ a:hover {
   display: none;
 }
 
- main.docMainContainer_TBSr .container .row .docItemCol_VOVn {
+main.docMainContainer_TBSr .container .row .docItemCol_VOVn {
   max-width: 100% !important;
-} 
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -303,6 +336,7 @@ a:hover {
 blockquote {
   color: white;
 }
+
 #mermaid-svg-5726450 .messageText {
   fill: lightgrey !important;
   stroke: none;
@@ -312,22 +346,27 @@ blockquote {
   background-color: black;
   color: white !important;
 }
+
 .details_b_Ee {
   border: 1px solid #2e8555 !important;
 }
+
 .collapsibleContent_i85q {
   border-top: 1px solid #2e8555 !important;
 }
+
 .dropdown__menu {
   background-color: black !important;
 }
+
 em {
   color: white !important;
 }
 
-.details_lb9f > summary::before {
+.details_lb9f>summary::before {
   border-color: transparent transparent transparent #2e8555 !important;
 }
+
 .navbar-sidebar {
   background-color: black !important;
 }
@@ -336,6 +375,7 @@ em {
   stroke: #ccccff;
   fill: #ececff !important;
 }
+
 text.actor {
   fill: white !important;
   stroke: none;
@@ -352,9 +392,12 @@ text.actor {
   marker-end: "url(#arrowhead)";
   stroke: white !important;
 }
+
 marker#arrowhead path {
-  fill: white !important; /* your desired color */
+  fill: white !important;
+  /* your desired color */
 }
+
 .messageLine1 {
   stroke-width: 1.5;
   stroke-dasharray: "2 2";
@@ -413,167 +456,207 @@ marker#arrowhead path {
   font-size: 16px;
   fill: #333;
 }
+
 @keyframes edge-animation-frame {
   from {
     stroke-dashoffset: 0;
   }
 }
+
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
   }
 }
+
 #mermaid-svg-8193468 .edge-animation-slow {
   stroke-dasharray: 9, 5 !important;
   stroke-dashoffset: 900;
   animation: dash 50s linear infinite;
   stroke-linecap: round;
 }
+
 #mermaid-svg-8193468 .edge-animation-fast {
   stroke-dasharray: 9, 5 !important;
   stroke-dashoffset: 900;
   animation: dash 20s linear infinite;
   stroke-linecap: round;
 }
+
 #mermaid-svg-8193468 .error-icon {
   fill: #552222;
 }
+
 #mermaid-svg-8193468 .error-text {
   fill: #552222;
   stroke: #552222;
 }
+
 #mermaid-svg-8193468 .edge-thickness-normal {
   stroke-width: 3px;
 }
+
 #mermaid-svg-8193468 .edge-thickness-thick {
   stroke-width: 3.5px;
 }
+
 #mermaid-svg-8193468 .edge-pattern-solid {
   stroke-dasharray: 0;
 }
+
 #mermaid-svg-8193468 .edge-thickness-invisible {
   stroke-width: 0;
   fill: none;
 }
+
 #mermaid-svg-8193468 .edge-pattern-dashed {
   stroke-dasharray: 3;
 }
+
 #mermaid-svg-8193468 .edge-pattern-dotted {
   stroke-dasharray: 2;
 }
+
 #mermaid-svg-8193468 .marker {
   fill: white !important;
   stroke: white !important;
 }
+
 #mermaid-svg-8193468 .marker.cross {
   stroke: #333333;
 }
+
 #mermaid-svg-8193468 svg {
   font-family: "trebuchet ms", verdana, arial, sans-serif;
   font-size: 16px;
 }
+
 #mermaid-svg-8193468 p {
   margin: 0;
 }
+
 #mermaid-svg-8193468 .actor {
   stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
   fill: #ececff;
 }
-#mermaid-svg-8193468 text.actor > tspan {
+
+#mermaid-svg-8193468 text.actor>tspan {
   fill: black;
   stroke: none;
 }
+
 #mermaid-svg-8193468 .actor-line {
   stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
 }
+
 #mermaid-svg-8193468 .messageLine0 {
   stroke-width: 1.5;
   stroke-dasharray: none;
   stroke: #333;
 }
+
 #mermaid-svg-8193468 .messageLine1 {
   stroke-width: 1.5;
   stroke-dasharray: 2, 2;
   stroke: #333;
 }
+
 #mermaid-svg-8193468 #arrowhead path {
   fill: #333;
   stroke: #333;
 }
+
 #mermaid-svg-8193468 .sequenceNumber {
   fill: white;
 }
+
 #mermaid-svg-8193468 #sequencenumber {
   fill: #333;
 }
+
 #mermaid-svg-8193468 #crosshead path {
   fill: #333;
   stroke: #333;
 }
+
 #mermaid-svg-8193468 .messageText {
   fill: #333;
   stroke: none;
 }
+
 #mermaid-svg-8193468 .labelBox {
   stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
   fill: #ececff;
 }
+
 #mermaid-svg-8193468 .labelText,
-#mermaid-svg-8193468 .labelText > tspan {
+#mermaid-svg-8193468 .labelText>tspan {
   fill: black;
   stroke: none;
 }
+
 #mermaid-svg-8193468 .loopText,
-#mermaid-svg-8193468 .loopText > tspan {
+#mermaid-svg-8193468 .loopText>tspan {
   fill: black;
   stroke: none;
 }
+
 #mermaid-svg-8193468 .loopLine {
   stroke-width: 2px;
   stroke-dasharray: 2, 2;
   stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
   fill: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
 }
+
 #mermaid-svg-8193468 .note {
   stroke: #aaaa33;
   fill: #fff5ad;
 }
+
 #mermaid-svg-8193468 .noteText,
-#mermaid-svg-8193468 .noteText > tspan {
+#mermaid-svg-8193468 .noteText>tspan {
   fill: black;
   stroke: none;
 }
+
 #mermaid-svg-8193468 .activation0 {
   fill: #f4f4f4;
   stroke: #666;
 }
+
 #mermaid-svg-8193468 .activation1 {
   fill: #f4f4f4;
   stroke: #666;
 }
+
 #mermaid-svg-8193468 .activation2 {
   fill: #f4f4f4;
   stroke: #666;
 }
+
 #mermaid-svg-8193468 .actorPopupMenu {
   position: absolute;
 }
+
 #mermaid-svg-8193468 .actorPopupMenuPanel {
   position: absolute;
   fill: #ececff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
+
 #mermaid-svg-8193468 .actor-man line {
   stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
   fill: #ececff;
 }
+
 #mermaid-svg-8193468 .actor-man circle,
 #mermaid-svg-8193468 line {
   stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
   fill: #ececff;
   stroke-width: 2px;
 }
+
 #mermaid-svg-8193468 :root {
   --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
 }
@@ -592,10 +675,12 @@ pre {
 
 .kDuBQd {
   padding: 0 0 !important;
+
   .jkwlQD {
     font-weight: 700 !important;
   }
 }
+
 .dRVblm {
   padding: 5px 0 !important;
 }
@@ -611,15 +696,16 @@ pre {
 .sc-fAMRTC {
   color: #03070a !important;
 }
-.codeBlockContainer_Ckt0{
-  background:none !important;
+
+.codeBlockContainer_Ckt0 {
+  background: none !important;
   background-color: transparent !important;
 }
 
 .back-button {
   color: white !important;
-  margin: 20px;
   font-size: 20px;
+
   img {
     margin-right: 10px;
   }
@@ -671,6 +757,7 @@ select {
   background-color: #505865;
   border-radius: 8px 8px 0px 0px;
 }
+
 .copy-btn svg {
   fill: currentColor;
   vertical-align: middle;
@@ -701,33 +788,39 @@ select {
   background-color: black !important;
   border-radius: 8px;
 }
-code{
+
+code {
   color: black !important;
   background-color: white;
 }
+
 .code-container .token-line {
   color: white !important;
 }
+
 .code-container .punctuation {
   color: white !important;
 }
 
-.code-container .operator{
+.code-container .operator {
   color: white !important;
 }
 
-.code{
+.code {
   width: 50%;
 }
-.code-container .code{
-  span{
+
+.code-container .code {
+  span {
     color: white;
   }
-} 
+}
+
 .sub-heading {
   width: 50%;
 }
-.codeBlockContainer_Ckt0{
+
+.codeBlockContainer_Ckt0 {
   border-radius: 0 !important;
   background-color: black !important;
   margin-bottom: 0px !important;
@@ -742,8 +835,23 @@ table {
   display: table !important;
 }
 
-.swagger-ui .info .title, .swagger-ui .prop-format, .swagger-ui .servers-title ,.swagger-ui .info p, .swagger-ui table thead tr th, .swagger-ui table thead tr td, .swagger-ui table tbody tr td, .swagger-ui .opblock-description-wrapper p, .swagger-ui .tab li, .swagger-ui .parameter__name, .swagger-ui .parameter__type, .swagger-ui .parameter__in 
-{
+.swagger-ui .info .title,
+.swagger-ui .responses-inner h4,
+.swagger-ui .responses-inner h5,
+.swagger-ui .responses-inner p,
+.swagger-ui .responses-inner h3,
+.swagger-ui .response-col_status .response-undocumented,
+.swagger-ui .prop-format,
+.swagger-ui .servers-title,
+.swagger-ui .info p,
+.swagger-ui table thead tr th,
+.swagger-ui table thead tr td,
+.swagger-ui table tbody tr td,
+.swagger-ui .opblock-description-wrapper p,
+.swagger-ui .tab li,
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__type,
+.swagger-ui .parameter__in {
   color: white !important;
 }
 
@@ -755,7 +863,26 @@ table {
   background-color: #03070a !important;
 }
 
-.swagger-ui .opblock-body pre.microlight
- {
+.swagger-ui .opblock-body pre.microlight {
   background: white !important;
- }
+}
+
+.swagger-ui section.models.is-open h4 {
+    border-bottom: 1px solid white !important;
+}
+
+.swagger-ui section.models {
+  border: 1px solid white !important;
+}
+
+.swagger-ui section.models .model-box {
+    background: #77889961 !important;
+}
+
+.swagger-ui section.models h4{
+  color: white !important;
+}
+
+.swagger-ui .model-box-control span{
+  color: black !important;
+}
