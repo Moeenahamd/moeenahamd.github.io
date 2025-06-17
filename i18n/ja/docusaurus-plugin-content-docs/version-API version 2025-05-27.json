@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "APIバージョン 2025-05-27",
+    "description": "The label for version API version 2019-03-20"
+  },
+  "sidebar.tutorialSidebar.category.GUIDE": {
+    "message": "ガイド",
+    "description": "The label for category GUIDE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PAYMENT METHODS": {
+    "message": "支払い方法",
+    "description": "The label for category PAYMENT METHODS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AliPay + Offline": {
+    "message": "AliPay + オフライン",
+    "description": "The label for category AliPay + Offline in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PLUGINS": {
+    "message": "プラグイン",
+    "description": "The label for category PLUGINS in sidebar tutorialSidebar"
+  }
+}

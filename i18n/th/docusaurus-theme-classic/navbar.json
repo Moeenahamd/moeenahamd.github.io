@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "โลโก้เว็บไซต์ของฉัน",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Sign In": {
+    "message": "ลงชื่อเข้าใช้",
+    "description": "Navbar item with label Sign In"
+  },
+  "item.label.Tutorial": {
+    "message": "บทแนะนำ",
+    "description": "องค์ประกอบในแถบการนำทางที่มีป้ายข้อความบทแนะนำ"
+  },
+  "item.label.Contact Us": {
+    "message": "ติดต่อเรา",
+    "description": "Navbar item with label Contact Us"
+  },
+  "item.label.API Playground": {
+    "message": "สนามเด็กเล่น API",
+    "description": "Navbar item with label API Playground"
+  }
+}

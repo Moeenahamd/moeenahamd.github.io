@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "私のサイトのロゴ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Sign In": {
+    "message": "サインイン",
+    "description": "Navbar item with label Sign In"
+  },
+  "item.label.Tutorial": {
+    "message": "チュートリアル",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Contact Us": {
+    "message": "お問い合わせ",
+    "description": "Navbar item with label Contact Us"
+  },
+  "item.label.API Playground": {
+    "message": "APIプレイグラウンド",
+    "description": "Navbar item with label API Playground"
+  }
+}

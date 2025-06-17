@@ -1,0 +1,130 @@
+---
+---
+
+# Magento
+
+<details>
+  <summary><em>Topics covered on this page</em></summary>
+
+- [Supported versions](#supported-versions)
+- [Supported payment methods](#supported-payment-methods)
+- [Installation](#installation)
+- [Configuration](#configuration)
+  - [Enabling 3DS](#enabling-3ds)
+- [Upgrading to the new secure form](#upgrading-to-the-new-secure-form)
+- [Enabling the secure form for payments](#enabling-the-secure-form-for-payments)
+- [Customization](#customization)
+- [Support](#support)
+
+</details>
+
+Accept payments through Omise on your **Magento-based** online store. No programming is required.
+
+## Supported Versions
+
+Supports **Magento 2.1.18 – 2.4.5**.
+
+<pre>
+Please use at least the minimum recommended version of the [omise-magento](https://github.com/omise/omise-magento/) library.  For
+ more information, see [Library Updates Required](/library-update).
+
+</pre>
+
+> Can't find your version of Magento? [Please contact support](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento).
+
+## Supported Payment Methods
+
+-  Alipay (Online) 
+-  Alipay CN 
+-  Alipay HK 
+-  Bill Payment 
+-  Boost 
+-  Credit and Debit Cards 
+-  DANA 
+-  DuitNow Online Banking/Wallets 
+-  DuitNow QR 
+-  FPX 
+-  GCash 
+-  Google Pay 
+-  GrabPay 
+-  Installments 
+-  Internet Banking 
+-  Kakao Pay 
+-  Konbini, Pay-easy, and Online Banking 
+-  Maybank QR 
+-  Krungsri (KMA) 
+-  Bangkok Bank (Bualuang mBanking) 
+-  KBank (K PLUS) 
+-  OCBC Digital 
+-  OCBC PAO 
+-  Pay with Points 
+-  PayNow 
+-  PayPay 
+-  PromptPay 
+-  Rabbit Line pay 
+-  ShopeePay 
+-  Touch 'n Go 
+-  TrueMoney Wallet
+
+> Do you need a payment method that is not currently supported? [Please contact support](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento).
+
+## Installation
+
+Use [Composer](/getcomposer.org/) to install.
+
+Run the following command in the same directory as your Magento installation:
+
+```
+composer require omise/omise-magento
+```
+If you are installing the module to an existing Magento installation, you may need to run the following commands after running composer:
+
+```
+php bin/magento module:enable Omise_Payment --clear-static-content
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+```
+
+## Configuration
+
+Connect your Omise account and enable your preferred payment methods. 
+This enables your customers to make payments on your store through Omise.
+
+In your Magento admin interface:
+
+1. Go to `Stores` > `Configuration` > `Sales` > `Payment Methods`.
+2. Configuration options are displayed under the **Omise** section.
+3. Add your [test](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=6ec07f63-85db-4d93-be13-bb75ca934bee&response_mode=fragment&response_type=code&scope=openid&nonce=d13c716a-29c6-4199-8650-4b1de413cbe5&ui_locales=en&code_challenge=4Doxs1FG_nf7vkAZxWvECjIlQ9r97Q0T5FA9Iijzx_M&code_challenge_method=S256) and [live](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=4c173f49-d4b4-48ba-95f4-13b70a21eaaa&response_mode=fragment&response_type=code&scope=openid&nonce=52d7109e-5bb9-4739-8ce0-67aaaa0d057a&ui_locales=en&code_challenge=NY8CciI7hPbFrW9G0IXNf_tIkQ8KODdO-VKUOEa4HS0&code_challenge_method=S256) keys and enable the module
+
+![configuration](/img/configuration.png)
+
+> Note: If the setting for `Sandbox` is set to `Yes`, your **test** keys will be used. If the setting for
+ `Sandbox` is set to `No`, your **live** keys for LIVE will be used.
+
+## Enabling 3DS
+
+If you would like to process 3DS (also known as *3-D Secure*) charges, please [contact support](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento). to enable 3DS on your account.
+
+> If the Omise team has enabled 3DS in the merchant's account, but the store has not activated
+ the plugin yet, you may encounter difficulties receiving payment. You will receive a
+  notification saying, “3d secure is requested, but return URI is not set”.
+
+## Upgrading to the new secure form
+
+To upgrade to the new secure form on Magento, use the following instructions:
+
+Use **composer** to upgrade Magento.
+
+Run the following command in the same directory as your existing Magento installation.
+
+```
+composer update omise/omise-magento
+```
+
+Then run the following commands to enable Omise:
+
+```
+php bin/magento module:enable Omise_Payment --clear-static-content
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+```

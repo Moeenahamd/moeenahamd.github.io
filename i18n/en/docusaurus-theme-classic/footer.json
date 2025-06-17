@@ -1,0 +1,82 @@
+{
+  "link.item.label.Accept payments": {
+    "message": "Accept payments",
+    "description": "The label of footer link with label=Accept payments linking to /docs/intro"
+  },
+  "link.item.label.Omise AI": {
+    "message": "Omise AI",
+    "description": "The label of footer link with label=Omise AI linking to /docs/intro"
+  },
+  "link.item.label.Manage transactions": {
+    "message": "Manage transactions",
+    "description": "The label of footer link with label=Manage transactions linking to /docs/intro"
+  },
+  "link.item.label.Payment Links+": {
+    "message": "Payment Links+",
+    "description": "The label of footer link with label=Payment Links+ linking to /docs/intro"
+  },
+  "link.item.label.PayFac": {
+    "message": "PayFac",
+    "description": "The label of footer link with label=PayFac linking to /docs/intro"
+  },
+  "link.item.label.Acquiring": {
+    "message": "Acquiring",
+    "description": "The label of footer link with label=Acquiring linking to /docs/intro"
+  },
+  "link.item.label.Payment Orchestration": {
+    "message": "Payment Orchestration",
+    "description": "The label of footer link with label=Payment Orchestration linking to /docs/intro"
+  },
+  "link.item.label.Consultant service for Fintech": {
+    "message": "Consultant service for Fintech",
+    "description": "The label of footer link with label=Consultant service for Fintech linking to /docs/intro"
+  },
+  "link.item.label.About us": {
+    "message": "About us",
+    "description": "The label of footer link with label=About us linking to /docs/intro"
+  },
+  "link.item.label.Newsroom": {
+    "message": "Newsroom",
+    "description": "The label of footer link with label=Newsroom linking to /docs/intro"
+  },
+  "link.item.label.Careers": {
+    "message": "Careers",
+    "description": "The label of footer link with label=Careers linking to /docs/intro"
+  },
+  "link.item.label.Customer stories": {
+    "message": "Customer stories",
+    "description": "The label of footer link with label=Customer stories linking to /docs/intro"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /docs/intro"
+  },
+  "link.item.label.Pricing": {
+    "message": "Pricing",
+    "description": "The label of footer link with label=Pricing linking to /docs/intro"
+  },
+  "link.item.label.Documentation": {
+    "message": "Documentation",
+    "description": "The label of footer link with label=Documentation linking to /docs/intro"
+  },
+  "link.item.label.Get started": {
+    "message": "Get started",
+    "description": "The label of footer link with label=Get started linking to /docs/intro"
+  },
+  "link.item.label.FAQ": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=FAQ linking to /docs/intro"
+  },
+  "link.item.label.Restricted businesses": {
+    "message": "Restricted businesses",
+    "description": "The label of footer link with label=Restricted businesses linking to /docs/intro"
+  },
+  "link.item.label.Contact us": {
+    "message": "Contact us",
+    "description": "The label of footer link with label=Contact us linking to /docs/intro"
+  },
+  "copyright": {
+    "message": "Privacy and Terms Copyright © 2025Omise Co., Ltd.",
+    "description": "The footer copyright"
+  }
+}

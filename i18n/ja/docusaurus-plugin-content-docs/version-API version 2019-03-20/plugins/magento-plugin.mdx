@@ -1,0 +1,131 @@
+---
+---
+# マジェント
+
+
+<details>
+  <summary><em>このページでカバーするトピック</em></summary>
+
+- [サポートされているバージョン](#supported-versions)
+- [サポートされている支払い方法](#supported-payment-methods)
+- [インストール](#installation)
+- [設定](#configuration)
+  - [3DSの有効化](#enabling-3ds)
+- [新しいセキュアフォームへのアップグレード](#upgrading-to-the-new-secure-form)
+- [支払いのためのセキュアフォームの有効化](#enabling-the-secure-form-for-payments)
+- [カスタマイズ](#customization)
+- [サポート](#support)
+
+</details>
+
+Omiseを通じて**マジェントベース**のオンラインストアで支払いを受け付けます。プログラミングは不要です。
+
+## サポートされているバージョン
+
+**マジェント 2.1.18 – 2.4.5**をサポートします。
+
+<pre>
+[omise-マジェント](https://github.com/omise/omise-マジェント/)ライブラリの少なくとも最小推奨バージョンを使用してください。
+詳細については、[ライブラリの更新が必要](#library-update)をご覧ください。
+
+</pre>
+
+> ご利用のマジェントバージョンが見つかりませんか？ [サポートにお問い合わせください](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento)。
+
+## サポートされている支払い方法
+
+
+## の日本語翻訳は以下の通りです：
+
+- アリペイ（オンライン）
+- アリペイCN
+- アリペイHK
+- 請求書払い
+- ブースト
+- クレジットカードとデビットカード
+- ダナ
+- DuitNowオンラインバンキング／ウォレット
+- DuitNow QR
+- FPX
+- GCash
+- グーグルペイ
+- グラブペイ
+- 分割払い
+- インターネットバンキング
+- カカオペイ
+- コンビニ、Pay-easy、およびオンラインバンキング
+- メイバンク
+- クルンシー
+- バンコク銀行（Bualuang mBanking）
+- KBank（K PLUS）
+- OCBCデジタル
+- OCBC PAO
+- ポイントで支払い
+- PayNow
+- ペイペイ（
+- プロンプトペイ
+- ラビットラインペイ
+- ショッピーペイ
+- タッチアンドゴー
+- トゥルーマネーウォレット
+
+
+> 現在サポートされていない支払い方法が必要ですか？ [サポートにお問い合わせください](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento)。
+
+## インストール
+
+[Composer](/getcomposer.org/)を使用してインストールします。
+
+
+マジェントのインストールと同じディレクトリで、以下のコマンドを実行してください：
+
+```
+composer require omise/omise-マジェント
+```
+既存のマジェントインストールにモジュールをインストールする場合、composerを実行した後に以下のコマンドを実行する必要があるかもしれません：
+
+```
+php bin/マジェント module:enable Omise_Payment --clear-static-content
+php bin/マジェント setup:upgrade
+php bin/マジェント setup:di:compile
+```
+## 設定
+
+Omiseアカウントを接続し、お好みの支払い方法を有効にします。  
+これにより、お客様がOmiseを通じてあなたのストアで支払いを行えるようになります。
+
+マジェントの管理インターフェースで:
+
+1. `Stores` > `Configuration` > `Sales` > `Payment Methods` に移動します。
+2. 設定オプションが **Omise** セクションに表示されます。
+3. [テスト](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=6ec07f63-85db-4d93-be13-bb75ca934bee&response_mode=fragment&response_type=code&scope=openid&nonce=d13c716a-29c6-4199-8650-4b1de413cbe5&ui_locales=en&code_challenge=4Doxs1FG_nf7vkAZxWvECjIlQ9r97Q0T5FA9Iijzx_M&code_challenge_method=S256)と[ライブ](https://sso-idp.omise.co/realms/engagement/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fdashboard.omise.co%2Fv2&state=4c173f49-d4b4-48ba-95f4-13b70a21eaaa&response_mode=fragment&response_type=code&scope=openid&nonce=52d7109e-5bb9-4739-8ce0-67aaaa0d057a&ui_locales=en&code_challenge=NY8CciI7hPbFrW9G0IXNf_tIkQ8KODdO-VKUOEa4HS0&code_challenge_method=S256)キーを追加し、モジュールを有効にします。
+
+![configuration](/img/configuration.png)
+
+> 注: `Sandbox`の設定が`Yes`に設定されている場合、**テスト**キーが使用されます。`Sandbox`の設定が`No`に設定されている場合、**ライブ**キーが使用されます。
+
+## 3DSの有効化
+
+3DS（*3-D Secure*）支払いを処理したい場合は、[サポートに連絡](mailto:support@omise.co?subject=Feature%20Request%3A%20Magento)して、アカウントで3DSを有効にしてください。
+
+> Omiseチームが商人のアカウントで3DSを有効にしたが、ストアがプラグインをまだアクティブにしていない場合、支払いを受け取る際に問題が発生することがあります。「3d secureが要求されましたが、戻りURIが設定されていません」という通知が表示されます。
+
+## 新しいセキュアフォームへのアップグレード
+
+
+マジェントで新しいセキュアフォームにアップグレードするには、以下の手順に従ってください：
+
+**composer**を使用してマジェントをアップグレードします。
+
+既存のマジェントインストールと同じディレクトリで、次のコマンドを実行します。
+
+```
+composer update omise/omise-マジェント
+```
+次に、Omiseを有効にするために以下のコマンドを実行します：
+
+```
+php bin/magento module:enable Omise_Payment --clear-static-content
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+```

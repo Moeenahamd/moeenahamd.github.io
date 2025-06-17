@@ -1,0 +1,76 @@
+---
+---
+ # オープンカート
+
+
+<details>
+  <summary><em>このページでカバーされるトピック</em></summary>
+
+- [サポートされているバージョン](#supported-versions)
+- [サポートされている決済方法](#supported-payment-methods)
+- [インストール](#installation)
+- [設定](#configuration)
+  - [3DSの有効化](#enabling-3ds)
+- [カスタマイズ](#customization)
+- [サポート](#support)
+
+</details>
+
+**OpenCart**ベースのオンラインストアでOmiseを使用して決済を受け付けます。プログラミングは必要ありません。
+
+## サポートされているバージョン
+
+**OpenCart 2.0.3.1**をサポートしています。
+
+> あなたのOpenCartバージョンが見つからない場合は、[サポートに連絡してください](mailto:support@omise.co?subject=Feature%20Request:%20OpenCart)。
+
+## サポートされている決済方法
+
+- クレジットカードおよびデビットカード  
+- インターネットバンキング  
+- OCBC Digital
+
+> 現在サポートされていない決済方法が必要ですか？ [サポートに連絡してください](mailto:support@omise.co?subject=Payment%20Method%20Support:%20OpenCart)。
+
+## インストール
+
+1. [最新リリース](https://github.com/omise/omise-opencart/releases/tag/v2.5)をダウンロードして解凍します。
+2. 解凍した`src`フォルダの内容をOpenCartサイトのルートフォルダにマージします。
+
+ ![manual_folder](/img/manual_folder.png)
+3. OpenCartの管理パネルにログインします。**拡張機能 > 支払い方法**に進みます。
+
+ ![setup_find](/img/setup_find.png)
+
+4. **Omise Payment Gateway** と **Omise Payment Gateway - インターネットバンキング**を探し、それぞれの**緑のプラスボタン**をクリックしてインストールします。
+
+ ![manual_activate](/img/manual_activate.png)
+
+> 注: サーバーのOpenCartフォルダに書き込み権限があることを確認してください。
+
+## 設定
+
+Omiseアカウントを接続し、お好みの決済方法を有効にします。  
+これにより、顧客がOmiseを通じて店舗で決済できるようになります。
+
+OpenCart管理画面で：
+
+1. **拡張機能** > **支払い方法** に進みます。
+
+ ![setup_find](/img/setup_find.png)
+
+2. **Omise Payment Gateway**（クレジットカードおよびデビットカード決済に対応）を探し、**青い鉛筆ボタン**をクリックして拡張機能を設定します。
+
+ ![setup_edit](/img/setup_edit.png)
+
+3. Omise Payment Gatewayダッシュボードページが表示されます。**設定**ページに進みます。
+
+ ![setup_enable](/img/setup_enable.png)
+
+4. プラグインを設定し、公開キーと秘密キーを入力します。
+
+ ![setup_keys](/img/setup_keys.png)
+
+> **注:** これらの手順はクレジットカードおよびデビットカード決済用です。  
+> 他の決済方法（例: インターネットバンキング）を有効にする場合は、繰り返し設定を行ってください。
+
