@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsGet</h3>
+            <h3>Retrieve Recipients</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsGet</div>
+              <div class="code-header">Retrieve Recipients</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsGet-code-curl">
+<div class="code-block curl active" id="Retrieve Recipients-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="recipientsGet-code-java">
+<div class="code-block java" id="Retrieve Recipients-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsGet-code-android">
+<div class="code-block android" id="Retrieve Recipients-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -88,7 +89,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsGet-code-objc">
+<div class="code-block objc" id="Retrieve Recipients-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Recipients-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.recipientsGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Recipients-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsGet-code-php">
+<div class="code-block php" id="Retrieve Recipients-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsGet-code-perl">
+<div class="code-block perl" id="Retrieve Recipients-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsGet-code-python">
+<div class="code-block python" id="Retrieve Recipients-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsIdDelete</h3>
+            <h3>Delete Recipients ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsIdDelete</div>
+              <div class="code-header">Delete Recipients ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsIdDelete-code-curl">
+<div class="code-block curl active" id="Delete Recipients ID-code-curl">
 ```js
 curl -X DELETE\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X DELETE\
 ```
 </div>
 
-<div class="code-block java" id="recipientsIdDelete-code-java">
+<div class="code-block java" id="Delete Recipients ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -346,7 +323,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsIdDelete-code-android">
+<div class="code-block android" id="Delete Recipients ID-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -367,7 +344,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsIdDelete-code-objc">
+<div class="code-block objc" id="Delete Recipients ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -385,7 +362,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsIdDelete-code-javascript">
+<div class="code-block javascript" id="Delete Recipients ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -403,7 +380,7 @@ api.recipientsIdDelete(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsIdDelete-code-csharp">
+<div class="code-block csharp" id="Delete Recipients ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -436,7 +413,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsIdDelete-code-php">
+<div class="code-block php" id="Delete Recipients ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -454,7 +431,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsIdDelete-code-perl">
+<div class="code-block perl" id="Delete Recipients ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -473,7 +450,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsIdDelete-code-python">
+<div class="code-block python" id="Delete Recipients ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -504,32 +481,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -538,11 +490,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsIdGet</h3>
+            <h3>Retrieve Recipients ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsIdGet</div>
+              <div class="code-header">Retrieve Recipients ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -556,7 +509,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Recipients ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -564,7 +517,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="recipientsIdGet-code-java">
+<div class="code-block java" id="Retrieve Recipients ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -592,7 +545,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsIdGet-code-android">
+<div class="code-block android" id="Retrieve Recipients ID-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -613,7 +566,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Recipients ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -631,7 +584,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Recipients ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -649,7 +602,7 @@ api.recipientsIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Recipients ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -682,7 +635,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsIdGet-code-php">
+<div class="code-block php" id="Retrieve Recipients ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -700,7 +653,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Recipients ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -719,7 +672,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsIdGet-code-python">
+<div class="code-block python" id="Retrieve Recipients ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -750,32 +703,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -784,11 +712,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsIdPatch</h3>
+            <h3>Update Recipients ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsIdPatch</div>
+              <div class="code-header">Update Recipients ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -802,7 +731,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsIdPatch-code-curl">
+<div class="code-block curl active" id="Update Recipients ID-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -811,7 +740,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="recipientsIdPatch-code-java">
+<div class="code-block java" id="Update Recipients ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -846,7 +775,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsIdPatch-code-android">
+<div class="code-block android" id="Update Recipients ID-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -874,7 +803,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsIdPatch-code-objc">
+<div class="code-block objc" id="Update Recipients ID-code-objc">
 ```js
 String *id = id_example; // 
 recipientsid_bank_account *bankAccount = ; //  (optional)
@@ -906,7 +835,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsIdPatch-code-javascript">
+<div class="code-block javascript" id="Update Recipients ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -932,7 +861,7 @@ api.recipientsIdPatch(id, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsIdPatch-code-csharp">
+<div class="code-block csharp" id="Update Recipients ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -972,7 +901,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsIdPatch-code-php">
+<div class="code-block php" id="Update Recipients ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -997,7 +926,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsIdPatch-code-perl">
+<div class="code-block perl" id="Update Recipients ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1023,7 +952,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsIdPatch-code-python">
+<div class="code-block python" id="Update Recipients ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1074,58 +1003,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
-### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1134,11 +1012,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsIdSchedulesGet</h3>
+            <h3>Retrieve Recipients ID Schedules</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsIdSchedulesGet</div>
+              <div class="code-header">Retrieve Recipients ID Schedules</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1152,7 +1031,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsIdSchedulesGet-code-curl">
+<div class="code-block curl active" id="Retrieve Recipients ID Schedules-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1160,7 +1039,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="recipientsIdSchedulesGet-code-java">
+<div class="code-block java" id="Retrieve Recipients ID Schedules-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1193,7 +1072,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsIdSchedulesGet-code-android">
+<div class="code-block android" id="Retrieve Recipients ID Schedules-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -1219,7 +1098,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsIdSchedulesGet-code-objc">
+<div class="code-block objc" id="Retrieve Recipients ID Schedules-code-objc">
 ```js
 String *id = id_example; // 
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
@@ -1247,7 +1126,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsIdSchedulesGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Recipients ID Schedules-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1271,7 +1150,7 @@ api.recipientsIdSchedulesGet(id, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsIdSchedulesGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Recipients ID Schedules-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1309,7 +1188,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsIdSchedulesGet-code-php">
+<div class="code-block php" id="Retrieve Recipients ID Schedules-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1332,7 +1211,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsIdSchedulesGet-code-perl">
+<div class="code-block perl" id="Retrieve Recipients ID Schedules-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1356,7 +1235,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsIdSchedulesGet-code-python">
+<div class="code-block python" id="Retrieve Recipients ID Schedules-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1403,58 +1282,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
-### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1463,11 +1291,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsIdVerifyPatch</h3>
+            <h3>Update Recipients ID Verify</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsIdVerifyPatch</div>
+              <div class="code-header">Update Recipients ID Verify</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1481,7 +1310,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsIdVerifyPatch-code-curl">
+<div class="code-block curl active" id="Update Recipients ID Verify-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -1489,7 +1318,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="recipientsIdVerifyPatch-code-java">
+<div class="code-block java" id="Update Recipients ID Verify-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1517,7 +1346,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsIdVerifyPatch-code-android">
+<div class="code-block android" id="Update Recipients ID Verify-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -1538,7 +1367,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsIdVerifyPatch-code-objc">
+<div class="code-block objc" id="Update Recipients ID Verify-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -1556,7 +1385,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsIdVerifyPatch-code-javascript">
+<div class="code-block javascript" id="Update Recipients ID Verify-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1574,7 +1403,7 @@ api.recipientsIdVerifyPatch(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsIdVerifyPatch-code-csharp">
+<div class="code-block csharp" id="Update Recipients ID Verify-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1607,7 +1436,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsIdVerifyPatch-code-php">
+<div class="code-block php" id="Update Recipients ID Verify-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1625,7 +1454,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsIdVerifyPatch-code-perl">
+<div class="code-block perl" id="Update Recipients ID Verify-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1644,7 +1473,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsIdVerifyPatch-code-python">
+<div class="code-block python" id="Update Recipients ID Verify-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1675,32 +1504,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1709,11 +1513,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsPost</h3>
+            <h3>Create Recipients</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsPost</div>
+              <div class="code-header">Create Recipients</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1727,7 +1532,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsPost-code-curl">
+<div class="code-block curl active" id="Create Recipients-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -1736,7 +1541,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="recipientsPost-code-java">
+<div class="code-block java" id="Create Recipients-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1770,7 +1575,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsPost-code-android">
+<div class="code-block android" id="Create Recipients-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -1797,7 +1602,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsPost-code-objc">
+<div class="code-block objc" id="Create Recipients-code-objc">
 ```js
 recipientsid_bank_account *bankAccount = ; //  (optional)
 String *description = description_example; //  (optional)
@@ -1827,7 +1632,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsPost-code-javascript">
+<div class="code-block javascript" id="Create Recipients-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1852,7 +1657,7 @@ api.recipientsPost(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsPost-code-csharp">
+<div class="code-block csharp" id="Create Recipients-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1891,7 +1696,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsPost-code-php">
+<div class="code-block php" id="Create Recipients-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1915,7 +1720,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsPost-code-perl">
+<div class="code-block perl" id="Create Recipients-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1940,7 +1745,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsPost-code-python">
+<div class="code-block python" id="Create Recipients-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1983,32 +1788,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -2017,11 +1797,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>recipientsSearchGet</h3>
+            <h3>Retrieve Recipients Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">recipientsSearchGet</div>
+              <div class="code-header">Retrieve Recipients Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -2035,7 +1816,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="recipientsSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Recipients Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -2043,7 +1824,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="recipientsSearchGet-code-java">
+<div class="code-block java" id="Retrieve Recipients Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -2081,7 +1862,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="recipientsSearchGet-code-android">
+<div class="code-block android" id="Retrieve Recipients Search-code-android">
 ```js
 import io.swagger.client.api.RecipientsApi;
 
@@ -2112,7 +1893,7 @@ public class RecipientsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="recipientsSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Recipients Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to recipient)
 String *query = query_example; //  (optional)
@@ -2150,7 +1931,7 @@ RecipientsApi *apiInstance = [[RecipientsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="recipientsSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Recipients Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -2179,7 +1960,7 @@ api.recipientsSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="recipientsSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Recipients Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -2222,7 +2003,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="recipientsSearchGet-code-php">
+<div class="code-block php" id="Retrieve Recipients Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -2250,7 +2031,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="recipientsSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Recipients Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -2279,7 +2060,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="recipientsSearchGet-code-python">
+<div class="code-block python" id="Retrieve Recipients Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -2334,27 +2115,1127 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "recipient",
+    "type": "string",
+    "default": "recipient"
+  },
+  "id": {
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "deleted": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "bank_account": {
+    "type": "object",
+    "properties": {
+      "object": {
+        "pattern": "bank_account",
+        "type": "string",
+        "default": "bank_account"
+      },
+      "livemode": {
+        "type": "boolean",
+        "enum": [
+          true,
+          false
+        ]
+      },
+      "last_digits": {
+        "pattern": "^[0-9]{4}$",
+        "type": "string"
+      },
+      "account_number": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "normal",
+          "current"
+        ]
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "brand": {
+        "type": "string"
+      },
+      "bank_code": {
+        "type": "string"
+      },
+      "branch_code": {
+        "type": "string"
+      }
+    }
+  },
+  "active": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "default": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "verified": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "description": {
+    "type": "string",
+    "nullable": true
+  },
+  "email": {
+    "type": "string"
+  },
+  "failure_code": {
+    "type": "string",
+    "nullable": true,
+    "enum": [
+      "name_mismatch",
+      "account_not_found",
+      "bank_not_found"
+    ]
+  },
+  "name": {
+    "type": "string"
+  },
+  "tax_id": {
+    "type": "string",
+    "nullable": true
+  },
+  "type": {
+    "type": "string",
+    "enum": [
+      "individual",
+      "corporation"
+    ]
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "schedule": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "schedule",
+            "type": "string",
+            "default": "schedule"
+          },
+          "id": {
+            "pattern": "schd_[0-9a-z]+",
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "every": {
+            "type": "integer"
+          },
+          "occurrences": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "list",
+                "type": "string",
+                "default": "list"
+              },
+              "data": {
+                "type": "array",
+                "items": {}
+              },
+              "limit": {
+                "type": "integer"
+              },
+              "offset": {
+                "type": "integer"
+              },
+              "total": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "string"
+              },
+              "order": {
+                "type": "string",
+                "enum": [
+                  "chronological",
+                  "reverse_chronological"
+                ]
+              },
+              "from": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "to": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "on": {
+            "type": "object",
+            "properties": {
+              "days_of_month": {
+                "type": "array",
+                "items": {}
+              },
+              "weekday_of_month": {
+                "type": "string"
+              },
+              "weekdays": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "enum": [
+                  "sunday",
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday",
+                  "saturday"
+                ]
+              }
+            }
+          },
+          "in_words": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string",
+            "enum": [
+              "day",
+              "week",
+              "month"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "running",
+              "active",
+              "expiring",
+              "expired",
+              "deleted",
+              "suspended"
+            ]
+          },
+          "active": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "state": {
+            "type": "string",
+            "enum": [
+              "Active",
+              "Pause"
+            ]
+          },
+          "charge": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "charge_schedule",
+                "type": "string",
+                "default": "charge_schedule"
+              },
+              "id": {
+                "pattern": "rchg_[0-9a-z]+",
+                "type": "string"
+              },
+              "livemode": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "currency": {
+                "type": "string",
+                "format": "currency"
+              },
+              "amount": {
+                "type": "integer"
+              },
+              "default_card": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "card": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "card",
+                        "type": "string",
+                        "default": "card"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "deleted": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "street1": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "street2": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "city": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "state": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "phone_number": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "postal_code": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "country": {
+                        "pattern": "^[a-z]{0,2}$",
+                        "type": "string"
+                      },
+                      "financing": {
+                        "type": "string"
+                      },
+                      "bank": {
+                        "type": "string"
+                      },
+                      "brand": {
+                        "type": "string"
+                      },
+                      "fingerprint": {
+                        "type": "string"
+                      },
+                      "first_digits": {
+                        "pattern": "^[0-9]{6}$",
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "last_digits": {
+                        "pattern": "^[0-9]{4}$",
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "expiration_month": {
+                        "type": "integer"
+                      },
+                      "expiration_year": {
+                        "type": "integer"
+                      },
+                      "security_code_check": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "tokenization_method": {
+                        "type": "string"
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "customer": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "customer",
+                        "type": "string",
+                        "default": "customer"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "deleted": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "cards": {
+                        "type": "object",
+                        "properties": {
+                          "object": {
+                            "pattern": "list",
+                            "type": "string",
+                            "default": "list"
+                          },
+                          "data": {
+                            "type": "array",
+                            "items": {}
+                          },
+                          "limit": {
+                            "type": "integer"
+                          },
+                          "offset": {
+                            "type": "integer"
+                          },
+                          "total": {
+                            "type": "integer"
+                          },
+                          "location": {
+                            "type": "string"
+                          },
+                          "order": {
+                            "type": "string",
+                            "enum": [
+                              "chronological",
+                              "reverse_chronological"
+                            ]
+                          },
+                          "from": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "to": {
+                            "type": "string",
+                            "format": "date-time"
+                          }
+                        }
+                      },
+                      "default_card": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "card",
+                                "type": "string",
+                                "default": "card"
+                              },
+                              "id": {
+                                "type": "string"
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "street1": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "street2": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "city": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "state": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "phone_number": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "postal_code": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "country": {
+                                "pattern": "^[a-z]{0,2}$",
+                                "type": "string"
+                              },
+                              "financing": {
+                                "type": "string"
+                              },
+                              "bank": {
+                                "type": "string"
+                              },
+                              "brand": {
+                                "type": "string"
+                              },
+                              "fingerprint": {
+                                "type": "string"
+                              },
+                              "first_digits": {
+                                "pattern": "^[0-9]{6}$",
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "last_digits": {
+                                "pattern": "^[0-9]{4}$",
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "expiration_month": {
+                                "type": "integer"
+                              },
+                              "expiration_year": {
+                                "type": "integer"
+                              },
+                              "security_code_check": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "tokenization_method": {
+                                "type": "string"
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "linked_accounts": {
+                        "type": "object",
+                        "properties": {
+                          "object": {
+                            "pattern": "list",
+                            "type": "string",
+                            "default": "list"
+                          },
+                          "data": {
+                            "type": "array",
+                            "items": {}
+                          },
+                          "limit": {
+                            "type": "integer"
+                          },
+                          "offset": {
+                            "type": "integer"
+                          },
+                          "total": {
+                            "type": "integer"
+                          },
+                          "location": {
+                            "type": "string"
+                          },
+                          "order": {
+                            "type": "string",
+                            "enum": [
+                              "chronological",
+                              "reverse_chronological"
+                            ]
+                          },
+                          "from": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "to": {
+                            "type": "string",
+                            "format": "date-time"
+                          }
+                        }
+                      },
+                      "description": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "email": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "linked_account": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "linked_account",
+                        "type": "string",
+                        "default": "linked_account"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "registration_uri": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "return_uri": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "failed",
+                          "expired",
+                          "deleted",
+                          "pending",
+                          "successful"
+                        ]
+                      },
+                      "last_digits": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "failure_code": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "failure_message": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "registered_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "expires_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "description": {
+                "type": "string",
+                "nullable": true
+              },
+              "metadata": {
+                "type": "object",
+                "default": {}
+              },
+              "created_at": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "transfer": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "transfer_schedule",
+                "type": "string",
+                "default": "transfer_schedule"
+              },
+              "id": {
+                "pattern": "rtrf_[0-9a-z]+",
+                "type": "string"
+              },
+              "livemode": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "amount": {
+                "type": "integer",
+                "nullable": true
+              },
+              "currency": {
+                "type": "string",
+                "format": "currency"
+              },
+              "percentage_of_balance": {
+                "type": "number",
+                "format": "float",
+                "nullable": true
+              },
+              "recipient": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "recipient",
+                        "type": "string",
+                        "default": "recipient"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "deleted": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "bank_account": {
+                        "type": "object",
+                        "properties": {
+                          "object": {
+                            "pattern": "bank_account",
+                            "type": "string",
+                            "default": "bank_account"
+                          },
+                          "livemode": {
+                            "type": "boolean",
+                            "enum": [
+                              true,
+                              false
+                            ]
+                          },
+                          "last_digits": {
+                            "pattern": "^[0-9]{4}$",
+                            "type": "string"
+                          },
+                          "account_number": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "normal",
+                              "current"
+                            ]
+                          },
+                          "created_at": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "brand": {
+                            "type": "string"
+                          },
+                          "bank_code": {
+                            "type": "string"
+                          },
+                          "branch_code": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "active": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "default": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "verified": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "description": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "email": {
+                        "type": "string"
+                      },
+                      "failure_code": {
+                        "type": "string",
+                        "nullable": true,
+                        "enum": [
+                          "name_mismatch",
+                          "account_not_found",
+                          "bank_not_found"
+                        ]
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "tax_id": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "individual",
+                          "corporation"
+                        ]
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "schedule": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "schedule",
+                                "type": "string",
+                                "default": "schedule"
+                              },
+                              "id": {
+                                "pattern": "schd_[0-9a-z]+",
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "every": {
+                                "type": "integer"
+                              },
+                              "occurrences": {
+                                "$ref": "#/components/schemas/list"
+                              },
+                              "on": {
+                                "$ref": "#/components/schemas/schedule_on"
+                              },
+                              "in_words": {
+                                "type": "string"
+                              },
+                              "period": {
+                                "type": "string",
+                                "enum": [
+                                  "day",
+                                  "week",
+                                  "month"
+                                ]
+                              },
+                              "status": {
+                                "type": "string",
+                                "enum": [
+                                  "running",
+                                  "active",
+                                  "expiring",
+                                  "expired",
+                                  "deleted",
+                                  "suspended"
+                                ]
+                              },
+                              "active": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "state": {
+                                "type": "string",
+                                "enum": [
+                                  "Active",
+                                  "Pause"
+                                ]
+                              },
+                              "charge": {
+                                "$ref": "#/components/schemas/charge_schedule"
+                              },
+                              "transfer": {
+                                "$ref": "#/components/schemas/transfer_schedule"
+                              },
+                              "next_occurrences_on": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string",
+                                  "format": "date"
+                                }
+                              },
+                              "ended_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "start_on": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "end_on": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "execute_time": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "deleted_by": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "merchant_name": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "verified_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "activated_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "created_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "is_realtime_payout": {
+                "type": "boolean",
+                "nullable": true,
+                "enum": [
+                  true,
+                  false
+                ]
+              }
+            }
+          },
+          "next_occurrences_on": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          "ended_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "start_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "end_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "execute_time": {
+            "type": "string",
+            "nullable": true
+          },
+          "deleted_by": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_name": {
+            "type": "string"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "metadata": {
+    "type": "object",
+    "default": {}
+  },
+  "verified_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "activated_at": {
+    "type": "string",
+    "format": "date-time"
+  }
+} 
+```
 
         </div>
       </div>

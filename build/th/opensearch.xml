@@ -4,8 +4,8 @@
   <ShortName>OMISE</ShortName>
   <Description>Search OMISE</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://moeenahamd.github.io/th/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://moeenahamd.github.io/th/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://moeenahamd.github.io/th/opensearch.xml" />
-  <moz:SearchForm>https://moeenahamd.github.io/th/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://michaelrajkumar.github.io/th/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://michaelrajkumar.github.io/th/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://michaelrajkumar.github.io/th/opensearch.xml" />
+  <moz:SearchForm>https://michaelrajkumar.github.io/th/</moz:SearchForm>
 </OpenSearchDescription>

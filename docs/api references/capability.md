@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>capabilityGet</h3>
+            <h3>Retrieve Capability</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">capabilityGet</div>
+              <div class="code-header">Retrieve Capability</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="capabilityGet-code-curl">
+<div class="code-block curl active" id="Retrieve Capability-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="capabilityGet-code-java">
+<div class="code-block java" id="Retrieve Capability-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -58,7 +59,7 @@ public class CapabilityApiExample {
 ```
 </div>
 
-<div class="code-block android" id="capabilityGet-code-android">
+<div class="code-block android" id="Retrieve Capability-code-android">
 ```js
 import io.swagger.client.api.CapabilityApi;
 
@@ -78,7 +79,7 @@ public class CapabilityApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="capabilityGet-code-objc">
+<div class="code-block objc" id="Retrieve Capability-code-objc">
 ```js
 CapabilityApi *apiInstance = [[CapabilityApi alloc] init];
 
@@ -94,7 +95,7 @@ CapabilityApi *apiInstance = [[CapabilityApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="capabilityGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Capability-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -110,7 +111,7 @@ api.capabilityGet(callback);
 ```
 </div>
 
-<div class="code-block csharp" id="capabilityGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Capability-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -142,7 +143,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="capabilityGet-code-php">
+<div class="code-block php" id="Retrieve Capability-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -159,7 +160,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="capabilityGet-code-perl">
+<div class="code-block perl" id="Retrieve Capability-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -177,7 +178,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="capabilityGet-code-python">
+<div class="code-block python" id="Retrieve Capability-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -201,7 +202,130 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          
+          ### Responses
+
+ ### Status: 200
+
+```json
+ {
+  "object": {
+    "pattern": "capability",
+    "type": "string",
+    "default": "capability"
+  },
+  "location": {
+    "type": "string"
+  },
+  "banks": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    }
+  },
+  "limits": {
+    "type": "object",
+    "properties": {
+      "charge_amount": {
+        "type": "object",
+        "properties": {
+          "max": {
+            "type": "integer"
+          },
+          "min": {
+            "type": "integer"
+          }
+        }
+      },
+      "transfer_amount": {
+        "type": "object",
+        "properties": {
+          "max": {
+            "type": "integer"
+          },
+          "min": {
+            "type": "integer"
+          }
+        }
+      },
+      "installment_amount": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  },
+  "payment_methods": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "object": {
+          "pattern": "payment_method",
+          "type": "string",
+          "default": "payment_method"
+        },
+        "name": {
+          "type": "string"
+        },
+        "currencies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "currency"
+          }
+        },
+        "card_brands": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "installment_terms": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "loan_installment_terms": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "banks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "provider": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "country": {
+    "type": "string"
+  },
+  "tokenization_methods": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    }
+  },
+  "zero_interest_installments": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  }
+} 
+```
+
         </div>
       </div>
 

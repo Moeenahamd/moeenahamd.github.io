@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>chargesSchedulesGet</h3>
+            <h3>Retrieve Charges Schedules</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">chargesSchedulesGet</div>
+              <div class="code-header">Retrieve Charges Schedules</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="chargesSchedulesGet-code-curl">
+<div class="code-block curl active" id="Retrieve Charges Schedules-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="chargesSchedulesGet-code-java">
+<div class="code-block java" id="Retrieve Charges Schedules-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="chargesSchedulesGet-code-android">
+<div class="code-block android" id="Retrieve Charges Schedules-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -88,7 +89,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="chargesSchedulesGet-code-objc">
+<div class="code-block objc" id="Retrieve Charges Schedules-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="chargesSchedulesGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Charges Schedules-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.chargesSchedulesGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="chargesSchedulesGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Charges Schedules-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="chargesSchedulesGet-code-php">
+<div class="code-block php" id="Retrieve Charges Schedules-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="chargesSchedulesGet-code-perl">
+<div class="code-block perl" id="Retrieve Charges Schedules-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="chargesSchedulesGet-code-python">
+<div class="code-block python" id="Retrieve Charges Schedules-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>chargesSchedulesSearchGet</h3>
+            <h3>Retrieve Charges Schedules Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">chargesSchedulesSearchGet</div>
+              <div class="code-header">Retrieve Charges Schedules Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="chargesSchedulesSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Charges Schedules Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="chargesSchedulesSearchGet-code-java">
+<div class="code-block java" id="Retrieve Charges Schedules Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -352,7 +329,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="chargesSchedulesSearchGet-code-android">
+<div class="code-block android" id="Retrieve Charges Schedules Search-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -379,7 +356,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="chargesSchedulesSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Charges Schedules Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to charge_schedule)
 String *query = query_example; //  (optional)
@@ -409,7 +386,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="chargesSchedulesSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Charges Schedules Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -434,7 +411,7 @@ api.chargesSchedulesSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="chargesSchedulesSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Charges Schedules Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -473,7 +450,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="chargesSchedulesSearchGet-code-php">
+<div class="code-block php" id="Retrieve Charges Schedules Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -497,7 +474,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="chargesSchedulesSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Charges Schedules Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -522,7 +499,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="chargesSchedulesSearchGet-code-python">
+<div class="code-block python" id="Retrieve Charges Schedules Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -565,32 +542,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -599,11 +551,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>schedulesGet</h3>
+            <h3>Retrieve Schedules</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">schedulesGet</div>
+              <div class="code-header">Retrieve Schedules</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -617,7 +570,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="schedulesGet-code-curl">
+<div class="code-block curl active" id="Retrieve Schedules-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -625,7 +578,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="schedulesGet-code-java">
+<div class="code-block java" id="Retrieve Schedules-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -657,7 +610,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="schedulesGet-code-android">
+<div class="code-block android" id="Retrieve Schedules-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -682,7 +635,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="schedulesGet-code-objc">
+<div class="code-block objc" id="Retrieve Schedules-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -708,7 +661,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="schedulesGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Schedules-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -731,7 +684,7 @@ api.schedulesGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="schedulesGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Schedules-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -768,7 +721,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="schedulesGet-code-php">
+<div class="code-block php" id="Retrieve Schedules-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -790,7 +743,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="schedulesGet-code-perl">
+<div class="code-block perl" id="Retrieve Schedules-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -813,7 +766,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="schedulesGet-code-python">
+<div class="code-block python" id="Retrieve Schedules-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -852,32 +805,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -886,11 +814,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>schedulesIdDelete</h3>
+            <h3>Delete Schedules ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">schedulesIdDelete</div>
+              <div class="code-header">Delete Schedules ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -904,7 +833,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="schedulesIdDelete-code-curl">
+<div class="code-block curl active" id="Delete Schedules ID-code-curl">
 ```js
 curl -X DELETE\
 -H "Accept: application/json"\
@@ -912,7 +841,7 @@ curl -X DELETE\
 ```
 </div>
 
-<div class="code-block java" id="schedulesIdDelete-code-java">
+<div class="code-block java" id="Delete Schedules ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -940,7 +869,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="schedulesIdDelete-code-android">
+<div class="code-block android" id="Delete Schedules ID-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -961,7 +890,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="schedulesIdDelete-code-objc">
+<div class="code-block objc" id="Delete Schedules ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -979,7 +908,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="schedulesIdDelete-code-javascript">
+<div class="code-block javascript" id="Delete Schedules ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -997,7 +926,7 @@ api.schedulesIdDelete(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="schedulesIdDelete-code-csharp">
+<div class="code-block csharp" id="Delete Schedules ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1030,7 +959,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="schedulesIdDelete-code-php">
+<div class="code-block php" id="Delete Schedules ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1048,7 +977,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="schedulesIdDelete-code-perl">
+<div class="code-block perl" id="Delete Schedules ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1067,7 +996,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="schedulesIdDelete-code-python">
+<div class="code-block python" id="Delete Schedules ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1098,32 +1027,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1132,11 +1036,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>schedulesIdGet</h3>
+            <h3>Retrieve Schedules ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">schedulesIdGet</div>
+              <div class="code-header">Retrieve Schedules ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1150,7 +1055,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="schedulesIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Schedules ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1158,7 +1063,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="schedulesIdGet-code-java">
+<div class="code-block java" id="Retrieve Schedules ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1186,7 +1091,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="schedulesIdGet-code-android">
+<div class="code-block android" id="Retrieve Schedules ID-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -1207,7 +1112,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="schedulesIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Schedules ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -1225,7 +1130,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="schedulesIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Schedules ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1243,7 +1148,7 @@ api.schedulesIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="schedulesIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Schedules ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1276,7 +1181,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="schedulesIdGet-code-php">
+<div class="code-block php" id="Retrieve Schedules ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1294,7 +1199,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="schedulesIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Schedules ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1313,7 +1218,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="schedulesIdGet-code-python">
+<div class="code-block python" id="Retrieve Schedules ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1344,32 +1249,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1378,11 +1258,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>schedulesIdOccurrencesGet</h3>
+            <h3>Retrieve Schedules ID Occurrences</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">schedulesIdOccurrencesGet</div>
+              <div class="code-header">Retrieve Schedules ID Occurrences</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1396,7 +1277,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="schedulesIdOccurrencesGet-code-curl">
+<div class="code-block curl active" id="Retrieve Schedules ID Occurrences-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1404,7 +1285,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="schedulesIdOccurrencesGet-code-java">
+<div class="code-block java" id="Retrieve Schedules ID Occurrences-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1437,7 +1318,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="schedulesIdOccurrencesGet-code-android">
+<div class="code-block android" id="Retrieve Schedules ID Occurrences-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -1463,7 +1344,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="schedulesIdOccurrencesGet-code-objc">
+<div class="code-block objc" id="Retrieve Schedules ID Occurrences-code-objc">
 ```js
 String *id = id_example; // 
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
@@ -1491,7 +1372,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="schedulesIdOccurrencesGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Schedules ID Occurrences-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1515,7 +1396,7 @@ api.schedulesIdOccurrencesGet(id, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="schedulesIdOccurrencesGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Schedules ID Occurrences-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1553,7 +1434,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="schedulesIdOccurrencesGet-code-php">
+<div class="code-block php" id="Retrieve Schedules ID Occurrences-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1576,7 +1457,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="schedulesIdOccurrencesGet-code-perl">
+<div class="code-block perl" id="Retrieve Schedules ID Occurrences-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1600,7 +1481,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="schedulesIdOccurrencesGet-code-python">
+<div class="code-block python" id="Retrieve Schedules ID Occurrences-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1647,58 +1528,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
-### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1707,11 +1537,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>schedulesPost</h3>
+            <h3>Create Schedules</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">schedulesPost</div>
+              <div class="code-header">Create Schedules</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1725,7 +1556,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="schedulesPost-code-curl">
+<div class="code-block curl active" id="Create Schedules-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -1734,7 +1565,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="schedulesPost-code-java">
+<div class="code-block java" id="Create Schedules-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1768,7 +1599,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="schedulesPost-code-android">
+<div class="code-block android" id="Create Schedules-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -1795,7 +1626,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="schedulesPost-code-objc">
+<div class="code-block objc" id="Create Schedules-code-objc">
 ```js
 date *endDate = 2013-10-20; //  (optional)
 date *startDate = 2013-10-20; //  (optional)
@@ -1825,7 +1656,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="schedulesPost-code-javascript">
+<div class="code-block javascript" id="Create Schedules-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1850,7 +1681,7 @@ api.schedulesPost(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="schedulesPost-code-csharp">
+<div class="code-block csharp" id="Create Schedules-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1889,7 +1720,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="schedulesPost-code-php">
+<div class="code-block php" id="Create Schedules-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1913,7 +1744,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="schedulesPost-code-perl">
+<div class="code-block perl" id="Create Schedules-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1938,7 +1769,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="schedulesPost-code-python">
+<div class="code-block python" id="Create Schedules-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1981,32 +1812,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -2015,11 +1821,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersSchedulesGet</h3>
+            <h3>Retrieve Transfers Schedules</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersSchedulesGet</div>
+              <div class="code-header">Retrieve Transfers Schedules</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -2033,7 +1840,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersSchedulesGet-code-curl">
+<div class="code-block curl active" id="Retrieve Transfers Schedules-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -2041,7 +1848,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="transfersSchedulesGet-code-java">
+<div class="code-block java" id="Retrieve Transfers Schedules-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -2073,7 +1880,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersSchedulesGet-code-android">
+<div class="code-block android" id="Retrieve Transfers Schedules-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -2098,7 +1905,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersSchedulesGet-code-objc">
+<div class="code-block objc" id="Retrieve Transfers Schedules-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -2124,7 +1931,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersSchedulesGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Transfers Schedules-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -2147,7 +1954,7 @@ api.transfersSchedulesGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersSchedulesGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Transfers Schedules-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -2184,7 +1991,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersSchedulesGet-code-php">
+<div class="code-block php" id="Retrieve Transfers Schedules-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -2206,7 +2013,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersSchedulesGet-code-perl">
+<div class="code-block perl" id="Retrieve Transfers Schedules-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -2229,7 +2036,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersSchedulesGet-code-python">
+<div class="code-block python" id="Retrieve Transfers Schedules-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -2268,32 +2075,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -2302,11 +2084,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersSchedulesSearchGet</h3>
+            <h3>Retrieve Transfers Schedules Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersSchedulesSearchGet</div>
+              <div class="code-header">Retrieve Transfers Schedules Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -2320,7 +2103,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersSchedulesSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Transfers Schedules Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -2328,7 +2111,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="transfersSchedulesSearchGet-code-java">
+<div class="code-block java" id="Retrieve Transfers Schedules Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -2360,7 +2143,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersSchedulesSearchGet-code-android">
+<div class="code-block android" id="Retrieve Transfers Schedules Search-code-android">
 ```js
 import io.swagger.client.api.SchedulesApi;
 
@@ -2385,7 +2168,7 @@ public class SchedulesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersSchedulesSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Transfers Schedules Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to transfer_schedule)
 String *query = query_example; //  (optional)
@@ -2411,7 +2194,7 @@ SchedulesApi *apiInstance = [[SchedulesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersSchedulesSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Transfers Schedules Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -2434,7 +2217,7 @@ api.transfersSchedulesSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersSchedulesSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Transfers Schedules Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -2471,7 +2254,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersSchedulesSearchGet-code-php">
+<div class="code-block php" id="Retrieve Transfers Schedules Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -2493,7 +2276,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersSchedulesSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Transfers Schedules Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -2516,7 +2299,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersSchedulesSearchGet-code-python">
+<div class="code-block python" id="Retrieve Transfers Schedules Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -2559,27 +2342,484 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "charge_schedule",
+    "type": "string",
+    "default": "charge_schedule"
+  },
+  "id": {
+    "pattern": "rchg_[0-9a-z]+",
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "currency": {
+    "type": "string",
+    "format": "currency"
+  },
+  "amount": {
+    "type": "integer"
+  },
+  "default_card": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "card": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "card",
+            "type": "string",
+            "default": "card"
+          },
+          "id": {
+            "type": "string"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "street1": {
+            "type": "string",
+            "nullable": true
+          },
+          "street2": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone_number": {
+            "type": "string",
+            "nullable": true
+          },
+          "postal_code": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "pattern": "^[a-z]{0,2}$",
+            "type": "string"
+          },
+          "financing": {
+            "type": "string"
+          },
+          "bank": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "fingerprint": {
+            "type": "string"
+          },
+          "first_digits": {
+            "pattern": "^[0-9]{6}$",
+            "type": "string",
+            "nullable": true
+          },
+          "last_digits": {
+            "pattern": "^[0-9]{4}$",
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "expiration_month": {
+            "type": "integer"
+          },
+          "expiration_year": {
+            "type": "integer"
+          },
+          "security_code_check": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "tokenization_method": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "customer": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "customer",
+            "type": "string",
+            "default": "customer"
+          },
+          "id": {
+            "type": "string"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "metadata": {
+            "type": "object",
+            "default": {}
+          },
+          "cards": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "list",
+                "type": "string",
+                "default": "list"
+              },
+              "data": {
+                "type": "array",
+                "items": {}
+              },
+              "limit": {
+                "type": "integer"
+              },
+              "offset": {
+                "type": "integer"
+              },
+              "total": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "string"
+              },
+              "order": {
+                "type": "string",
+                "enum": [
+                  "chronological",
+                  "reverse_chronological"
+                ]
+              },
+              "from": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "to": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "default_card": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "object": {
+                    "pattern": "card",
+                    "type": "string",
+                    "default": "card"
+                  },
+                  "id": {
+                    "type": "string"
+                  },
+                  "livemode": {
+                    "type": "boolean",
+                    "enum": [
+                      true,
+                      false
+                    ]
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "boolean",
+                    "enum": [
+                      true,
+                      false
+                    ]
+                  },
+                  "street1": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "street2": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "city": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "state": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "phone_number": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "postal_code": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "country": {
+                    "pattern": "^[a-z]{0,2}$",
+                    "type": "string"
+                  },
+                  "financing": {
+                    "type": "string"
+                  },
+                  "bank": {
+                    "type": "string"
+                  },
+                  "brand": {
+                    "type": "string"
+                  },
+                  "fingerprint": {
+                    "type": "string"
+                  },
+                  "first_digits": {
+                    "pattern": "^[0-9]{6}$",
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "last_digits": {
+                    "pattern": "^[0-9]{4}$",
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "expiration_month": {
+                    "type": "integer"
+                  },
+                  "expiration_year": {
+                    "type": "integer"
+                  },
+                  "security_code_check": {
+                    "type": "boolean",
+                    "enum": [
+                      true,
+                      false
+                    ]
+                  },
+                  "tokenization_method": {
+                    "type": "string"
+                  },
+                  "created_at": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "linked_accounts": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "list",
+                "type": "string",
+                "default": "list"
+              },
+              "data": {
+                "type": "array",
+                "items": {}
+              },
+              "limit": {
+                "type": "integer"
+              },
+              "offset": {
+                "type": "integer"
+              },
+              "total": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "string"
+              },
+              "order": {
+                "type": "string",
+                "enum": [
+                  "chronological",
+                  "reverse_chronological"
+                ]
+              },
+              "from": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "to": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "linked_account": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "linked_account",
+            "type": "string",
+            "default": "linked_account"
+          },
+          "id": {
+            "type": "string"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "registration_uri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "return_uri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "type": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "failed",
+              "expired",
+              "deleted",
+              "pending",
+              "successful"
+            ]
+          },
+          "last_digits": {
+            "type": "string",
+            "nullable": true
+          },
+          "metadata": {
+            "type": "object",
+            "default": {}
+          },
+          "failure_code": {
+            "type": "string",
+            "nullable": true
+          },
+          "failure_message": {
+            "type": "string",
+            "nullable": true
+          },
+          "registered_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expires_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "description": {
+    "type": "string",
+    "nullable": true
+  },
+  "metadata": {
+    "type": "object",
+    "default": {}
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  }
+} 
+```
 
         </div>
       </div>

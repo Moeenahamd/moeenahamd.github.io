@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>linkedAccountsGet</h3>
+            <h3>Retrieve Linked Accounts</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">linkedAccountsGet</div>
+              <div class="code-header">Retrieve Linked Accounts</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="linkedAccountsGet-code-curl">
+<div class="code-block curl active" id="Retrieve Linked Accounts-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="linkedAccountsGet-code-java">
+<div class="code-block java" id="Retrieve Linked Accounts-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="linkedAccountsGet-code-android">
+<div class="code-block android" id="Retrieve Linked Accounts-code-android">
 ```js
 import io.swagger.client.api.LinkedAccountsApi;
 
@@ -88,7 +89,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="linkedAccountsGet-code-objc">
+<div class="code-block objc" id="Retrieve Linked Accounts-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ LinkedAccountsApi *apiInstance = [[LinkedAccountsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="linkedAccountsGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Linked Accounts-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.linkedAccountsGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="linkedAccountsGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Linked Accounts-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="linkedAccountsGet-code-php">
+<div class="code-block php" id="Retrieve Linked Accounts-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="linkedAccountsGet-code-perl">
+<div class="code-block perl" id="Retrieve Linked Accounts-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="linkedAccountsGet-code-python">
+<div class="code-block python" id="Retrieve Linked Accounts-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>linkedAccountsIdDelete</h3>
+            <h3>Delete Linked Accounts ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">linkedAccountsIdDelete</div>
+              <div class="code-header">Delete Linked Accounts ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="linkedAccountsIdDelete-code-curl">
+<div class="code-block curl active" id="Delete Linked Accounts ID-code-curl">
 ```js
 curl -X DELETE\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X DELETE\
 ```
 </div>
 
-<div class="code-block java" id="linkedAccountsIdDelete-code-java">
+<div class="code-block java" id="Delete Linked Accounts ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -346,7 +323,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="linkedAccountsIdDelete-code-android">
+<div class="code-block android" id="Delete Linked Accounts ID-code-android">
 ```js
 import io.swagger.client.api.LinkedAccountsApi;
 
@@ -367,7 +344,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="linkedAccountsIdDelete-code-objc">
+<div class="code-block objc" id="Delete Linked Accounts ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -385,7 +362,7 @@ LinkedAccountsApi *apiInstance = [[LinkedAccountsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="linkedAccountsIdDelete-code-javascript">
+<div class="code-block javascript" id="Delete Linked Accounts ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -403,7 +380,7 @@ api.linkedAccountsIdDelete(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="linkedAccountsIdDelete-code-csharp">
+<div class="code-block csharp" id="Delete Linked Accounts ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -436,7 +413,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="linkedAccountsIdDelete-code-php">
+<div class="code-block php" id="Delete Linked Accounts ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -454,7 +431,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="linkedAccountsIdDelete-code-perl">
+<div class="code-block perl" id="Delete Linked Accounts ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -473,7 +450,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="linkedAccountsIdDelete-code-python">
+<div class="code-block python" id="Delete Linked Accounts ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -504,32 +481,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -538,11 +490,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>linkedAccountsIdGet</h3>
+            <h3>Retrieve Linked Accounts ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">linkedAccountsIdGet</div>
+              <div class="code-header">Retrieve Linked Accounts ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -556,7 +509,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="linkedAccountsIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Linked Accounts ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -564,7 +517,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="linkedAccountsIdGet-code-java">
+<div class="code-block java" id="Retrieve Linked Accounts ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -592,7 +545,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="linkedAccountsIdGet-code-android">
+<div class="code-block android" id="Retrieve Linked Accounts ID-code-android">
 ```js
 import io.swagger.client.api.LinkedAccountsApi;
 
@@ -613,7 +566,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="linkedAccountsIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Linked Accounts ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -631,7 +584,7 @@ LinkedAccountsApi *apiInstance = [[LinkedAccountsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="linkedAccountsIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Linked Accounts ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -649,7 +602,7 @@ api.linkedAccountsIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="linkedAccountsIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Linked Accounts ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -682,7 +635,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="linkedAccountsIdGet-code-php">
+<div class="code-block php" id="Retrieve Linked Accounts ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -700,7 +653,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="linkedAccountsIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Linked Accounts ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -719,7 +672,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="linkedAccountsIdGet-code-python">
+<div class="code-block python" id="Retrieve Linked Accounts ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -750,32 +703,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -784,11 +712,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>linkedAccountsPost</h3>
+            <h3>Create Linked Accounts</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">linkedAccountsPost</div>
+              <div class="code-header">Create Linked Accounts</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -802,7 +731,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="linkedAccountsPost-code-curl">
+<div class="code-block curl active" id="Create Linked Accounts-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -811,7 +740,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="linkedAccountsPost-code-java">
+<div class="code-block java" id="Create Linked Accounts-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -842,7 +771,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="linkedAccountsPost-code-android">
+<div class="code-block android" id="Create Linked Accounts-code-android">
 ```js
 import io.swagger.client.api.LinkedAccountsApi;
 
@@ -866,7 +795,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="linkedAccountsPost-code-objc">
+<div class="code-block objc" id="Create Linked Accounts-code-objc">
 ```js
 String *returnUri = returnUri_example; //  (optional)
 String *type = type_example; //  (optional)
@@ -890,7 +819,7 @@ LinkedAccountsApi *apiInstance = [[LinkedAccountsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="linkedAccountsPost-code-javascript">
+<div class="code-block javascript" id="Create Linked Accounts-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -912,7 +841,7 @@ api.linkedAccountsPost(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="linkedAccountsPost-code-csharp">
+<div class="code-block csharp" id="Create Linked Accounts-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -948,7 +877,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="linkedAccountsPost-code-php">
+<div class="code-block php" id="Create Linked Accounts-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -969,7 +898,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="linkedAccountsPost-code-perl">
+<div class="code-block perl" id="Create Linked Accounts-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -991,7 +920,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="linkedAccountsPost-code-python">
+<div class="code-block python" id="Create Linked Accounts-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1028,32 +957,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1062,11 +966,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>linkedAccountsSearchGet</h3>
+            <h3>Retrieve Linked Accounts Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">linkedAccountsSearchGet</div>
+              <div class="code-header">Retrieve Linked Accounts Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1080,7 +985,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="linkedAccountsSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Linked Accounts Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1088,7 +993,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="linkedAccountsSearchGet-code-java">
+<div class="code-block java" id="Retrieve Linked Accounts Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1120,7 +1025,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="linkedAccountsSearchGet-code-android">
+<div class="code-block android" id="Retrieve Linked Accounts Search-code-android">
 ```js
 import io.swagger.client.api.LinkedAccountsApi;
 
@@ -1145,7 +1050,7 @@ public class LinkedAccountsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="linkedAccountsSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Linked Accounts Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to linked_account)
 String *query = query_example; //  (optional)
@@ -1171,7 +1076,7 @@ LinkedAccountsApi *apiInstance = [[LinkedAccountsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="linkedAccountsSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Linked Accounts Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1194,7 +1099,7 @@ api.linkedAccountsSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="linkedAccountsSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Linked Accounts Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1231,7 +1136,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="linkedAccountsSearchGet-code-php">
+<div class="code-block php" id="Retrieve Linked Accounts Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1253,7 +1158,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="linkedAccountsSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Linked Accounts Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1276,7 +1181,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="linkedAccountsSearchGet-code-python">
+<div class="code-block python" id="Retrieve Linked Accounts Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1319,27 +1224,77 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "linked_account",
+    "type": "string",
+    "default": "linked_account"
+  },
+  "id": {
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "registration_uri": {
+    "type": "string",
+    "format": "uri"
+  },
+  "return_uri": {
+    "type": "string",
+    "format": "uri"
+  },
+  "type": {
+    "type": "string"
+  },
+  "status": {
+    "type": "string",
+    "enum": [
+      "failed",
+      "expired",
+      "deleted",
+      "pending",
+      "successful"
+    ]
+  },
+  "last_digits": {
+    "type": "string",
+    "nullable": true
+  },
+  "metadata": {
+    "type": "object",
+    "default": {}
+  },
+  "failure_code": {
+    "type": "string",
+    "nullable": true
+  },
+  "failure_message": {
+    "type": "string",
+    "nullable": true
+  },
+  "registered_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "expires_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  }
+} 
+```
 
         </div>
       </div>

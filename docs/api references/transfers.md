@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersGet</h3>
+            <h3>Retrieve Transfers</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersGet</div>
+              <div class="code-header">Retrieve Transfers</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersGet-code-curl">
+<div class="code-block curl active" id="Retrieve Transfers-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="transfersGet-code-java">
+<div class="code-block java" id="Retrieve Transfers-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersGet-code-android">
+<div class="code-block android" id="Retrieve Transfers-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -88,7 +89,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersGet-code-objc">
+<div class="code-block objc" id="Retrieve Transfers-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Transfers-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.transfersGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Transfers-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersGet-code-php">
+<div class="code-block php" id="Retrieve Transfers-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersGet-code-perl">
+<div class="code-block perl" id="Retrieve Transfers-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersGet-code-python">
+<div class="code-block python" id="Retrieve Transfers-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersIdDelete</h3>
+            <h3>Delete Transfers ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersIdDelete</div>
+              <div class="code-header">Delete Transfers ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersIdDelete-code-curl">
+<div class="code-block curl active" id="Delete Transfers ID-code-curl">
 ```js
 curl -X DELETE\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X DELETE\
 ```
 </div>
 
-<div class="code-block java" id="transfersIdDelete-code-java">
+<div class="code-block java" id="Delete Transfers ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -346,7 +323,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersIdDelete-code-android">
+<div class="code-block android" id="Delete Transfers ID-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -367,7 +344,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersIdDelete-code-objc">
+<div class="code-block objc" id="Delete Transfers ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -385,7 +362,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersIdDelete-code-javascript">
+<div class="code-block javascript" id="Delete Transfers ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -403,7 +380,7 @@ api.transfersIdDelete(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersIdDelete-code-csharp">
+<div class="code-block csharp" id="Delete Transfers ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -436,7 +413,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersIdDelete-code-php">
+<div class="code-block php" id="Delete Transfers ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -454,7 +431,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersIdDelete-code-perl">
+<div class="code-block perl" id="Delete Transfers ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -473,7 +450,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersIdDelete-code-python">
+<div class="code-block python" id="Delete Transfers ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -504,32 +481,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -538,11 +490,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersIdGet</h3>
+            <h3>Retrieve Transfers ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersIdGet</div>
+              <div class="code-header">Retrieve Transfers ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -556,7 +509,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Transfers ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -564,7 +517,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="transfersIdGet-code-java">
+<div class="code-block java" id="Retrieve Transfers ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -592,7 +545,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersIdGet-code-android">
+<div class="code-block android" id="Retrieve Transfers ID-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -613,7 +566,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Transfers ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -631,7 +584,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Transfers ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -649,7 +602,7 @@ api.transfersIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Transfers ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -682,7 +635,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersIdGet-code-php">
+<div class="code-block php" id="Retrieve Transfers ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -700,7 +653,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Transfers ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -719,7 +672,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersIdGet-code-python">
+<div class="code-block python" id="Retrieve Transfers ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -750,32 +703,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -784,11 +712,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersIdMarkAsPaidPost</h3>
+            <h3>Create Transfers ID Mark As Paid</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersIdMarkAsPaidPost</div>
+              <div class="code-header">Create Transfers ID Mark As Paid</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -802,7 +731,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersIdMarkAsPaidPost-code-curl">
+<div class="code-block curl active" id="Create Transfers ID Mark As Paid-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -810,7 +739,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="transfersIdMarkAsPaidPost-code-java">
+<div class="code-block java" id="Create Transfers ID Mark As Paid-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -838,7 +767,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersIdMarkAsPaidPost-code-android">
+<div class="code-block android" id="Create Transfers ID Mark As Paid-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -859,7 +788,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersIdMarkAsPaidPost-code-objc">
+<div class="code-block objc" id="Create Transfers ID Mark As Paid-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -877,7 +806,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersIdMarkAsPaidPost-code-javascript">
+<div class="code-block javascript" id="Create Transfers ID Mark As Paid-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -895,7 +824,7 @@ api.transfersIdMarkAsPaidPost(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersIdMarkAsPaidPost-code-csharp">
+<div class="code-block csharp" id="Create Transfers ID Mark As Paid-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -928,7 +857,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersIdMarkAsPaidPost-code-php">
+<div class="code-block php" id="Create Transfers ID Mark As Paid-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -946,7 +875,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersIdMarkAsPaidPost-code-perl">
+<div class="code-block perl" id="Create Transfers ID Mark As Paid-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -965,7 +894,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersIdMarkAsPaidPost-code-python">
+<div class="code-block python" id="Create Transfers ID Mark As Paid-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -996,32 +925,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1030,11 +934,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersIdMarkAsSentPost</h3>
+            <h3>Create Transfers ID Mark As Sent</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersIdMarkAsSentPost</div>
+              <div class="code-header">Create Transfers ID Mark As Sent</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1048,7 +953,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersIdMarkAsSentPost-code-curl">
+<div class="code-block curl active" id="Create Transfers ID Mark As Sent-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -1056,7 +961,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="transfersIdMarkAsSentPost-code-java">
+<div class="code-block java" id="Create Transfers ID Mark As Sent-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1084,7 +989,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersIdMarkAsSentPost-code-android">
+<div class="code-block android" id="Create Transfers ID Mark As Sent-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -1105,7 +1010,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersIdMarkAsSentPost-code-objc">
+<div class="code-block objc" id="Create Transfers ID Mark As Sent-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -1123,7 +1028,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersIdMarkAsSentPost-code-javascript">
+<div class="code-block javascript" id="Create Transfers ID Mark As Sent-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1141,7 +1046,7 @@ api.transfersIdMarkAsSentPost(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersIdMarkAsSentPost-code-csharp">
+<div class="code-block csharp" id="Create Transfers ID Mark As Sent-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1174,7 +1079,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersIdMarkAsSentPost-code-php">
+<div class="code-block php" id="Create Transfers ID Mark As Sent-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1192,7 +1097,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersIdMarkAsSentPost-code-perl">
+<div class="code-block perl" id="Create Transfers ID Mark As Sent-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1211,7 +1116,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersIdMarkAsSentPost-code-python">
+<div class="code-block python" id="Create Transfers ID Mark As Sent-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1242,32 +1147,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1276,11 +1156,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersIdPatch</h3>
+            <h3>Update Transfers ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersIdPatch</div>
+              <div class="code-header">Update Transfers ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1294,7 +1175,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersIdPatch-code-curl">
+<div class="code-block curl active" id="Update Transfers ID-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -1303,7 +1184,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="transfersIdPatch-code-java">
+<div class="code-block java" id="Update Transfers ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1334,7 +1215,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersIdPatch-code-android">
+<div class="code-block android" id="Update Transfers ID-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -1358,7 +1239,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersIdPatch-code-objc">
+<div class="code-block objc" id="Update Transfers ID-code-objc">
 ```js
 String *id = id_example; // 
 Boolean *success = true; //  (optional)
@@ -1382,7 +1263,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersIdPatch-code-javascript">
+<div class="code-block javascript" id="Update Transfers ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1404,7 +1285,7 @@ api.transfersIdPatch(id, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersIdPatch-code-csharp">
+<div class="code-block csharp" id="Update Transfers ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1440,7 +1321,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersIdPatch-code-php">
+<div class="code-block php" id="Update Transfers ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1461,7 +1342,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersIdPatch-code-perl">
+<div class="code-block perl" id="Update Transfers ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1483,7 +1364,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersIdPatch-code-python">
+<div class="code-block python" id="Update Transfers ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1526,58 +1407,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
-### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1586,11 +1416,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersPost</h3>
+            <h3>Create Transfers</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersPost</div>
+              <div class="code-header">Create Transfers</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1604,7 +1435,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersPost-code-curl">
+<div class="code-block curl active" id="Create Transfers-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -1613,7 +1444,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="transfersPost-code-java">
+<div class="code-block java" id="Create Transfers-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1646,7 +1477,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersPost-code-android">
+<div class="code-block android" id="Create Transfers-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -1672,7 +1503,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersPost-code-objc">
+<div class="code-block objc" id="Create Transfers-code-objc">
 ```js
 Integer *amount = 56; //  (optional)
 String *recipient = recipient_example; //  (optional)
@@ -1700,7 +1531,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersPost-code-javascript">
+<div class="code-block javascript" id="Create Transfers-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1724,7 +1555,7 @@ api.transfersPost(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersPost-code-csharp">
+<div class="code-block csharp" id="Create Transfers-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1762,7 +1593,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersPost-code-php">
+<div class="code-block php" id="Create Transfers-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1785,7 +1616,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersPost-code-perl">
+<div class="code-block perl" id="Create Transfers-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1809,7 +1640,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersPost-code-python">
+<div class="code-block python" id="Create Transfers-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1850,32 +1681,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1884,11 +1690,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>transfersSearchGet</h3>
+            <h3>Retrieve Transfers Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">transfersSearchGet</div>
+              <div class="code-header">Retrieve Transfers Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1902,7 +1709,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="transfersSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Transfers Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1910,7 +1717,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="transfersSearchGet-code-java">
+<div class="code-block java" id="Retrieve Transfers Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1948,7 +1755,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="transfersSearchGet-code-android">
+<div class="code-block android" id="Retrieve Transfers Search-code-android">
 ```js
 import io.swagger.client.api.TransfersApi;
 
@@ -1979,7 +1786,7 @@ public class TransfersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="transfersSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Transfers Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to transfer)
 String *query = query_example; //  (optional)
@@ -2017,7 +1824,7 @@ TransfersApi *apiInstance = [[TransfersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="transfersSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Transfers Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -2046,7 +1853,7 @@ api.transfersSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="transfersSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Transfers Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -2089,7 +1896,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="transfersSearchGet-code-php">
+<div class="code-block php" id="Retrieve Transfers Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -2117,7 +1924,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="transfersSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Transfers Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -2146,7 +1953,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="transfersSearchGet-code-python">
+<div class="code-block python" id="Retrieve Transfers Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -2201,27 +2008,2177 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "transfer",
+    "type": "string",
+    "default": "transfer"
+  },
+  "id": {
+    "pattern": "trsf_[0-9a-z]+",
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string",
+    "nullable": true
+  },
+  "deleted": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "fail_fast": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "paid": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "sent": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "sendable": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "currency": {
+    "type": "string",
+    "format": "currency"
+  },
+  "amount": {
+    "type": "integer"
+  },
+  "fee": {
+    "type": "integer"
+  },
+  "metadata": {
+    "type": "object",
+    "default": {}
+  },
+  "recipient": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "recipient",
+            "type": "string",
+            "default": "recipient"
+          },
+          "id": {
+            "type": "string"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "bank_account": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "bank_account",
+                "type": "string",
+                "default": "bank_account"
+              },
+              "livemode": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "last_digits": {
+                "pattern": "^[0-9]{4}$",
+                "type": "string"
+              },
+              "account_number": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "normal",
+                  "current"
+                ]
+              },
+              "created_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "bank_code": {
+                "type": "string"
+              },
+              "branch_code": {
+                "type": "string"
+              }
+            }
+          },
+          "active": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "default": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "verified": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string"
+          },
+          "failure_code": {
+            "type": "string",
+            "nullable": true,
+            "enum": [
+              "name_mismatch",
+              "account_not_found",
+              "bank_not_found"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "tax_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "individual",
+              "corporation"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "schedule": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "object": {
+                    "pattern": "schedule",
+                    "type": "string",
+                    "default": "schedule"
+                  },
+                  "id": {
+                    "pattern": "schd_[0-9a-z]+",
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "boolean",
+                    "enum": [
+                      true,
+                      false
+                    ]
+                  },
+                  "livemode": {
+                    "type": "boolean",
+                    "enum": [
+                      true,
+                      false
+                    ]
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "every": {
+                    "type": "integer"
+                  },
+                  "occurrences": {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "list",
+                        "type": "string",
+                        "default": "list"
+                      },
+                      "data": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "limit": {
+                        "type": "integer"
+                      },
+                      "offset": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "order": {
+                        "type": "string",
+                        "enum": [
+                          "chronological",
+                          "reverse_chronological"
+                        ]
+                      },
+                      "from": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "to": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  "on": {
+                    "type": "object",
+                    "properties": {
+                      "days_of_month": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "weekday_of_month": {
+                        "type": "string"
+                      },
+                      "weekdays": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "enum": [
+                          "sunday",
+                          "monday",
+                          "tuesday",
+                          "wednesday",
+                          "thursday",
+                          "friday",
+                          "saturday"
+                        ]
+                      }
+                    }
+                  },
+                  "in_words": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "day",
+                      "week",
+                      "month"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "running",
+                      "active",
+                      "expiring",
+                      "expired",
+                      "deleted",
+                      "suspended"
+                    ]
+                  },
+                  "active": {
+                    "type": "boolean",
+                    "enum": [
+                      true,
+                      false
+                    ]
+                  },
+                  "state": {
+                    "type": "string",
+                    "enum": [
+                      "Active",
+                      "Pause"
+                    ]
+                  },
+                  "charge": {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "charge_schedule",
+                        "type": "string",
+                        "default": "charge_schedule"
+                      },
+                      "id": {
+                        "pattern": "rchg_[0-9a-z]+",
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "currency": {
+                        "type": "string",
+                        "format": "currency"
+                      },
+                      "amount": {
+                        "type": "integer"
+                      },
+                      "default_card": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "card": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "card",
+                                "type": "string",
+                                "default": "card"
+                              },
+                              "id": {
+                                "type": "string"
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "street1": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "street2": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "city": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "state": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "phone_number": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "postal_code": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "country": {
+                                "pattern": "^[a-z]{0,2}$",
+                                "type": "string"
+                              },
+                              "financing": {
+                                "type": "string"
+                              },
+                              "bank": {
+                                "type": "string"
+                              },
+                              "brand": {
+                                "type": "string"
+                              },
+                              "fingerprint": {
+                                "type": "string"
+                              },
+                              "first_digits": {
+                                "pattern": "^[0-9]{6}$",
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "last_digits": {
+                                "pattern": "^[0-9]{4}$",
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "expiration_month": {
+                                "type": "integer"
+                              },
+                              "expiration_year": {
+                                "type": "integer"
+                              },
+                              "security_code_check": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "tokenization_method": {
+                                "type": "string"
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "customer": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "customer",
+                                "type": "string",
+                                "default": "customer"
+                              },
+                              "id": {
+                                "type": "string"
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "metadata": {
+                                "type": "object",
+                                "default": {}
+                              },
+                              "cards": {
+                                "type": "object",
+                                "properties": {
+                                  "object": {
+                                    "pattern": "list",
+                                    "type": "string",
+                                    "default": "list"
+                                  },
+                                  "data": {
+                                    "type": "array",
+                                    "items": {}
+                                  },
+                                  "limit": {
+                                    "type": "integer"
+                                  },
+                                  "offset": {
+                                    "type": "integer"
+                                  },
+                                  "total": {
+                                    "type": "integer"
+                                  },
+                                  "location": {
+                                    "type": "string"
+                                  },
+                                  "order": {
+                                    "type": "string",
+                                    "enum": [
+                                      "chronological",
+                                      "reverse_chronological"
+                                    ]
+                                  },
+                                  "from": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                  },
+                                  "to": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                  }
+                                }
+                              },
+                              "default_card": {
+                                "oneOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "object": {
+                                        "pattern": "card",
+                                        "type": "string",
+                                        "default": "card"
+                                      },
+                                      "id": {
+                                        "type": "string"
+                                      },
+                                      "livemode": {
+                                        "type": "boolean",
+                                        "enum": [
+                                          true,
+                                          false
+                                        ]
+                                      },
+                                      "location": {
+                                        "type": "string"
+                                      },
+                                      "deleted": {
+                                        "type": "boolean",
+                                        "enum": [
+                                          true,
+                                          false
+                                        ]
+                                      },
+                                      "street1": {
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "street2": {
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "city": {
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "state": {
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "phone_number": {
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "postal_code": {
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "country": {
+                                        "pattern": "^[a-z]{0,2}$",
+                                        "type": "string"
+                                      },
+                                      "financing": {
+                                        "type": "string"
+                                      },
+                                      "bank": {
+                                        "type": "string"
+                                      },
+                                      "brand": {
+                                        "type": "string"
+                                      },
+                                      "fingerprint": {
+                                        "type": "string"
+                                      },
+                                      "first_digits": {
+                                        "pattern": "^[0-9]{6}$",
+                                        "type": "string",
+                                        "nullable": true
+                                      },
+                                      "last_digits": {
+                                        "pattern": "^[0-9]{4}$",
+                                        "type": "string"
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "expiration_month": {
+                                        "type": "integer"
+                                      },
+                                      "expiration_year": {
+                                        "type": "integer"
+                                      },
+                                      "security_code_check": {
+                                        "type": "boolean",
+                                        "enum": [
+                                          true,
+                                          false
+                                        ]
+                                      },
+                                      "tokenization_method": {
+                                        "type": "string"
+                                      },
+                                      "created_at": {
+                                        "type": "string",
+                                        "format": "date-time"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              },
+                              "linked_accounts": {
+                                "type": "object",
+                                "properties": {
+                                  "object": {
+                                    "pattern": "list",
+                                    "type": "string",
+                                    "default": "list"
+                                  },
+                                  "data": {
+                                    "type": "array",
+                                    "items": {}
+                                  },
+                                  "limit": {
+                                    "type": "integer"
+                                  },
+                                  "offset": {
+                                    "type": "integer"
+                                  },
+                                  "total": {
+                                    "type": "integer"
+                                  },
+                                  "location": {
+                                    "type": "string"
+                                  },
+                                  "order": {
+                                    "type": "string",
+                                    "enum": [
+                                      "chronological",
+                                      "reverse_chronological"
+                                    ]
+                                  },
+                                  "from": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                  },
+                                  "to": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                  }
+                                }
+                              },
+                              "description": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "email": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "linked_account": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "linked_account",
+                                "type": "string",
+                                "default": "linked_account"
+                              },
+                              "id": {
+                                "type": "string"
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "registration_uri": {
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              "return_uri": {
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              "type": {
+                                "type": "string"
+                              },
+                              "status": {
+                                "type": "string",
+                                "enum": [
+                                  "failed",
+                                  "expired",
+                                  "deleted",
+                                  "pending",
+                                  "successful"
+                                ]
+                              },
+                              "last_digits": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "metadata": {
+                                "type": "object",
+                                "default": {}
+                              },
+                              "failure_code": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "failure_message": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "registered_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "expires_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "description": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  "transfer": {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "transfer_schedule",
+                        "type": "string",
+                        "default": "transfer_schedule"
+                      },
+                      "id": {
+                        "pattern": "rtrf_[0-9a-z]+",
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "amount": {
+                        "type": "integer",
+                        "nullable": true
+                      },
+                      "currency": {
+                        "type": "string",
+                        "format": "currency"
+                      },
+                      "percentage_of_balance": {
+                        "type": "number",
+                        "format": "float",
+                        "nullable": true
+                      },
+                      "recipient": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "recipient",
+                                "type": "string",
+                                "default": "recipient"
+                              },
+                              "id": {
+                                "type": "string"
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "bank_account": {
+                                "$ref": "#/components/schemas/bank_account"
+                              },
+                              "active": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "default": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "verified": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "description": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "email": {
+                                "type": "string"
+                              },
+                              "failure_code": {
+                                "type": "string",
+                                "nullable": true,
+                                "enum": [
+                                  "name_mismatch",
+                                  "account_not_found",
+                                  "bank_not_found"
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "tax_id": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "type": {
+                                "type": "string",
+                                "enum": [
+                                  "individual",
+                                  "corporation"
+                                ]
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "schedule": {
+                                "oneOf": [
+                                  {
+                                    "$ref": "#/components/schemas/schedule"
+                                  },
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              },
+                              "metadata": {
+                                "type": "object",
+                                "default": {}
+                              },
+                              "verified_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "activated_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "is_realtime_payout": {
+                        "type": "boolean",
+                        "nullable": true,
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      }
+                    }
+                  },
+                  "next_occurrences_on": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "date"
+                    }
+                  },
+                  "ended_at": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "start_on": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "end_on": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "created_at": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "execute_time": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "deleted_by": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "merchant_name": {
+                    "type": "string"
+                  }
+                }
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "metadata": {
+            "type": "object",
+            "default": {}
+          },
+          "verified_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "activated_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "bank_account": {
+    "type": "object",
+    "properties": {
+      "object": {
+        "pattern": "bank_account",
+        "type": "string",
+        "default": "bank_account"
+      },
+      "livemode": {
+        "type": "boolean",
+        "enum": [
+          true,
+          false
+        ]
+      },
+      "last_digits": {
+        "pattern": "^[0-9]{4}$",
+        "type": "string"
+      },
+      "account_number": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "normal",
+          "current"
+        ]
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "brand": {
+        "type": "string"
+      },
+      "bank_code": {
+        "type": "string"
+      },
+      "branch_code": {
+        "type": "string"
+      }
+    }
+  },
+  "failure_code": {
+    "type": "string",
+    "nullable": true
+  },
+  "failure_message": {
+    "type": "string",
+    "nullable": true
+  },
+  "paid_at": {
+    "type": "string",
+    "format": "date-time",
+    "nullable": true
+  },
+  "sent_at": {
+    "type": "string",
+    "format": "date-time",
+    "nullable": true
+  },
+  "balance_hold_at": {
+    "type": "string",
+    "format": "date-time",
+    "nullable": true
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "transactions": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "object": {
+          "pattern": "transaction",
+          "type": "string",
+          "default": "transaction"
+        },
+        "id": {
+          "pattern": "trxn_[0-9a-z]+",
+          "type": "string"
+        },
+        "livemode": {
+          "type": "boolean",
+          "enum": [
+            true,
+            false
+          ]
+        },
+        "currency": {
+          "type": "string",
+          "format": "currency"
+        },
+        "amount": {
+          "type": "integer"
+        },
+        "location": {
+          "type": "string"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "credit",
+            "debit"
+          ]
+        },
+        "key": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string"
+        },
+        "transferable_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "schedule": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "schedule",
+            "type": "string",
+            "default": "schedule"
+          },
+          "id": {
+            "pattern": "schd_[0-9a-z]+",
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "every": {
+            "type": "integer"
+          },
+          "occurrences": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "list",
+                "type": "string",
+                "default": "list"
+              },
+              "data": {
+                "type": "array",
+                "items": {}
+              },
+              "limit": {
+                "type": "integer"
+              },
+              "offset": {
+                "type": "integer"
+              },
+              "total": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "string"
+              },
+              "order": {
+                "type": "string",
+                "enum": [
+                  "chronological",
+                  "reverse_chronological"
+                ]
+              },
+              "from": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "to": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "on": {
+            "type": "object",
+            "properties": {
+              "days_of_month": {
+                "type": "array",
+                "items": {}
+              },
+              "weekday_of_month": {
+                "type": "string"
+              },
+              "weekdays": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "enum": [
+                  "sunday",
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday",
+                  "saturday"
+                ]
+              }
+            }
+          },
+          "in_words": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string",
+            "enum": [
+              "day",
+              "week",
+              "month"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "running",
+              "active",
+              "expiring",
+              "expired",
+              "deleted",
+              "suspended"
+            ]
+          },
+          "active": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "state": {
+            "type": "string",
+            "enum": [
+              "Active",
+              "Pause"
+            ]
+          },
+          "charge": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "charge_schedule",
+                "type": "string",
+                "default": "charge_schedule"
+              },
+              "id": {
+                "pattern": "rchg_[0-9a-z]+",
+                "type": "string"
+              },
+              "livemode": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "currency": {
+                "type": "string",
+                "format": "currency"
+              },
+              "amount": {
+                "type": "integer"
+              },
+              "default_card": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "card": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "card",
+                        "type": "string",
+                        "default": "card"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "deleted": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "street1": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "street2": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "city": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "state": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "phone_number": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "postal_code": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "country": {
+                        "pattern": "^[a-z]{0,2}$",
+                        "type": "string"
+                      },
+                      "financing": {
+                        "type": "string"
+                      },
+                      "bank": {
+                        "type": "string"
+                      },
+                      "brand": {
+                        "type": "string"
+                      },
+                      "fingerprint": {
+                        "type": "string"
+                      },
+                      "first_digits": {
+                        "pattern": "^[0-9]{6}$",
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "last_digits": {
+                        "pattern": "^[0-9]{4}$",
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "expiration_month": {
+                        "type": "integer"
+                      },
+                      "expiration_year": {
+                        "type": "integer"
+                      },
+                      "security_code_check": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "tokenization_method": {
+                        "type": "string"
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "customer": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "customer",
+                        "type": "string",
+                        "default": "customer"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "deleted": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "cards": {
+                        "type": "object",
+                        "properties": {
+                          "object": {
+                            "pattern": "list",
+                            "type": "string",
+                            "default": "list"
+                          },
+                          "data": {
+                            "type": "array",
+                            "items": {}
+                          },
+                          "limit": {
+                            "type": "integer"
+                          },
+                          "offset": {
+                            "type": "integer"
+                          },
+                          "total": {
+                            "type": "integer"
+                          },
+                          "location": {
+                            "type": "string"
+                          },
+                          "order": {
+                            "type": "string",
+                            "enum": [
+                              "chronological",
+                              "reverse_chronological"
+                            ]
+                          },
+                          "from": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "to": {
+                            "type": "string",
+                            "format": "date-time"
+                          }
+                        }
+                      },
+                      "default_card": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "card",
+                                "type": "string",
+                                "default": "card"
+                              },
+                              "id": {
+                                "type": "string"
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "street1": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "street2": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "city": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "state": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "phone_number": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "postal_code": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "country": {
+                                "pattern": "^[a-z]{0,2}$",
+                                "type": "string"
+                              },
+                              "financing": {
+                                "type": "string"
+                              },
+                              "bank": {
+                                "type": "string"
+                              },
+                              "brand": {
+                                "type": "string"
+                              },
+                              "fingerprint": {
+                                "type": "string"
+                              },
+                              "first_digits": {
+                                "pattern": "^[0-9]{6}$",
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "last_digits": {
+                                "pattern": "^[0-9]{4}$",
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "expiration_month": {
+                                "type": "integer"
+                              },
+                              "expiration_year": {
+                                "type": "integer"
+                              },
+                              "security_code_check": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "tokenization_method": {
+                                "type": "string"
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "linked_accounts": {
+                        "type": "object",
+                        "properties": {
+                          "object": {
+                            "pattern": "list",
+                            "type": "string",
+                            "default": "list"
+                          },
+                          "data": {
+                            "type": "array",
+                            "items": {}
+                          },
+                          "limit": {
+                            "type": "integer"
+                          },
+                          "offset": {
+                            "type": "integer"
+                          },
+                          "total": {
+                            "type": "integer"
+                          },
+                          "location": {
+                            "type": "string"
+                          },
+                          "order": {
+                            "type": "string",
+                            "enum": [
+                              "chronological",
+                              "reverse_chronological"
+                            ]
+                          },
+                          "from": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "to": {
+                            "type": "string",
+                            "format": "date-time"
+                          }
+                        }
+                      },
+                      "description": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "email": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "linked_account": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "linked_account",
+                        "type": "string",
+                        "default": "linked_account"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "registration_uri": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "return_uri": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "failed",
+                          "expired",
+                          "deleted",
+                          "pending",
+                          "successful"
+                        ]
+                      },
+                      "last_digits": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "failure_code": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "failure_message": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "registered_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "expires_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "description": {
+                "type": "string",
+                "nullable": true
+              },
+              "metadata": {
+                "type": "object",
+                "default": {}
+              },
+              "created_at": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "transfer": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "pattern": "transfer_schedule",
+                "type": "string",
+                "default": "transfer_schedule"
+              },
+              "id": {
+                "pattern": "rtrf_[0-9a-z]+",
+                "type": "string"
+              },
+              "livemode": {
+                "type": "boolean",
+                "enum": [
+                  true,
+                  false
+                ]
+              },
+              "amount": {
+                "type": "integer",
+                "nullable": true
+              },
+              "currency": {
+                "type": "string",
+                "format": "currency"
+              },
+              "percentage_of_balance": {
+                "type": "number",
+                "format": "float",
+                "nullable": true
+              },
+              "recipient": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "object": {
+                        "pattern": "recipient",
+                        "type": "string",
+                        "default": "recipient"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "livemode": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "deleted": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "bank_account": {
+                        "type": "object",
+                        "properties": {
+                          "object": {
+                            "pattern": "bank_account",
+                            "type": "string",
+                            "default": "bank_account"
+                          },
+                          "livemode": {
+                            "type": "boolean",
+                            "enum": [
+                              true,
+                              false
+                            ]
+                          },
+                          "last_digits": {
+                            "pattern": "^[0-9]{4}$",
+                            "type": "string"
+                          },
+                          "account_number": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "normal",
+                              "current"
+                            ]
+                          },
+                          "created_at": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "brand": {
+                            "type": "string"
+                          },
+                          "bank_code": {
+                            "type": "string"
+                          },
+                          "branch_code": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "active": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "default": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "verified": {
+                        "type": "boolean",
+                        "enum": [
+                          true,
+                          false
+                        ]
+                      },
+                      "description": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "email": {
+                        "type": "string"
+                      },
+                      "failure_code": {
+                        "type": "string",
+                        "nullable": true,
+                        "enum": [
+                          "name_mismatch",
+                          "account_not_found",
+                          "bank_not_found"
+                        ]
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "tax_id": {
+                        "type": "string",
+                        "nullable": true
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "individual",
+                          "corporation"
+                        ]
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "schedule": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "object": {
+                                "pattern": "schedule",
+                                "type": "string",
+                                "default": "schedule"
+                              },
+                              "id": {
+                                "pattern": "schd_[0-9a-z]+",
+                                "type": "string"
+                              },
+                              "deleted": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "livemode": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "location": {
+                                "type": "string"
+                              },
+                              "every": {
+                                "type": "integer"
+                              },
+                              "occurrences": {
+                                "$ref": "#/components/schemas/list"
+                              },
+                              "on": {
+                                "$ref": "#/components/schemas/schedule_on"
+                              },
+                              "in_words": {
+                                "type": "string"
+                              },
+                              "period": {
+                                "type": "string",
+                                "enum": [
+                                  "day",
+                                  "week",
+                                  "month"
+                                ]
+                              },
+                              "status": {
+                                "type": "string",
+                                "enum": [
+                                  "running",
+                                  "active",
+                                  "expiring",
+                                  "expired",
+                                  "deleted",
+                                  "suspended"
+                                ]
+                              },
+                              "active": {
+                                "type": "boolean",
+                                "enum": [
+                                  true,
+                                  false
+                                ]
+                              },
+                              "state": {
+                                "type": "string",
+                                "enum": [
+                                  "Active",
+                                  "Pause"
+                                ]
+                              },
+                              "charge": {
+                                "$ref": "#/components/schemas/charge_schedule"
+                              },
+                              "transfer": {
+                                "$ref": "#/components/schemas/transfer_schedule"
+                              },
+                              "next_occurrences_on": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string",
+                                  "format": "date"
+                                }
+                              },
+                              "ended_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "start_on": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "end_on": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "created_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "execute_time": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "deleted_by": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "merchant_name": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "default": {}
+                      },
+                      "verified_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "activated_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "created_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "is_realtime_payout": {
+                "type": "boolean",
+                "nullable": true,
+                "enum": [
+                  true,
+                  false
+                ]
+              }
+            }
+          },
+          "next_occurrences_on": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          "ended_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "start_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "end_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "execute_time": {
+            "type": "string",
+            "nullable": true
+          },
+          "deleted_by": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_name": {
+            "type": "string"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "fee_vat": {
+    "type": "integer"
+  },
+  "net": {
+    "type": "integer"
+  },
+  "total_fee": {
+    "type": "integer"
+  },
+  "split_transfer_group_id": {
+    "type": "string",
+    "nullable": true
+  },
+  "merchant_name": {
+    "type": "string"
+  },
+  "merchant_uid": {
+    "type": "string"
+  }
+} 
+```
 
         </div>
       </div>

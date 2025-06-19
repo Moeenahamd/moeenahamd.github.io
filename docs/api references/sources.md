@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>sourcesIdGet</h3>
+            <h3>Retrieve Sources ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">sourcesIdGet</div>
+              <div class="code-header">Retrieve Sources ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="sourcesIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Sources ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="sourcesIdGet-code-java">
+<div class="code-block java" id="Retrieve Sources ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -59,7 +60,7 @@ public class SourcesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="sourcesIdGet-code-android">
+<div class="code-block android" id="Retrieve Sources ID-code-android">
 ```js
 import io.swagger.client.api.SourcesApi;
 
@@ -80,7 +81,7 @@ public class SourcesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="sourcesIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Sources ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -98,7 +99,7 @@ SourcesApi *apiInstance = [[SourcesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="sourcesIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Sources ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -116,7 +117,7 @@ api.sourcesIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="sourcesIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Sources ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -149,7 +150,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="sourcesIdGet-code-php">
+<div class="code-block php" id="Retrieve Sources ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -167,7 +168,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="sourcesIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Sources ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -186,7 +187,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="sourcesIdGet-code-python">
+<div class="code-block python" id="Retrieve Sources ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -217,32 +218,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -251,11 +227,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>sourcesPost</h3>
+            <h3>Create Sources</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">sourcesPost</div>
+              <div class="code-header">Create Sources</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -269,7 +246,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="sourcesPost-code-curl">
+<div class="code-block curl active" id="Create Sources-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -278,7 +255,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="sourcesPost-code-java">
+<div class="code-block java" id="Create Sources-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -326,7 +303,7 @@ public class SourcesApiExample {
 ```
 </div>
 
-<div class="code-block android" id="sourcesPost-code-android">
+<div class="code-block android" id="Create Sources-code-android">
 ```js
 import io.swagger.client.api.SourcesApi;
 
@@ -367,7 +344,7 @@ public class SourcesApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="sourcesPost-code-objc">
+<div class="code-block objc" id="Create Sources-code-objc">
 ```js
 Integer *amount = 56; //  (optional)
 String *currency = currency_example; //  (optional)
@@ -425,7 +402,7 @@ SourcesApi *apiInstance = [[SourcesApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="sourcesPost-code-javascript">
+<div class="code-block javascript" id="Create Sources-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -464,7 +441,7 @@ api.sourcesPost(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="sourcesPost-code-csharp">
+<div class="code-block csharp" id="Create Sources-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -517,7 +494,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="sourcesPost-code-php">
+<div class="code-block php" id="Create Sources-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -555,7 +532,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="sourcesPost-code-perl">
+<div class="code-block perl" id="Create Sources-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -594,7 +571,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="sourcesPost-code-python">
+<div class="code-block python" id="Create Sources-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -669,27 +646,297 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "source",
+    "type": "string",
+    "default": "source"
+  },
+  "id": {
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "amount": {
+    "type": "integer"
+  },
+  "barcode": {
+    "type": "string"
+  },
+  "bank": {
+    "type": "string"
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "currency": {
+    "type": "string",
+    "format": "currency"
+  },
+  "email": {
+    "type": "string"
+  },
+  "flow": {
+    "type": "string",
+    "enum": [
+      "redirect",
+      "offline",
+      "app_redirect"
+    ]
+  },
+  "installment_term": {
+    "type": "integer"
+  },
+  "ip": {
+    "type": "string"
+  },
+  "absorption_type": {
+    "type": "string",
+    "enum": [
+      "merchant",
+      "customer"
+    ]
+  },
+  "name": {
+    "type": "string"
+  },
+  "mobile_number": {
+    "type": "string"
+  },
+  "phone_number": {
+    "type": "string"
+  },
+  "platform_type": {
+    "type": "string"
+  },
+  "scannable_code": {
+    "type": "object",
+    "properties": {
+      "object": {
+        "pattern": "barcode",
+        "type": "string",
+        "default": "barcode"
+      },
+      "type": {
+        "type": "string"
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "document",
+            "type": "string",
+            "default": "document"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "id": {
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "filename": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "download_uri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "raw_data": {
+        "type": "string"
+      }
+    }
+  },
+  "qr_settings": {
+    "type": "object",
+    "properties": {
+      "image_type": {
+        "type": "string"
+      }
+    }
+  },
+  "billing": {
+    "type": "object",
+    "properties": {
+      "city": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "postal_code": {
+        "type": "string"
+      },
+      "state": {
+        "type": "string"
+      },
+      "street1": {
+        "type": "string"
+      },
+      "street2": {
+        "type": "string"
+      }
+    }
+  },
+  "shipping": {
+    "type": "object",
+    "properties": {
+      "city": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "postal_code": {
+        "type": "string"
+      },
+      "state": {
+        "type": "string"
+      },
+      "street1": {
+        "type": "string"
+      },
+      "street2": {
+        "type": "string"
+      }
+    }
+  },
+  "items": {
+    "type": "array",
+    "items": {}
+  },
+  "references": {
+    "type": "object",
+    "properties": {
+      "expires_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "device_id": {
+        "type": "string"
+      },
+      "customer_amount": {
+        "type": "integer"
+      },
+      "customer_currency": {
+        "type": "string"
+      },
+      "customer_exchange_rate": {
+        "type": "number",
+        "format": "float"
+      },
+      "omise_tax_id": {
+        "type": "string"
+      },
+      "reference_number_1": {
+        "type": "string"
+      },
+      "reference_number_2": {
+        "type": "string"
+      },
+      "barcode": {
+        "type": "string"
+      },
+      "payment_code": {
+        "type": "string"
+      },
+      "va_code": {
+        "type": "string"
+      }
+    }
+  },
+  "provider_references": {
+    "type": "object",
+    "properties": {
+      "reference_number_1": {
+        "type": "string"
+      },
+      "reference_number_2": {
+        "type": "string"
+      },
+      "buyer_name": {
+        "type": "string"
+      }
+    }
+  },
+  "store_id": {
+    "type": "string"
+  },
+  "store_name": {
+    "type": "string"
+  },
+  "terminal_id": {
+    "type": "string"
+  },
+  "type": {
+    "type": "string"
+  },
+  "zero_interest_installments": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "charge_status": {
+    "type": "string",
+    "enum": [
+      "failed",
+      "expired",
+      "pending",
+      "reversed",
+      "successful",
+      "unknown"
+    ]
+  },
+  "receipt_amount": {
+    "type": "integer"
+  },
+  "discounts": {
+    "type": "array",
+    "items": {},
+    "default": []
+  },
+  "promotion_code": {
+    "type": "string"
+  },
+  "supplier_id": {
+    "type": "string"
+  }
+} 
+```
 
         </div>
       </div>

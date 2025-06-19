@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>accountApiVersionPatch</h3>
+            <h3>Update Account API Version</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">accountApiVersionPatch</div>
+              <div class="code-header">Update Account API Version</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="accountApiVersionPatch-code-curl">
+<div class="code-block curl active" id="Update Account API Version-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="accountApiVersionPatch-code-java">
+<div class="code-block java" id="Update Account API Version-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -58,7 +59,7 @@ public class AccountApiExample {
 ```
 </div>
 
-<div class="code-block android" id="accountApiVersionPatch-code-android">
+<div class="code-block android" id="Update Account API Version-code-android">
 ```js
 import io.swagger.client.api.AccountApi;
 
@@ -78,7 +79,7 @@ public class AccountApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="accountApiVersionPatch-code-objc">
+<div class="code-block objc" id="Update Account API Version-code-objc">
 ```js
 AccountApi *apiInstance = [[AccountApi alloc] init];
 
@@ -94,7 +95,7 @@ AccountApi *apiInstance = [[AccountApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="accountApiVersionPatch-code-javascript">
+<div class="code-block javascript" id="Update Account API Version-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -110,7 +111,7 @@ api.accountApiVersionPatch(callback);
 ```
 </div>
 
-<div class="code-block csharp" id="accountApiVersionPatch-code-csharp">
+<div class="code-block csharp" id="Update Account API Version-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -142,7 +143,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="accountApiVersionPatch-code-php">
+<div class="code-block php" id="Update Account API Version-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -159,7 +160,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="accountApiVersionPatch-code-perl">
+<div class="code-block perl" id="Update Account API Version-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -177,7 +178,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="accountApiVersionPatch-code-python">
+<div class="code-block python" id="Update Account API Version-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -210,11 +211,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>accountApiVersionsGet</h3>
+            <h3>Retrieve Account API Versions</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">accountApiVersionsGet</div>
+              <div class="code-header">Retrieve Account API Versions</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -228,7 +230,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="accountApiVersionsGet-code-curl">
+<div class="code-block curl active" id="Retrieve Account API Versions-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -236,7 +238,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="accountApiVersionsGet-code-java">
+<div class="code-block java" id="Retrieve Account API Versions-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -263,7 +265,7 @@ public class AccountApiExample {
 ```
 </div>
 
-<div class="code-block android" id="accountApiVersionsGet-code-android">
+<div class="code-block android" id="Retrieve Account API Versions-code-android">
 ```js
 import io.swagger.client.api.AccountApi;
 
@@ -283,7 +285,7 @@ public class AccountApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="accountApiVersionsGet-code-objc">
+<div class="code-block objc" id="Retrieve Account API Versions-code-objc">
 ```js
 AccountApi *apiInstance = [[AccountApi alloc] init];
 
@@ -299,7 +301,7 @@ AccountApi *apiInstance = [[AccountApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="accountApiVersionsGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Account API Versions-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -315,7 +317,7 @@ api.accountApiVersionsGet(callback);
 ```
 </div>
 
-<div class="code-block csharp" id="accountApiVersionsGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Account API Versions-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -347,7 +349,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="accountApiVersionsGet-code-php">
+<div class="code-block php" id="Retrieve Account API Versions-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -364,7 +366,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="accountApiVersionsGet-code-perl">
+<div class="code-block perl" id="Retrieve Account API Versions-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -382,7 +384,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="accountApiVersionsGet-code-python">
+<div class="code-block python" id="Retrieve Account API Versions-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -415,11 +417,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>accountPatch</h3>
+            <h3>Update Account</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">accountPatch</div>
+              <div class="code-header">Update Account</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -433,7 +436,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="accountPatch-code-curl">
+<div class="code-block curl active" id="Update Account-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -442,7 +445,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="accountPatch-code-java">
+<div class="code-block java" id="Update Account-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -474,7 +477,7 @@ public class AccountApiExample {
 ```
 </div>
 
-<div class="code-block android" id="accountPatch-code-android">
+<div class="code-block android" id="Update Account-code-android">
 ```js
 import io.swagger.client.api.AccountApi;
 
@@ -499,7 +502,7 @@ public class AccountApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="accountPatch-code-objc">
+<div class="code-block objc" id="Update Account-code-objc">
 ```js
 Boolean *chainEnabled = true; //  (optional)
 Boolean *zeroInterestInstallments = true; //  (optional)
@@ -525,7 +528,7 @@ AccountApi *apiInstance = [[AccountApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="accountPatch-code-javascript">
+<div class="code-block javascript" id="Update Account-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -548,7 +551,7 @@ api.accountPatch(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="accountPatch-code-csharp">
+<div class="code-block csharp" id="Update Account-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -585,7 +588,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="accountPatch-code-php">
+<div class="code-block php" id="Update Account-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -607,7 +610,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="accountPatch-code-perl">
+<div class="code-block perl" id="Update Account-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -630,7 +633,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="accountPatch-code-python">
+<div class="code-block python" id="Update Account-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -673,27 +676,102 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "account",
+    "type": "string",
+    "default": "account"
+  },
+  "id": {
+    "pattern": "account_[0-9a-z]+",
+    "type": "string"
+  },
+  "team": {
+    "pattern": "acct_[0-9a-z]+",
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "country": {
+    "type": "string"
+  },
+  "currency": {
+    "type": "string",
+    "format": "currency"
+  },
+  "email": {
+    "type": "string"
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "supported_currencies": {
+    "type": "array",
+    "items": {
+      "type": "string",
+      "format": "currency"
+    }
+  },
+  "api_version": {
+    "type": "string"
+  },
+  "auto_activate_recipients": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "chain_enabled": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "zero_interest_installments": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "chain_return_uri": {
+    "type": "string",
+    "format": "uri"
+  },
+  "webhook_uri": {
+    "type": "string",
+    "format": "uri"
+  },
+  "metadata_export_keys": {
+    "type": "object"
+  },
+  "chaining_allowed": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "last_updated_api_version": {
+    "type": "string"
+  },
+  "transfer_config": {
+    "type": "object"
+  }
+} 
+```
 
         </div>
       </div>

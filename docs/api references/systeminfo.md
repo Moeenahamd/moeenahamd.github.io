@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>rootGet</h3>
+            <h3>Retrieve Root</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">rootGet</div>
+              <div class="code-header">Retrieve Root</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="rootGet-code-curl">
+<div class="code-block curl active" id="Retrieve Root-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="rootGet-code-java">
+<div class="code-block java" id="Retrieve Root-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -58,7 +59,7 @@ public class SystemInfoApiExample {
 ```
 </div>
 
-<div class="code-block android" id="rootGet-code-android">
+<div class="code-block android" id="Retrieve Root-code-android">
 ```js
 import io.swagger.client.api.SystemInfoApi;
 
@@ -78,7 +79,7 @@ public class SystemInfoApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="rootGet-code-objc">
+<div class="code-block objc" id="Retrieve Root-code-objc">
 ```js
 SystemInfoApi *apiInstance = [[SystemInfoApi alloc] init];
 
@@ -94,7 +95,7 @@ SystemInfoApi *apiInstance = [[SystemInfoApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="rootGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Root-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -110,7 +111,7 @@ api.rootGet(callback);
 ```
 </div>
 
-<div class="code-block csharp" id="rootGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Root-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -142,7 +143,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="rootGet-code-php">
+<div class="code-block php" id="Retrieve Root-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -159,7 +160,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="rootGet-code-perl">
+<div class="code-block perl" id="Retrieve Root-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -177,7 +178,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="rootGet-code-python">
+<div class="code-block python" id="Retrieve Root-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -201,7 +202,29 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          
+          ### Responses
+
+ ### Status: 200
+
+```json
+ {
+  "object": {
+    "pattern": "system_info",
+    "type": "string",
+    "default": "system_info"
+  },
+  "location": {
+    "type": "string"
+  },
+  "versions": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    }
+  }
+} 
+```
+
         </div>
       </div>
 

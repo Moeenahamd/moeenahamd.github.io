@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>eventsGet</h3>
+            <h3>Retrieve Events</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">eventsGet</div>
+              <div class="code-header">Retrieve Events</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="eventsGet-code-curl">
+<div class="code-block curl active" id="Retrieve Events-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="eventsGet-code-java">
+<div class="code-block java" id="Retrieve Events-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class EventsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="eventsGet-code-android">
+<div class="code-block android" id="Retrieve Events-code-android">
 ```js
 import io.swagger.client.api.EventsApi;
 
@@ -88,7 +89,7 @@ public class EventsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="eventsGet-code-objc">
+<div class="code-block objc" id="Retrieve Events-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ EventsApi *apiInstance = [[EventsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="eventsGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Events-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.eventsGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="eventsGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Events-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="eventsGet-code-php">
+<div class="code-block php" id="Retrieve Events-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="eventsGet-code-perl">
+<div class="code-block perl" id="Retrieve Events-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="eventsGet-code-python">
+<div class="code-block python" id="Retrieve Events-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>eventsIdGet</h3>
+            <h3>Retrieve Events ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">eventsIdGet</div>
+              <div class="code-header">Retrieve Events ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="eventsIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Events ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="eventsIdGet-code-java">
+<div class="code-block java" id="Retrieve Events ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -346,7 +323,7 @@ public class EventsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="eventsIdGet-code-android">
+<div class="code-block android" id="Retrieve Events ID-code-android">
 ```js
 import io.swagger.client.api.EventsApi;
 
@@ -367,7 +344,7 @@ public class EventsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="eventsIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Events ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -385,7 +362,7 @@ EventsApi *apiInstance = [[EventsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="eventsIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Events ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -403,7 +380,7 @@ api.eventsIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="eventsIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Events ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -436,7 +413,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="eventsIdGet-code-php">
+<div class="code-block php" id="Retrieve Events ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -454,7 +431,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="eventsIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Events ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -473,7 +450,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="eventsIdGet-code-python">
+<div class="code-block python" id="Retrieve Events ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -508,27 +485,51 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "event",
+    "type": "string",
+    "default": "event"
+  },
+  "id": {
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "webhook_deliveries": {
+    "type": "array",
+    "items": {}
+  },
+  "data": {
+    "type": "object"
+  },
+  "key": {
+    "type": "string"
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "team_uid": {
+    "type": "string"
+  },
+  "user_uid": {
+    "type": "string"
+  },
+  "actor_uid": {
+    "type": "string"
+  }
+} 
+```
 
         </div>
       </div>

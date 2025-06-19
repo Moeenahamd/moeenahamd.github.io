@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>forexCurrencyGet</h3>
+            <h3>Retrieve Forex Currency</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">forexCurrencyGet</div>
+              <div class="code-header">Retrieve Forex Currency</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="forexCurrencyGet-code-curl">
+<div class="code-block curl active" id="Retrieve Forex Currency-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="forexCurrencyGet-code-java">
+<div class="code-block java" id="Retrieve Forex Currency-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -59,7 +60,7 @@ public class ForexApiExample {
 ```
 </div>
 
-<div class="code-block android" id="forexCurrencyGet-code-android">
+<div class="code-block android" id="Retrieve Forex Currency-code-android">
 ```js
 import io.swagger.client.api.ForexApi;
 
@@ -80,7 +81,7 @@ public class ForexApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="forexCurrencyGet-code-objc">
+<div class="code-block objc" id="Retrieve Forex Currency-code-objc">
 ```js
 String *currency = currency_example; // 
 
@@ -98,7 +99,7 @@ ForexApi *apiInstance = [[ForexApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="forexCurrencyGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Forex Currency-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -116,7 +117,7 @@ api.forexCurrencyGet(currency, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="forexCurrencyGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Forex Currency-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -149,7 +150,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="forexCurrencyGet-code-php">
+<div class="code-block php" id="Retrieve Forex Currency-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -167,7 +168,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="forexCurrencyGet-code-perl">
+<div class="code-block perl" id="Retrieve Forex Currency-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -186,7 +187,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="forexCurrencyGet-code-python">
+<div class="code-block python" id="Retrieve Forex Currency-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -221,27 +222,37 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "forex",
+    "type": "string",
+    "default": "forex"
+  },
+  "rate": {
+    "type": "number",
+    "format": "float"
+  },
+  "location": {
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "base": {
+    "type": "string",
+    "format": "currency"
+  },
+  "quote": {
+    "type": "string",
+    "format": "currency"
+  }
+} 
+```
 
         </div>
       </div>

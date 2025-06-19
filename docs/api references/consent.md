@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>consentPatch</h3>
+            <h3>Update Consent</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">consentPatch</div>
+              <div class="code-header">Update Consent</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="consentPatch-code-curl">
+<div class="code-block curl active" id="Update Consent-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -32,7 +33,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="consentPatch-code-java">
+<div class="code-block java" id="Update Consent-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -61,7 +62,7 @@ public class ConsentApiExample {
 ```
 </div>
 
-<div class="code-block android" id="consentPatch-code-android">
+<div class="code-block android" id="Update Consent-code-android">
 ```js
 import io.swagger.client.api.ConsentApi;
 
@@ -83,7 +84,7 @@ public class ConsentApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="consentPatch-code-objc">
+<div class="code-block objc" id="Update Consent-code-objc">
 ```js
 String *principal = principal_example; //  (optional)
 Object *policies = ; //  (optional)
@@ -103,7 +104,7 @@ ConsentApi *apiInstance = [[ConsentApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="consentPatch-code-javascript">
+<div class="code-block javascript" id="Update Consent-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -123,7 +124,7 @@ api.consentPatch(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="consentPatch-code-csharp">
+<div class="code-block csharp" id="Update Consent-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -157,7 +158,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="consentPatch-code-php">
+<div class="code-block php" id="Update Consent-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -176,7 +177,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="consentPatch-code-perl">
+<div class="code-block perl" id="Update Consent-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -196,7 +197,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="consentPatch-code-python">
+<div class="code-block python" id="Update Consent-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -233,27 +234,24 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "consent",
+    "type": "string",
+    "default": "consent"
+  },
+  "id": {
+    "type": "string"
+  },
+  "policies": {
+    "type": "object"
+  },
+  "principal": {
+    "type": "object"
+  }
+} 
+```
 
         </div>
       </div>

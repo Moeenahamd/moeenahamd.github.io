@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>receiptsGet</h3>
+            <h3>Retrieve Receipts</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">receiptsGet</div>
+              <div class="code-header">Retrieve Receipts</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="receiptsGet-code-curl">
+<div class="code-block curl active" id="Retrieve Receipts-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="receiptsGet-code-java">
+<div class="code-block java" id="Retrieve Receipts-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class ReceiptsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="receiptsGet-code-android">
+<div class="code-block android" id="Retrieve Receipts-code-android">
 ```js
 import io.swagger.client.api.ReceiptsApi;
 
@@ -88,7 +89,7 @@ public class ReceiptsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="receiptsGet-code-objc">
+<div class="code-block objc" id="Retrieve Receipts-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ ReceiptsApi *apiInstance = [[ReceiptsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="receiptsGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Receipts-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.receiptsGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="receiptsGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Receipts-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="receiptsGet-code-php">
+<div class="code-block php" id="Retrieve Receipts-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="receiptsGet-code-perl">
+<div class="code-block perl" id="Retrieve Receipts-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="receiptsGet-code-python">
+<div class="code-block python" id="Retrieve Receipts-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>receiptsIdGet</h3>
+            <h3>Retrieve Receipts ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">receiptsIdGet</div>
+              <div class="code-header">Retrieve Receipts ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="receiptsIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Receipts ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="receiptsIdGet-code-java">
+<div class="code-block java" id="Retrieve Receipts ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -346,7 +323,7 @@ public class ReceiptsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="receiptsIdGet-code-android">
+<div class="code-block android" id="Retrieve Receipts ID-code-android">
 ```js
 import io.swagger.client.api.ReceiptsApi;
 
@@ -367,7 +344,7 @@ public class ReceiptsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="receiptsIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Receipts ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -385,7 +362,7 @@ ReceiptsApi *apiInstance = [[ReceiptsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="receiptsIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Receipts ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -403,7 +380,7 @@ api.receiptsIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="receiptsIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Receipts ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -436,7 +413,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="receiptsIdGet-code-php">
+<div class="code-block php" id="Retrieve Receipts ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -454,7 +431,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="receiptsIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Receipts ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -473,7 +450,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="receiptsIdGet-code-python">
+<div class="code-block python" id="Retrieve Receipts ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -504,32 +481,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -538,11 +490,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>receiptsReceiptsSearchGet</h3>
+            <h3>Retrieve Receipts Receipts Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">receiptsReceiptsSearchGet</div>
+              <div class="code-header">Retrieve Receipts Receipts Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -556,7 +509,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="receiptsReceiptsSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Receipts Receipts Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -564,7 +517,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="receiptsReceiptsSearchGet-code-java">
+<div class="code-block java" id="Retrieve Receipts Receipts Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -594,7 +547,7 @@ public class ReceiptsApiExample {
 ```
 </div>
 
-<div class="code-block android" id="receiptsReceiptsSearchGet-code-android">
+<div class="code-block android" id="Retrieve Receipts Receipts Search-code-android">
 ```js
 import io.swagger.client.api.ReceiptsApi;
 
@@ -617,7 +570,7 @@ public class ReceiptsApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="receiptsReceiptsSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Receipts Receipts Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to receipt)
 String *query = query_example; //  (optional)
@@ -639,7 +592,7 @@ ReceiptsApi *apiInstance = [[ReceiptsApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="receiptsReceiptsSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Receipts Receipts Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -660,7 +613,7 @@ api.receiptsReceiptsSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="receiptsReceiptsSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Receipts Receipts Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -695,7 +648,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="receiptsReceiptsSearchGet-code-php">
+<div class="code-block php" id="Retrieve Receipts Receipts Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -715,7 +668,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="receiptsReceiptsSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Receipts Receipts Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -736,7 +689,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="receiptsReceiptsSearchGet-code-python">
+<div class="code-block python" id="Retrieve Receipts Receipts Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -775,27 +728,150 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "receipt",
+    "type": "string",
+    "default": "receipt"
+  },
+  "id": {
+    "pattern": "rcpt_[0-9a-z]+",
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "credit_note": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "charge_fee": {
+    "type": "integer"
+  },
+  "transaction_fee": {
+    "type": "integer"
+  },
+  "subtotal": {
+    "type": "integer"
+  },
+  "transfer_fee": {
+    "type": "integer"
+  },
+  "voided_fee": {
+    "type": "integer"
+  },
+  "vat": {
+    "type": "integer"
+  },
+  "wht": {
+    "type": "integer"
+  },
+  "total": {
+    "type": "integer"
+  },
+  "company_address": {
+    "type": "string"
+  },
+  "company_name": {
+    "type": "string"
+  },
+  "company_tax_id": {
+    "type": "string"
+  },
+  "currency": {
+    "type": "string"
+  },
+  "customer_address": {
+    "type": "string"
+  },
+  "customer_email": {
+    "type": "string"
+  },
+  "customer_name": {
+    "type": "string"
+  },
+  "customer_statement_name": {
+    "type": "string"
+  },
+  "customer_tax_id": {
+    "type": "string"
+  },
+  "number": {
+    "type": "string"
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "issued_on": {
+    "type": "string",
+    "format": "date"
+  },
+  "adjustment_transaction": {
+    "type": "object",
+    "properties": {
+      "object": {
+        "pattern": "transaction",
+        "type": "string",
+        "default": "transaction"
+      },
+      "id": {
+        "pattern": "trxn_[0-9a-z]+",
+        "type": "string"
+      },
+      "livemode": {
+        "type": "boolean",
+        "enum": [
+          true,
+          false
+        ]
+      },
+      "currency": {
+        "type": "string",
+        "format": "currency"
+      },
+      "amount": {
+        "type": "integer"
+      },
+      "location": {
+        "type": "string"
+      },
+      "direction": {
+        "type": "string",
+        "enum": [
+          "credit",
+          "debit"
+        ]
+      },
+      "key": {
+        "type": "string"
+      },
+      "origin": {
+        "type": "string"
+      },
+      "transferable_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  }
+} 
+```
 
         </div>
       </div>

@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>searchGet</h3>
+            <h3>Retrieve Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">searchGet</div>
+              <div class="code-header">Retrieve Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="searchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="searchGet-code-java">
+<div class="code-block java" id="Retrieve Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class SearchApiExample {
 ```
 </div>
 
-<div class="code-block android" id="searchGet-code-android">
+<div class="code-block android" id="Retrieve Search-code-android">
 ```js
 import io.swagger.client.api.SearchApi;
 
@@ -88,7 +89,7 @@ public class SearchApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="searchGet-code-objc">
+<div class="code-block objc" id="Retrieve Search-code-objc">
 ```js
 String *scope = scope_example; // 
 Integer *page = 56; //  (optional) (default to 1)
@@ -114,7 +115,7 @@ SearchApi *apiInstance = [[SearchApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="searchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.searchGet(scope, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="searchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="searchGet-code-php">
+<div class="code-block php" id="Retrieve Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="searchGet-code-perl">
+<div class="code-block perl" id="Retrieve Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="searchGet-code-python">
+<div class="code-block python" id="Retrieve Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -262,27 +263,114 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "search",
+    "type": "string",
+    "default": "search"
+  },
+  "export": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "export",
+            "type": "string",
+            "default": "export"
+          },
+          "id": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "rows": {
+            "type": "integer"
+          },
+          "filter_params": {
+            "type": "object"
+          },
+          "name": {
+            "type": "string"
+          },
+          "team": {
+            "type": "string"
+          },
+          "object_type": {
+            "type": "string"
+          },
+          "file_type": {
+            "type": "string"
+          },
+          "filter_type": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "download_uri": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "data": {
+    "type": "array",
+    "items": {}
+  },
+  "page": {
+    "type": "integer"
+  },
+  "per_page": {
+    "type": "integer"
+  },
+  "total": {
+    "type": "integer"
+  },
+  "total_pages": {
+    "type": "integer"
+  },
+  "filters": {
+    "type": "object"
+  },
+  "location": {
+    "type": "string"
+  },
+  "order": {
+    "type": "string",
+    "enum": [
+      "chronological",
+      "reverse_chronological"
+    ]
+  },
+  "query": {
+    "type": "string"
+  },
+  "scope": {
+    "type": "string"
+  },
+  "aggregate_level": {
+    "type": "integer"
+  }
+} 
+```
 
         </div>
       </div>

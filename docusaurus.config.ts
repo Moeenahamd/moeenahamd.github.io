@@ -17,7 +17,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://moeenahamd.github.io/',
+  url: 'https://michaelrajkumar.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,8 +25,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  projectName: 'moeenahamd.github.io',
-  organizationName: 'moeenahamd',
+  projectName: 'michaelrajkumar.github.io',
+  organizationName: 'michaelrajkumar',
   trailingSlash: false,
 
   onBrokenLinks: 'warn',

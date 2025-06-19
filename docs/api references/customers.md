@@ -5,11 +5,12 @@
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersGet</h3>
+            <h3>Retrieve Customers</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersGet</div>
+              <div class="code-header">Retrieve Customers</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -23,7 +24,7 @@
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersGet-code-curl">
+<div class="code-block curl active" id="Retrieve Customers-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -31,7 +32,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="customersGet-code-java">
+<div class="code-block java" id="Retrieve Customers-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -63,7 +64,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersGet-code-android">
+<div class="code-block android" id="Retrieve Customers-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -88,7 +89,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersGet-code-objc">
+<div class="code-block objc" id="Retrieve Customers-code-objc">
 ```js
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
 Date *to = 2013-10-20T19:20:30+01:00; //  (optional)
@@ -114,7 +115,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Customers-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -137,7 +138,7 @@ api.customersGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Customers-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -174,7 +175,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersGet-code-php">
+<div class="code-block php" id="Retrieve Customers-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -196,7 +197,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersGet-code-perl">
+<div class="code-block perl" id="Retrieve Customers-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -219,7 +220,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersGet-code-python">
+<div class="code-block python" id="Retrieve Customers-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -258,32 +259,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -292,11 +268,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersIdDelete</h3>
+            <h3>Delete Customers ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersIdDelete</div>
+              <div class="code-header">Delete Customers ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -310,7 +287,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersIdDelete-code-curl">
+<div class="code-block curl active" id="Delete Customers ID-code-curl">
 ```js
 curl -X DELETE\
 -H "Accept: application/json"\
@@ -318,7 +295,7 @@ curl -X DELETE\
 ```
 </div>
 
-<div class="code-block java" id="customersIdDelete-code-java">
+<div class="code-block java" id="Delete Customers ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -346,7 +323,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersIdDelete-code-android">
+<div class="code-block android" id="Delete Customers ID-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -367,7 +344,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersIdDelete-code-objc">
+<div class="code-block objc" id="Delete Customers ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -385,7 +362,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersIdDelete-code-javascript">
+<div class="code-block javascript" id="Delete Customers ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -403,7 +380,7 @@ api.customersIdDelete(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersIdDelete-code-csharp">
+<div class="code-block csharp" id="Delete Customers ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -436,7 +413,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersIdDelete-code-php">
+<div class="code-block php" id="Delete Customers ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -454,7 +431,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersIdDelete-code-perl">
+<div class="code-block perl" id="Delete Customers ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -473,7 +450,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersIdDelete-code-python">
+<div class="code-block python" id="Delete Customers ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -504,32 +481,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -538,11 +490,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersIdGet</h3>
+            <h3>Retrieve Customers ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersIdGet</div>
+              <div class="code-header">Retrieve Customers ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -556,7 +509,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersIdGet-code-curl">
+<div class="code-block curl active" id="Retrieve Customers ID-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -564,7 +517,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="customersIdGet-code-java">
+<div class="code-block java" id="Retrieve Customers ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -592,7 +545,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersIdGet-code-android">
+<div class="code-block android" id="Retrieve Customers ID-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -613,7 +566,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersIdGet-code-objc">
+<div class="code-block objc" id="Retrieve Customers ID-code-objc">
 ```js
 String *id = id_example; // 
 
@@ -631,7 +584,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersIdGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Customers ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -649,7 +602,7 @@ api.customersIdGet(id, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersIdGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Customers ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -682,7 +635,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersIdGet-code-php">
+<div class="code-block php" id="Retrieve Customers ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -700,7 +653,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersIdGet-code-perl">
+<div class="code-block perl" id="Retrieve Customers ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -719,7 +672,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersIdGet-code-python">
+<div class="code-block python" id="Retrieve Customers ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -750,32 +703,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -784,11 +712,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersIdPatch</h3>
+            <h3>Update Customers ID</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersIdPatch</div>
+              <div class="code-header">Update Customers ID</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -802,7 +731,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersIdPatch-code-curl">
+<div class="code-block curl active" id="Update Customers ID-code-curl">
 ```js
 curl -X PATCH\
 -H "Accept: application/json"\
@@ -811,7 +740,7 @@ curl -X PATCH\
 ```
 </div>
 
-<div class="code-block java" id="customersIdPatch-code-java">
+<div class="code-block java" id="Update Customers ID-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -845,7 +774,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersIdPatch-code-android">
+<div class="code-block android" id="Update Customers ID-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -872,7 +801,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersIdPatch-code-objc">
+<div class="code-block objc" id="Update Customers ID-code-objc">
 ```js
 String *id = id_example; // 
 Object *metadata = ; //  (optional)
@@ -902,7 +831,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersIdPatch-code-javascript">
+<div class="code-block javascript" id="Update Customers ID-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -927,7 +856,7 @@ api.customersIdPatch(id, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersIdPatch-code-csharp">
+<div class="code-block csharp" id="Update Customers ID-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -966,7 +895,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersIdPatch-code-php">
+<div class="code-block php" id="Update Customers ID-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -990,7 +919,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersIdPatch-code-perl">
+<div class="code-block perl" id="Update Customers ID-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1015,7 +944,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersIdPatch-code-python">
+<div class="code-block python" id="Update Customers ID-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1064,58 +993,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
-### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1124,11 +1002,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersIdSchedulesGet</h3>
+            <h3>Retrieve Customers ID Schedules</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersIdSchedulesGet</div>
+              <div class="code-header">Retrieve Customers ID Schedules</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1142,7 +1021,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersIdSchedulesGet-code-curl">
+<div class="code-block curl active" id="Retrieve Customers ID Schedules-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1150,7 +1029,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="customersIdSchedulesGet-code-java">
+<div class="code-block java" id="Retrieve Customers ID Schedules-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1183,7 +1062,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersIdSchedulesGet-code-android">
+<div class="code-block android" id="Retrieve Customers ID Schedules-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -1209,7 +1088,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersIdSchedulesGet-code-objc">
+<div class="code-block objc" id="Retrieve Customers ID Schedules-code-objc">
 ```js
 String *id = id_example; // 
 Date *from = 2013-10-20T19:20:30+01:00; //  (optional) (default to 1970-01-01T00:00Z)
@@ -1237,7 +1116,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersIdSchedulesGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Customers ID Schedules-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1261,7 +1140,7 @@ api.customersIdSchedulesGet(id, opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersIdSchedulesGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Customers ID Schedules-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1299,7 +1178,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersIdSchedulesGet-code-php">
+<div class="code-block php" id="Retrieve Customers ID Schedules-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1322,7 +1201,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersIdSchedulesGet-code-perl">
+<div class="code-block perl" id="Retrieve Customers ID Schedules-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1346,7 +1225,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersIdSchedulesGet-code-python">
+<div class="code-block python" id="Retrieve Customers ID Schedules-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1393,58 +1272,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
-### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1453,11 +1281,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersPost</h3>
+            <h3>Create Customers</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersPost</div>
+              <div class="code-header">Create Customers</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1471,7 +1300,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersPost-code-curl">
+<div class="code-block curl active" id="Create Customers-code-curl">
 ```js
 curl -X POST\
 -H "Accept: application/json"\
@@ -1480,7 +1309,7 @@ curl -X POST\
 ```
 </div>
 
-<div class="code-block java" id="customersPost-code-java">
+<div class="code-block java" id="Create Customers-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1512,7 +1341,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersPost-code-android">
+<div class="code-block android" id="Create Customers-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -1537,7 +1366,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersPost-code-objc">
+<div class="code-block objc" id="Create Customers-code-objc">
 ```js
 Object *metadata = ; //  (optional)
 String *card = card_example; //  (optional)
@@ -1563,7 +1392,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersPost-code-javascript">
+<div class="code-block javascript" id="Create Customers-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1586,7 +1415,7 @@ api.customersPost(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersPost-code-csharp">
+<div class="code-block csharp" id="Create Customers-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1623,7 +1452,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersPost-code-php">
+<div class="code-block php" id="Create Customers-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1645,7 +1474,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersPost-code-perl">
+<div class="code-block perl" id="Create Customers-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1668,7 +1497,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersPost-code-python">
+<div class="code-block python" id="Create Customers-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1707,32 +1536,7 @@ except ApiException as e:
           </div>
         </div>
         <div>
-          ### Responses
-
- ### Status: 200
-
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
-
+          
         </div>
       </div>
 
@@ -1741,11 +1545,12 @@ except ApiException as e:
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
 
           <div class="sub-heading" style={{flex: 2}}>
-            <h3>customersSearchGet</h3>
+            <h3>Retrieve Customers Search</h3>
+            <p>Welcome to the Omise Docs! These pages should contain everything you need to know to get paid using the Omise API. This is developer-oriented documentation.If you are not a developer, you can check our comprehensive support articles for non-technical explanations of various concepts or go straight to the plugin overview.</p>
           </div>
           <div class="code" style={{flex: 2}}>
             <div class="code-container">
-              <div class="code-header">customersSearchGet</div>
+              <div class="code-header">Retrieve Customers Search</div>
               <div class="code-dropdown">
                 <select  onChange={(e) => handleLanguageChange(e.target)}>
                   <option value="curl">curl</option><option value="java">java</option><option value="android">android</option><option value="objc">objc</option><option value="javascript">javascript</option><option value="csharp">csharp</option><option value="php">php</option><option value="perl">perl</option><option value="python">python</option>
@@ -1759,7 +1564,7 @@ except ApiException as e:
                       </button>
               </div>
               
-<div class="code-block curl active" id="customersSearchGet-code-curl">
+<div class="code-block curl active" id="Retrieve Customers Search-code-curl">
 ```js
 curl -X GET\
 -H "Accept: application/json"\
@@ -1767,7 +1572,7 @@ curl -X GET\
 ```
 </div>
 
-<div class="code-block java" id="customersSearchGet-code-java">
+<div class="code-block java" id="Retrieve Customers Search-code-java">
 ```js
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
@@ -1797,7 +1602,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block android" id="customersSearchGet-code-android">
+<div class="code-block android" id="Retrieve Customers Search-code-android">
 ```js
 import io.swagger.client.api.CustomersApi;
 
@@ -1820,7 +1625,7 @@ public class CustomersApiExample {
 ```
 </div>
 
-<div class="code-block objc" id="customersSearchGet-code-objc">
+<div class="code-block objc" id="Retrieve Customers Search-code-objc">
 ```js
 String *scope = scope_example; //  (optional) (default to customer)
 String *query = query_example; //  (optional)
@@ -1842,7 +1647,7 @@ CustomersApi *apiInstance = [[CustomersApi alloc] init];
 ```
 </div>
 
-<div class="code-block javascript" id="customersSearchGet-code-javascript">
+<div class="code-block javascript" id="Retrieve Customers Search-code-javascript">
 ```js
 var OmiseApi = require('omise_api');
 
@@ -1863,7 +1668,7 @@ api.customersSearchGet(opts, callback);
 ```
 </div>
 
-<div class="code-block csharp" id="customersSearchGet-code-csharp">
+<div class="code-block csharp" id="Retrieve Customers Search-code-csharp">
 ```js
 using System;
 using System.Diagnostics;
@@ -1898,7 +1703,7 @@ namespace Example
 ```
 </div>
 
-<div class="code-block php" id="customersSearchGet-code-php">
+<div class="code-block php" id="Retrieve Customers Search-code-php">
 ```js
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -1918,7 +1723,7 @@ try {
 ```
 </div>
 
-<div class="code-block perl" id="customersSearchGet-code-perl">
+<div class="code-block perl" id="Retrieve Customers Search-code-perl">
 ```js
 use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
@@ -1939,7 +1744,7 @@ if ($@) {
 ```
 </div>
 
-<div class="code-block python" id="customersSearchGet-code-python">
+<div class="code-block python" id="Retrieve Customers Search-code-python">
 ```js
 from __future__ import print_statement
 import time
@@ -1978,27 +1783,242 @@ except ApiException as e:
 
  ### Status: 200
 
-| Name | Type | Format | Default | Enum | Pattern |
-|------|------|--------|---------|------|---------|
-| id | string |  |  |  | account_[0-9a-z]+ |
-| team | string |  |  |  | acct_[0-9a-z]+ |
-| livemode | boolean |  |  | true, false |  |
-| location | string |  |  |  |  |
-| country | string |  |  |  |  |
-| currency | string | currency |  |  |  |
-| email | string |  |  |  |  |
-| created_at | string | date-time |  |  |  |
-| supported_currencies | array |  |  |  |  |
-| api_version | string |  |  |  |  |
-| auto_activate_recipients | boolean |  |  | true, false |  |
-| chain_enabled | boolean |  |  | true, false |  |
-| zero_interest_installments | boolean |  |  | true, false |  |
-| chain_return_uri | string | uri |  |  |  |
-| webhook_uri | string | uri |  |  |  |
-| metadata_export_keys | object |  |  |  |  |
-| chaining_allowed | boolean |  |  | true, false |  |
-| last_updated_api_version | string |  |  |  |  |
-| transfer_config | object |  |  |  |  |
+```json
+ {
+  "object": {
+    "pattern": "customer",
+    "type": "string",
+    "default": "customer"
+  },
+  "id": {
+    "type": "string"
+  },
+  "livemode": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "location": {
+    "type": "string"
+  },
+  "deleted": {
+    "type": "boolean",
+    "enum": [
+      true,
+      false
+    ]
+  },
+  "metadata": {
+    "type": "object",
+    "default": {}
+  },
+  "cards": {
+    "type": "object",
+    "properties": {
+      "object": {
+        "pattern": "list",
+        "type": "string",
+        "default": "list"
+      },
+      "data": {
+        "type": "array",
+        "items": {}
+      },
+      "limit": {
+        "type": "integer"
+      },
+      "offset": {
+        "type": "integer"
+      },
+      "total": {
+        "type": "integer"
+      },
+      "location": {
+        "type": "string"
+      },
+      "order": {
+        "type": "string",
+        "enum": [
+          "chronological",
+          "reverse_chronological"
+        ]
+      },
+      "from": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "to": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  },
+  "default_card": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "object": {
+            "pattern": "card",
+            "type": "string",
+            "default": "card"
+          },
+          "id": {
+            "type": "string"
+          },
+          "livemode": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "street1": {
+            "type": "string",
+            "nullable": true
+          },
+          "street2": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone_number": {
+            "type": "string",
+            "nullable": true
+          },
+          "postal_code": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "pattern": "^[a-z]{0,2}$",
+            "type": "string"
+          },
+          "financing": {
+            "type": "string"
+          },
+          "bank": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "fingerprint": {
+            "type": "string"
+          },
+          "first_digits": {
+            "pattern": "^[0-9]{6}$",
+            "type": "string",
+            "nullable": true
+          },
+          "last_digits": {
+            "pattern": "^[0-9]{4}$",
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "expiration_month": {
+            "type": "integer"
+          },
+          "expiration_year": {
+            "type": "integer"
+          },
+          "security_code_check": {
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "tokenization_method": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      {
+        "type": "string"
+      }
+    ]
+  },
+  "linked_accounts": {
+    "type": "object",
+    "properties": {
+      "object": {
+        "pattern": "list",
+        "type": "string",
+        "default": "list"
+      },
+      "data": {
+        "type": "array",
+        "items": {}
+      },
+      "limit": {
+        "type": "integer"
+      },
+      "offset": {
+        "type": "integer"
+      },
+      "total": {
+        "type": "integer"
+      },
+      "location": {
+        "type": "string"
+      },
+      "order": {
+        "type": "string",
+        "enum": [
+          "chronological",
+          "reverse_chronological"
+        ]
+      },
+      "from": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "to": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  },
+  "description": {
+    "type": "string",
+    "nullable": true
+  },
+  "email": {
+    "type": "string",
+    "nullable": true
+  },
+  "created_at": {
+    "type": "string",
+    "format": "date-time"
+  }
+} 
+```
 
         </div>
       </div>
